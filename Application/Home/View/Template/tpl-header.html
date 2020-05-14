@@ -1,0 +1,47 @@
+<meta charset="UTF-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--禁止自动识别电话号码/邮箱-->
+<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="shortcut icon"  type="image/x-icon" href="/Public/images/icon/favicon.ico">
+<link rel="icon" type="image/png" href="/Public/images/icon/default_logo.png" sizes="32x32">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+
+<link rel="stylesheet" href="__PUBLIC__/wechat/styles/sm.css">
+<script>
+    var ROOT ="__ROOT__";
+    var APP_PATH = "__APP__";
+    var MOD_PATH = "__MODULE__";
+    var CON_PATH = "__CONTROLLER__";
+    //商户资源配置
+    var OWNER_CONF_ALL = {
+        "1": {
+            'imgPath': "/Public/wechat/images/tongdaqiche/",
+            'title': {
+                'proName': "通达汽车美容"
+            },
+            'cssFile': 'main.tongda.css',
+            'cardType': ''
+        },
+        "2": {
+            'imgPath': "/Public/wechat/images/dongzhou/",
+            'title': {
+                'proName': "東洲造型"
+            },
+            'cssFile': 'main.dongzhou.css',
+            'cardType': 'cardType_02'
+        },
+    };
+    var shopId = sessionStorage.getItem('shopId');
+    var css = OWNER_CONF_ALL[shopId].cssFile;
+    var cssLink = document.createElement('link');
+    cssLink.rel = "stylesheet";
+    cssLink.href = "__PUBLIC__/wechat/styles/" + css + '?' + new Date().getTime();
+    document.querySelector('head').appendChild(cssLink);
+</script>
+
+<include file="Template/tpl-common" />

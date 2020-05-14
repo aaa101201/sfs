@@ -1,0 +1,1865 @@
+[ 2018-01-19T09:44:02+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=12396
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 09:44:02 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:44:02 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:44:02 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2018-01-19T09:44:24+08:00 ] 127.0.0.1 /index.php/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+DEBUG: [ Jiechengkeji ] [ 09:44:12 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:44:12 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:44:12 ] [ __construct ]BaseDAO
+
+[ 2018-01-19T09:44:26+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=11329
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 09:44:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:44:26 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:44:26 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-01-19T09:44:40+08:00 ] 127.0.0.1 /index.php/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 09:44:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:44:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:44:30 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                      * 
+                    FROM
+                      cy_member 
+                    WHERE uname = '15666319057' 
+                      AND passwd = '123123' [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 09:44:40 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:44:40 ] [ result ]{"msg":"\u767b\u5f55\u5931\u8d25!","code":1}
+
+[ 2018-01-19T09:45:14+08:00 ] 127.0.0.1 /index.php/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 09:44:43 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:44:43 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:44:43 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                      * 
+                    FROM
+                      cy_member 
+                    WHERE uname = '15666319057' 
+                      AND passwd = '123123' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:45:14 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:45:14 ] [ result ]{"msg":"\u767b\u5f55\u5931\u8d25!","code":1}
+
+[ 2018-01-19T09:46:11+08:00 ] 127.0.0.1 /index.php/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 09:45:53 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:45:53 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:45:53 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                      * 
+                    FROM
+                      cy_member 
+                    WHERE uname = '18363100063' 
+                      AND passwd = '123456' [ RunTime:0.0010s ]
+
+[ 2018-01-19T10:02:06+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:02:05 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:02:05 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:02:05 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'业主会员'
+		WHEN 'designer' THEN
+			'设计师'
+		WHEN 'company' THEN
+			'装修公司'
+		WHEN 'shop' THEN
+			'建材商家'
+		WHEN 'mechanic' THEN
+			'装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:02:06 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 10:02:06 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2018-01-19T10:02:13+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=16071
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:02:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:02:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:02:13 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-01-19T10:03:27+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:02:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:02:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:02:15 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'业主会员'
+		WHEN 'designer' THEN
+			'设计师'
+		WHEN 'company' THEN
+			'装修公司'
+		WHEN 'shop' THEN
+			'建材商家'
+		WHEN 'mechanic' THEN
+			'装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+
+[ 2018-01-19T10:04:47+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 10:04:46 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:04:46 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:04:46 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php 第 61 行.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php 第 62 行.
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: INSERT INTO `cy_member_fields` (
+                                 	`uid`
+                                           )
+                                 VALUES
+	                                      (
+	                              	'219'
+	                                       ) [ RunTime:0.0020s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '219',
+                    '7',
+                    '18333333333',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'shop',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1516327486',
+                    '192.168.1.62',
+                    '0',
+                    '192.168.1.62',
+                    '1516327486',
+                     NULL,
+                    '0' 
+                  ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:04:47 ] [ result ]{"msg":"\u7528\u6237\u6dfb\u52a0\u6210\u529f!","code":0,"data":[]}
+
+[ 2018-01-19T10:04:59+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 10:04:59 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:04:59 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:04:59 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'业主会员'
+		WHEN 'designer' THEN
+			'设计师'
+		WHEN 'company' THEN
+			'装修公司'
+		WHEN 'shop' THEN
+			'建材商家'
+		WHEN 'mechanic' THEN
+			'装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 10:04:59 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 10:04:59 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2018-01-19T10:05:07+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13389
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:05:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:05:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:05:07 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-19T10:06:30+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:05:11 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:05:11 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:05:11 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+
+[ 2018-01-19T10:06:36+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+DEBUG: [ Jiechengkeji ] [ 10:06:36 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:06:36 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:06:36 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php 第 62 行.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php 第 63 行.
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: INSERT INTO `cy_member_fields` (
+                                 	`uid`
+                                           )
+                                 VALUES
+	                                      (
+	                              	'220'
+	                                       ) [ RunTime:0.0010s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '220',
+                    '7',
+                    '18333333333',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'shop',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1516327596',
+                    '192.168.1.62',
+                    '0',
+                    '192.168.1.62',
+                    '1516327596',
+                     NULL,
+                    '0' 
+                  ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:06:36 ] [ result ]{"msg":"\u7528\u6237\u6dfb\u52a0\u6210\u529f!","code":0,"data":[]}
+
+[ 2018-01-19T10:06:43+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=15606
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:06:43 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:06:43 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:06:43 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-19T10:08:35+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:06:50 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:06:50 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:06:50 ] [ __construct ]BaseDAO
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'业主会员'
+		WHEN 'designer' THEN
+			'设计师'
+		WHEN 'company' THEN
+			'装修公司'
+		WHEN 'shop' THEN
+			'建材商家'
+		WHEN 'mechanic' THEN
+			'装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='18333333333'; [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 10:08:35 ] [ result ][{"uname":"18333333333","face":"","name":"\u5efa\u6750\u5546\u5bb6"},{"uname":"18333333333","face":"","name":"\u5efa\u6750\u5546\u5bb6"},{"uname":"18333333333","face":"","name":"\u5efa\u6750\u5546\u5bb6"}]
+DEBUG: [ Jiechengkeji ] [ 10:08:35 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"uname":"18333333333","face":"","name":"\u5efa\u6750\u5546\u5bb6"},{"uname":"18333333333","face":"","name":"\u5efa\u6750\u5546\u5bb6"},{"uname":"18333333333","face":"","name":"\u5efa\u6750\u5546\u5bb6"}]}
+
+[ 2018-01-19T10:08:43+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: [ Jiechengkeji ] [ 10:08:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:08:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:08:38 ] [ __construct ]BaseDAO
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'业主会员'
+		WHEN 'designer' THEN
+			'设计师'
+		WHEN 'company' THEN
+			'装修公司'
+		WHEN 'shop' THEN
+			'建材商家'
+		WHEN 'mechanic' THEN
+			'装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='18333333333'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:08:42 ] [ result ][{"uname":"18333333333","face":"","name":"\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18333333333","face":"","name":"\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18333333333","face":"","name":"\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"}]
+DEBUG: [ Jiechengkeji ] [ 10:08:43 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"uname":"18333333333","face":"","name":"\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18333333333","face":"","name":"\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18333333333","face":"","name":"\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"}]}
+
+[ 2018-01-19T11:45:54+08:00 ] 127.0.0.1 /index.php/Admin/Umember/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 11:45:54 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:45:54 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:45:54 ] [ __construct ]BaseDAO
+DEBUG: [ Jiechengkeji ] [ 11:45:54 ] [ execute ]upload()
+DEBUG: [ Jiechengkeji ] [ 11:45:54 ] [ info ]false
+
+[ 2018-01-19T13:39:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 13:39:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:39:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:39:58 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-01-19T13:40:19+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 13:40:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:40:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:40:19 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 34 行.
+DEBUG: [ Jiechengkeji ] [ 13:40:19 ] [ result ]{"msg":"\u8bf7\u767b\u5f55!","code":1}
+
+[ 2018-01-19T13:40:24+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 13:40:24 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:40:24 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:40:24 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 34 行.
+DEBUG: [ Jiechengkeji ] [ 13:40:24 ] [ result ]{"msg":"\u8bf7\u767b\u5f55!","code":1}
+
+[ 2018-01-19T13:40:40+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 13:40:40 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:40:40 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:40:40 ] [ __construct ]BaseDAO
+SQL: SELECT
+	uname,
+	face,
+	realname,
+	city_id,
+	y,
+	m,
+	d
+  FROM
+	cy_member
+	WHERE 
+	   uname='uname'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 13:40:40 ] [ result ]0
+NOTIC: [8] Undefined index: face D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 30 行.
+DEBUG: [ Jiechengkeji ] [ 13:40:40 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2018-01-19T13:42:28+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 13:42:28 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:42:28 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:42:28 ] [ __construct ]BaseDAO
+SQL: SELECT
+	uname,
+	face,
+	realname,
+	city_id,
+	y,
+	m,
+	d
+  FROM
+	cy_member
+	WHERE 
+	   uname='15666319077'; [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 13:42:28 ] [ result ]{"uname":"15666319077","face":"","realname":"","city_id":"7","y":"0","m":"0","d":"0"}
+NOTIC: [8] Undefined index: face D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 30 行.
+DEBUG: [ Jiechengkeji ] [ 13:42:28 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319077","face":"","realname":"","city_id":"7","y":"0","m":"0","d":"0"}}
+
+[ 2018-01-19T13:42:42+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=11241
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+DEBUG: [ Jiechengkeji ] [ 13:42:42 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:42:42 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:42:42 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-01-19T13:43:33+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 13:42:46 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:42:46 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:42:46 ] [ __construct ]BaseDAO
+SQL: SELECT
+	uname,
+	face,
+	realname,
+	city_id,
+	y,
+	m,
+	d
+  FROM
+	cy_member
+	WHERE 
+	   uname='15666319077'; [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 13:42:49 ] [ result ]{"uname":"15666319077","face":"","realname":"","city_id":"7","y":"0","m":"0","d":"0"}
+
+[ 2018-01-19T13:43:36+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 13:43:36 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:43:36 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:43:36 ] [ __construct ]BaseDAO
+SQL: SELECT
+	uname,
+	face,
+	realname,
+	city_id,
+	y,
+	m,
+	d
+  FROM
+	cy_member
+	WHERE 
+	   uname='15666319077'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 13:43:36 ] [ result ]{"uname":"15666319077","face":"","realname":"","city_id":"7","y":"0","m":"0","d":"0"}
+DEBUG: [ Jiechengkeji ] [ 13:43:36 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319077","face":"","realname":"","city_id":"7","y":"0","m":"0","d":"0"}}
+
+[ 2018-01-19T13:43:51+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=16752
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: [ Jiechengkeji ] [ 13:43:50 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:43:50 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:43:50 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-19T13:44:05+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 13:43:54 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:43:54 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:43:54 ] [ __construct ]BaseDAO
+SQL: SELECT
+	uname,
+	face,
+	realname,
+	city_id,
+	y,
+	m,
+	d
+  FROM
+	cy_member
+	WHERE 
+	   uname='15666319077'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 13:43:56 ] [ result ]{"uname":"15666319077","face":"","realname":"","city_id":"7","y":"0","m":"0","d":"0"}
+DEBUG: [ Jiechengkeji ] [ 13:44:04 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319077","face":"","realname":"","city_id":"7","y":"0","m":"0","d":"0"}}
+
+[ 2018-01-19T13:44:21+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+DEBUG: [ Jiechengkeji ] [ 13:44:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:44:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:44:07 ] [ __construct ]BaseDAO
+SQL: SELECT
+	uname,
+	face,
+	realname,
+	city_id,
+	y,
+	m,
+	d
+  FROM
+	cy_member
+	WHERE 
+	   uname='15666319077'; [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 13:44:08 ] [ result ]{"uname":"15666319077","face":"","realname":"","city_id":"7","y":"0","m":"0","d":"0"}
+DEBUG: [ Jiechengkeji ] [ 13:44:20 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319077","face":"","realname":"","city_id":"7","y":"0","m":"0","d":"0"}}
+
+[ 2018-01-19T13:46:37+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 13:44:23 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:44:23 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:44:23 ] [ __construct ]BaseDAO
+SQL: SELECT
+	uname,
+	face,
+	realname,
+	city_id,
+	y,
+	m,
+	d
+  FROM
+	cy_member
+	WHERE 
+	   uname='15666319077'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 13:44:24 ] [ result ]{"uname":"15666319077","face":"","realname":"","city_id":"7","y":"0","m":"0","d":"0"}
+DEBUG: [ Jiechengkeji ] [ 13:46:37 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319077","face":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_D43B96BDC3E7BF4B114DE8667FEDBB11.jpg","realname":"","city_id":"7","y":"0","m":"0","d":"0"}}
+
+[ 2018-01-19T13:46:41+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-19T13:46:42+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-19T13:46:46+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-19T13:48:41+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: [ Jiechengkeji ] [ 13:46:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:46:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:46:56 ] [ __construct ]BaseDAO
+SQL: SELECT
+	uname,
+	face,
+	realname,
+	city_id,
+	y,
+	m,
+	d
+  FROM
+	cy_member
+	WHERE 
+	   uname='15666319077'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 13:46:58 ] [ result ]{"uname":"15666319077","face":"","realname":"","city_id":"7","y":"0","m":"0","d":"0"}
+DEBUG: [ Jiechengkeji ] [ 13:47:29 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319077","face":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_D43B96BDC3E7BF4B114DE8667FEDBB11.jpg","realname":"","city_id":"7","y":"0","m":"0","d":"0","time":"0_0_0"}}
+
+[ 2018-01-19T13:49:01+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 13:48:43 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:48:43 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:48:43 ] [ __construct ]BaseDAO
+SQL: SELECT
+	uname,
+	face,
+	realname,
+	city_id,
+	y,
+	m,
+	d
+  FROM
+	cy_member
+	WHERE 
+	   uname='15666319077'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 13:48:44 ] [ result ]{"uname":"15666319077","face":"","realname":"","city_id":"7","y":"0","m":"0","d":"0"}
+DEBUG: [ Jiechengkeji ] [ 13:48:50 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319077","face":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_D43B96BDC3E7BF4B114DE8667FEDBB11.jpg","realname":"15666319077","city_id":"7","y":"0","m":"0","d":"0","time":"0_0_0"}}
+
+[ 2018-01-19T14:00:23+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 13:59:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:59:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:59:07 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined offset: 1 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 64 行.
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: COMPUTERNAME xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [8] Array to string conversion D:\bewin.WhjzProject.com\Application\Admin\Dao\UmemberDao.class.php 第 103 行.
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='realname' ,
+                        city_id='Array' ,
+                         y='$time' ,
+                         m='' ,
+                         d='' ,
+                        dateline='1516341556' 
+                     WHERE 
+                         uname='uname' [ RunTime:0.0010s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='realname' ,
+                        city_id='Array' ,
+                         y='$time' ,
+                         m='' ,
+                         d='' ,
+                        dateline='1516341556' 
+                     WHERE 
+                         uname='uname'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='realname' ,
+                        city_id='Array' ,
+                         y='$time' ,
+                         m='' ,
+                         d='' ,
+                        dateline='1516341556' 
+                     WHERE 
+                         uname='uname'
+
+[ 2018-01-19T14:00:37+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 14:00:27 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:00:27 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:00:27 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined offset: 1 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 64 行.
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0020s ]
+
+[ 2018-01-19T14:01:38+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 14:01:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:01:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:01:38 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341698' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0010s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341698' 
+                     WHERE 
+                         uname='15666319077'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341698' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:03:35+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:03:35 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:03:35 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:03:35 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341815' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0010s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341815' 
+                     WHERE 
+                         uname='15666319077'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341815' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:03:37+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:03:37 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:03:37 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:03:37 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341817' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0010s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341817' 
+                     WHERE 
+                         uname='15666319077'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341817' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:03:58+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:03:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:03:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:03:58 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341838' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0000s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341838' 
+                     WHERE 
+                         uname='15666319077'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341838' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:04:49+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:04:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:04:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:04:49 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341889' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0010s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341889' 
+                     WHERE 
+                         uname='15666319077'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊' ,
+                        city_id='7' ,
+                         y='2018' ,
+                         m='1' ,
+                         d='2' ,
+                        dateline='1516341889' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:05:44+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:05:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:05:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:05:44 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊',
+                        city_id='7',
+                         y='2018',
+                         m='1',
+                         d='2',
+                        dateline='1516341944' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0000s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊',
+                        city_id='7',
+                         y='2018',
+                         m='1',
+                         d='2',
+                        dateline='1516341944' 
+                     WHERE 
+                         uname='15666319077'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊',
+                        city_id='7',
+                         y='2018',
+                         m='1',
+                         d='2',
+                        dateline='1516341944' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:06:01+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:06:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:06:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:06:01 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column '王海煊' in 'field list'
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname=王海煊,
+                        city_id=7,
+                         y='2018',
+                         m='1',
+                         d='2',
+                        dateline='1516341961' 
+                     WHERE 
+                         uname='15666319077'
+ERR: 1054:Unknown column '王海煊' in 'field list'
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname=王海煊,
+                        city_id=7,
+                         y='2018',
+                         m='1',
+                         d='2',
+                        dateline='1516341961' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:07:06+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:07:06 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:07:06 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:07:06 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊',
+                        city_id='7',
+                         y='2018',
+                         m='1',
+                         d='2',
+                        dateline='1516342026' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0010s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊',
+                        city_id='7',
+                         y='2018',
+                         m='1',
+                         d='2',
+                        dateline='1516342026' 
+                     WHERE 
+                         uname='15666319077'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊',
+                        city_id='7',
+                         y='2018',
+                         m='1',
+                         d='2',
+                        dateline='1516342026' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:07:33+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: [ Jiechengkeji ] [ 14:07:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:07:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:07:32 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2018',
+                         m='1',
+                         d='2',
+                        dateline='1516342052' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0010s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2018',
+                         m='1',
+                         d='2',
+                        dateline='1516342052' 
+                     WHERE 
+                         uname='15666319077'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2018',
+                         m='1',
+                         d='2',
+                        dateline='1516342052' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:08:09+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:08:09 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:08:09 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:08:09 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2017',
+                         m='1',
+                         d='2',
+                        dateline='1516342089' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0010s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2017',
+                         m='1',
+                         d='2',
+                        dateline='1516342089' 
+                     WHERE 
+                         uname='15666319077'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2017',
+                         m='1',
+                         d='2',
+                        dateline='1516342089' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:09:29+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:09:29 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:09:29 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:09:29 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y=2017,
+                         m=1,
+                         d=2,
+                        dateline='1516342169' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0010s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y=2017,
+                         m=1,
+                         d=2,
+                        dateline='1516342169' 
+                     WHERE 
+                         uname='15666319077'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y=2017,
+                         m=1,
+                         d=2,
+                        dateline='1516342169' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:12:04+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 14:12:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:12:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:12:04 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2017',
+                         m='1',
+                         d='2',
+                        dateline='1516342324' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0010s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2017',
+                         m='1',
+                         d='2',
+                        dateline='1516342324' 
+                     WHERE 
+                         uname='15666319077'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2017',
+                         m='1',
+                         d='2',
+                        dateline='1516342324' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:12:16+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:12:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:12:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:12:15 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2017',
+                         m='1',
+                         d='2',
+                        dateline='1516342335' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0030s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2017',
+                         m='1',
+                         d='2',
+                        dateline='1516342335' 
+                     WHERE 
+                         uname='15666319077'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2017',
+                         m='1',
+                         d='2',
+                        dateline='1516342335' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:12:41+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:12:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:12:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:12:41 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0000s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2017',
+                         m='1',
+                         d='2',
+                        dateline='1516342361' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0010s ]
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2017',
+                         m='1',
+                         d='2',
+                        dateline='1516342361' 
+                     WHERE 
+                         uname='15666319077'
+ERR: :
+ [ SQL语句 ] : UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2017',
+                         m='1',
+                         d='2',
+                        dateline='1516342361' 
+                     WHERE 
+                         uname='15666319077'
+
+[ 2018-01-19T14:14:07+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_zlx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 14:14:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:14:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:14:07 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_data_city
+	                WHERE 
+	                 city_name='威海市';
+	                   [ RunTime:0.0000s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        realname='王海煊2',
+                        city_id='7',
+                         y='2017',
+                         m='1',
+                         d='2',
+                        dateline='1516342447' 
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:14:07 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 14:14:07 ] [ result ]{"msg":"\u4fee\u6539\u8d44\u6599\u6210\u529f","code":0,"data":[]}
+
+[ 2018-01-19T14:35:13+08:00 ] 127.0.0.1 /index.php/Admin/index/Umember_mm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:35:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:35:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:35:13 ] [ __construct ]BaseDAO
+
+[ 2018-01-19T14:35:56+08:00 ] 127.0.0.1 /index.php/Admin/index/Umember_mm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:35:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:35:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:35:56 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        passwd='15666319076'
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 14:35:56 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 14:35:56 ] [ result ]{"msg":"\u4fee\u6539\u5bc6\u7801\u6210\u529f","code":0,"data":[]}
+
+[ 2018-01-19T14:36:04+08:00 ] 127.0.0.1 /index.php/Admin/index/Umember_mm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 14:36:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:36:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:36:04 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        passwd='15666319076'
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:36:04 ] [ result ]false
+DEBUG: [ Jiechengkeji ] [ 14:36:04 ] [ result ]{"msg":"\u4fee\u6539\u5bc6\u7801\u5931\u8d25!","code":1}
+
+[ 2018-01-19T14:39:57+08:00 ] 127.0.0.1 /index.php/Admin/index/Umember_mm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:39:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:39:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:39:57 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_member
+	                WHERE 
+	                 uname='15666319077';
+	                   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: data D:\bewin.WhjzProject.com\Application\Admin\Service\IndexService.class.php 第 90 行.
+DEBUG: [ Jiechengkeji ] [ 14:39:57 ] [ result ]{"msg":"\u4fee\u6539\u5bc6\u7801\u5931\u8d25!","code":1}
+
+[ 2018-01-19T14:40:39+08:00 ] 127.0.0.1 /index.php/Admin/index/Umember_mm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+DEBUG: [ Jiechengkeji ] [ 14:40:39 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:40:39 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:40:39 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_member
+	                WHERE 
+	                 uname='15666319077';
+	                   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: data D:\bewin.WhjzProject.com\Application\Admin\Service\IndexService.class.php 第 90 行.
+DEBUG: [ Jiechengkeji ] [ 14:40:39 ] [ result ]{"msg":"\u5bc6\u7801\u4e0d\u6b63\u786e!","code":1}
+
+[ 2018-01-19T14:42:41+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13866
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+DEBUG: [ Jiechengkeji ] [ 14:42:40 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:42:40 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:42:41 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-19T14:43:15+08:00 ] 127.0.0.1 /index.php/Admin/index/Umember_mm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 14:42:46 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:42:46 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:42:46 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_member
+	                WHERE 
+	                 uname='15666319077';
+	                   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: data xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [8] Undefined index: data D:\bewin.WhjzProject.com\Application\Admin\Service\IndexService.class.php 第 90 行.
+DEBUG: [ Jiechengkeji ] [ 14:43:15 ] [ result ]{"msg":"\u5bc6\u7801\u4e0d\u6b63\u786e!","code":1}
+
+[ 2018-01-19T14:43:25+08:00 ] 127.0.0.1 /index.php/Admin/index/Umember_mm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:43:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:43:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:43:18 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_member
+	                WHERE 
+	                 uname='15666319077';
+	                   [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        passwd='15666319076'
+                     WHERE 
+                         uname='15666319077' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 14:43:24 ] [ result ]false
+DEBUG: [ Jiechengkeji ] [ 14:43:25 ] [ result ]{"msg":"\u4fee\u6539\u5bc6\u7801\u5931\u8d25!","code":1}
+
+[ 2018-01-19T15:49:08+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:49:08 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:49:08 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:49:08 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 34 行.
+DEBUG: [ Jiechengkeji ] [ 15:49:08 ] [ result ]{"msg":"\u8bf7\u767b\u5f55!","code":1}
+

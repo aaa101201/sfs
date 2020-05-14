@@ -1,0 +1,97 @@
+<script id="tpl-userIncomeDetail" type="text/html">
+    {{each datas as items i}}
+        <li class="incomeLi" tId="{{items.id}}">
+            <div class="row no-gutter">
+                <div class="col-33">
+                    <span class="f14">{{items.orderdate}}</span>
+                    <span class="f12">{{items.ordertime}}</span>
+                </div>
+                {{if items.ordertype == ORDERTYPE_Wallet_Balance() || items.ordertype == STATUS_ORDER_UNBLOCK()}}
+                    <div class="col-41">
+                        <span class="f14 fc_orange">{{items.money}}元</span>
+                        <span class="f12">{{items.remark}}</span>
+                    </div>
+                {{else}}
+                    <div class="col-41">
+                        {{if items.type == TYPE_INCREASE()}}
+                            <span class="f14 fc_orange">+{{items.money}}元</span>
+                            <span class="f12">{{items.remittername}}{{items.remark}}</span>
+                        {{else if items.type == TYPE_DECREASE()}}
+                            <span class="f14 fc_orange">-{{items.money}}元</span>
+                            <span class="f12">{{items.payeename}}{{items.remark}}</span>
+                        {{/if}}
+                    </div>
+                {{/if}}
+                <div class="col-25 f14">
+                        {{if items.ordertype == ORDERTYPE_USER_WAGE()}}
+                            <span class="fc_orange text-right" style="">
+                                工资
+                            </span>
+                        {{else if items.ordertype == ORDERTYPE_GAINS()}}
+                            <span class="fc_orange text-right" style="">
+                                收益
+                            </span>
+                        {{else if items.ordertype == ORDERTYPE_USER_DEPOSIT()}}
+                            <span class="fc_orange text-right" style="">
+                                充值
+                            </span>
+                        {{else if items.ordertype == ORDERTYPE_Wallet_Balance()}}
+                            {{if items.status == STATUS_ORDER_BLOCK() || items.status == STATUS_ORDER_ACTIVE()}}
+                                <span class="fc_orange text-right" style="">
+                                    转入余额宝
+                                </span>
+                            {{else if items.status == STATUS_ORDER_UNBLOCK()}}
+                                <span class="fc_orange text-right" style="">
+                                    转出余额宝
+                                </span>
+                            {{/if}}
+                        {{else if items.ordertype == ORDERTYPE_USER_WITHDRAWCASH()}}
+                            {{if items.status == STATUS_ORDER_FAILED()}}
+                                <span class="fc_orange text-right" style="white-space: nowrap;color: red;">
+                                    提现失败
+                                </span>
+                            {{else if items.status == STATUS_ORDER_PROCESSING()}}
+                                <span class="fc_orange text-right" style="">
+                                    提现中
+                                </span>
+                            {{else if items.status == STATUS_ORDER_SUCCEEDED()}}
+                                <span class="fc_orange text-right" style="white-space: nowrap;color: green;">
+                                    提现成功
+                                </span>
+                            {{/if}}
+                        {{/if}}
+                </div>
+            </div>
+        </li>
+    {{/each}}
+</script>
+
+<script type="text/html" id="tpl-chiefIncomeDetail">
+    {{each items as item index}}
+        <li class="incomeItem">
+            <img src="{{item.headimgurl || '/Public/images/logo.png'}}" alt="">
+            <div class="item_center_part">
+                <h3>{{item.nickname || '匿名小萝卜'}}</h3>
+                <p><span class="iconf iconf-clock"></span>{{item.createtime}}</p>
+            </div>
+            {{if item.type == TYPE_INCREASE()}}
+                <div class="item_right_part">+{{item.money}}元</div>
+            {{else if item.type == TYPE_DECREASE()}}
+                <div class="item_right_part">-{{item.money}}元</div>
+            {{/if}}
+        </li>
+    {{/each}}
+</script>
+<script type="text/html" id="tpl-yuebaoIncomeDetail">
+    {{each items as item index}}
+        <li class="row">
+            <span class="col-25">{{item.money}}</span>
+            <span class="col-50">{{item.day}}天</span>
+            {{if item.status == "5"}}
+                <span class="col-25">已转出</span>
+            {{else}}
+                <span class="col-25" style="color: #f90;">冻结中</span>
+            {{/if}}
+        </li>
+    {{/each}}
+</script>

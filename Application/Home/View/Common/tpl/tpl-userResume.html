@@ -1,0 +1,179 @@
+<script id="user-resume-tpl" type="text/html">
+    <div class="bgContainer bg_orange">
+        <div>
+            <dl class="row paddForDl">
+                <dt class="col-20 paddForDt f_left">
+                    <div class="wrapUserPhoto">
+                        <img id='user-photo' src="{{headimgurl!=null?headimgurl:'__PUBLIC__/images/logo.png'}}" alt="默认用户头像" class="img-responsive">
+                    </div>
+                </dt>
+                <dd class="col f_left f12" style="min-width: 42%; width: 42%; margin-left: 4%;">
+                    <p class="line_h2">{{realname}}</p>
+                    <p>{{phone}}</p>
+                </dd>
+                <dd class="col-33 f_right f12 text-right" id='mod-user-photo'   style="display: block;">
+                    
+                </dd>
+            </dl>
+        </div>
+    </div>   
+    <section class="sResumeCont">
+        <div class="resumeTitle f12 line_h1">
+            <span class="bgTitle bg_orange f_left marg_right_10"></span>
+            <span>基本信息</span>
+            <a href="__APP__/Home/User/userBaseInfo" class="btnTitle f_right" external>
+                修改&nbsp;&nbsp;<i class="icon icon-right f10"></i>
+            </a>
+        </div>
+        <div class="resumeCont">
+            <ul class="f12">
+                <li class="row no-gutter line_h2">
+                    <div class="col-25 fc_lightGray">
+                        姓&nbsp;&nbsp;&nbsp;&nbsp;名：
+                    </div>
+                    <div class="col-75">
+                        {{realname}}
+                    </div>
+                </li>
+                <li class="row no-gutter line_h2">
+                    <div class="col-25 fc_lightGray">
+                        性&nbsp;&nbsp;&nbsp;&nbsp;别：
+                    </div>
+                    <div class="col-75">
+                        {{gender==null?'':(gender==1?'男':'女')}}
+                    </div>
+                </li>
+                <li class="row no-gutter line_h2">
+                    <div class="col-25 fc_lightGray">
+                        手&nbsp;&nbsp;&nbsp;&nbsp;机：
+                    </div>
+                    <div class="col-75">
+                        {{phone}}
+                    </div>
+                </li>
+            </ul>
+        </div>   
+    </section>
+    <section class="sResumeCont">
+        <div class="resumeTitle f12 line_h1">
+            <span class="bgTitle bg_orange f_left marg_right_10"></span>
+            <span>学校信息</span>
+            <a href="__APP__/Home/User/userSchoolInfo " class="btnTitle f_right " data-no-cache="false" external>
+                修改&nbsp;&nbsp;<i class="icon icon-right f10"></i>
+            </a>
+        </div>
+        <div class="resumeCont">
+            <ul class="f12">
+                <li class="row no-gutter line_h2">
+                    <div class="col-25 fc_lightGray">
+                        大学学校：
+                    </div>
+                    <div class="col-75">
+                        {{school}}
+                    </div>
+                </li>
+                <li class="row no-gutter line_h2">
+                    <div class="col-25 fc_lightGray">
+                        所在城市：
+                    </div>
+                    <div class="col-75">
+                        {{city}}
+                    </div>
+                </li>
+                <li class="row no-gutter line_h2">
+                    <div class="col-25 fc_lightGray">
+                        入学年份：
+                    </div>
+                    <div class="col-75">
+                        {{grade}}
+                    </div>
+                </li>
+                <li class="row no-gutter line_h2" style="display: none">
+                    <div class="col-25 fc_lightGray">
+                        学校院系：
+                    </div>
+                    <div class="col-75">
+
+                    </div>
+                </li>
+                <li class="row no-gutter line_h2">
+                    <div class="col-25 fc_lightGray">
+                        所学专业：
+                    </div>
+                    <div class="col-75">
+                        {{major}}
+                    </div>
+                </li>
+            </ul>
+        </div>   
+    </section>
+    <section class="sResumeCont">
+        <div class="resumeTitle f12 line_h1">
+            <span class="bgTitle bg_orange f_left marg_right_10"></span>
+            <span>更多信息</span>
+            <a href="__APP__/Home/User/userMoreInfo " class="btnTitle f_right " data-no-cache="false" external>
+                修改&nbsp;&nbsp;<i class="icon icon-right f10"></i>
+            </a>
+        </div>
+        <div class="resumeCont">
+            <ul class="f12">
+                <li class="row no-gutter line_h2">
+                    <div class="col-25 fc_lightGray">
+                        学&emsp;&emsp;历：
+                    </div>
+                    <div class="col-75">
+                        {{if degree == 0}}
+                        大专以下
+                        {{else if degree == 1}}
+                        大专
+                        {{else if degree == 2}}
+                        本科
+                        {{else if degree == 3}}
+                        研究生
+                        {{/if}}
+                    </div>
+                </li>
+                <li class="row no-gutter line_h2">
+                    <div class="col-25 fc_lightGray">
+                        期望月薪：
+                    </div>
+                    <div class="col-75">
+                        {{if expectpay == 0}}
+                        2000-3500
+                        {{else if expectpay == 1}}
+                        3500-5000
+                        {{else if expectpay == 2}}
+                        5000-8000
+                        {{else if expectpay == 3}}
+                        8000以上
+                        {{/if}}
+                    </div>
+                </li>
+                <li class="row no-gutter line_h2">
+                    <div class="col-25 fc_lightGray">
+                        实践|培训：
+                    </div>
+                    <div class="col-75 wrapPractice">
+                        
+                    </div>
+                </li>
+                <li class="row no-gutter line_h2">
+                    <div class="col-25 fc_lightGray">
+                        自我评价：
+                    </div>
+                    <div class="col-75 wrapIntro">
+                        
+                    </div>
+                </li>
+                <li class="row no-gutter line_h2">
+                    <div class="col-25 fc_lightGray">
+                        职业规划：
+                    </div>
+                    <div class="col-75 wrapPlanning">
+                        
+                    </div>
+                </li>
+            </ul>
+        </div>   
+    </section>
+</script>

@@ -1,0 +1,304 @@
+<meta charset="UTF-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--禁止自动识别电话号码/邮箱-->
+<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="shortcut icon"  type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+
+
+<link rel="stylesheet" href="__PUBLIC__/source/debug/styles/sm.css">
+<link rel="stylesheet" href="__PUBLIC__/source/debug/styles/sm-extend.css">
+<link rel="stylesheet" href="__PUBLIC__/source/debug/styles/main.css?t=1489733907177">
+
+<script>
+    var ROOT ="__ROOT__";
+    var APP_PATH = "__APP__";
+    var MOD_PATH = "__MODULE__";
+    var CON_PATH = "__CONTROLLER__";
+</script>
+
+<!-- 模板-工作详情 -->
+<script id="job-detail-tpl" type="text/html">
+    <div class="wrapJobDetail">
+        <section class="marg_bottom_10">
+            <div class="line_b pos_rela">
+                <p class="fc_orange line_h1">{{title}}</p>
+                <p class="f12 fc_lightGray line_h2">
+                    <i class="iconf iconf-clock f12"></i><span class="marg_left_10 marg_right_10">{{createtime}}</span>
+                    <i class="iconf iconf-eyes f12"></i><span class="marg_left_10">{{hot}}</span>
+                </p>
+            </div>
+            <div class="f14">
+                <p class="row no-gutter line_h2">
+                    <span class="col-25 fc_lightGray">发布机构：</span>
+                    <span class="col-75 tx_ellips">{{company}}</span>
+                </p>
+                <p class="row no-gutter line_h1">
+                    <span class="col-25 fc_lightGray">招聘人数：</span>
+                    <span class="col-75 tx_ellips">{{number}}人</span>
+                </p>
+                <p class="row no-gutter line_b pos_rela line_h2">
+                    <span class="col-25 fc_lightGray">工资待遇：</span>
+                    <span class="col-75 tx_ellips">{{income}}{{incomeunit}}</span>
+                </p>
+                <p class="row no-gutter line_b pos_rela line_h2">
+                    <span class="col-25 fc_lightGray">结算方式：</span>
+                    <span class="col-75 tx_ellips">{{paytype}}</span>
+                </p>
+                <p class="row no-gutter line_b pos_rela line_h2">
+                    <span class="col-25 fc_lightGray">兼职类型：</span>
+                    <span class="col-75 tx_ellips detail_jobType">
+                        {{each attributes as value index}}
+                            {{if value == 1}}
+                                <img src="__PUBLIC__/images/danbao.png" alt="担保">
+                            {{else if value == 2}}
+                                <img src="__PUBLIC__/images/hongbao.png" alt="红包">
+                            {{else if value == 3}}
+                                <img src="__PUBLIC__/images/shuangxin.png" alt="双薪">
+                            {{/if}}
+                        {{/each}}
+                        {{if attributes[0] == undefined}}
+                            普通
+                        {{/if}}
+                    </span>
+                </p>
+                <p class="row no-gutter line_b pos_rela line_h22">
+                    <span class="col-25 fc_lightGray">工作地点：</span>
+                    <span class="col-75">{{address}}</span>
+                    <a href="__APP__/Home/Job/map.html?address={{address}}" style="display: none;">
+                        <span class="col-33 tx_ellips f12 fc_lightGray" style="margin-top: .15rem;">点击查看地图&nbsp;&nbsp;></span>
+                    </a>
+                    <div class="wrapMap" id ="allmap"></div>
+                </p>
+                <p class="fc_orange line_h2">
+                    <i class="iconf iconf-notice f14"></i><span class="iconf f12 marg_left_10">凡是收费的兼职信息，请谨慎选择！</span>
+                </p>
+            </div>
+        </section>
+        <section class="marg_bottom_10">
+            <div class="f14">
+                <p class="row no-gutter pos_rela line_h2 line_b">
+                    <span class="col-25 fc_lightGray">工作日期：</span>
+                    <span class="col-75 tx_ellips">{{begintime}} ~ {{endtime}}</span>
+                </p>
+                <p class="row no-gutter line_h2">
+                    <span class="col-25 fc_lightGray">上班时段：</span>
+                    <span class="col-75 tx_ellips">{{beginhour}} ~ {{endhour}}</span>
+                </p>
+            </div>
+        </section>
+        <section class="marg_bottom_10">
+            <div class="line_b pos_rela fc_orange line_h1 padd_bottom_10">
+              <i class="iconf iconf-edit"></i><span class="iconf marg_left_10">职位描述</span>
+            </div>
+            <div class="f12 fc_lightGray marg_top_10 jobIntro">
+              {{intro}}
+            </div>
+        </section>
+        <section class="marg_bottom_10">
+            <div class="line_b pos_rela fc_orange line_h1 padd_bottom_10">
+              <i class="iconf iconf-edit"></i><span class="iconf marg_left_10">企业信息</span>
+            </div>
+            <div class="f12 fc_lightGray marg_top_10">
+              {{companyinfo}}
+            </div>
+        </section>
+        <section class="marg_bottom_10">
+            <div class="f14">
+                <p class="row no-gutter line_b pos_rela line_h2">
+                    <span class="col-25 fc_lightGray">报名截止：</span>
+                    <span class="col-75 tx_ellips">{{deadline}}</span>
+                </p>
+                <p class="job-connect row no-gutter line_b pos_rela line_h2">
+                    <span class="col-25 fc_lightGray">联系人：</span>
+                    <span class="col-75 tx_ellips">{{linkman}}</span>
+                </p>
+                <p class="job-connect row no-gutter line_h2">
+                    <span class="col-25 fc_lightGray">联系电话：</span>
+                    <span class="col-75 tx_ellips">{{phone}}</span>
+                </p>
+            </div>
+        </section>
+        <section class="marg_bottom_10">
+            <div class="f14">
+                <p class="row no-gutter pos_rela line_h2">
+                    <span class="col-33 fc_lightGray">已报名人数：</span>
+                    <span class="col-66 tx_ellips fc_orange text-right appliedCount">{{appliedCount}}人</span>
+                </p>
+            </div>
+        </section>
+    </div>
+</script>
+<!-- 模板-工作详情 -名企招聘 -->
+<script id="job-detail-tpl-02" type="text/html">
+    <div class="wrapJobDetail">
+        <section class="marg_bottom_10">
+            <div class="line_b pos_rela">
+                <p class="fc_orange line_h1">{{title}}</p>
+                <p class="f12 fc_lightGray line_h2">
+                    <i class="iconf iconf-clock f12"></i><span class="marg_left_10 marg_right_10">{{createtime}}</span>
+                    <i class="iconf iconf-eyes f12"></i><span class="marg_left_10">{{hot}}</span>
+                </p>
+            </div>
+            <div class="f14">
+                <p class="row no-gutter line_h2">
+                    <span class="col-25 fc_lightGray">发布机构：</span>
+                    <span class="col-75 tx_ellips">{{company}}</span>
+                </p>
+                <p class="row no-gutter line_h1">
+                    <span class="col-25 fc_lightGray">招聘人数：</span>
+                    <span class="col-75 tx_ellips">{{number}}人</span>
+                </p>
+                <p class="row no-gutter line_b pos_rela line_h2">
+                    <span class="col-25 fc_lightGray">工资待遇：</span>
+                    <span class="col-75 tx_ellips">{{income}}{{incomeunit}}</span>
+                </p>
+                <p class="row no-gutter line_b pos_rela line_h22">
+                    <span class="col-25 fc_lightGray">工作地点：</span>
+                    <span class="col-75">{{address}}</span>
+                    <a href="__APP__/Home/Job/map.html?address={{address}}" style="display: none;">
+                        <span class="col-33 tx_ellips f12 fc_lightGray" style="margin-top: .15rem;">点击查看地图&nbsp;&nbsp;></span>
+                    </a>
+                    <div class="wrapMap" id ="allmap"></div>
+                </p>
+                <p class="fc_orange line_h2">
+                    <i class="iconf iconf-notice f14"></i><span class="iconf f12 marg_left_10">凡是收费的兼职信息，请谨慎选择！</span>
+                </p>
+            </div>
+        </section>
+        <section class="marg_bottom_10">
+            <div class="f14">
+                <p class="row no-gutter pos_rela line_h2">
+                    <span class="col-25 fc_lightGray">报名时间：</span>
+                    <span class="col-75 tx_ellips">{{begintime}} ~ {{endtime}}</span>
+                </p>
+            </div>
+        </section>
+        <section class="marg_bottom_10">
+            <div class="line_b pos_rela fc_orange line_h1 padd_bottom_10">
+              <i class="iconf iconf-edit"></i><span class="iconf marg_left_10">职位描述</span>
+            </div>
+            <div class="f12 fc_lightGray marg_top_10 jobIntro">
+              {{intro}}
+            </div>
+        </section>
+        <section class="marg_bottom_10">
+            <div class="line_b pos_rela fc_orange line_h1 padd_bottom_10">
+              <i class="iconf iconf-edit"></i><span class="iconf marg_left_10">企业信息</span>
+            </div>
+            {{ if companyinfo == '' || companyinfo == 'undefined'}}
+            <div class="f12 fc_lightGray marg_top_10">
+                山东盈帆信息科技股份有限公司，成立于2013年12月，是目前山东地区具有活力的互联网公司之一。公司凭借杰出的移动互联网技术和业务实力，服务于威海智慧城市、新北洋集团、上海铁路局等企事业单位，被列入威海市千帆计划科技型企业，并先后受CCTV-1晚间新闻和山东新闻联播报道。“萝卜兼职”是盈帆科技推出的一款基于大数据分析的兼职移动众包平台，通过智能推荐系统为全国大学生提供准确可靠的兼职岗位，同时为企业提供多元化的人力资源解决方案。
+            </div>
+            {{else}}
+                <div class="f12 fc_lightGray marg_top_10">
+                    {{companyinfo}}
+                </div>
+            {{/if}}
+        </section>
+        <section class="marg_bottom_10">
+            <div class="f14">
+                <p class="row no-gutter line_b pos_rela line_h2">
+                    <span class="col-25 fc_lightGray"></span>
+                    <span class="col-75 tx_ellips">亲：申请后即能查看联系人和联系方式</span>
+                </p>
+                <p class="job-connect row no-gutter line_b pos_rela line_h2">
+                    <span class="col-25 fc_lightGray">联系人：</span>
+                    <span class="col-75 tx_ellips">{{linkman}}</span>
+                </p>
+                <p class="job-connect row no-gutter line_h2">
+                    <span class="col-25 fc_lightGray">联系电话：</span>
+                    <span class="col-75 tx_ellips">{{phone}}</span>
+                </p>
+            </div>
+        </section>
+    </div>
+</script>
+<!-- 模板-工作列表 -->
+<script id="job-list-tpl" type="text/html">
+    {{each jobs as job i}}
+        <li class="jobLi" iIndex="jobLi{{i}}">
+            <a href="__APP__/Home/Job/detail/id/{{#job.id}}/superType/{{#job.supertype}}">
+                <span class="iType cateId{{#job.pcateid%12}}">{{#job.category}}</span>
+                <div class="row no-gutter">
+                    <div class="col-80 tx_ellips">
+                        {{#job.title}}
+                    </div>
+                    <div class="col-20 text-center">
+                        <div class="bg_status bgGreen">
+                            <i class="i_triangle"></i>
+                            {{if job.type == 1 }} 报名中
+                            {{else if job.type == 2}} 红包
+                            {{else if job.type == 3}} 双薪
+                            {{/if}}
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutter pos_rela">
+                    <div class="col-66 fc_lightGray">
+                        <p class="f12 pos_rela">
+                            <span class="iconf iconf-location"></span>
+                            <span class="marg_left_10 tx_ellips pos_ab">{{#job.city}}{{#job.region}}</span>
+                        </p>
+                        <p class="f12 pos_rela">
+                            <span class="jobType">
+                                {{each job.attributes as value index}}
+                                    {{if value == 1}}
+                                        <img src="__PUBLIC__/images/danbao.png" alt="担保">
+                                    {{else if value == 2}}
+                                        <img src="__PUBLIC__/images/hongbao.png" alt="红包">
+                                    {{else if value == 3}}
+                                        <img src="__PUBLIC__/images/shuangxin.png" alt="双薪">
+                                    {{/if}}
+                                {{/each}}
+                            </span>
+                            <span class="jobType">
+                                <img src="__PUBLIC__/images/paytype_{{job.payenum}}.png" alt="">
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-33 text-right pos_income">
+                        <strong class="f16">{{#job.income}}</strong>
+                        <small class="fc_lightGray">{{#job.incomeunit}}</small>
+                    </div>
+                </div>
+            </a>
+        </li>
+    {{/each}}
+</script>
+
+<!-- 模板-SELECT-OPTIONS -->
+<script id ="select-option-tpl" type='text/html'>
+    {{each option as value index}}
+        {{if value.status==1}}
+            <option value="{{value.id}}"{{value.id == current?'selected':''}}>{{value.name}}</option>
+        {{/if}}
+    {{/each}}
+</script>
+
+<script id="scroll-base-tpl" type="text/html">
+    <div class="content infinite-scroll infinite-scroll-bottom" data-distance="10">
+        <div class="wrapJob">
+            <ul class="jobList"></ul>
+            <div class="infinite-scroll-preloader">
+                <div class="preloader"></div>
+            </div>
+        </div>
+        <footer class="text-center padd_20" style="display: none">
+            <p class="fc_orange f16">aaa</p>
+            <p class="fc_orange f10">www.luobojianzhi.com</p>
+            <p class="f10">最靠谱的大学生兼职平台</p>
+        </footer>
+    </div>
+</script>
+
+<script type="text/javascript" src='__PUBLIC__/source/debug/scripts/common.js' charset='utf-8'></script>
+<include file="Common/tpl/tpl-schoolInfo" />
+<include file="Common/tpl/tpl-fullInfo" />
+<include file="Common/tpl/tpl-leastInfo" />

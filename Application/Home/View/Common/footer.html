@@ -1,0 +1,51 @@
+<!--
+<script type='text/javascript' src='__PUBLIC__/source/debug/scripts/zepto.js' charset='utf-8'></script>
+<script type='text/javascript' src='__PUBLIC__/source/debug/scripts/sm.js' charset='utf-8'></script>
+<script type='text/javascript' src='__PUBLIC__/source/debug/scripts/sm-extend.js' charset='utf-8'></script>
+<script type='text/javascript' src='__PUBLIC__/source/debug/scripts/webuploader.custom.js' charset='utf-8'></script>
+<script type='text/javascript' src='__PUBLIC__/source/debug/scripts/swiper.js' charset='utf-8'></script>
+<script type='text/javascript' src='__PUBLIC__/source/debug/scripts/template-debug.js' charset='utf-8'></script>
+-->
+<script type='text/javascript' src='__PUBLIC__/source/dist/luobo.js' charset='utf-8'></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=P5AXQi2Q4I1wGcSGdIYZMPOG"></script>
+<script type="text/javascript">
+    function server_error() {
+        $.toast("(^_^) 同学们太热情，萝卜表示鸭梨很大！");
+    }
+    function data_warn() {
+         $.toast("(^_^)  木有兼职信息啦！", 1000);
+    }
+    function opt_success() {
+         $.toast("(^_^)  木有兼职信息啦！", 1000);
+    }
+    function biLog(data){
+        $init = {
+            "source": "wechat.luobojianzhi.com"
+        }
+        $.ajax({
+            type: 'POST',
+            url:  MOD_PATH+'/Tools/biLog',
+            data: { biData : $.extend($init, data)}
+        });
+    }
+</script>
+<script>
+    //调整截至日期为工作开始日期的前一天
+    template.helper("reducer", function (begintime) {
+        var padStartWithZero = function (tar, num, str) {
+            var len = tar.length;
+            while (len < num) {
+                tar = str + tar;
+                len = tar.length;
+            }
+            return tar.slice(tar.length - num);
+        };
+        var d = new Date(new Date(begintime) - 24 * 60 * 60 * 1000);
+        var m = {
+            y: d.getFullYear(),
+            m: padStartWithZero(String(d.getMonth() + 1), 2, '0'),
+            d: padStartWithZero(String(d.getDate()), 2, '0')
+        };
+        return m.y + "-" + m.m + "-" + m.d;
+    });
+</script>

@@ -1,0 +1,2472 @@
+[ 2018-02-05T04:18:51+08:00 ] 221.2.136.251 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011839s ]
+DEBUG: [ Jiechengkeji ] [ 04:18:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 04:18:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 04:18:51 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 04:18:51 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]
+DEBUG: [ Jiechengkeji ] [ 04:18:51 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]}
+
+[ 2018-02-05T04:18:51+08:00 ] 221.2.136.251 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011737s ]
+DEBUG: [ Jiechengkeji ] [ 04:18:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 04:18:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 04:18:51 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 04:18:51 ] [ result ][{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"}]
+DEBUG: [ Jiechengkeji ] [ 04:18:51 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"]}
+
+[ 2018-02-05T04:18:52+08:00 ] 221.2.136.251 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011672s ]
+DEBUG: [ Jiechengkeji ] [ 04:18:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 04:18:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 04:18:51 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0250s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0952s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0011s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '39'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0008s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0184s ]
+DEBUG: [ Jiechengkeji ] [ 04:18:52 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 04:18:52 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":35,"pageCurrent":1,"recordTotal":12}}
+
+[ 2018-02-05T04:18:57+08:00 ] 221.2.136.251 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+DEBUG: [ Jiechengkeji ] [ 04:18:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 04:18:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 04:18:57 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  3,3 [ RunTime:0.0005s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '20'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0008s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '21'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0009s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '22'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0007s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0003s ]
+DEBUG: [ Jiechengkeji ] [ 04:18:57 ] [ result ][{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_9133E81A3952F078E3FD45EFCF99C920.jpg","phone":"15106316682","photo":[]},{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_02B95699FBEE3FC3C49CFC7E093E720A.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_49FFE1550B58BE3C28FF033C7B9C6D62.jpg","phone":"15106306681","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 04:18:57 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_9133E81A3952F078E3FD45EFCF99C920.jpg","phone":"15106316682","photo":[]},{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_02B95699FBEE3FC3C49CFC7E093E720A.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_49FFE1550B58BE3C28FF033C7B9C6D62.jpg","phone":"15106306681","photo":[]}],"pageTotal":35,"pageCurrent":2,"recordTotal":12}}
+
+[ 2018-02-05T04:19:02+08:00 ] 221.2.136.251 /ajax/index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id='21'
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0006s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '21' [ RunTime:0.0005s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2018-02-05T04:19:02+08:00 ] 221.2.136.251 /ajax/index.php/Admin/Compay/cy_compay_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      a.name,
+                          b.face
+                     FROM
+	                      cy_designer a,
+	                      cy_member b
+                     WHERE
+	                      a.uid = b.uid
+                     AND a.company_id = '21'
+                     AND a.audit = '1'
+                     AND a.closed = '0' [ RunTime:0.0120s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ result ][]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Common/Common/function.php 第 86 行.
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[[]]}
+
+[ 2018-02-05T04:19:02+08:00 ] 221.2.136.251 /ajax/index.php/Admin/Compay/cy_compay_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    b.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                        b.content,
+                      (SELECT COUNT(*) FROM cy_company_comment ) conut
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id='21'
+                     LIMIT 0,3 [ RunTime:0.0158s ]
+SQL: SELECT
+	                  count(*) AS pageTotal
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id='21' [ RunTime:0.0004s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ result ][]
+DEBUG: [ Jiechengkeji ] [ 04:19:02 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":1,"data":{"result":[],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2018-02-05T04:19:10+08:00 ] 221.2.136.251 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 04:19:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 04:19:10 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  9,3 [ RunTime:0.0006s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '26'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0006s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '27'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0006s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '28'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0006s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:10 ] [ result ][{"company_id":"26","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_D0566051E5B69CCFAB7440A2106D8D1C.png","phone":"15106316670","photo":[]},{"company_id":"27","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"1","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_D36E37AC2E7D1C22854871645D3E84C1.jpg","phone":"15106316672","photo":[]},{"company_id":"28","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u81f4\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171013_CE3B933815A056E771D1B9934C5B5964.jpg","phone":"15684517575","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 04:19:10 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"26","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_D0566051E5B69CCFAB7440A2106D8D1C.png","phone":"15106316670","photo":[]},{"company_id":"27","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"1","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_D36E37AC2E7D1C22854871645D3E84C1.jpg","phone":"15106316672","photo":[]},{"company_id":"28","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u81f4\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171013_CE3B933815A056E771D1B9934C5B5964.jpg","phone":"15684517575","photo":[]}],"pageTotal":35,"pageCurrent":4,"recordTotal":12}}
+
+[ 2018-02-05T04:19:13+08:00 ] 221.2.136.251 /ajax/index.php/Admin/Designer/Designer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 04:19:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 04:19:13 ] [ __construct ]BaseDAO
+SQL: SELECT
+	city_id
+FROM
+	cy_data_area
+WHERE 
+area_name=''
+	                 [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/DesignerService.class.php 第 84 行.
+SQL: SELECT 
+	                  	uid,
+	                   name,
+	                  case_num,
+	                  yuyue_num,
+	                   mobile,
+	                  (
+		                CASE 1
+		               WHEN '1' THEN
+			           '设计师'
+		                ELSE
+			           '其他'
+		               END
+                         	) sjs
+                       FROM
+	                     cy_designer
+                           WHERE 1=1  and closed = '0' and audit = '1'
+	                    LIMIT 0,3 [ RunTime:0.0004s ]
+SQL: SELECT 
+	                 count(*) AS pageTotal
+                     FROM
+	                cy_designer
+                         WHERE 1=1  and closed = '0' and audit = '1' [ RunTime:0.0005s ]
+SQL: SELECT 
+	                 *
+                     FROM
+	                  cy_member
+	                WHERE 
+	                   uname = '13336306662' [ RunTime:0.0002s ]
+SQL: SELECT
+	                    case_id,
+                    	photo
+                     FROM
+	                    cy_case 
+                     WHERE
+                     	uid = '118'
+                     ORDER BY
+	                     case_id DESC
+                     LIMIT 0,3 [ RunTime:0.0005s ]
+SQL: SELECT 
+	                 *
+                     FROM
+	                  cy_member
+	                WHERE 
+	                   uname = '18763103773' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/DesignerService.class.php 第 92 行.
+SQL: SELECT
+	                    case_id,
+                    	photo
+                     FROM
+	                    cy_case 
+                     WHERE
+                     	uid = '119'
+                     ORDER BY
+	                     case_id DESC
+                     LIMIT 0,3 [ RunTime:0.0005s ]
+SQL: SELECT 
+	                 *
+                     FROM
+	                  cy_member
+	                WHERE 
+	                   uname = '18863165330' [ RunTime:0.0001s ]
+SQL: SELECT
+	                    case_id,
+                    	photo
+                     FROM
+	                    cy_case 
+                     WHERE
+                     	uid = '121'
+                     ORDER BY
+	                     case_id DESC
+                     LIMIT 0,3 [ RunTime:0.0007s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:13 ] [ result ][{"uid":"118","name":"\u5e38\u4eae","case_num":"4","yuyue_num":"0","mobile":"13336306662","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_B1526B5C95E63CCD13DFC69090C72719.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_04B1629A2CEB770C03AB189D1E166538.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_DB1FD6913C8BC3212466972F094EE615.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/5EF\/180\/5EF059938BA799AAA845E1C2E8A762BD.jpg"},{"uid":"119","name":"\u4f55\u857e","case_num":"10","yuyue_num":"0","mobile":"18763103773","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_1674DA169B058EA4F8FDEF36B6A8A4CC.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_5F74769062B07DCE9A1CFD468756E4FB.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_E251AD76100966F2CE414DD4F73605CA.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"},{"uid":"121","name":"\u674e\u6797\u9896","case_num":"5","yuyue_num":"0","mobile":"18863165330","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_94E46EC62240771E5E000121AD819551.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_501E7350323B781FC9A906ACF45AEF66.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_66831D7F99A7DC4A71E03C064128F0A6.png"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/4C5\/180\/4C56FF4CE4AAF9573AA5DFF913DF997A.jpg"}]
+DEBUG: [ Jiechengkeji ] [ 04:19:13 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"uid":"118","name":"\u5e38\u4eae","case_num":"4","yuyue_num":"0","mobile":"13336306662","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_B1526B5C95E63CCD13DFC69090C72719.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_04B1629A2CEB770C03AB189D1E166538.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_DB1FD6913C8BC3212466972F094EE615.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/5EF\/180\/5EF059938BA799AAA845E1C2E8A762BD.jpg"},{"uid":"119","name":"\u4f55\u857e","case_num":"10","yuyue_num":"0","mobile":"18763103773","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_1674DA169B058EA4F8FDEF36B6A8A4CC.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_5F74769062B07DCE9A1CFD468756E4FB.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_E251AD76100966F2CE414DD4F73605CA.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"},{"uid":"121","name":"\u674e\u6797\u9896","case_num":"5","yuyue_num":"0","mobile":"18863165330","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_94E46EC62240771E5E000121AD819551.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_501E7350323B781FC9A906ACF45AEF66.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_66831D7F99A7DC4A71E03C064128F0A6.png"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/4C5\/180\/4C56FF4CE4AAF9573AA5DFF913DF997A.jpg"}],"pageTotal":7,"pageCurrent":1,"recordTotal":3}}
+
+[ 2018-02-05T04:19:15+08:00 ] 221.2.136.251 /ajax/index.php/Admin/Designer/cy_Designer_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 04:19:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 04:19:15 ] [ __construct ]BaseDAO
+SQL:  SELECT
+	(
+		SELECT
+			uid
+		FROM
+			cy_designer
+		WHERE
+			uid = b.uid
+	) uid,
+	(
+		SELECT
+			NAME
+		FROM
+			cy_designer
+		WHERE
+			uid = b.uid
+	) NAME,
+	b.score1,
+	b.score2,
+	b.score3,
+	from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+	b.content
+FROM
+	cy_designer_comment b
+WHERE
+	b.designer_id = '119'
+		           LIMIT 0,3 [ RunTime:0.0075s ]
+SQL: SELECT
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='110' [ RunTime:0.0002s ]
+SQL: SELECT
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/DesignerService.class.php 第 196 行.
+SQL: SELECT
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/DesignerService.class.php 第 196 行.
+SQL: SELECT
+	                  count(*) AS pageTotal
+                    FROM
+	                	cy_designer_comment b
+WHERE
+	b.designer_id = '' [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:15 ] [ result ][{"uid":"110","name":"\u7530\u6d69","score1":"0","score2":"0","score3":"0","dateline":"2018-02-02","content":"\u963f\u53d1","face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"},{"uid":null,"name":null,"score1":"4","score2":"5","score3":"4","dateline":"2018-02-02","content":"sdfasf"},{"uid":null,"name":null,"score1":"5","score2":"4","score3":"4","dateline":"2018-02-02","content":"safsaf"}]
+DEBUG: [ Jiechengkeji ] [ 04:19:15 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"uid":"110","name":"\u7530\u6d69","score1":"0","score2":"0","score3":"0","dateline":"2018-02-02","content":"\u963f\u53d1","face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"},{"uid":null,"name":null,"score1":"4","score2":"5","score3":"4","dateline":"2018-02-02","content":"sdfasf"},{"uid":null,"name":null,"score1":"5","score2":"4","score3":"4","dateline":"2018-02-02","content":"safsaf"}],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2018-02-05T04:19:15+08:00 ] 221.2.136.251 /ajax/index.php/Admin/Designer/cy_Designer_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 04:19:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 04:19:15 ] [ __construct ]BaseDAO
+SQL: SELECT
+                        a.NAME,
+	                    a.attention_num,
+	                    a.yuyue_num,
+	                    a.case_num,
+	                    a.blog_num,
+	                    (
+		              SELECT
+			                 NAME
+		              FROM
+			                cy_company
+		              WHERE
+			              company_id = a.company_id
+	                 ) gsname,
+	                     a.mobile,
+	                     a.slogan,
+	                     a.about,
+	                     b.photo alphoto ,
+                      	a.photo,
+                      	a.score,
+	                     a.score1,
+                       	a.score2,
+	                   a.score3
+                  FROM
+	                 cy_designer a,
+	                   cy_case b
+                      WHERE 
+	                   a.uid='119'
+	               AND 
+		               a.audit = '1'
+		           AND 
+		              a.closed = '0'
+		              AND b.uid=a.uid
+		               limit 0,1 [ RunTime:0.0006s ]
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_designer a,
+			             cy_case b
+		             WHERE
+		                 a.uid='119'
+		              AND 
+		                 a.uid = b.uid
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0005s ]
+SQL: SELECT
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='119' [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 04:19:15 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2018-02-05T09:18:55+08:00 ] 60.212.253.222 /ajax/index.php/admin/case/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008595s ]
+SQL: SHOW COLUMNS FROM `cy_data_attr_value` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `cy_data_attr_value` WHERE ( attr_id=4 )  [ RunTime:0.0162s ]
+
+[ 2018-02-05T09:18:55+08:00 ] 60.212.253.222 /ajax/index.php/admin/case/houseType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008626s ]
+SQL: SHOW COLUMNS FROM `cy_data_attr_value` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `cy_data_attr_value` WHERE ( attr_id=5 )  [ RunTime:0.0162s ]
+
+[ 2018-02-05T09:18:55+08:00 ] 60.212.253.222 /ajax/index.php/admin/case/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008546s ]
+SQL: SHOW COLUMNS FROM `cy_data_attr_value` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `cy_data_attr_value` WHERE ( attr_id=6 )  [ RunTime:0.0448s ]
+
+[ 2018-02-05T09:29:02+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ result ][{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"}]
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"]}
+
+[ 2018-02-05T09:29:02+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]}
+
+[ 2018-02-05T09:29:02+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0005s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0003s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '39'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0003s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:29:02 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":35,"pageCurrent":1,"recordTotal":12}}
+
+[ 2018-02-05T09:29:25+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ result ][{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"}]
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"]}
+
+[ 2018-02-05T09:29:25+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]}
+
+[ 2018-02-05T09:29:25+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '39'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:29:25 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":35,"pageCurrent":1,"recordTotal":12}}
+
+[ 2018-02-05T09:29:41+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]}
+
+[ 2018-02-05T09:29:41+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ result ][{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"}]
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"]}
+
+[ 2018-02-05T09:29:41+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '39'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0003s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:29:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":35,"pageCurrent":1,"recordTotal":12}}
+
+[ 2018-02-05T09:29:46+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:46 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:29:46 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:29:46 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  3,3 [ RunTime:0.0005s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '20'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '21'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '22'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:46 ] [ result ][{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_9133E81A3952F078E3FD45EFCF99C920.jpg","phone":"15106316682","photo":[]},{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_02B95699FBEE3FC3C49CFC7E093E720A.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_49FFE1550B58BE3C28FF033C7B9C6D62.jpg","phone":"15106306681","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 09:29:46 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_9133E81A3952F078E3FD45EFCF99C920.jpg","phone":"15106316682","photo":[]},{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_02B95699FBEE3FC3C49CFC7E093E720A.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_49FFE1550B58BE3C28FF033C7B9C6D62.jpg","phone":"15106306681","photo":[]}],"pageTotal":35,"pageCurrent":2,"recordTotal":12}}
+
+[ 2018-02-05T09:29:52+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Designer/Designer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:29:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:29:52 ] [ __construct ]BaseDAO
+SQL: SELECT
+	city_id
+FROM
+	cy_data_area
+WHERE 
+area_name=''
+	                 [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/DesignerService.class.php 第 84 行.
+SQL: SELECT 
+	                  	uid,
+	                   name,
+	                  case_num,
+	                  yuyue_num,
+	                   mobile,
+	                  (
+		                CASE 1
+		               WHEN '1' THEN
+			           '设计师'
+		                ELSE
+			           '其他'
+		               END
+                         	) sjs
+                       FROM
+	                     cy_designer
+                           WHERE 1=1  and closed = '0' and audit = '1'
+	                    LIMIT 0,3 [ RunTime:0.0005s ]
+SQL: SELECT 
+	                 count(*) AS pageTotal
+                     FROM
+	                cy_designer
+                         WHERE 1=1  and closed = '0' and audit = '1' [ RunTime:0.0003s ]
+SQL: SELECT 
+	                 *
+                     FROM
+	                  cy_member
+	                WHERE 
+	                   uname = '13336306662' [ RunTime:0.0008s ]
+SQL: SELECT
+	                    case_id,
+                    	photo
+                     FROM
+	                    cy_case 
+                     WHERE
+                     	uid = '118'
+                     ORDER BY
+	                     case_id DESC
+                     LIMIT 0,3 [ RunTime:0.0001s ]
+SQL: SELECT 
+	                 *
+                     FROM
+	                  cy_member
+	                WHERE 
+	                   uname = '18763103773' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/DesignerService.class.php 第 92 行.
+SQL: SELECT
+	                    case_id,
+                    	photo
+                     FROM
+	                    cy_case 
+                     WHERE
+                     	uid = '119'
+                     ORDER BY
+	                     case_id DESC
+                     LIMIT 0,3 [ RunTime:0.0001s ]
+SQL: SELECT 
+	                 *
+                     FROM
+	                  cy_member
+	                WHERE 
+	                   uname = '18863165330' [ RunTime:0.0003s ]
+SQL: SELECT
+	                    case_id,
+                    	photo
+                     FROM
+	                    cy_case 
+                     WHERE
+                     	uid = '121'
+                     ORDER BY
+	                     case_id DESC
+                     LIMIT 0,3 [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:52 ] [ result ][{"uid":"118","name":"\u5e38\u4eae","case_num":"4","yuyue_num":"0","mobile":"13336306662","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_B1526B5C95E63CCD13DFC69090C72719.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_04B1629A2CEB770C03AB189D1E166538.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_DB1FD6913C8BC3212466972F094EE615.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/5EF\/180\/5EF059938BA799AAA845E1C2E8A762BD.jpg"},{"uid":"119","name":"\u4f55\u857e","case_num":"10","yuyue_num":"0","mobile":"18763103773","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_1674DA169B058EA4F8FDEF36B6A8A4CC.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_5F74769062B07DCE9A1CFD468756E4FB.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_E251AD76100966F2CE414DD4F73605CA.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"},{"uid":"121","name":"\u674e\u6797\u9896","case_num":"5","yuyue_num":"0","mobile":"18863165330","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_94E46EC62240771E5E000121AD819551.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_501E7350323B781FC9A906ACF45AEF66.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_66831D7F99A7DC4A71E03C064128F0A6.png"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/4C5\/180\/4C56FF4CE4AAF9573AA5DFF913DF997A.jpg"}]
+DEBUG: [ Jiechengkeji ] [ 09:29:52 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"uid":"118","name":"\u5e38\u4eae","case_num":"4","yuyue_num":"0","mobile":"13336306662","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_B1526B5C95E63CCD13DFC69090C72719.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_04B1629A2CEB770C03AB189D1E166538.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_DB1FD6913C8BC3212466972F094EE615.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/5EF\/180\/5EF059938BA799AAA845E1C2E8A762BD.jpg"},{"uid":"119","name":"\u4f55\u857e","case_num":"10","yuyue_num":"0","mobile":"18763103773","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_1674DA169B058EA4F8FDEF36B6A8A4CC.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_5F74769062B07DCE9A1CFD468756E4FB.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_E251AD76100966F2CE414DD4F73605CA.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"},{"uid":"121","name":"\u674e\u6797\u9896","case_num":"5","yuyue_num":"0","mobile":"18863165330","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_94E46EC62240771E5E000121AD819551.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_501E7350323B781FC9A906ACF45AEF66.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_66831D7F99A7DC4A71E03C064128F0A6.png"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/4C5\/180\/4C56FF4CE4AAF9573AA5DFF913DF997A.jpg"}],"pageTotal":7,"pageCurrent":1,"recordTotal":3}}
+
+[ 2018-02-05T09:30:01+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:30:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:30:01 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  6,3 [ RunTime:0.0005s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '23'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0860s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '24'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0012s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '25'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0007s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:01 ] [ result ][{"company_id":"23","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_467FF22905DA4E7BD15A7D7AC3A1A897.jpg","phone":"13465225618","photo":[]},{"company_id":"24","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_925BA5AFA370E14AFB6C80E754298716.jpg","phone":"15106316680","photo":[]},{"company_id":"25","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_210BAAC59795ACB64F2CEC1D8C3CE0EF.jpg","phone":"13465223808","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 09:30:01 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"23","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_467FF22905DA4E7BD15A7D7AC3A1A897.jpg","phone":"13465225618","photo":[]},{"company_id":"24","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_925BA5AFA370E14AFB6C80E754298716.jpg","phone":"15106316680","photo":[]},{"company_id":"25","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_210BAAC59795ACB64F2CEC1D8C3CE0EF.jpg","phone":"13465223808","photo":[]}],"pageTotal":35,"pageCurrent":3,"recordTotal":12}}
+
+[ 2018-02-05T09:30:04+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:30:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:30:04 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  9,3 [ RunTime:0.0007s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '26'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '27'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '28'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:04 ] [ result ][{"company_id":"26","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_D0566051E5B69CCFAB7440A2106D8D1C.png","phone":"15106316670","photo":[]},{"company_id":"27","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"1","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_D36E37AC2E7D1C22854871645D3E84C1.jpg","phone":"15106316672","photo":[]},{"company_id":"28","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u81f4\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171013_CE3B933815A056E771D1B9934C5B5964.jpg","phone":"15684517575","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 09:30:04 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"26","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_D0566051E5B69CCFAB7440A2106D8D1C.png","phone":"15106316670","photo":[]},{"company_id":"27","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"1","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_D36E37AC2E7D1C22854871645D3E84C1.jpg","phone":"15106316672","photo":[]},{"company_id":"28","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u81f4\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171013_CE3B933815A056E771D1B9934C5B5964.jpg","phone":"15684517575","photo":[]}],"pageTotal":35,"pageCurrent":4,"recordTotal":12}}
+
+[ 2018-02-05T09:30:10+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:30:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:30:10 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  12,3 [ RunTime:0.0005s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '29'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0009s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '30'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0008s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '31'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0008s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:10 ] [ result ][{"company_id":"29","discuss":"1","score":"5","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5965\u901a\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-69","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171013_EE5536513FA1B19AA263BEAD8EEFF131.jpg","phone":"13153408999","photo":[]},{"company_id":"30","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5e02\u6b63\u5f3a\u5efa\u7b51\u52b3\u52a1\u5206\u5305\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751A\u533a25-6\u53f7","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171013_92F579AE84874A122F83D497F1B57E5F.jpg","phone":"18663127983","photo":[]},{"company_id":"31","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u9601\u4e3d\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u6d77\u6ee8\u5357\u8def35\u53f7605\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_B1F158AC050F911CD9ECF6B50315FE4F.jpg","phone":"13371161071","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 09:30:10 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"29","discuss":"1","score":"5","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5965\u901a\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-69","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171013_EE5536513FA1B19AA263BEAD8EEFF131.jpg","phone":"13153408999","photo":[]},{"company_id":"30","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5e02\u6b63\u5f3a\u5efa\u7b51\u52b3\u52a1\u5206\u5305\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751A\u533a25-6\u53f7","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171013_92F579AE84874A122F83D497F1B57E5F.jpg","phone":"18663127983","photo":[]},{"company_id":"31","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u9601\u4e3d\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u6d77\u6ee8\u5357\u8def35\u53f7605\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_B1F158AC050F911CD9ECF6B50315FE4F.jpg","phone":"13371161071","photo":[]}],"pageTotal":35,"pageCurrent":5,"recordTotal":12}}
+
+[ 2018-02-05T09:30:15+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/cy_tophot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:30:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:30:15 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                     *
+                      FROM
+	                    cy_tophot
+	                  WHERE  
+	                    tophot != ''
+                      GROUP BY
+	                    id DESC
+                      LIMIT 0,
+                        6 [ RunTime:0.0181s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:15 ] [ result ][{"id":"23","tophot":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:58:18","updatetime":"2018-02-02 15:58:18"},{"id":"22","tophot":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:58:10","updatetime":"2018-02-02 15:58:10"},{"id":"21","tophot":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:58:02","updatetime":"2018-02-02 15:58:02"},{"id":"20","tophot":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","createtime":"2018-02-02 15:57:55","updatetime":"2018-02-02 15:57:55"},{"id":"18","tophot":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","createtime":"2018-02-02 15:57:45","updatetime":"2018-02-02 15:57:45"},{"id":"17","tophot":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:57:24","updatetime":"2018-02-02 15:57:24"}]
+DEBUG: [ Jiechengkeji ] [ 09:30:15 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"23","tophot":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:58:18","updatetime":"2018-02-02 15:58:18"},{"id":"22","tophot":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:58:10","updatetime":"2018-02-02 15:58:10"},{"id":"21","tophot":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:58:02","updatetime":"2018-02-02 15:58:02"},{"id":"20","tophot":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","createtime":"2018-02-02 15:57:55","updatetime":"2018-02-02 15:57:55"},{"id":"18","tophot":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","createtime":"2018-02-02 15:57:45","updatetime":"2018-02-02 15:57:45"},{"id":"17","tophot":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:57:24","updatetime":"2018-02-02 15:57:24"}]}
+
+[ 2018-02-05T09:30:15+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/cy_history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:30:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:30:15 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/GsService.class.php 第 114 行.
+SQL: SELECT
+	                     *
+                      FROM
+	                    cy_history
+	                    WHERE 
+	                    tophistory != ''
+                      GROUP BY
+	                    id DESC
+                      LIMIT 0,6 [ RunTime:0.0086s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:15 ] [ result ][{"id":"43","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"13181148765","createtime":"2018-02-02 17:07:13","updatetime":"2018-02-02 17:07:13"},{"id":"42","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"13181148765","createtime":"2018-02-02 17:07:03","updatetime":"2018-02-02 17:07:03"},{"id":"41","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"15666319057","createtime":"2018-02-02 15:58:26","updatetime":"2018-02-02 15:58:26"},{"id":"40","tophistory":"\u5a01\u6d77","photo":"15666319057","createtime":"2018-02-02 15:56:28","updatetime":"2018-02-02 15:56:28"},{"id":"39","tophistory":"\u6d4b\u8bd5\u738b\u6d77\u714a","photo":"13881726527","createtime":"2018-02-02 12:50:37","updatetime":"2018-02-02 12:50:37"},{"id":"38","tophistory":"\u6574\u4f53\u6d4b\u8bd51","photo":"13881726527","createtime":"2018-02-02 12:50:27","updatetime":"2018-02-02 12:50:27"}]
+DEBUG: [ Jiechengkeji ] [ 09:30:15 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"43","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"13181148765","createtime":"2018-02-02 17:07:13","updatetime":"2018-02-02 17:07:13"},{"id":"42","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"13181148765","createtime":"2018-02-02 17:07:03","updatetime":"2018-02-02 17:07:03"},{"id":"41","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"15666319057","createtime":"2018-02-02 15:58:26","updatetime":"2018-02-02 15:58:26"},{"id":"40","tophistory":"\u5a01\u6d77","photo":"15666319057","createtime":"2018-02-02 15:56:28","updatetime":"2018-02-02 15:56:28"},{"id":"39","tophistory":"\u6d4b\u8bd5\u738b\u6d77\u714a","photo":"13881726527","createtime":"2018-02-02 12:50:37","updatetime":"2018-02-02 12:50:37"},{"id":"38","tophistory":"\u6574\u4f53\u6d4b\u8bd51","photo":"13881726527","createtime":"2018-02-02 12:50:27","updatetime":"2018-02-02 12:50:27"}]}
+
+[ 2018-02-05T09:30:17+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:30:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:30:17 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/GsService.class.php 第 134 行.
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  photo,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '威海海盛装饰工程有限公司',
+                    '',
+                    '2018-02-05 09:30:17',
+                    '2018-02-05 09:30:17'
+                  ) [ RunTime:0.0138s ]
+SQL: SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone,
+                     a.score
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%威海海盛装饰工程有限公司%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0267s ]
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_company a
+                    WHERE 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'   [ RunTime:0.0003s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:17 ] [ result ][{"company_id":"25","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_210BAAC59795ACB64F2CEC1D8C3CE0EF.jpg","phone":"13465223808","score":"0"}]
+DEBUG: [ Jiechengkeji ] [ 09:30:17 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"25","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_210BAAC59795ACB64F2CEC1D8C3CE0EF.jpg","phone":"13465223808","score":"0"}],"pageTotal":19,"pageCurrent":1,"recordTotal":2}}
+
+[ 2018-02-05T09:30:44+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:30:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:30:44 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  15,3 [ RunTime:0.0006s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '32'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0006s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '33'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0008s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '34'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0008s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:44 ] [ result ][{"company_id":"32","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u534e\u97f5\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u9ad8\u6280\u533a\u7530\u6751\u91d1\u7334\u88c5\u9970\u6750\u6599\u5e02\u573a30-1","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_110A96A1C3E9C1B3A92EA208A178E800.jpg","phone":"18663159188","photo":[]},{"company_id":"33","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84bf\u6cca\u7231\u91d1\u751f\u5bb6\u653f\u670d\u52a1\u90e8","addr":"\u5a01\u6d77\u5e02\u9752\u5c9b\u4e2d\u8def174-104\u53f7","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_7A35AE9FDA35C63E039C0E9B8981D57D.jpg","phone":"15725608666","photo":[]},{"company_id":"34","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u9ad8\u6280\u672f\u4ea7\u4e1a\u5f00\u53d1\u533a\u7231\u6c11\u5bb6\u653f\u670d\u52a1\u4e2d\u5fc3","addr":"\u5a01\u6d77\u5e02\u629a\u987a\u8def103-7\u53f7","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_051C51F96951E83E692AC76D9EDE3D0B.jpg","phone":"13863116814","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 09:30:44 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"32","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u534e\u97f5\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u9ad8\u6280\u533a\u7530\u6751\u91d1\u7334\u88c5\u9970\u6750\u6599\u5e02\u573a30-1","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_110A96A1C3E9C1B3A92EA208A178E800.jpg","phone":"18663159188","photo":[]},{"company_id":"33","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84bf\u6cca\u7231\u91d1\u751f\u5bb6\u653f\u670d\u52a1\u90e8","addr":"\u5a01\u6d77\u5e02\u9752\u5c9b\u4e2d\u8def174-104\u53f7","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_7A35AE9FDA35C63E039C0E9B8981D57D.jpg","phone":"15725608666","photo":[]},{"company_id":"34","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u9ad8\u6280\u672f\u4ea7\u4e1a\u5f00\u53d1\u533a\u7231\u6c11\u5bb6\u653f\u670d\u52a1\u4e2d\u5fc3","addr":"\u5a01\u6d77\u5e02\u629a\u987a\u8def103-7\u53f7","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_051C51F96951E83E692AC76D9EDE3D0B.jpg","phone":"13863116814","photo":[]}],"pageTotal":35,"pageCurrent":6,"recordTotal":12}}
+
+[ 2018-02-05T09:30:53+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:53 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:30:53 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:30:53 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  18,3 [ RunTime:0.0005s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '41'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0013s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:53 ] [ result ][{"company_id":"41","discuss":"0","score":"50","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"xxx","addr":"xxx","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201802\/20180202_B4738EACD26075FC0720930C53583230.png","phone":"13721920932","photo":["http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:30:53 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"41","discuss":"0","score":"50","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"xxx","addr":"xxx","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201802\/20180202_B4738EACD26075FC0720930C53583230.png","phone":"13721920932","photo":["http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]}],"pageTotal":35,"pageCurrent":7,"recordTotal":12}}
+
+[ 2018-02-05T09:31:29+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ result ][{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"}]
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"]}
+
+[ 2018-02-05T09:31:29+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]}
+
+[ 2018-02-05T09:31:29+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '39'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:31:29 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":35,"pageCurrent":1,"recordTotal":12}}
+
+[ 2018-02-05T09:31:36+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ result ][{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"}]
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"]}
+
+[ 2018-02-05T09:31:36+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]}
+
+[ 2018-02-05T09:31:36+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0003s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '39'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0002s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:31:36 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":35,"pageCurrent":1,"recordTotal":12}}
+
+[ 2018-02-05T09:31:51+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/cy_tophot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:31:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:31:51 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                     *
+                      FROM
+	                    cy_tophot
+	                  WHERE  
+	                    tophot != ''
+                      GROUP BY
+	                    id DESC
+                      LIMIT 0,
+                        6 [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:51 ] [ result ][{"id":"23","tophot":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:58:18","updatetime":"2018-02-02 15:58:18"},{"id":"22","tophot":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:58:10","updatetime":"2018-02-02 15:58:10"},{"id":"21","tophot":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:58:02","updatetime":"2018-02-02 15:58:02"},{"id":"20","tophot":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","createtime":"2018-02-02 15:57:55","updatetime":"2018-02-02 15:57:55"},{"id":"18","tophot":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","createtime":"2018-02-02 15:57:45","updatetime":"2018-02-02 15:57:45"},{"id":"17","tophot":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:57:24","updatetime":"2018-02-02 15:57:24"}]
+DEBUG: [ Jiechengkeji ] [ 09:31:51 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"23","tophot":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:58:18","updatetime":"2018-02-02 15:58:18"},{"id":"22","tophot":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:58:10","updatetime":"2018-02-02 15:58:10"},{"id":"21","tophot":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:58:02","updatetime":"2018-02-02 15:58:02"},{"id":"20","tophot":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","createtime":"2018-02-02 15:57:55","updatetime":"2018-02-02 15:57:55"},{"id":"18","tophot":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","createtime":"2018-02-02 15:57:45","updatetime":"2018-02-02 15:57:45"},{"id":"17","tophot":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","createtime":"2018-02-02 15:57:24","updatetime":"2018-02-02 15:57:24"}]}
+
+[ 2018-02-05T09:31:51+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/cy_history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:31:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:31:51 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/GsService.class.php 第 114 行.
+SQL: SELECT
+	                     *
+                      FROM
+	                    cy_history
+	                    WHERE 
+	                    tophistory != ''
+                      GROUP BY
+	                    id DESC
+                      LIMIT 0,6 [ RunTime:0.0006s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:51 ] [ result ][{"id":"44","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"","createtime":"2018-02-05 09:30:17","updatetime":"2018-02-05 09:30:17"},{"id":"43","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"13181148765","createtime":"2018-02-02 17:07:13","updatetime":"2018-02-02 17:07:13"},{"id":"42","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"13181148765","createtime":"2018-02-02 17:07:03","updatetime":"2018-02-02 17:07:03"},{"id":"41","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"15666319057","createtime":"2018-02-02 15:58:26","updatetime":"2018-02-02 15:58:26"},{"id":"40","tophistory":"\u5a01\u6d77","photo":"15666319057","createtime":"2018-02-02 15:56:28","updatetime":"2018-02-02 15:56:28"},{"id":"39","tophistory":"\u6d4b\u8bd5\u738b\u6d77\u714a","photo":"13881726527","createtime":"2018-02-02 12:50:37","updatetime":"2018-02-02 12:50:37"}]
+DEBUG: [ Jiechengkeji ] [ 09:31:51 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"44","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"","createtime":"2018-02-05 09:30:17","updatetime":"2018-02-05 09:30:17"},{"id":"43","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"13181148765","createtime":"2018-02-02 17:07:13","updatetime":"2018-02-02 17:07:13"},{"id":"42","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"13181148765","createtime":"2018-02-02 17:07:03","updatetime":"2018-02-02 17:07:03"},{"id":"41","tophistory":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","photo":"15666319057","createtime":"2018-02-02 15:58:26","updatetime":"2018-02-02 15:58:26"},{"id":"40","tophistory":"\u5a01\u6d77","photo":"15666319057","createtime":"2018-02-02 15:56:28","updatetime":"2018-02-02 15:56:28"},{"id":"39","tophistory":"\u6d4b\u8bd5\u738b\u6d77\u714a","photo":"13881726527","createtime":"2018-02-02 12:50:37","updatetime":"2018-02-02 12:50:37"}]}
+
+[ 2018-02-05T09:32:40+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Tenders/cy_tenders_photo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:40 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:32:40 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:32:40 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_photo 
+	                 [ RunTime:0.0203s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Common/Common/function.php 第 86 行.
+DEBUG: [ Jiechengkeji ] [ 09:32:40 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"\u514d\u8d39\u62db\u6807":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b029e23f5.png","\u5efa\u6750\u62db\u6807":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b098914db.png","\u514d\u8d39\u8bbe\u8ba1":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b161971ed.png","\u514d\u8d39\u62a5\u4ef7":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b11f501b1.png","\u514d\u8d39\u91cf\u623f":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b1939a066.png"}]}
+
+[ 2018-02-05T09:32:41+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Tenders/cy_trenders_b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:40 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:32:40 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:32:40 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     name
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                  type='3' 
+	                 [ RunTime:0.0706s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["3\u4e07\u4ee5\u4e0b","3\u4e07-5\u4e07","5-8\u4e07","8\u4e07\u4ee5\u4e0a"]}}
+
+[ 2018-02-05T09:32:41+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Tenders/cy_trenders_d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     title
+                      FROM
+	                cy_data_attr_value
+	                WHERE 
+	                  attr_id='13' 
+	                 [ RunTime:0.0132s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["\u5730\u677f","\u6cb9\u6f06 ","\u95e8\u7a97","\u74f7\u7816 ","\u5899\u7eb8"]}}
+
+[ 2018-02-05T09:32:41+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Tenders/cy_trenders_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ __construct ]BaseDAO
+SQL: SELECT
+                   from_unixtime(a.dateline,'%Y-%m-%d')  dateline,
+                     a.contact,
+                     a.from,
+                     a.house_mj,
+                     a.budget_id
+                    FROM
+	                cy_tenders a
+	                WHERE 
+	                a.title!='' [ RunTime:0.0324s ]
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                setting_id='7' 
+	                 [ RunTime:0.0005s ]
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                setting_id='6' 
+	                 [ RunTime:0.0003s ]
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                setting_id='6' 
+	                 [ RunTime:0.0001s ]
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                setting_id='6' 
+	                 [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016145s ]
+
+[ 2018-02-05T09:32:41+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Tenders/cy_trenders_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     name
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                  type='1' 
+	                 [ RunTime:0.0007s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["\u5bb6\u88c5","\u516c\u88c5"]}}
+
+[ 2018-02-05T09:32:41+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Tenders/cy_trenders_e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     name
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                  type='6' 
+	                 [ RunTime:0.0003s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["\u6e05\u5305","\u534a\u5305","\u5168\u5305"]}}
+
+[ 2018-02-05T09:32:45+08:00 ] 60.212.253.222 /ajax/index.php/Admin/compay/setFitment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:45 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:32:45 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:32:45 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    *
+                      FROM
+	                cy_data_area
+	                  WHERE  area_name=''
+	                 [ RunTime:0.0138s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/CompayService.class.php 第 78 行.
+SQL: SELECT 
+                     company_id,
+                     comments,
+                     score,
+	                 case_num,
+	                 tenders_num,
+	                 yuyue_num,
+	                 name,
+                     addr,
+                     logo,
+                     phone
+                     FROM
+	                cy_company 
+                         WHERE 1=1  and closed = '0' and audit = '1'
+	                 LIMIT 0,3 [ RunTime:0.0005s ]
+NOTIC: [2] Division by zero /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/CompayService.class.php 第 89 行.
+SQL: SELECT
+                     	case_id,
+	                     photo
+                     FROM
+	                    cy_case a
+                    WHERE
+	                       company_id = '7'
+                   ORDER BY
+	                    case_id DESC
+                    LIMIT 0,4 [ RunTime:0.0012s ]
+SQL: SELECT
+                     	case_id,
+	                     photo
+                     FROM
+	                    cy_case a
+                    WHERE
+	                       company_id = '8'
+                   ORDER BY
+	                    case_id DESC
+                    LIMIT 0,4 [ RunTime:0.0008s ]
+NOTIC: [2] Division by zero /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/CompayService.class.php 第 89 行.
+SQL: SELECT
+                     	case_id,
+	                     photo
+                     FROM
+	                    cy_case a
+                    WHERE
+	                       company_id = '39'
+                   ORDER BY
+	                    case_id DESC
+                    LIMIT 0,4 [ RunTime:0.0007s ]
+SQL: SELECT 
+	                  count(*) AS pageTotal
+                     FROM
+	                cy_company
+                         WHERE 1=1  and closed = '' and audit = '0' [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:45 ] [ result ][{"company_id":"7","comments":0,"score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","comments":4,"score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","comments":0,"score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:32:45 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","comments":0,"score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","comments":4,"score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","comments":0,"score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":1,"pageCurrent":1,"recordTotal":1}}
+
+[ 2018-02-05T09:32:49+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Designer/Designer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:32:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:32:49 ] [ __construct ]BaseDAO
+SQL: SELECT
+	city_id
+FROM
+	cy_data_area
+WHERE 
+area_name=''
+	                 [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/DesignerService.class.php 第 84 行.
+SQL: SELECT 
+	                  	uid,
+	                   name,
+	                  case_num,
+	                  yuyue_num,
+	                   mobile,
+	                  (
+		                CASE 1
+		               WHEN '1' THEN
+			           '设计师'
+		                ELSE
+			           '其他'
+		               END
+                         	) sjs
+                       FROM
+	                     cy_designer
+                           WHERE 1=1  and closed = '0' and audit = '1'
+	                    LIMIT 0,3 [ RunTime:0.0001s ]
+SQL: SELECT 
+	                 count(*) AS pageTotal
+                     FROM
+	                cy_designer
+                         WHERE 1=1  and closed = '0' and audit = '1' [ RunTime:0.0001s ]
+SQL: SELECT 
+	                 *
+                     FROM
+	                  cy_member
+	                WHERE 
+	                   uname = '13336306662' [ RunTime:0.0002s ]
+SQL: SELECT
+	                    case_id,
+                    	photo
+                     FROM
+	                    cy_case 
+                     WHERE
+                     	uid = '118'
+                     ORDER BY
+	                     case_id DESC
+                     LIMIT 0,3 [ RunTime:0.0001s ]
+SQL: SELECT 
+	                 *
+                     FROM
+	                  cy_member
+	                WHERE 
+	                   uname = '18763103773' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/DesignerService.class.php 第 92 行.
+SQL: SELECT
+	                    case_id,
+                    	photo
+                     FROM
+	                    cy_case 
+                     WHERE
+                     	uid = '119'
+                     ORDER BY
+	                     case_id DESC
+                     LIMIT 0,3 [ RunTime:0.0001s ]
+SQL: SELECT 
+	                 *
+                     FROM
+	                  cy_member
+	                WHERE 
+	                   uname = '18863165330' [ RunTime:0.0001s ]
+SQL: SELECT
+	                    case_id,
+                    	photo
+                     FROM
+	                    cy_case 
+                     WHERE
+                     	uid = '121'
+                     ORDER BY
+	                     case_id DESC
+                     LIMIT 0,3 [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:49 ] [ result ][{"uid":"118","name":"\u5e38\u4eae","case_num":"4","yuyue_num":"0","mobile":"13336306662","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_B1526B5C95E63CCD13DFC69090C72719.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_04B1629A2CEB770C03AB189D1E166538.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_DB1FD6913C8BC3212466972F094EE615.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/5EF\/180\/5EF059938BA799AAA845E1C2E8A762BD.jpg"},{"uid":"119","name":"\u4f55\u857e","case_num":"10","yuyue_num":"0","mobile":"18763103773","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_1674DA169B058EA4F8FDEF36B6A8A4CC.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_5F74769062B07DCE9A1CFD468756E4FB.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_E251AD76100966F2CE414DD4F73605CA.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"},{"uid":"121","name":"\u674e\u6797\u9896","case_num":"5","yuyue_num":"0","mobile":"18863165330","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_94E46EC62240771E5E000121AD819551.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_501E7350323B781FC9A906ACF45AEF66.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_66831D7F99A7DC4A71E03C064128F0A6.png"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/4C5\/180\/4C56FF4CE4AAF9573AA5DFF913DF997A.jpg"}]
+DEBUG: [ Jiechengkeji ] [ 09:32:49 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"uid":"118","name":"\u5e38\u4eae","case_num":"4","yuyue_num":"0","mobile":"13336306662","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_B1526B5C95E63CCD13DFC69090C72719.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_04B1629A2CEB770C03AB189D1E166538.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_DB1FD6913C8BC3212466972F094EE615.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/5EF\/180\/5EF059938BA799AAA845E1C2E8A762BD.jpg"},{"uid":"119","name":"\u4f55\u857e","case_num":"10","yuyue_num":"0","mobile":"18763103773","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_1674DA169B058EA4F8FDEF36B6A8A4CC.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_5F74769062B07DCE9A1CFD468756E4FB.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_E251AD76100966F2CE414DD4F73605CA.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"},{"uid":"121","name":"\u674e\u6797\u9896","case_num":"5","yuyue_num":"0","mobile":"18863165330","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_94E46EC62240771E5E000121AD819551.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_501E7350323B781FC9A906ACF45AEF66.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_66831D7F99A7DC4A71E03C064128F0A6.png"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/4C5\/180\/4C56FF4CE4AAF9573AA5DFF913DF997A.jpg"}],"pageTotal":7,"pageCurrent":1,"recordTotal":3}}
+
+[ 2018-02-05T09:33:52+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ result ][{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"}]
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f75745a2.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f67b4385.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-02\/5a740f33ba0e9.png"]}
+
+[ 2018-02-05T09:33:52+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]}
+
+[ 2018-02-05T09:33:52+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '39'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:33:52 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":35,"pageCurrent":1,"recordTotal":12}}
+
+[ 2018-02-05T09:33:55+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Casee/Casee_h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ __construct ]BaseDAO
+SQL: 	SELECT
+				             title
+			             FROM
+			                	cy_data_attr_value
+		                 WHERE
+				               attr_id = '5' [ RunTime:0.0004s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ result ]["\u5c0f\u6237\u578b","\u4e8c\u5c45","\u4e09\u5c45","\u56db\u5c45","\u590d\u5f0f","\u522b\u5885"]
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["\u5c0f\u6237\u578b","\u4e8c\u5c45","\u4e09\u5c45","\u56db\u5c45","\u590d\u5f0f","\u522b\u5885"]}}
+
+[ 2018-02-05T09:33:55+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Casee/Casee_j
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ __construct ]BaseDAO
+SQL: 	  SELECT
+				             title
+			               FROM
+			                	cy_data_attr_value
+		                  WHERE
+				               attr_id = '6' [ RunTime:0.0005s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ result ]["1-5\u4e07","5-10\u4e07","10-20\u4e07","20-50\u4e07","50-100\u4e07","100-200\u4e07","200\u4e07\u4ee5\u4e0a"]
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["1-5\u4e07","5-10\u4e07","10-20\u4e07","20-50\u4e07","50-100\u4e07","100-200\u4e07","200\u4e07\u4ee5\u4e0a"]}}
+
+[ 2018-02-05T09:33:55+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Casee/Casee_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ __construct ]BaseDAO
+SQL: 	  SELECT
+				             title
+			              FROM
+			                	cy_data_attr_value
+		                  WHERE
+				               attr_id = '4' [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ result ]["\u7b80\u7ea6","\u73b0\u4ee3","\u4e2d\u5f0f","\u6b27\u5f0f","\u7f8e\u5f0f","\u7530\u56ed","\u5730\u4e2d\u6d77","\u4e1c\u5357\u4e9a","\u521b\u610f","\u5317\u7f8e"]
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["\u7b80\u7ea6","\u73b0\u4ee3","\u4e2d\u5f0f","\u6b27\u5f0f","\u7f8e\u5f0f","\u7530\u56ed","\u5730\u4e2d\u6d77","\u4e1c\u5357\u4e9a","\u521b\u610f","\u5317\u7f8e"]}}
+
+[ 2018-02-05T09:33:55+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Casee/Casee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                         uid,
+                         company_id,
+                         case_id,
+	                     title,
+	                     photo,
+	                     (SELECT count(*) FROM cy_case_photo WHERE case_id=cy_case.case_id) count
+                      FROM
+	                     cy_case
+                          WHERE 1=1 
+	                  AND 
+	                      city_id ='7'
+                      AND 
+                         closed = 0
+                      AND 
+                         audit = 1
+	                 LIMIT 0,3 [ RunTime:0.0007s ]
+SQL: SELECT 
+	                    count(*) as pageTotal
+                      FROM
+	                       cy_case
+                            WHERE 1=1 
+	                  AND 
+	                       city_id ='7'
+                      AND 
+                           closed = 0
+                      AND 
+                            audit = 1; [ RunTime:0.0007s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='28' [ RunTime:0.0104s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='30'
+                           AND 
+                           attr_id='4' [ RunTime:0.0003s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='38'
+                           AND 
+                           attr_id='5' [ RunTime:0.0003s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0003s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '28' [ RunTime:0.0003s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='29' [ RunTime:0.0006s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28'
+                           AND 
+                           attr_id='4' [ RunTime:0.0002s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='29'
+                           AND 
+                           attr_id='4' [ RunTime:0.0002s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='38'
+                           AND 
+                           attr_id='5' [ RunTime:0.0002s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0002s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '29' [ RunTime:0.0002s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='30' [ RunTime:0.0002s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='29'
+                           AND 
+                           attr_id='4' [ RunTime:0.0001s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='39'
+                           AND 
+                           attr_id='5' [ RunTime:0.0002s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0001s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '30' [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ result ][{"uid":"117","company_id":"0","case_id":"28","title":"\u534e\u65b0\u5bb6\u56ed","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_040B7A57DA0B4CAAA4BAA99FA19C8C68.jpg","count":"4","attr_value_title":"\u6b27\u5f0f","attr_value_name":"\u4e09\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"4"},{"uid":"117","company_id":"0","case_id":"29","title":"\u7ecf\u533a\u7687\u51a0","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_B1224B15159876AFAA476066A0780022.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","attr_value_name":"\u4e2d\u5f0f","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"30","title":"\u5a01\u6d77\u671b\u5c9b\u540d\u90e1","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_39EB60247444D6B7508B63BFDCCBEEF6.jpg","count":"5","attr_value_title":"\u4e2d\u5f0f","attr_value_name":"\u56db\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"5"}]
+DEBUG: [ Jiechengkeji ] [ 09:33:55 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"uid":"117","company_id":"0","case_id":"28","title":"\u534e\u65b0\u5bb6\u56ed","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_040B7A57DA0B4CAAA4BAA99FA19C8C68.jpg","count":"4","attr_value_title":"\u6b27\u5f0f","attr_value_name":"\u4e09\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"4"},{"uid":"117","company_id":"0","case_id":"29","title":"\u7ecf\u533a\u7687\u51a0","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_B1224B15159876AFAA476066A0780022.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","attr_value_name":"\u4e2d\u5f0f","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"30","title":"\u5a01\u6d77\u671b\u5c9b\u540d\u90e1","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_39EB60247444D6B7508B63BFDCCBEEF6.jpg","count":"5","attr_value_title":"\u4e2d\u5f0f","attr_value_name":"\u56db\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"5"}],"pageTotal":80,"pageCurrent":1,"recordTotal":27}}
+
+[ 2018-02-05T09:35:01+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+DEBUG: [ Jiechengkeji ] [ 09:35:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:35:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:35:01 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 95 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 98 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'whjz365'@'localhost' (using password: YES)
+
+[ 2018-02-05T09:35:03+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 09:35:03 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:35:03 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:35:03 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 95 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 98 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'whjz365'@'localhost' (using password: YES)
+
+[ 2018-02-05T10:23:51+08:00 ] 127.0.0.1 /index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 10:23:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:23:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:23:51 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 10:23:51 ] [ result ][{"photo":"http:\/\/m.shulailo.cnhttp:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-13\/5a59c33c3437c.png"},{"photo":"http:\/\/m.shulailo.cnhttp:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-13\/5a59c2bf3101e.png"},{"photo":"http:\/\/m.shulailo.cnhttp:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png"},{"photo":"http:\/\/m.shulailo.cnhttp:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png"},{"photo":"http:\/\/m.shulailo.cnhttp:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png"}]
+DEBUG: [ Jiechengkeji ] [ 10:23:51 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cnhttp:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-13\/5a59c33c3437c.png","http:\/\/m.shulailo.cnhttp:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-13\/5a59c2bf3101e.png","http:\/\/m.shulailo.cnhttp:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png","http:\/\/m.shulailo.cnhttp:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png","http:\/\/m.shulailo.cnhttp:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png"]}
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>盈帆科技</title>
+</head>
+<body>
+
+</body>
+<script>
+    function getParamName(attr) {
+        var match = RegExp('[?&]' + attr + '=([^&]*)').exec(window.location.search);
+        return match && decodeURIComponent(match[1].replace(/\+/g, ' ')); //url中+号表示空格，要替换掉
+    }
+    var shopId = getParamName('shopId');
+    if(shopId){
+        sessionStorage.setItem('shopId', shopId);
+        location.href = '__APP__/Home/User/sign';
+    }
+</script>
+</html>

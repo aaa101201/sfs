@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>萝卜兼职</title>
+	<include file="Common/header" />
+    <link rel="stylesheet" href="/Public/vote/css/vote.min.css?t=1481691463999">
+</head>
+<body>
+	<div class="page-group">
+        <div class="page" id="infi_statistics">
+            <!-- 这里是页面内容区 -->
+            <div class="content infinite-scroll" data-instance="100">
+                <div class="rank">
+                    <h3>排行榜</h3>
+                    <canvas id="bar"></canvas>
+                </div>
+                <table>
+                    <thead id="rank_more_head">
+                        <tr>
+                            <th>名次</th>
+                            <th>封面</th>
+                            <th>编号</th>
+                            <th>名字</th>
+                            <th>得票</th>
+                        </tr>
+                    </thead>
+                    <tbody id="rank_more">
+                        <!--to be filled-->
+                    </tbody>
+                </table>
+                <div class="infinite-scroll-preloader">
+                    <div class="preloader"></div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-overlay"></div>
+        <!-- Left Panel with reveal effect -->
+        <div class="panel panel-left panel-cover" id='user_info'>
+            <h1>个人资料</h1>
+            <div class="wrap_info">
+                <section>
+                    <img src="/Public/vote/images/default_head1.jpg" alt="">
+                    <div>
+                        <h2>Linus</h2>
+                        <p>Linux内核的最早作者</p>
+                    </div>
+                </section>
+                <dl>
+                    <dd>电话: 13184010367</dd>
+                    <dd>邮件: 583692276@qq.com</dd>
+                    <dd>QQ: 583692276</dd>
+                </dl>
+                <p class="info_detail">所在城市: 威海</p>
+                <p class="info_detail">
+                    威海盈帆科技股份有限公司 <br>
+                    www.luobojianzhi.com
+                </p>
+            </div>
+        </div>
+    </div>
+    <include file="Common/tpl/tpl-infiVote" />
+    <include file="Common/footer" />
+</body>
+</html>
+<script src="/Public/vote/js/infiVote.js?t=1481691463999"></script>

@@ -1,0 +1,65 @@
+<script type="text/html" id="tpl-userinfo">
+	<h1>个人资料</h1>
+	<div class="wrap_info">
+	    <section>
+	        <img src="{{data.headimgurl || '/Public/vote/images/default_head1.jpg'}}" alt="">
+	        <div>
+	            <h2>{{data.nickname}}</h2>
+	            <p>性别&thinsp;:&thinsp;{{data.sex === 1 ? '男' : '女'}}</p>
+	        </div>
+	    </section>
+	    <dl>
+	        <dd>国籍&thinsp;:&thinsp;{{data.country}}</dd>
+	        <dd>省份&thinsp;:&thinsp;{{data.province}}</dd>
+	    </dl>
+	    <p class="info_detail">所在城市&thinsp;:&thinsp;{{data.city}}</p>
+	    <p class="info_detail">
+	        山东盈帆信息科技股份有限公司 <br>
+	        www.luobojianzhi.com
+	    </p>
+	</div>
+</script>
+
+<script type="text/html" id="tpl-single-votes">
+	{{each datas as data index}}
+		<li>
+			<label class="label-checkbox item-content">
+			    <input type="radio" name="radio" value="{{data.id}}">
+			    <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+				<img class="headimg" src="{{data.image || '/Public/vote/images/default_head1.jpg'}}" alt="wx_head" >
+			    <div class="item-inner">
+			        <div class="item-subtitle">{{data.title}}{{data.intro ? '(' + data.intro + ')' : ''}}
+					</div>
+			    </div>
+		    </label>
+		</li>
+	{{/each}}			  
+</script>
+
+<script type="text/html" id="tpl-multi-votes">
+	{{each datas as data index}}
+		<li>
+			<label class="label-checkbox item-content">
+			    <input type="checkbox" name="checkbox" value="{{data.id}}">
+			    <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+			    <div class="item-inner">
+			        <div class="item-subtitle">{{data.title}}{{data.intro ? '(' + data.intro + ')' : ''}}</div>
+			    </div>
+		    </label>
+		</li>
+	{{/each}}			  
+</script>
+
+<script type="text/html" id="tpl-voted">
+	{{each datas as data index}}
+		<li>
+			<img class="headimg" src="{{data.headimgurl || '/Public/vote/images/default_head1.jpg'}}" alt="wx_head">
+			<div class="wrapInfo">
+			    <h3>{{data.nickname}}</h3>
+				<div class="wrapDetail">
+					<p class="f12"><span class="iconf iconf-location"></span>{{data.province}}{{data.city}}</p><p class="f12">{{data.createtime}}</p>
+				</div>
+			</div>
+		</li>
+	{{/each}}
+</script>

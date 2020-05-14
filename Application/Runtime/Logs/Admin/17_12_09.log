@@ -1,0 +1,384 @@
+[ 2017-12-09T13:38:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024001s ]
+DEBUG: [ Jiechengkeji ] [ 13:38:33 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:38:33 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:38:33 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-09T13:38:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 13:38:35 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:38:35 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:38:35 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.084005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-12-09T14:02:50+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=18891
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:02:50 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:02:50 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:02:50 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-09T14:04:08+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:04:08 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:04:08 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:04:08 ] [ __construct ]BaseDAO
+SQL: SELECT
+                              homemoney_money  
+                          FROM 
+                              homeMoney 
+                          WHERE
+	                          cy_apply_id ='1'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0020s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='211611.5',
+                         updatetime='2017-12-09 14:04:08'
+                     WHERE 
+                         cy_apply_id= 1 [ RunTime:0.0010s ]
+SQL:  INSERT INTO   survey (
+                             cy_apply_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         survey_type,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '1',
+		                     '签署合同款',
+	                         '提现',
+		                     '100',
+		                     '提现类型',
+		                     '2017-12-09 14:04:08',
+		                     '2017-12-09 14:04:08'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO  ConsumptionMoney (
+                             cy_apply_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '1',
+		                     '100',
+		                     '2017-12-09 14:04:08',
+		                     '2017-12-09 14:04:08'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO     kitingMoney (
+                             cy_apply_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         money,
+	                         createtime,
+	                         updatetime
+                         )
+                  VALUES
+	                    (
+		                     '1',
+		                     '15666319051',
+	                         '100',
+		                     '1',
+		                     '211611.5',
+		                     '2017-12-09 14:04:08',
+		                     '2017-12-09 14:04:08'
+	                    ) [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 14:04:08 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 14:04:08 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-09T14:04:09+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 14:04:09 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:04:09 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:04:09 ] [ __construct ]BaseDAO
+SQL: SELECT
+                              homemoney_money  
+                          FROM 
+                              homeMoney 
+                          WHERE
+	                          cy_apply_id ='1'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='211511.5',
+                         updatetime='2017-12-09 14:04:09'
+                     WHERE 
+                         cy_apply_id= 1 [ RunTime:0.0010s ]
+SQL:  INSERT INTO   survey (
+                             cy_apply_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         survey_type,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '1',
+		                     '签署合同款',
+	                         '提现',
+		                     '100',
+		                     '提现类型',
+		                     '2017-12-09 14:04:09',
+		                     '2017-12-09 14:04:09'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO  ConsumptionMoney (
+                             cy_apply_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '1',
+		                     '100',
+		                     '2017-12-09 14:04:09',
+		                     '2017-12-09 14:04:09'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO     kitingMoney (
+                             cy_apply_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         money,
+	                         createtime,
+	                         updatetime
+                         )
+                  VALUES
+	                    (
+		                     '1',
+		                     '15666319051',
+	                         '100',
+		                     '1',
+		                     '211511.5',
+		                     '2017-12-09 14:04:09',
+		                     '2017-12-09 14:04:09'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:04:09 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 14:04:09 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-09T14:04:25+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:04:25 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:04:25 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:04:25 ] [ __construct ]BaseDAO
+SQL: SELECT
+                              homemoney_money  
+                          FROM 
+                              homeMoney 
+                          WHERE
+	                          cy_apply_id ='1'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='211411.5',
+                         updatetime='2017-12-09 14:04:25'
+                     WHERE 
+                         cy_apply_id= 1 [ RunTime:0.0010s ]
+SQL:  INSERT INTO   survey (
+                             cy_apply_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         survey_type,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '1',
+		                     '签署合同款',
+	                         '提现',
+		                     '100',
+		                     '提现类型',
+		                     '2017-12-09 14:04:25',
+		                     '2017-12-09 14:04:25'
+	                    ) [ RunTime:0.0000s ]
+SQL:  INSERT INTO  ConsumptionMoney (
+                             cy_apply_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '1',
+		                     '100',
+		                     '2017-12-09 14:04:25',
+		                     '2017-12-09 14:04:25'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO     kitingMoney (
+                             cy_apply_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         money,
+	                         createtime,
+	                         updatetime
+                         )
+                  VALUES
+	                    (
+		                     '1',
+		                     '15666319051',
+	                         '100',
+		                     '1',
+		                     '211411.5',
+		                     '2017-12-09 14:04:25',
+		                     '2017-12-09 14:04:25'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:04:25 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 14:04:25 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-09T14:42:05+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/Withdra_Money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:42:05 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:42:05 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:42:05 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                     withdra_money
+                      FROM
+	                      kitingMoney
+                      WHERE
+                           cy_apply_id = '1'
+                      ORDER BY
+	                        id   LIMIT 0,1 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:42:05 ] [ result ]{"withdra_money":"211711.5"}
+DEBUG: [ Jiechengkeji ] [ 14:42:05 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"withdra_money":"211711.5"}}
+
+[ 2017-12-09T14:50:16+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/Survey_Money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:50:16 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:50:16 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:50:16 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          survey_name,
+                          survey_payment,
+                          survey_money,
+                          updatetime
+                     FROM
+	                      survey 
+	                 WHERE
+                          cy_apply_id = '1' 
+                           ORDER BY
+	                     id 
+	                LIMIT 0,10 [ RunTime:0.0010s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        survey 
+                      WHERE
+                        cy_apply_id = '1'   
+                     [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 14:50:16 ] [ result ][{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u6d88\u8d39","survey_money":"100","updatetime":"2017-12-09 10:37:16"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u6d88\u8d39","survey_money":"100","updatetime":"2017-12-09 10:49:52"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-12-09 14:04:08"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-12-09 14:04:09"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-12-09 14:04:25"}]
+DEBUG: [ Jiechengkeji ] [ 14:50:16 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u6d88\u8d39","survey_money":"100","updatetime":"2017-12-09 10:37:16"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u6d88\u8d39","survey_money":"100","updatetime":"2017-12-09 10:49:52"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-12-09 14:04:08"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-12-09 14:04:09"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-12-09 14:04:25"}],"pageTotal":1,"pageCurrent":1,"recordTotal":5}}
+
+[ 2017-12-09T14:55:10+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/ConsumpTionMoney_m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:55:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:55:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:55:10 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          SUM(Consumption_Money)   Consumption_Money
+                     FROM
+	                      ConsumptionMoney  
+	                 WHERE
+                          cy_apply_id = '1' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:55:10 ] [ result ]{"consumption_money":"500"}
+DEBUG: [ Jiechengkeji ] [ 14:55:10 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"consumption_money":"500"}}
+

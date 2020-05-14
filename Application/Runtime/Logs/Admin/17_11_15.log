@@ -1,0 +1,2187 @@
+[ 2017-11-15T11:09:14+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=14169
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+DEBUG: [ Jiechengkeji ] [ 11:09:14 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:09:14 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:09:14 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2017-11-15T11:09:57+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:09:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:09:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:09:57 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-11-15T11:11:11+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:10:53 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:10:53 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:10:53 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'homeMoney_money' in 'field list'
+ [ SQL语句 ] : SELECT 
+                             homeMoney_money  
+                         FROM 
+                             kitingMoney 
+                         WHERE 
+                             homeMoney_id=40
+ERR: 1054:Unknown column 'homeMoney_money' in 'field list'
+ [ SQL语句 ] : SELECT 
+                             homeMoney_money  
+                         FROM 
+                             kitingMoney 
+                         WHERE 
+                             homeMoney_id=40
+
+[ 2017-11-15T11:11:28+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:11:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:11:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:11:19 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'homeMoney_money' in 'field list'
+ [ SQL语句 ] : SELECT 
+                             homeMoney_money  
+                         FROM 
+                             kitingMoney 
+                         WHERE 
+                             homeMoney_id=40
+ERR: 1054:Unknown column 'homeMoney_money' in 'field list'
+ [ SQL语句 ] : SELECT 
+                             homeMoney_money  
+                         FROM 
+                             kitingMoney 
+                         WHERE 
+                             homeMoney_id=40
+
+[ 2017-11-15T11:12:06+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:11:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:11:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:11:30 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'homeMoney_money' in 'field list'
+ [ SQL语句 ] : SELECT 
+                             homeMoney_money  
+                         FROM 
+                             kitingMoney 
+                         WHERE 
+                             homeMoney_id=40
+ERR: 1054:Unknown column 'homeMoney_money' in 'field list'
+ [ SQL语句 ] : SELECT 
+                             homeMoney_money  
+                         FROM 
+                             kitingMoney 
+                         WHERE 
+                             homeMoney_id=40
+
+[ 2017-11-15T11:13:10+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:13:03 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:13:03 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:13:03 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'homeMoney_id' in 'where clause'
+ [ SQL语句 ] : SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             homeMoney_id=40
+ERR: 1054:Unknown column 'homeMoney_id' in 'where clause'
+ [ SQL语句 ] : SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             homeMoney_id=40
+
+[ 2017-11-15T11:14:09+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:14:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:14:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:14:01 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'homeMoney_id' in 'where clause'
+ [ SQL语句 ] : SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             homeMoney_id=40
+ERR: 1054:Unknown column 'homeMoney_id' in 'where clause'
+ [ SQL语句 ] : SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             homeMoney_id=40
+
+[ 2017-11-15T11:15:06+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:14:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:14:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:14:57 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+
+[ 2017-11-15T11:16:38+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 11:15:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:15:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:15:19 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+
+[ 2017-11-15T11:16:44+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:16:40 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:16:40 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:16:40 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'homemoney_shcr' D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 25 行.
+
+[ 2017-11-15T11:18:05+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:16:55 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:16:55 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:16:55 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'homemoney_shcr' D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 25 行.
+
+[ 2017-11-15T11:18:57+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:18:08 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:18:08 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:18:08 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 60 行.
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money ='Array'
+                     WHERE 
+                         id= 40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:18:56 ] [ result ]{"msg":"\u4fee\u6539\u8d37\u6b3e\u91d1\u989d\u603b\u8868\u63d0\u4ea4\u91d1\u989d\u5931\u8d25!","code":1}
+
+[ 2017-11-15T11:20:15+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:19:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:19:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:19:51 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 60 行.
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money ='Array'
+                     WHERE 
+                         id= 40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:20:15 ] [ result ]{"msg":"\u4fee\u6539\u8d37\u6b3e\u91d1\u989d\u603b\u8868\u63d0\u4ea4\u91d1\u989d\u5931\u8d25!","code":1}
+
+[ 2017-11-15T11:21:12+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:20:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:20:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:20:18 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 60 行.
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money ='Array'
+                     WHERE 
+                         id= 40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:21:12 ] [ result ]{"msg":"\u4fee\u6539\u8d37\u6b3e\u91d1\u989d\u603b\u8868\u63d0\u4ea4\u91d1\u989d\u5931\u8d25!","code":1}
+
+[ 2017-11-15T11:21:24+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:21:14 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:21:14 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:21:14 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'homemoney_shcr' D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 26 行.
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money ='654645'
+                     WHERE 
+                         id= 40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:21:24 ] [ result ]{"msg":"\u4fee\u6539\u8d37\u6b3e\u91d1\u989d\u603b\u8868\u63d0\u4ea4\u91d1\u989d\u5931\u8d25!","code":1}
+
+[ 2017-11-15T11:24:26+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:21:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:21:26 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:21:26 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'homemoney_shcr' D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 26 行.
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money ='654645'
+                     WHERE 
+                         id= 40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:26 ] [ result ]{"msg":"\u4fee\u6539\u8d37\u6b3e\u91d1\u989d\u603b\u8868\u63d0\u4ea4\u91d1\u989d\u5931\u8d25!","code":1}
+
+[ 2017-11-15T11:24:36+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:28 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:24:28 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:24:28 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'homemoney_shcr' D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 26 行.
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money='654645'
+                     WHERE 
+                         cy_apply_id= 40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:35 ] [ result ]{"msg":"\u4fee\u6539\u8d37\u6b3e\u91d1\u989d\u603b\u8868\u63d0\u4ea4\u91d1\u989d\u6210\u529f!","code":0,"total":0}
+
+[ 2017-11-15T11:24:59+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:24:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:24:52 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'homemoney_shcr' D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 26 行.
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money='654645'
+                     WHERE 
+                         cy_apply_id= 40 [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:59 ] [ result ]{"msg":"\u4fee\u6539\u8d37\u6b3e\u91d1\u989d\u603b\u8868\u63d0\u4ea4\u91d1\u989d\u5931\u8d25!","code":1}
+
+[ 2017-11-15T11:25:22+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:25:02 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:25:02 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:25:02 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'homemoney_shcr' D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'homemoney_shcr' xdebug://debug-eval(1) : eval()'d code 第 1 行.
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money='654645'
+                     WHERE 
+                         cy_apply_id= 40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:25:22 ] [ result ]{"msg":"\u4fee\u6539\u8d37\u6b3e\u91d1\u989d\u603b\u8868\u63d0\u4ea4\u91d1\u989d\u5931\u8d25!","code":1}
+
+[ 2017-11-15T11:26:23+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:26:14 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:26:14 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:26:14 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'homemoney_shcr' D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 26 行.
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money='45236'
+                     WHERE 
+                         cy_apply_id= 40 [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'homemoney_shcr' xdebug://debug-eval(1) : eval()'d code 第 1 行.
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '8',
+		                     '40',
+		                     '15666319051',
+	                         '45236',
+		                     '1',
+		                     '-45230',
+		                     '2017-11-15 11:26:17',
+		                     '2017-11-15 11:26:17'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:26:21 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:26:23 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"total":0}
+
+[ 2017-11-15T11:29:40+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:29:34 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:29:34 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:29:34 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'homemoney_shcr' D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 26 行.
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money='300'
+                     WHERE 
+                         cy_apply_id= 40 [ RunTime:0.0020s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '8',
+		                     '40',
+		                     '15666319051',
+	                         '300',
+		                     '1',
+		                     '-294',
+		                     '2017-11-15 11:29:37',
+		                     '2017-11-15 11:29:37'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:29:39 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:29:39 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"total":0}
+
+[ 2017-11-15T11:32:16+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:32:16 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:32:16 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:32:16 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0000s ]
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money='150'
+                     WHERE 
+                         cy_apply_id= 40 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '8',
+		                     '40',
+		                     '15666319051',
+	                         '150',
+		                     '1',
+		                     '-150',
+		                     '2017-11-15 11:32:16',
+		                     '2017-11-15 11:32:16'
+	                    ) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:32:16 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:32:16 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"total":0}
+
+[ 2017-11-15T11:34:26+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:34:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:34:26 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:34:26 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money='200'
+                     WHERE 
+                         cy_apply_id= 40 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '8',
+		                     '40',
+		                     '15666319051',
+	                         '200',
+		                     '1',
+		                     '-200',
+		                     '2017-11-15 11:34:26',
+		                     '2017-11-15 11:34:26'
+	                    ) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:34:26 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:34:26 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"total":0}
+
+[ 2017-11-15T11:35:01+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13368
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:35:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:35:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:35:01 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-11-15T11:36:27+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:35:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:35:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:35:19 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_shcr  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money='300'
+                     WHERE 
+                         cy_apply_id= 40 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '8',
+		                     '40',
+		                     '15666319051',
+	                         '300',
+		                     '1',
+		                     '-300',
+		                     '2017-11-15 11:35:22',
+		                     '2017-11-15 11:35:22'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:36:27 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:36:27 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"total":0}
+
+[ 2017-11-15T11:37:21+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:36:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:36:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:36:30 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: homemoney_shcr D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 25 行.
+DEBUG: [ Jiechengkeji ] [ 11:37:21 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-15T11:37:38+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:37:29 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:37:29 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:37:29 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: homeMoney_money D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 25 行.
+DEBUG: [ Jiechengkeji ] [ 11:37:38 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-15T11:39:29+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:38:53 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:38:53 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:38:53 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: homeMoney_money D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 25 行.
+DEBUG: [ Jiechengkeji ] [ 11:39:28 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-15T11:40:16+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:39:31 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:39:31 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:39:31 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: homeMoney_money D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 25 行.
+NOTIC: [2] Illegal string offset 'homeMoney_money' D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 26 行.
+DEBUG: [ Jiechengkeji ] [ 11:40:16 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-15T11:41:03+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:40:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:40:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:40:19 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: homeMoney_money D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 25 行.
+DEBUG: [ Jiechengkeji ] [ 11:41:03 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-15T11:41:29+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:41:05 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:41:05 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:41:05 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: homeMoney_money D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 25 行.
+DEBUG: [ Jiechengkeji ] [ 11:41:29 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-15T11:41:45+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:41:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:41:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:41:32 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: homeMoney_money D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 25 行.
+DEBUG: [ Jiechengkeji ] [ 11:41:45 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-15T11:42:24+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:41:47 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:41:47 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:41:47 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: homeMoney_money D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 25 行.
+DEBUG: [ Jiechengkeji ] [ 11:42:24 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-15T11:44:42+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:42:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:42:26 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:42:26 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money='300'
+                     WHERE 
+                         cy_apply_id= 40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:44:42 ] [ result ]{"msg":"\u4fee\u6539\u8d37\u6b3e\u91d1\u989d\u603b\u8868\u63d0\u4ea4\u91d1\u989d\u5931\u8d25!","code":1}
+
+[ 2017-11-15T11:44:54+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 11:44:45 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:44:45 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:44:45 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0000s ]
+SQL: UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_money='300'
+                     WHERE 
+                         cy_apply_id= 40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:44:53 ] [ result ]{"msg":"\u4fee\u6539\u8d37\u6b3e\u91d1\u989d\u603b\u8868\u63d0\u4ea4\u91d1\u989d\u5931\u8d25!","code":1}
+
+[ 2017-11-15T11:47:19+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:44:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:44:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:44:56 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+
+[ 2017-11-15T11:58:12+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:58:12 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:58:12 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:58:12 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: remark D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 27 行.
+DEBUG: [ Jiechengkeji ] [ 11:58:12 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-15T11:59:51+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:59:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:59:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:59:51 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: remark D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 27 行.
+DEBUG: [ Jiechengkeji ] [ 11:59:51 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1,"data":""}
+
+[ 2017-11-15T14:05:25+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13745
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 14:05:25 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:05:25 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:05:25 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-11-15T14:05:49+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:05:29 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:05:29 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:05:29 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+SQL: SELECT 
+                              remark  
+                         FROM 
+                              kitingMoney
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:05:49 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1,"data":""}
+
+[ 2017-11-15T14:06:48+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:05:55 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:05:55 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:05:55 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+SQL: SELECT 
+                              remark  
+                         FROM 
+                              kitingMoney
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:06:48 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1,"data":""}
+
+[ 2017-11-15T14:10:44+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 14:06:50 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:06:50 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:06:50 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+SQL: SELECT 
+                              remark  
+                         FROM 
+                              kitingMoney
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:10:44 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1,"data":""}
+
+[ 2017-11-15T14:11:07+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:10:48 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:10:48 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:10:48 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0030s ]
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                           WHERE
+	                            homeMoney_id ='40'
+                           ORDER BY
+	                              id DESC
+                              LIMIT 0,
+                                1 [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 14:11:07 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1,"data":""}
+
+[ 2017-11-15T14:12:10+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:11:43 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:11:43 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:11:43 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0000s ]
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                           WHERE
+	                            homeMoney_id ='40'
+                           ORDER BY
+	                              id DESC
+                              LIMIT 0,
+                                1 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='300'
+                     WHERE 
+                         cy_apply_id= 40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:12:09 ] [ result ]{"msg":"\u4fee\u6539\u8d37\u6b3e\u91d1\u989d\u603b\u8868\u63d0\u4ea4\u91d1\u989d\u5931\u8d25!","code":1,"data":""}
+
+[ 2017-11-15T14:13:54+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 14:12:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:12:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:12:13 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                           WHERE
+	                            homeMoney_id ='40'
+                           ORDER BY
+	                              id DESC
+                              LIMIT 0,
+                                1 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='300'
+                     WHERE 
+                         cy_apply_id= 40 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:13:54 ] [ result ]{"msg":"\u4fee\u6539\u8d37\u6b3e\u91d1\u989d\u603b\u8868\u63d0\u4ea4\u91d1\u989d\u5931\u8d25!","code":1,"data":""}
+
+[ 2017-11-15T14:14:08+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:13:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:13:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:13:58 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0000s ]
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                           WHERE
+	                            homeMoney_id ='40'
+                           ORDER BY
+	                              id DESC
+                              LIMIT 0,
+                                1 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='300'
+                     WHERE 
+                         cy_apply_id= 40 [ RunTime:0.0040s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '8',
+		                     '40',
+		                     '15666319051',
+	                         '300',
+		                     '1',
+		                     '0',
+		                     '2017-11-15 14:13:59',
+		                     '2017-11-15 14:14:00'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:14:07 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 14:14:08 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"data":"","total":0}
+
+[ 2017-11-15T14:23:14+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:22:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:22:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:22:49 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=40 [ RunTime:0.0010s ]
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                           WHERE
+	                            homeMoney_id ='40'
+                           ORDER BY
+	                              id DESC
+                              LIMIT 0,
+                                1 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:23:14 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1,"data":""}
+
+[ 2017-11-15T14:24:59+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:24:50 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:24:50 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:24:50 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=41 [ RunTime:0.0010s ]
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                           WHERE
+	                            homeMoney_id ='41'
+                           ORDER BY
+	                              id DESC
+                              LIMIT 0,
+                                1 [ RunTime:0.0020s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='6000'
+                     WHERE 
+                         cy_apply_id= 41 [ RunTime:0.0040s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '9',
+		                     '41',
+		                     '15666319051',
+	                         '6000',
+		                     '1',
+		                     '2156117',
+		                     '2017-11-15 14:24:53',
+		                     '2017-11-15 14:24:54'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:24:59 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 14:24:59 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"data":"","total":0}
+
+[ 2017-11-15T14:31:07+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:31:06 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:31:06 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:31:06 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                             homeMoney_money  
+                         FROM 
+                             homeMoney 
+                         WHERE 
+                             cy_apply_id=41 [ RunTime:0.0010s ]
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                           WHERE
+	                            homeMoney_id ='41'
+                           ORDER BY
+	                              id DESC
+                              LIMIT 0,
+                                1 [ RunTime:0.0000s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='5000'
+                     WHERE 
+                         cy_apply_id= 41 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '9',
+		                     '41',
+		                     '15666319051',
+	                         '5000',
+		                     '1',
+		                     '1000',
+		                     '2017-11-15 14:31:06',
+		                     '2017-11-15 14:31:06'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:31:06 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 14:31:06 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"data":null,"total":0}
+
+[ 2017-11-15T14:36:34+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 14:36:34 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:36:34 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:36:34 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                           WHERE
+	                            homeMoney_id ='41'
+                           ORDER BY
+	                              id DESC
+                              LIMIT 0,
+                                1 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='5000'
+                     WHERE 
+                         cy_apply_id= 41 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '9',
+		                     '41',
+		                     '15666319051',
+	                         '5000',
+		                     '1',
+		                     '2151117',
+		                     '2017-11-15 14:36:34',
+		                     '2017-11-15 14:36:34'
+	                    ) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 14:36:34 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 14:36:34 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"total":0}
+
+[ 2017-11-15T14:37:37+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:37:37 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:37:37 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:37:37 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                           WHERE
+	                            homeMoney_id ='41'
+                           ORDER BY
+	                              id DESC
+                              LIMIT 0,
+                                1 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:37:37 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-15T15:52:46+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:52:46 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:52:46 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:52:46 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                           WHERE
+	                            homeMoney_id ='46'
+                           ORDER BY
+	                              id DESC
+                              LIMIT 0,
+                                1 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='200'
+                     WHERE 
+                         cy_apply_id= 46 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '签署合同款',
+	                         '提现',
+		                     '12417',
+		                     '12417',
+		                     '2017-11-15 15:52:46'
+	                    ) [ RunTime:0.0000s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '15666319051',
+	                         '200',
+		                     '1',
+		                     '12417',
+		                     '2017-11-15 15:52:46',
+		                     '2017-11-15 15:52:46'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:52:46 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 15:52:46 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"total":0}
+
+[ 2017-11-15T15:53:04+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:53:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:53:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:53:04 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                           WHERE
+	                            homeMoney_id ='46'
+                           ORDER BY
+	                              id DESC
+                              LIMIT 0,
+                                1 [ RunTime:0.0020s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='200'
+                     WHERE 
+                         cy_apply_id= 46 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '签署合同款',
+	                         '提现',
+		                     '12217',
+		                     '12217',
+		                     '2017-11-15 15:53:04'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '15666319051',
+	                         '200',
+		                     '1',
+		                     '12217',
+		                     '2017-11-15 15:53:04',
+		                     '2017-11-15 15:53:04'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:53:04 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 15:53:04 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"total":0}
+
+[ 2017-11-15T16:02:11+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 16:02:11 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:02:11 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:02:11 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                           WHERE
+	                            homeMoney_id ='46'
+                           ORDER BY
+	                              id DESC
+                              LIMIT 0,
+                                1 [ RunTime:0.0020s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='200'
+                     WHERE 
+                         cy_apply_id= 46 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '签署合同款',
+	                         '提现',
+		                     '200',
+		                     '2017-11-15 16:02:11',
+		                     '2017-11-15 16:02:11'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '15666319051',
+	                         '200',
+		                     '1',
+		                     '12017',
+		                     '2017-11-15 16:02:11',
+		                     '2017-11-15 16:02:11'
+	                    ) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 16:02:11 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 16:02:11 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"total":0}
+
+[ 2017-11-15T16:40:34+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:40:34 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:40:34 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:40:34 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      SUM(withdra_money)
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:40:34 ] [ result ]{"sum(withdra_money)":"13217"}
+DEBUG: [ Jiechengkeji ] [ 16:40:34 ] [ result ]{"sum(withdra_money)":"13217"}
+
+[ 2017-11-15T16:41:24+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 16:41:24 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:41:24 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:41:24 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      SUM(withdra_money)
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14'; [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 16:41:24 ] [ result ]{"sum(withdra_money)":"13217"}
+DEBUG: [ Jiechengkeji ] [ 16:41:24 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"total":0}
+
+[ 2017-11-15T16:44:01+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 16:44:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:44:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:44:01 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      SUM(withdra_money)
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:44:01 ] [ result ]{"sum(withdra_money)":"13217"}
+DEBUG: [ Jiechengkeji ] [ 16:44:01 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"sum(withdra_money)":"13217"},"total":0}
+
+[ 2017-11-15T16:46:59+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 16:46:59 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:46:59 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:46:59 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      SUM(withdra_money) money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:46:59 ] [ result ]{"money":"13217"}
+DEBUG: [ Jiechengkeji ] [ 16:46:59 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"money":"13217"},"total":0}
+
+[ 2017-11-15T16:48:07+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:07 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) money
+                     FROM
+	 ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) money
+                     FROM
+	 ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+
+[ 2017-11-15T16:48:17+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:17 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) money
+                     FROM
+	 ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) money
+                     FROM
+	 ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+
+[ 2017-11-15T16:48:19+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:19 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) money
+                     FROM
+	 ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) money
+                     FROM
+	 ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+
+[ 2017-11-15T16:48:25+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:25 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:25 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:25 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) money
+                     FROM
+	 ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) money
+                     FROM
+	 ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+
+[ 2017-11-15T16:48:48+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:48 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:48 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:48 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+
+[ 2017-11-15T16:48:49+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:49 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+
+[ 2017-11-15T16:48:50+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:50 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:50 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:50 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+
+[ 2017-11-15T16:48:50+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:50 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:50 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:50 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+
+[ 2017-11-15T16:48:50+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:50 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:50 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:50 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+
+[ 2017-11-15T16:48:51+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:51 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+
+[ 2017-11-15T16:48:51+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:51 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+
+[ 2017-11-15T16:48:51+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:51 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	                      SUM(withdra_money) 
+                     FROM
+	      ' at line 2
+ [ SQL语句 ] : SELECT
+//	                      SUM(withdra_money) 
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14';
+
+[ 2017-11-15T16:49:10+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 16:49:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:49:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:49:10 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          SUM(withdra_money) money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:49:10 ] [ result ]{"money":"13217"}
+DEBUG: [ Jiechengkeji ] [ 16:49:10 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"money":"13217"}}
+
+[ 2017-11-15T16:50:55+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 16:50:55 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:50:55 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:50:55 ] [ __construct ]BaseDAO
+SQL: SELECT
+           withdra_money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:50:55 ] [ result ][{"withdra_money":"12617"},{"withdra_money":"200"},{"withdra_money":"200"},{"withdra_money":"200"}]
+DEBUG: [ Jiechengkeji ] [ 16:50:55 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"withdra_money":"12617"},{"withdra_money":"200"},{"withdra_money":"200"},{"withdra_money":"200"}]}
+
+[ 2017-11-15T16:53:36+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:53:36 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:53:36 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:53:36 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          withdra_money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:53:36 ] [ result ][{"withdra_money":"12617"},{"withdra_money":"200"},{"withdra_money":"200"},{"withdra_money":"200"}]
+DEBUG: [ Jiechengkeji ] [ 16:53:36 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"0":{"withdra_money":"12617"},"1":{"withdra_money":"200"},"2":{"withdra_money":"200"},"3":{"withdra_money":"200"},"result":[{"withdra_money":"12617"},{"withdra_money":"200"},{"withdra_money":"200"},{"withdra_money":"200"}]}}
+
+[ 2017-11-15T16:54:53+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 16:54:53 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:54:53 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:54:53 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          withdra_money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14'; [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 16:54:53 ] [ result ][{"withdra_money":"12617"},{"withdra_money":"200"},{"withdra_money":"200"},{"withdra_money":"200"}]
+DEBUG: [ Jiechengkeji ] [ 16:54:53 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"total":0}
+
+[ 2017-11-15T17:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 17:00:29 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 17:00:29 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 17:00:30 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          SUM(withdra_money) money
+                     FROM
+	                      kitingMoney
+                      WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14'; [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 17:00:30 ] [ result ]{"money":"13217"}
+DEBUG: [ Jiechengkeji ] [ 17:00:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0}
+

@@ -1,0 +1,31 @@
+<script id ="school-province-list-tpl" type='text/html'>
+    {{each option as value index}}
+        {{if value.status==1}}
+            <option value="{{value.id}}"{{value.id == current?'selected':''}}>{{value.name}}</option>
+        {{/if}}
+    {{/each}}
+</script> 
+<script id ="city-list-tpl" type='text/html'>
+    {{each option as value index}}
+        {{if value.status==1}}
+            <option value="{{value.id}}"{{value.id == current?'selected':''}}>{{value.name}}</option>
+        {{/if}}
+    {{/each}}
+</script> 
+<script id ="school-list-tpl" type='text/html'>
+    {{each option as value index}}
+        {{if value.status==1}}
+            <option value="{{value.id}}"{{value.id == current?'selected':''}}>{{value.name}}</option>
+        {{/if}}
+    {{/each}}
+</script> 
+<script id ="grade-list-tpl" type='text/html'>
+    {{each option as value index}}
+        <option value="{{value}}"{{value == current ?'selected':''}}>{{value}}</option>
+    {{/each}}
+</script>
+<script id ="region-list-tpl" type='text/html'>
+    {{each option as value index}}
+        <option value="{{value.id}}"{{value.id == current ?'selected':''}}>{{value.name}}</option>
+    {{/each}}
+</script>

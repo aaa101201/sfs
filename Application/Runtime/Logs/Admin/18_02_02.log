@@ -1,0 +1,2958 @@
+[ 2018-02-02T09:03:10+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000606s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0006s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0009s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0006s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '39'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0009s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":35,"pageCurrent":1,"recordTotal":12}}
+
+[ 2018-02-02T09:03:10+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000295s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ result ][{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72da1df41fa.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf9c59478.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf8a5aecb.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf3ae4f72.png"}]
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72da1df41fa.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf9c59478.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf8a5aecb.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf3ae4f72.png"]}
+
+[ 2018-02-02T09:03:10+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000445s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002043s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]
+DEBUG: [ Jiechengkeji ] [ 09:03:10 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]}
+
+[ 2018-02-02T09:03:38+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Tenders/cy_trenders_d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     title
+                      FROM
+	                cy_data_attr_value
+	                WHERE 
+	                  attr_id='13' 
+	                 [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["\u5730\u677f","\u6cb9\u6f06 ","\u95e8\u7a97","\u74f7\u7816 ","\u5899\u7eb8"]}}
+
+[ 2018-02-02T09:03:38+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Tenders/cy_trenders_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     name
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                  type='1' 
+	                 [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["\u5bb6\u88c5","\u516c\u88c5"]}}
+
+[ 2018-02-02T09:03:38+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Tenders/cy_trenders_e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     name
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                  type='6' 
+	                 [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["\u6e05\u5305","\u534a\u5305","\u5168\u5305"]}}
+
+[ 2018-02-02T09:03:38+08:00 ] 61.129.6.81 /ajax/index.php/Admin/Tenders/cy_tenders_photo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_photo 
+	                 [ RunTime:0.0223s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Common/Common/function.php 第 78 行.
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"\u514d\u8d39\u62db\u6807":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b029e23f5.png","\u5efa\u6750\u62db\u6807":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b098914db.png","\u514d\u8d39\u8bbe\u8ba1":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b161971ed.png","\u514d\u8d39\u62a5\u4ef7":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b11f501b1.png","\u514d\u8d39\u91cf\u623f":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b1939a066.png"}]}
+
+[ 2018-02-02T09:03:38+08:00 ] 61.129.6.83 /ajax/index.php/Admin/Tenders/cy_trenders_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ __construct ]BaseDAO
+SQL: SELECT
+ from_unixtime(a.dateline,'%Y-%m-%d')  dateline,
+                     a.contact,
+                     a.from,
+                     a.house_mj,
+                     a.budget_id
+                    FROM
+	                cy_tenders a
+	                WHERE 
+	                a.title!='' [ RunTime:0.0002s ]
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                setting_id='7' 
+	                 [ RunTime:0.0001s ]
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                setting_id='6' 
+	                 [ RunTime:0.0001s ]
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                setting_id='6' 
+	                 [ RunTime:0.0001s ]
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                setting_id='6' 
+	                 [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Common/Common/function.php 第 78 行.
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"result":[{"dateline":"2018-01-24","contact":"\u738b\u6d77\u714a\u6d4b\u8bd5","from":"\u62db\u6807","house_mj":"0","budget_id":"7","budget_name":"5-8\u4e07"},{"dateline":"2018-01-24","contact":"\u738b\u6d77\u714a\u6d4b\u8bd52","from":"\u62db\u6807","house_mj":"0","budget_id":"6","budget_name":"3\u4e07-5\u4e07"},{"dateline":"2018-01-24","contact":"\u738b\u6d77\u714a\u6d4b\u8bd52","from":"\u62db\u6807","house_mj":"0","budget_id":"6","budget_name":"3\u4e07-5\u4e07"},{"dateline":"2018-01-24","contact":"\u6d4b\u8bd55","from":"\u62db\u6807","house_mj":"150","budget_id":"6","budget_name":"3\u4e07-5\u4e07"}]}]}
+
+[ 2018-02-02T09:03:38+08:00 ] 61.129.6.81 /ajax/index.php/Admin/Tenders/cy_trenders_b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     name
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                  type='3' 
+	                 [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:38 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["3\u4e07\u4ee5\u4e0b","3\u4e07-5\u4e07","5-8\u4e07","8\u4e07\u4ee5\u4e0a"]}}
+
+[ 2018-02-02T09:03:41+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ result ][{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72da1df41fa.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf9c59478.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf8a5aecb.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf3ae4f72.png"}]
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72da1df41fa.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf9c59478.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf8a5aecb.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf3ae4f72.png"]}
+
+[ 2018-02-02T09:03:41+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]}
+
+[ 2018-02-02T09:03:41+08:00 ] 61.129.6.69 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '39'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:03:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":35,"pageCurrent":1,"recordTotal":12}}
+
+[ 2018-02-02T09:03:52+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:03:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:03:52 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  3,3 [ RunTime:0.0007s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '20'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0009s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '21'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0007s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '22'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0007s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:03:52 ] [ result ][{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_9133E81A3952F078E3FD45EFCF99C920.jpg","phone":"15106316682","photo":[]},{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_02B95699FBEE3FC3C49CFC7E093E720A.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_49FFE1550B58BE3C28FF033C7B9C6D62.jpg","phone":"15106306681","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 09:03:52 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_9133E81A3952F078E3FD45EFCF99C920.jpg","phone":"15106316682","photo":[]},{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_02B95699FBEE3FC3C49CFC7E093E720A.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_49FFE1550B58BE3C28FF033C7B9C6D62.jpg","phone":"15106306681","photo":[]}],"pageTotal":35,"pageCurrent":2,"recordTotal":12}}
+
+[ 2018-02-02T09:05:30+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Tenders/cy_trenders_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ __construct ]BaseDAO
+SQL: SELECT
+ from_unixtime(a.dateline,'%Y-%m-%d')  dateline,
+                     a.contact,
+                     a.from,
+                     a.house_mj,
+                     a.budget_id
+                    FROM
+	                cy_tenders a
+	                WHERE 
+	                a.title!='' [ RunTime:0.0001s ]
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                setting_id='7' 
+	                 [ RunTime:0.0001s ]
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                setting_id='6' 
+	                 [ RunTime:0.0001s ]
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                setting_id='6' 
+	                 [ RunTime:0.0001s ]
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                setting_id='6' 
+	                 [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Common/Common/function.php 第 78 行.
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"result":[{"dateline":"2018-01-24","contact":"\u738b\u6d77\u714a\u6d4b\u8bd5","from":"\u62db\u6807","house_mj":"0","budget_id":"7","budget_name":"5-8\u4e07"},{"dateline":"2018-01-24","contact":"\u738b\u6d77\u714a\u6d4b\u8bd52","from":"\u62db\u6807","house_mj":"0","budget_id":"6","budget_name":"3\u4e07-5\u4e07"},{"dateline":"2018-01-24","contact":"\u738b\u6d77\u714a\u6d4b\u8bd52","from":"\u62db\u6807","house_mj":"0","budget_id":"6","budget_name":"3\u4e07-5\u4e07"},{"dateline":"2018-01-24","contact":"\u6d4b\u8bd55","from":"\u62db\u6807","house_mj":"150","budget_id":"6","budget_name":"3\u4e07-5\u4e07"}]}]}
+
+[ 2018-02-02T09:05:30+08:00 ] 61.129.6.79 /ajax/index.php/Admin/Tenders/cy_tenders_photo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     *
+                      FROM
+	                cy_tenders_photo 
+	                 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Common/Common/function.php 第 78 行.
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"\u514d\u8d39\u62db\u6807":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b029e23f5.png","\u5efa\u6750\u62db\u6807":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b098914db.png","\u514d\u8d39\u8bbe\u8ba1":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b161971ed.png","\u514d\u8d39\u62a5\u4ef7":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b11f501b1.png","\u514d\u8d39\u91cf\u623f":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72b1939a066.png"}]}
+
+[ 2018-02-02T09:05:30+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Tenders/cy_trenders_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     name
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                  type='1' 
+	                 [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["\u5bb6\u88c5","\u516c\u88c5"]}}
+
+[ 2018-02-02T09:05:30+08:00 ] 61.129.6.81 /ajax/index.php/Admin/Tenders/cy_trenders_d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     title
+                      FROM
+	                cy_data_attr_value
+	                WHERE 
+	                  attr_id='13' 
+	                 [ RunTime:0.0003s ]
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["\u5730\u677f","\u6cb9\u6f06 ","\u95e8\u7a97","\u74f7\u7816 ","\u5899\u7eb8"]}}
+
+[ 2018-02-02T09:05:30+08:00 ] 61.129.6.80 /ajax/index.php/Admin/Tenders/cy_trenders_b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     name
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                  type='3' 
+	                 [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["3\u4e07\u4ee5\u4e0b","3\u4e07-5\u4e07","5-8\u4e07","8\u4e07\u4ee5\u4e0a"]}}
+
+[ 2018-02-02T09:05:30+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Tenders/cy_trenders_e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ __construct ]BaseDAO
+SQL: SELECT
+                     name
+                      FROM
+	                cy_tenders_setting
+	                WHERE 
+	                  type='6' 
+	                 [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:05:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":["\u6e05\u5305","\u534a\u5305","\u5168\u5305"]}}
+
+[ 2018-02-02T09:06:04+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+DEBUG: [ Jiechengkeji ] [ 09:06:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:06:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:06:04 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/UmemberService.class.php 第 75 行.
+NOTIC: [8] Undefined index: user /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/UmemberService.class.php 第 78 行.
+SQL: SELECT
+a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0008s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/UmemberService.class.php 第 92 行.
+NOTIC: [2] Cannot use a scalar value as an array /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/UmemberService.class.php 第 93 行.
+NOTIC: [2] Cannot use a scalar value as an array /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/UmemberService.class.php 第 94 行.
+DEBUG: [ Jiechengkeji ] [ 09:06:04 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Common/Common/function.php 第 78 行.
+DEBUG: [ Jiechengkeji ] [ 09:06:04 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[[]]}
+
+[ 2018-02-02T09:06:13+08:00 ] 61.129.6.69 /ajax/index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+DEBUG: [ Jiechengkeji ] [ 09:06:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:06:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:06:13 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/UmemberService.class.php 第 75 行.
+NOTIC: [8] Undefined index: user /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/UmemberService.class.php 第 78 行.
+SQL: SELECT
+a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0002s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/UmemberService.class.php 第 92 行.
+NOTIC: [2] Cannot use a scalar value as an array /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/UmemberService.class.php 第 93 行.
+NOTIC: [2] Cannot use a scalar value as an array /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/UmemberService.class.php 第 94 行.
+DEBUG: [ Jiechengkeji ] [ 09:06:13 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Common/Common/function.php 第 78 行.
+DEBUG: [ Jiechengkeji ] [ 09:06:13 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[[]]}
+
+[ 2018-02-02T09:06:33+08:00 ] 61.129.6.70 /ajax/index.php/Admin/Diary/Diary_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+DEBUG: [ Jiechengkeji ] [ 09:06:33 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:06:33 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:06:33 ] [ __construct ]BaseDAO
+SQL: SELECT
+                            uid,
+	                        home_name,
+	                        content_num,
+	                        views,
+	                        comments,
+	                        from_unixtime(dateline, '%Y-%m-%d') time,
+	                        thumb,
+	                       (
+	                	SELECT
+			                 NAME
+		                FROM
+			         cy_company
+		             WHERE
+			             company_id = cy_diary.company_id
+	                  ) NAME,
+	                   (
+		                SELECT
+			               NAME
+		             FROM
+			cy_tenders_setting
+		WHERE
+			setting_id = cy_diary.way_id
+	) way,
+	(
+		SELECT
+			NAME
+		FROM
+			cy_tenders_setting
+		WHERE
+			setting_id = cy_diary.type_id
+	) type,
+	start_date,
+	end_date,
+	(
+		CASE STATUS
+		WHEN '1' THEN
+			'开工大吉'
+		WHEN '2' THEN
+			'水电改造'
+		WHEN '3' THEN
+			'泥瓦工阶段'
+		WHEN '4' THEN
+			'木工阶段'
+		WHEN '5' THEN
+			'油漆阶段'
+		WHEN '6' THEN
+			'安装'
+		WHEN '7' THEN
+			'验收完成'
+		ELSE
+			''
+		END
+	) status
+   FROM
+	cy_diary
+  WHERE
+	audit = '1'
+AND closed = '0'
+AND  diary_id='3' [ RunTime:0.0521s ]
+SQL: SELECT
+	(
+		CASE STATUS
+		WHEN '1' THEN
+			'开工大吉'
+		WHEN '2' THEN
+			'水电改造'
+		WHEN '3' THEN
+			'泥瓦工阶段'
+		WHEN '4' THEN
+			'木工阶段'
+		WHEN '5' THEN
+			'油漆阶段'
+		WHEN '6' THEN
+			'安装'
+		WHEN '7' THEN
+			'验收完成'
+		ELSE
+			''
+		END
+	) status,
+  content,
+  from_unixtime(dateline, '%Y-%m-%d') time
+FROM
+	 cy_diary_item
+WHERE
+    diary_id='3' [ RunTime:0.0196s ]
+DEBUG: [ Jiechengkeji ] [ 09:06:33 ] [ result ][{"step":[{"status":"\u9a8c\u6536\u5b8c\u6210","content":"<span><span style=\"font-size:14px;background-color:#FFFFFF;\">\u91d1\u6d77\u6e7e\u82b1\u56ed\u9152\u5e97&nbsp;<\/span><\/span>","time":"2017-08-11"}]}]
+DEBUG: [ Jiechengkeji ] [ 09:06:33 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"step":[{"status":"\u9a8c\u6536\u5b8c\u6210","content":"<span><span style=\"font-size:14px;background-color:#FFFFFF;\">\u91d1\u6d77\u6e7e\u82b1\u56ed\u9152\u5e97&nbsp;<\/span><\/span>","time":"2017-08-11"}]}}
+
+[ 2018-02-02T09:06:33+08:00 ] 61.129.8.199 /ajax/index.php/Admin/Diary/Diary_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+DEBUG: [ Jiechengkeji ] [ 09:06:33 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:06:33 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:06:33 ] [ __construct ]BaseDAO
+SQL: SELECT
+   b.face,
+	b.uname,
+	a.content,
+	from_unixtime(a.dateline, '%Y-%m-%d') time,
+	(
+		SELECT
+			COUNT(*)
+		FROM
+			cy_member
+		WHERE
+			uid = a.uid
+	) count
+FROM
+	cy_diary_comment a,
+	cy_member b
+WHERE
+	a.uid = b.uid
+	AND  a.diary_id='3'
+	LIMIT  0,3 [ RunTime:0.0004s ]
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	              	cy_diary_comment a,
+         	cy_member b
+    WHERE
+	a.uid = b.uid
+	AND  a.diary_id='3' [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:06:33 ] [ result ][]
+DEBUG: [ Jiechengkeji ] [ 09:06:33 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":1,"data":{"result":[],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2018-02-02T09:09:30+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]}
+
+[ 2018-02-02T09:09:30+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ result ][{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72da1df41fa.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf9c59478.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf8a5aecb.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf3ae4f72.png"}]
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72da1df41fa.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf9c59478.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf8a5aecb.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf3ae4f72.png"]}
+
+[ 2018-02-02T09:09:30+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0005s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0007s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0005s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '39'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0006s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:09:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":35,"pageCurrent":1,"recordTotal":12}}
+
+[ 2018-02-02T09:09:40+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:40 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:09:40 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:09:40 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  3,3 [ RunTime:0.0005s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '20'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0009s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '21'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0007s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '22'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0007s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:40 ] [ result ][{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_9133E81A3952F078E3FD45EFCF99C920.jpg","phone":"15106316682","photo":[]},{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_02B95699FBEE3FC3C49CFC7E093E720A.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_49FFE1550B58BE3C28FF033C7B9C6D62.jpg","phone":"15106306681","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 09:09:40 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_9133E81A3952F078E3FD45EFCF99C920.jpg","phone":"15106316682","photo":[]},{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_02B95699FBEE3FC3C49CFC7E093E720A.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_49FFE1550B58BE3C28FF033C7B9C6D62.jpg","phone":"15106306681","photo":[]}],"pageTotal":35,"pageCurrent":2,"recordTotal":12}}
+
+[ 2018-02-02T09:09:42+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:42 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:09:42 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:09:42 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  6,3 [ RunTime:0.0005s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '23'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0008s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '24'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0007s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '25'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0006s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0003s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:42 ] [ result ][{"company_id":"23","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_467FF22905DA4E7BD15A7D7AC3A1A897.jpg","phone":"13465225618","photo":[]},{"company_id":"24","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_925BA5AFA370E14AFB6C80E754298716.jpg","phone":"15106316680","photo":[]},{"company_id":"25","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_210BAAC59795ACB64F2CEC1D8C3CE0EF.jpg","phone":"13465223808","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 09:09:42 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"23","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_467FF22905DA4E7BD15A7D7AC3A1A897.jpg","phone":"13465225618","photo":[]},{"company_id":"24","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_925BA5AFA370E14AFB6C80E754298716.jpg","phone":"15106316680","photo":[]},{"company_id":"25","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_210BAAC59795ACB64F2CEC1D8C3CE0EF.jpg","phone":"13465223808","photo":[]}],"pageTotal":35,"pageCurrent":3,"recordTotal":12}}
+
+[ 2018-02-02T09:09:43+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:43 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:09:43 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:09:43 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  9,3 [ RunTime:0.0005s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '26'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0007s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '27'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0007s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '28'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0006s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:43 ] [ result ][{"company_id":"26","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_D0566051E5B69CCFAB7440A2106D8D1C.png","phone":"15106316670","photo":[]},{"company_id":"27","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"1","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_D36E37AC2E7D1C22854871645D3E84C1.jpg","phone":"15106316672","photo":[]},{"company_id":"28","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u81f4\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171013_CE3B933815A056E771D1B9934C5B5964.jpg","phone":"15684517575","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 09:09:43 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"26","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_D0566051E5B69CCFAB7440A2106D8D1C.png","phone":"15106316670","photo":[]},{"company_id":"27","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"1","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_D36E37AC2E7D1C22854871645D3E84C1.jpg","phone":"15106316672","photo":[]},{"company_id":"28","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u81f4\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171013_CE3B933815A056E771D1B9934C5B5964.jpg","phone":"15684517575","photo":[]}],"pageTotal":35,"pageCurrent":4,"recordTotal":12}}
+
+[ 2018-02-02T09:09:56+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Designer/Designer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:09:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:09:56 ] [ __construct ]BaseDAO
+SQL: SELECT
+	city_id
+FROM
+	cy_data_area
+WHERE 
+area_name=''
+	                 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/DesignerService.class.php 第 84 行.
+SQL: SELECT 
+	                  	uid,
+	                   name,
+	                  case_num,
+	                  yuyue_num,
+	                   mobile,
+	                  (
+		                CASE 1
+		               WHEN '1' THEN
+			           '设计师'
+		                ELSE
+			           '其他'
+		               END
+                         	) sjs
+                       FROM
+	                     cy_designer
+                           WHERE 1=1  and closed = '0' and audit = '1'
+	                    LIMIT 0,3 [ RunTime:0.0004s ]
+SQL: SELECT 
+	                 count(*) AS pageTotal
+                     FROM
+	                cy_designer
+                         WHERE 1=1  and closed = '0' and audit = '1' [ RunTime:0.0003s ]
+SQL: SELECT 
+	                 *
+                     FROM
+	                  cy_member
+	                WHERE 
+	                   uname = '13336306662' [ RunTime:0.0004s ]
+SQL: SELECT
+	                    case_id,
+                    	photo
+                     FROM
+	                    cy_case 
+                     WHERE
+                     	uid = '118'
+                     ORDER BY
+	                     case_id DESC
+                     LIMIT 0,3 [ RunTime:0.0006s ]
+SQL: SELECT 
+	                 *
+                     FROM
+	                  cy_member
+	                WHERE 
+	                   uname = '18763103773' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/DesignerService.class.php 第 92 行.
+SQL: SELECT
+	                    case_id,
+                    	photo
+                     FROM
+	                    cy_case 
+                     WHERE
+                     	uid = '119'
+                     ORDER BY
+	                     case_id DESC
+                     LIMIT 0,3 [ RunTime:0.0006s ]
+SQL: SELECT 
+	                 *
+                     FROM
+	                  cy_member
+	                WHERE 
+	                   uname = '18863165330' [ RunTime:0.0003s ]
+SQL: SELECT
+	                    case_id,
+                    	photo
+                     FROM
+	                    cy_case 
+                     WHERE
+                     	uid = '121'
+                     ORDER BY
+	                     case_id DESC
+                     LIMIT 0,3 [ RunTime:0.0005s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:56 ] [ result ][{"uid":"118","name":"\u5e38\u4eae","case_num":"4","yuyue_num":"0","mobile":"13336306662","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_B1526B5C95E63CCD13DFC69090C72719.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_04B1629A2CEB770C03AB189D1E166538.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_DB1FD6913C8BC3212466972F094EE615.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/5EF\/180\/5EF059938BA799AAA845E1C2E8A762BD.jpg"},{"uid":"119","name":"\u4f55\u857e","case_num":"10","yuyue_num":"0","mobile":"18763103773","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_1674DA169B058EA4F8FDEF36B6A8A4CC.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_5F74769062B07DCE9A1CFD468756E4FB.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_E251AD76100966F2CE414DD4F73605CA.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"},{"uid":"121","name":"\u674e\u6797\u9896","case_num":"5","yuyue_num":"0","mobile":"18863165330","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_94E46EC62240771E5E000121AD819551.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_501E7350323B781FC9A906ACF45AEF66.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_66831D7F99A7DC4A71E03C064128F0A6.png"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/4C5\/180\/4C56FF4CE4AAF9573AA5DFF913DF997A.jpg"}]
+DEBUG: [ Jiechengkeji ] [ 09:09:56 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"uid":"118","name":"\u5e38\u4eae","case_num":"4","yuyue_num":"0","mobile":"13336306662","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_B1526B5C95E63CCD13DFC69090C72719.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_04B1629A2CEB770C03AB189D1E166538.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201709\/20170929_DB1FD6913C8BC3212466972F094EE615.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/5EF\/180\/5EF059938BA799AAA845E1C2E8A762BD.jpg"},{"uid":"119","name":"\u4f55\u857e","case_num":"10","yuyue_num":"0","mobile":"18763103773","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_1674DA169B058EA4F8FDEF36B6A8A4CC.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_5F74769062B07DCE9A1CFD468756E4FB.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_E251AD76100966F2CE414DD4F73605CA.jpg"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"},{"uid":"121","name":"\u674e\u6797\u9896","case_num":"5","yuyue_num":"0","mobile":"18863165330","sjs":"\u8bbe\u8ba1\u5e08","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_94E46EC62240771E5E000121AD819551.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_501E7350323B781FC9A906ACF45AEF66.png","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_66831D7F99A7DC4A71E03C064128F0A6.png"],"logo":"http:\/\/www.whjz365.cn\/attachs\/face\/4C5\/180\/4C56FF4CE4AAF9573AA5DFF913DF997A.jpg"}],"pageTotal":7,"pageCurrent":1,"recordTotal":3}}
+
+[ 2018-02-02T09:10:04+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]}
+
+[ 2018-02-02T09:10:04+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ result ][{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72da1df41fa.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf9c59478.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf8a5aecb.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf3ae4f72.png"}]
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72da1df41fa.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf9c59478.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf8a5aecb.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf3ae4f72.png"]}
+
+[ 2018-02-02T09:10:04+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '39'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0002s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:10:04 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":35,"pageCurrent":1,"recordTotal":12}}
+
+[ 2018-02-02T09:10:06+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/cy_tophot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:06 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:10:06 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:10:06 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                     *
+                      FROM
+	                    cy_tophot
+	                  WHERE  
+	                    tophot != ''
+                      GROUP BY
+	                    id DESC
+                      LIMIT 0,
+                        6 [ RunTime:0.0068s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:06 ] [ result ][{"id":"7","tophot":"\u6d4b\u8bd5\u738b\u6d77\u714a","createtime":"2018-01-18 11:45:57","updatetime":"2018-01-18 11:45:57"},{"id":"5","tophot":"\u70ed\u641c\u641c\u7d22","createtime":"2018-01-04 09:54:40","updatetime":"2018-01-04 09:54:40"},{"id":"4","tophot":"\u70ed\u641c\u641c\u7d22","createtime":"2018-01-04 09:53:03","updatetime":"2018-01-04 09:53:03"},{"id":"3","tophot":"\u6574\u4f53\u6d4b\u8bd51","createtime":"2017-12-08 14:28:31","updatetime":"2017-12-11 10:47:44"},{"id":"2","tophot":"\u6574\u4f53\u6d4b\u8bd51","createtime":"2017-12-08 14:23:03","updatetime":"2017-12-11 10:47:44"},{"id":"1","tophot":"\u6574\u4f53\u6d4b\u8bd51","createtime":"2017-12-08 14:20:01","updatetime":"2017-12-11 14:18:41"}]
+DEBUG: [ Jiechengkeji ] [ 09:10:06 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"7","tophot":"\u6d4b\u8bd5\u738b\u6d77\u714a","createtime":"2018-01-18 11:45:57","updatetime":"2018-01-18 11:45:57"},{"id":"5","tophot":"\u70ed\u641c\u641c\u7d22","createtime":"2018-01-04 09:54:40","updatetime":"2018-01-04 09:54:40"},{"id":"4","tophot":"\u70ed\u641c\u641c\u7d22","createtime":"2018-01-04 09:53:03","updatetime":"2018-01-04 09:53:03"},{"id":"3","tophot":"\u6574\u4f53\u6d4b\u8bd51","createtime":"2017-12-08 14:28:31","updatetime":"2017-12-11 10:47:44"},{"id":"2","tophot":"\u6574\u4f53\u6d4b\u8bd51","createtime":"2017-12-08 14:23:03","updatetime":"2017-12-11 10:47:44"},{"id":"1","tophot":"\u6574\u4f53\u6d4b\u8bd51","createtime":"2017-12-08 14:20:01","updatetime":"2017-12-11 14:18:41"}]}
+
+[ 2018-02-02T09:10:06+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/cy_history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:06 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:10:06 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:10:06 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user /www/wwwroot/s.shulailo.cn/ajax/Application/Admin/Service/GsService.class.php 第 114 行.
+ERR: 1146:Table 'whjz365.cy_history' doesn't exist
+ [ SQL语句 ] : SELECT
+	                     *
+                      FROM
+	                    cy_history
+	                    WHERE 
+	                    tophistory != ''
+                      GROUP BY
+	                    id DESC
+                      LIMIT 0,6
+ERR: 1146:Table 'whjz365.cy_history' doesn't exist
+ [ SQL语句 ] : SELECT
+	                     *
+                      FROM
+	                    cy_history
+	                    WHERE 
+	                    tophistory != ''
+                      GROUP BY
+	                    id DESC
+                      LIMIT 0,6
+
+[ 2018-02-02T09:10:08+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ result ][{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72da1df41fa.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf9c59478.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf8a5aecb.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf3ae4f72.png"}]
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72da1df41fa.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf9c59478.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf8a5aecb.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf3ae4f72.png"]}
+
+[ 2018-02-02T09:10:08+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]}
+
+[ 2018-02-02T09:10:08+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '39'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:10:08 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":35,"pageCurrent":1,"recordTotal":12}}
+
+[ 2018-02-02T09:10:11+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:11 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:10:11 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:10:11 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  3,3 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '20'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '21'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '22'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:11 ] [ result ][{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_9133E81A3952F078E3FD45EFCF99C920.jpg","phone":"15106316682","photo":[]},{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_02B95699FBEE3FC3C49CFC7E093E720A.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_49FFE1550B58BE3C28FF033C7B9C6D62.jpg","phone":"15106306681","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 09:10:11 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_9133E81A3952F078E3FD45EFCF99C920.jpg","phone":"15106316682","photo":[]},{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_02B95699FBEE3FC3C49CFC7E093E720A.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_49FFE1550B58BE3C28FF033C7B9C6D62.jpg","phone":"15106306681","photo":[]}],"pageTotal":35,"pageCurrent":2,"recordTotal":12}}
+
+[ 2018-02-02T09:10:13+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ result ][{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72da1df41fa.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf9c59478.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf8a5aecb.png"},{"photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf3ae4f72.png"}]
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72da1df41fa.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf9c59478.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf8a5aecb.png","http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72bf3ae4f72.png"]}
+
+[ 2018-02-02T09:10:13+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '39'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201710\/20171012_DE47D45F8A121374EBA29E0162A79591.png","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"3","score":"11","case_num":"0","tenders_num":"2","yuyue_num":"1","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_DB5FF35ADA0937466734E2C69D8D80FE.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180126_8F140152CFE2273A6324ADE0E1B53AA2.jpg","http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg"]},{"company_id":"39","discuss":"0","score":"0","case_num":"2","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4ec1\u65b0\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7ecf\u6d4e\u6280\u672f\u5f00\u53d1\u533a\u84dd\u661f\u4e07\u8c61\u57ce-22\u53f7-28","logo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_7443EA9DFF69854FDC3D9CF1F8221FAF.jpg","phone":"13371168885","photo":["http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_E1EEDC643B6BAF49945BF73B44A23A63.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201801\/20180127_8C488F591B823D75467352D9A056B2FD.jpg"]}],"pageTotal":35,"pageCurrent":1,"recordTotal":12}}
+
+[ 2018-02-02T09:10:13+08:00 ] 60.212.253.222 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]
+DEBUG: [ Jiechengkeji ] [ 09:10:13 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c2442e2b4.png","name":"\u7ea2\u6728\u5bb6\u5177\u7cfb\u5217","createtime":"2017-12-08 14:20:01","updatetime":"2018-02-01 15:31:16"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c37de954f.png","name":"\u9910\u5385\u9152\u67dc\u7cfb\u5217","createtime":"2017-12-08 14:23:03","updatetime":"2018-02-01 15:36:29"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c47497402.png","name":"\u5546\u4e1a\u4f1a\u8bae\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:40:36"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-02-01\/5a72c61a1c2e0.png","name":"\u529f\u592b\u8336\u684c\u7cfb\u5217","createtime":"2017-12-08 14:28:31","updatetime":"2018-02-01 15:47:38"}]}
+
+[ 2018-02-02T09:11:58+08:00 ] 60.212.253.222 /ajax/index.php/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+DEBUG: [ Jiechengkeji ] [ 09:11:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:11:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:11:58 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                      a.from
+                    FROM
+                       cy_member  a
+                    WHERE a.uname = '15666219025' 
+                      AND a.passwd = '4297f44b13955235245b2497399d7a93' [ RunTime:0.0004s ]
+DEBUG: [ Jiechengkeji ] [ 09:11:58 ] [ result ]{"from":"designer"}
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Common/Common/function.php 第 78 行.
+DEBUG: [ Jiechengkeji ] [ 09:11:58 ] [ result ]{"msg":"\u767b\u5f55\u6210\u529f\uff01","code":0,"data":[{"from":"designer"}]}
+
+[ 2018-02-02T09:17:22+08:00 ] 60.212.253.222 /ajax/index.php/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+DEBUG: [ Jiechengkeji ] [ 09:17:22 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:17:22 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:17:22 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                      a.from
+                    FROM
+                       cy_member  a
+                    WHERE a.uname = '15666219025' 
+                      AND a.passwd = '4297f44b13955235245b2497399d7a93' [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:17:22 ] [ result ]{"from":"designer"}
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/s.shulailo.cn/ajax/Application/Common/Common/function.php 第 78 行.
+DEBUG: [ Jiechengkeji ] [ 09:17:22 ] [ result ]{"msg":"\u767b\u5f55\u6210\u529f\uff01","code":0,"data":[{"from":"designer"}]}
+
+[ 2018-02-02T10:01:23+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=15152
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 10:01:23 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:01:23 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:01:23 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.081005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-02-02T10:01:32+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 10:01:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:01:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:01:32 ] [ __construct ]BaseDAO
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'whjz365'@'localhost' (using password: YES)
+
+[ 2018-02-02T10:02:40+08:00 ] 127.0.0.1 /index.php/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:02:11 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:02:11 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:02:11 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                      a.from
+                    FROM
+                       cy_member  a
+                    WHERE a.uname = '' 
+                      AND a.passwd = '' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 10:02:40 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 10:02:40 ] [ result ]{"msg":"\u767b\u5f55\u5931\u8d25!","code":1}
+
+[ 2018-02-02T10:02:43+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 10:02:43 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:02:43 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:02:43 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                         uid,
+                         company_id,
+                         case_id,
+	                     title,
+	                     photo,
+	                     (SELECT count(*) FROM cy_case_photo WHERE case_id=cy_case.case_id) count
+                      FROM
+	                     cy_case
+                          WHERE 1=1 
+	                  AND 
+	                      city_id ='7'
+                      AND 
+                         closed = 0
+                      AND 
+                         audit = 1
+	                 LIMIT 0,10 [ RunTime:0.0080s ]
+SQL: SELECT 
+	                    count(*) as pageTotal
+                      FROM
+	                       cy_case
+                            WHERE 1=1 
+	                  AND 
+	                       city_id ='7'
+                      AND 
+                           closed = 0
+                      AND 
+                            audit = 1; [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='28' [ RunTime:0.0060s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='30'
+                           AND 
+                           attr_id='4' [ RunTime:0.0070s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='38'
+                           AND 
+                           attr_id='5' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0070s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '28' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='29' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28'
+                           AND 
+                           attr_id='4' [ RunTime:0.0000s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='29'
+                           AND 
+                           attr_id='4' [ RunTime:0.0020s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='38'
+                           AND 
+                           attr_id='5' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '29' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='30' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='29'
+                           AND 
+                           attr_id='4' [ RunTime:0.0040s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='39'
+                           AND 
+                           attr_id='5' [ RunTime:0.0000s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '30' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='31' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28'
+                           AND 
+                           attr_id='4' [ RunTime:0.0000s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0030s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '31' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='9' [ RunTime:0.0020s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='27'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '9' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='10' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='27'
+                           AND 
+                           attr_id='4' [ RunTime:0.0000s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '10' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='12' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28'
+                           AND 
+                           attr_id='4' [ RunTime:0.0000s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '12' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='13' [ RunTime:0.0000s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '13' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='11' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '11' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='14' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='27'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='37'
+                           AND 
+                           attr_id='5' [ RunTime:0.0000s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '14' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:02:43 ] [ result ][{"uid":"117","company_id":"0","case_id":"28","title":"\u534e\u65b0\u5bb6\u56ed","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_040B7A57DA0B4CAAA4BAA99FA19C8C68.jpg","count":"4","attr_value_title":"\u6b27\u5f0f","attr_value_name":"\u4e09\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"4"},{"uid":"117","company_id":"0","case_id":"29","title":"\u7ecf\u533a\u7687\u51a0","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_B1224B15159876AFAA476066A0780022.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","attr_value_name":"\u4e2d\u5f0f","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"30","title":"\u5a01\u6d77\u671b\u5c9b\u540d\u90e1","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_39EB60247444D6B7508B63BFDCCBEEF6.jpg","count":"5","attr_value_title":"\u4e2d\u5f0f","attr_value_name":"\u56db\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"31","title":"\u5357\u7af9\u5c9b\u5c0f\u533a","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_99C946C915B7FE9535654553AC84CF4A.jpg","count":"3","attr_value_title":"\u73b0\u4ee3","name":"\u4e8e\u677e\u4e3d","phonecount":"3"},{"uid":"119","company_id":"0","case_id":"9","title":"  \u6d77\u6ee8\u5927\u53a6\u5305\u95f4","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_18D184DB623DE5B2435C02451013F096.png","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"10","title":" \u70ed\u6d6a\u5c9b\u81ea\u52a9\u9910\u996e   ","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_70B2EAA2906ED83FD778104F85857C82.jpg","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"12","title":" \u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a \uff08A\u533a\uff09","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_F8C9C16AD74448325FB9DEBE36BCC563.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"5"},{"uid":"119","company_id":"0","case_id":"13","title":"\u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a\uff08B\u533a\uff09","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_4E694D13D479FFC22802DBE9CA667343.jpg","count":"6","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"6"},{"uid":"119","company_id":"0","case_id":"11","title":"\u7279\u4e59\u7532\u6982\u5ff5\u65b9\u6848","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_F071CFAF0E8A0069EB88D1CA4DA8F766.jpg","count":"13","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"13"},{"uid":"119","company_id":"0","case_id":"14","title":"\u90b9\u57ce\u4f73\u5408\u00b7\u540d\u4ed5\u8c6a\u5ead","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_A985E61F0071BC063573FBA956F69899.png","count":"4","attr_value_title":"\u7b80\u7ea6","attr_value_name":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"4"}]
+DEBUG: [ Jiechengkeji ] [ 10:02:43 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"uid":"117","company_id":"0","case_id":"28","title":"\u534e\u65b0\u5bb6\u56ed","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_040B7A57DA0B4CAAA4BAA99FA19C8C68.jpg","count":"4","attr_value_title":"\u6b27\u5f0f","attr_value_name":"\u4e09\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"4"},{"uid":"117","company_id":"0","case_id":"29","title":"\u7ecf\u533a\u7687\u51a0","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_B1224B15159876AFAA476066A0780022.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","attr_value_name":"\u4e2d\u5f0f","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"30","title":"\u5a01\u6d77\u671b\u5c9b\u540d\u90e1","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_39EB60247444D6B7508B63BFDCCBEEF6.jpg","count":"5","attr_value_title":"\u4e2d\u5f0f","attr_value_name":"\u56db\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"31","title":"\u5357\u7af9\u5c9b\u5c0f\u533a","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_99C946C915B7FE9535654553AC84CF4A.jpg","count":"3","attr_value_title":"\u73b0\u4ee3","name":"\u4e8e\u677e\u4e3d","phonecount":"3"},{"uid":"119","company_id":"0","case_id":"9","title":"  \u6d77\u6ee8\u5927\u53a6\u5305\u95f4","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_18D184DB623DE5B2435C02451013F096.png","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"10","title":" \u70ed\u6d6a\u5c9b\u81ea\u52a9\u9910\u996e   ","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_70B2EAA2906ED83FD778104F85857C82.jpg","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"12","title":" \u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a \uff08A\u533a\uff09","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_F8C9C16AD74448325FB9DEBE36BCC563.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"5"},{"uid":"119","company_id":"0","case_id":"13","title":"\u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a\uff08B\u533a\uff09","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_4E694D13D479FFC22802DBE9CA667343.jpg","count":"6","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"6"},{"uid":"119","company_id":"0","case_id":"11","title":"\u7279\u4e59\u7532\u6982\u5ff5\u65b9\u6848","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_F071CFAF0E8A0069EB88D1CA4DA8F766.jpg","count":"13","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"13"},{"uid":"119","company_id":"0","case_id":"14","title":"\u90b9\u57ce\u4f73\u5408\u00b7\u540d\u4ed5\u8c6a\u5ead","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_A985E61F0071BC063573FBA956F69899.png","count":"4","attr_value_title":"\u7b80\u7ea6","attr_value_name":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"4"}],"pageTotal":36,"pageCurrent":1,"recordTotal":4}}
+
+[ 2018-02-02T10:02:47+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 10:02:47 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:02:47 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:02:47 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                         uid,
+                         company_id,
+                         case_id,
+	                     title,
+	                     photo,
+	                     (SELECT count(*) FROM cy_case_photo WHERE case_id=cy_case.case_id) count
+                      FROM
+	                     cy_case
+                          WHERE 1=1 
+	                  AND 
+	                      city_id ='7'
+                      AND 
+                         closed = 0
+                      AND 
+                         audit = 1
+	                 LIMIT 0,10 [ RunTime:0.0020s ]
+SQL: SELECT 
+	                    count(*) as pageTotal
+                      FROM
+	                       cy_case
+                            WHERE 1=1 
+	                  AND 
+	                       city_id ='7'
+                      AND 
+                           closed = 0
+                      AND 
+                            audit = 1; [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='28' [ RunTime:0.0020s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='30'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='38'
+                           AND 
+                           attr_id='5' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '28' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='29' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='29'
+                           AND 
+                           attr_id='4' [ RunTime:0.0020s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='38'
+                           AND 
+                           attr_id='5' [ RunTime:0.0020s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0020s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '29' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='30' [ RunTime:0.0020s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='29'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='39'
+                           AND 
+                           attr_id='5' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '30' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='31' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '31' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='9' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='27'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '9' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='10' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='27'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0020s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '10' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='12' [ RunTime:0.0000s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '12' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='13' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28'
+                           AND 
+                           attr_id='4' [ RunTime:0.0040s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '13' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='11' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28'
+                           AND 
+                           attr_id='4' [ RunTime:0.0000s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '11' [ RunTime:0.0040s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='14' [ RunTime:0.0040s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='27'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28'
+                           AND 
+                           attr_id='4' [ RunTime:0.0000s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='37'
+                           AND 
+                           attr_id='5' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0030s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                      WHERE
+	                    case_id = '14' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:02:47 ] [ result ][{"uid":"117","company_id":"0","case_id":"28","title":"\u534e\u65b0\u5bb6\u56ed","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_040B7A57DA0B4CAAA4BAA99FA19C8C68.jpg","count":"4","attr_value_title":"\u6b27\u5f0f","attr_value_name":"\u4e09\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"4"},{"uid":"117","company_id":"0","case_id":"29","title":"\u7ecf\u533a\u7687\u51a0","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_B1224B15159876AFAA476066A0780022.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","attr_value_name":"\u4e2d\u5f0f","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"30","title":"\u5a01\u6d77\u671b\u5c9b\u540d\u90e1","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_39EB60247444D6B7508B63BFDCCBEEF6.jpg","count":"5","attr_value_title":"\u4e2d\u5f0f","attr_value_name":"\u56db\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"31","title":"\u5357\u7af9\u5c9b\u5c0f\u533a","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_99C946C915B7FE9535654553AC84CF4A.jpg","count":"3","attr_value_title":"\u73b0\u4ee3","name":"\u4e8e\u677e\u4e3d","phonecount":"3"},{"uid":"119","company_id":"0","case_id":"9","title":"  \u6d77\u6ee8\u5927\u53a6\u5305\u95f4","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_18D184DB623DE5B2435C02451013F096.png","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"10","title":" \u70ed\u6d6a\u5c9b\u81ea\u52a9\u9910\u996e   ","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_70B2EAA2906ED83FD778104F85857C82.jpg","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"12","title":" \u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a \uff08A\u533a\uff09","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_F8C9C16AD74448325FB9DEBE36BCC563.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"5"},{"uid":"119","company_id":"0","case_id":"13","title":"\u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a\uff08B\u533a\uff09","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_4E694D13D479FFC22802DBE9CA667343.jpg","count":"6","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"6"},{"uid":"119","company_id":"0","case_id":"11","title":"\u7279\u4e59\u7532\u6982\u5ff5\u65b9\u6848","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_F071CFAF0E8A0069EB88D1CA4DA8F766.jpg","count":"13","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"13"},{"uid":"119","company_id":"0","case_id":"14","title":"\u90b9\u57ce\u4f73\u5408\u00b7\u540d\u4ed5\u8c6a\u5ead","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_A985E61F0071BC063573FBA956F69899.png","count":"4","attr_value_title":"\u7b80\u7ea6","attr_value_name":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"4"}]
+DEBUG: [ Jiechengkeji ] [ 10:02:47 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"uid":"117","company_id":"0","case_id":"28","title":"\u534e\u65b0\u5bb6\u56ed","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_040B7A57DA0B4CAAA4BAA99FA19C8C68.jpg","count":"4","attr_value_title":"\u6b27\u5f0f","attr_value_name":"\u4e09\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"4"},{"uid":"117","company_id":"0","case_id":"29","title":"\u7ecf\u533a\u7687\u51a0","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_B1224B15159876AFAA476066A0780022.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","attr_value_name":"\u4e2d\u5f0f","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"30","title":"\u5a01\u6d77\u671b\u5c9b\u540d\u90e1","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_39EB60247444D6B7508B63BFDCCBEEF6.jpg","count":"5","attr_value_title":"\u4e2d\u5f0f","attr_value_name":"\u56db\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"31","title":"\u5357\u7af9\u5c9b\u5c0f\u533a","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170811_99C946C915B7FE9535654553AC84CF4A.jpg","count":"3","attr_value_title":"\u73b0\u4ee3","name":"\u4e8e\u677e\u4e3d","phonecount":"3"},{"uid":"119","company_id":"0","case_id":"9","title":"  \u6d77\u6ee8\u5927\u53a6\u5305\u95f4","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_18D184DB623DE5B2435C02451013F096.png","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"10","title":" \u70ed\u6d6a\u5c9b\u81ea\u52a9\u9910\u996e   ","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_70B2EAA2906ED83FD778104F85857C82.jpg","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"12","title":" \u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a \uff08A\u533a\uff09","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_F8C9C16AD74448325FB9DEBE36BCC563.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"5"},{"uid":"119","company_id":"0","case_id":"13","title":"\u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a\uff08B\u533a\uff09","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_4E694D13D479FFC22802DBE9CA667343.jpg","count":"6","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"6"},{"uid":"119","company_id":"0","case_id":"11","title":"\u7279\u4e59\u7532\u6982\u5ff5\u65b9\u6848","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_F071CFAF0E8A0069EB88D1CA4DA8F766.jpg","count":"13","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"13"},{"uid":"119","company_id":"0","case_id":"14","title":"\u90b9\u57ce\u4f73\u5408\u00b7\u540d\u4ed5\u8c6a\u5ead","photo":"http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170810_A985E61F0071BC063573FBA956F69899.png","count":"4","attr_value_title":"\u7b80\u7ea6","attr_value_name":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"4"}],"pageTotal":36,"pageCurrent":1,"recordTotal":4}}
+
+[ 2018-02-02T10:02:53+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=12836
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 10:02:53 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:02:53 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:02:53 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-02-02T10:04:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027002s ]
+DEBUG: [ Jiechengkeji ] [ 10:03:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:03:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:03:07 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                      a.from
+                    FROM
+                       cy_member  a
+                    WHERE a.uname = '15666219025' 
+                      AND a.passwd = '4297f44b13955235245b2497399d7a93' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 10:04:18 ] [ result ]{"from":"designer"}
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\IndexService.class.php 第 61 行.
+DEBUG: [ Jiechengkeji ] [ 10:04:18 ] [ result ]null
+
+[ 2018-02-02T10:04:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 10:04:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:04:26 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:04:26 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                      a.from
+                    FROM
+                       cy_member  a
+                    WHERE a.uname = '15666219025' 
+                      AND a.passwd = '4297f44b13955235245b2497399d7a93' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:04:26 ] [ result ]{"from":"designer"}
+DEBUG: [ Jiechengkeji ] [ 10:04:26 ] [ result ]null
+
+[ 2018-02-02T10:18:20+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=18414
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+DEBUG: [ Jiechengkeji ] [ 10:18:20 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:18:20 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:18:20 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2018-02-02T10:18:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+DEBUG: [ Jiechengkeji ] [ 10:18:22 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:18:22 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:18:22 ] [ __construct ]BaseDAO
+
+[ 2018-02-02T10:18:47+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=16580
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:18:47 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:18:47 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:18:47 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2018-02-02T10:20:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 10:18:54 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:18:54 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:18:55 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                      a.from
+                    FROM
+                       cy_member  a
+                    WHERE a.uname = '15666219025' 
+                      AND a.passwd = '4297f44b13955235245b2497399d7a93' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:19:01 ] [ result ]{"from":"designer"}
+DEBUG: [ Jiechengkeji ] [ 10:19:55 ] [ result ]null
+
+[ 2018-02-02T11:23:41+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13198
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+DEBUG: [ Jiechengkeji ] [ 11:23:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:23:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:23:41 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2018-02-02T11:24:01+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:24:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:24:01 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 81 行.
+SQL: SELECT
+a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname='15666219025'
+	    [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:01 ] [ result ]{"uid":"103","uname":"15666219025","face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"}
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Common\Common\function.php 第 86 行.
+DEBUG: [ Jiechengkeji ] [ 11:24:01 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"uid":"103","uname":"15666219025","face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"}]}
+
+[ 2018-02-02T11:24:10+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_designer_tj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:24:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:24:10 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 404 行.
+SQL: SELECT
+                     *
+                      FROM
+	                      cy_member 
+                     WHERE 
+                         uname='15666219025' [ RunTime:0.0010s ]
+SQL: INSERT INTO cy_designer_article (
+                  city_id,
+                  uid,
+                  title,
+                  content,
+                  is_top,
+                  views,
+                  audit,
+                  dateline
+                ) 
+                VALUES
+                  (
+                    '7',
+                    '103',
+                    '',
+                    'DDD',
+                     '0',
+                      '0',
+                      '1',
+                    '1517541850'
+                  ) [ RunTime:0.0050s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:10 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:24:10 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":null}
+
+[ 2018-02-02T11:24:21+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=17907
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:21 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:24:21 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:24:21 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-02-02T11:24:31+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_designer_tj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:24 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:24:24 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:24:24 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 404 行.
+SQL: SELECT
+                     *
+                      FROM
+	                      cy_member 
+                     WHERE 
+                         uname='15666219025' [ RunTime:0.0020s ]
+SQL: INSERT INTO cy_designer_article (
+                  city_id,
+                  uid,
+                  title,
+                  content,
+                  is_top,
+                  views,
+                  audit,
+                  dateline
+                ) 
+                VALUES
+                  (
+                    '7',
+                    '103',
+                    '',
+                    'DDD',
+                     '0',
+                      '0',
+                      '1',
+                    '1517541868'
+                  ) [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:28 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:24:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":null}
+
+[ 2018-02-02T11:25:17+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember_designer_tj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:24:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:24:39 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 404 行.
+SQL: SELECT
+                     *
+                      FROM
+	                      cy_member 
+                     WHERE 
+                         uname='15666219025' [ RunTime:0.0010s ]
+
+[ 2018-02-02T11:48:32+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=12660
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:48:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:48:32 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-02-02T11:49:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/Umember_mm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:48:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:48:58 ] [ __construct ]BaseDAO
+
+[ 2018-02-02T11:49:41+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=18570
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 11:49:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:49:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:49:41 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2018-02-02T11:50:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/Umember_mm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 11:49:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:49:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:49:44 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                        cy_member 
+                     SET 
+                        passwd='15666319077'
+                     WHERE 
+                         uname='15666219025' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:49:45 ] [ result ]true
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Common\Common\function.php 第 100 行.
+DEBUG: [ Jiechengkeji ] [ 11:50:00 ] [ result ]{"msg":"\u4fee\u6539\u5bc6\u7801\u6210\u529f","code":0,"data":null}
+
+[ 2018-02-02T12:08:45+08:00 ] 127.0.0.1 /index.php/Admin/Index/Umember_mm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:50:09 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:50:09 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:50:09 ] [ __construct ]BaseDAO
+

@@ -1,0 +1,18 @@
+<script id="user-center-tpl" type="text/html">
+    <div>
+        <dl class="row paddForDl">
+            <dt class="col-20 paddForDt f_left">
+                <div class="wrapUserPhoto">
+                    <img id="ucImg" src="{{headimgurl!=null?headimgurl:'__PUBLIC__/images/logo.png'}}" alt="默认用户头像" class="img-responsive">
+                </div>
+            </dt>
+            <dd class="col-50 f_left f12">
+                <p class="line_h2">{{realname}}</p>
+                <p>{{phone}}</p>
+            </dd>
+            <dd class="col-33 f_left f12 text-right" style="display: none;">
+                修改头像&nbsp;&nbsp;<span class="icon icon-right"></span>
+            </dd>
+        </dl>
+    </div>
+</script>  

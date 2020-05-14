@@ -1,0 +1,281 @@
+<script type="text/html" id="tpl-index">
+    <div class="z_logo">
+        <img src="{{logoIcon}}" alt="logo">
+    </div>
+    <div class="list-block">
+        <ul class="z_input">
+            <li>
+                <div class="item-content">
+                    <div class="item-media"><img src="{{phoneIcon}}" alt=""></div>
+                    <div class="item-inner">
+                        <div class="item-input">
+                            <input type="tel" placeholder="手机号" id="phone">
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-content">
+                    <div class="item-media"><img src="{{passwordIcon}}" alt=""></div>
+                    <div class="item-inner">
+                        <div class="item-input">
+                            <input type="tel" placeholder="验证码" id="code">
+                        </div>
+                    </div>
+                    <div class="item-inner z_blank"></div>
+                    <div class="item-inner btn_getCode" id="btn_getCode">
+                        <div class="item-input">
+                        手机验证码
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="content-block">
+            <div class="row">
+                <div class="col-100"><a href="#" class="button button-big button-fill z_headBg" id="doLogin">登录</a></div>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/html" id="tpl-userCenter">
+    <div class="z_card">
+        <img src="{{imgArr.cardIcon}}" alt="">
+        <div class="z_card_info {{cardType}}">
+            <span class="z_card_num">{{cardNum || cardNumNaN}}<span class="z_justify"></span></span>
+            <span class="z_card_py">{{realname}}</span>
+            <span class="z_card_level">{{levelName}}</span>
+        </div>
+    </div>
+    <div class="row text-center z_wallet_info">
+        <div class="col-50">
+            <p class="fs-14">余额</p><p>{{balance}}</p>
+        </div>
+        <div class="col-50">
+            <p class="fs-14">积分</p><p>{{score}}</p>
+        </div>
+    </div>
+    <div class="list-block">
+        <ul>
+            <li>
+                <a href="__APP__/Home/User/expendList" class="item-link item-content">
+                    <div class="item-media"><img src="{{imgArr.listIcon_01}}" alt=""></div>
+                    <div class="item-inner">
+                        <div class="item-title">消费记录</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="__APP__/Home/User/scoreList" class="item-link item-content">
+                    <div class="item-media"><img src="{{imgArr.listIcon_02}}" alt=""></div>
+                    <div class="item-inner">
+                        <div class="item-title">积分查询</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="__APP__/Home/User/userInfo" class="item-link item-content">
+                    <div class="item-media"><img src="{{imgArr.listIcon_03}}" alt=""></div>
+                    <div class="item-inner">
+                        <div class="item-title">个人信息</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="__APP__/Home/User/rules" class="item-link item-content">
+                    <div class="item-media"><img src="{{imgArr.listIcon_04}}" alt=""></div>
+                    <div class="item-inner">
+                        <div class="item-title">规则说明</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="__APP__/Home/User/coupons" class="item-link item-content">
+                    <div class="item-media"><img src="{{imgArr.listIcon_05}}" alt=""></div>
+                    <div class="item-inner">
+                        <div class="item-title">优惠券</div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</script>
+<script type="text/html" id="tpl-expendList">
+    <li>
+        <div class="item-content">
+            <div class="item-media">
+                <img src="{{listIcon}}">
+            </div>
+            <div class="item-inner">
+                <div class="item-title-row">
+                    <div class="item-title">{{typeName}}</div>
+                </div>
+                <div class="item-subtitle">{{date}}</div>
+            </div>
+            <div class="pr-15 z_amount">{{amount}}</div>
+        </div>
+    </li>
+</script>
+<script type="text/html" id="tpl-scoreList">
+    <li>
+        <div class="item-content">
+            <div class="item-media">
+                <img src="{{listIcon}}">
+            </div>
+            <div class="item-inner">
+                <div class="item-title-row">
+                    <div class="item-title">{{typeName}}</div>
+                </div>
+                <div class="item-subtitle">{{date}}</div>
+            </div>
+            <div class="pr-15 z_amount">{{point}}</div>
+        </div>
+    </li>
+</script>
+<script type="text/html" id="tpl-coupons">
+    {{each data as value index}}
+        <li style="background-image: url('{{value.img}}');">
+            <span class="z_couponType">端午节特惠</span>
+            <span class="z_amount"><i>￥</i><b>{{value.amount}}</b></span>
+            <span class="z_text {{value.css}}"><i>通用</i><b>优惠红包</b></span>
+            <p class="z_bottomDate">
+                <span class="z_dateTime pull-left">使用期限: {{value.endTime}} 到期</span>
+                <span class="z_status pull-right">{{value.statusName}}</span>
+            </p>
+        </li>
+    {{/each}}
+</script>
+<script type="text/html" id="tpl-userInfo">
+    <div class="z_line"></div>
+    <div class="list-block media-list pr-15 pl-15 bg_fff">
+        <ul>
+            <li>
+                <a href="__APP__/Home/User/dealPhoto" class="item-link item-content z_arrow">
+                    <div class="item-inner z_nonBg">
+                        <div class="item-title-row">
+                            <div class="item-title">头像</div>
+                        </div>
+                    </div>
+                    <div class="item-media"><img src="{{headimgurl}}" style='width: 2.8rem;'></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="z_line"></div>
+    <div class="list-block">
+        <ul>
+            <a href="__APP__/Home/User/dealPage" class="item-content item-link">
+                <div class="item-media"><i class="icon icon-f7"></i></div>
+                <div class="item-inner">
+                    <div class="item-title">姓名</div>
+                    <div class="item-after">{{realname}}</div>
+                </div>
+            </a>
+            <li class="item-content item-link">
+                <div class="item-media"><i class="icon icon-f7"></i></div>
+                <div class="item-inner z_nonBg_2">
+                    <div class="item-title">手机号</div>
+                    <div class="item-after">{{phone}}</div>
+                </div>
+            </li>
+            <li class="item-content item-link">
+                <div class="item-media"><i class="icon icon-f7"></i></div>
+                <div class="item-inner">
+                    <div class="item-title">性别</div>
+                    <input class="item-after" type="text" id="sex" style="width: 1.2rem;" value="{{sex}}">
+                </div>
+            </li>
+            <li class="item-content item-link">
+                <div class="item-media"><i class="icon icon-f7"></i></div>
+                <div class="item-inner z_nonBg_2 pr-15">
+                    <div class="item-title">生日</div>
+                    <div class="item-after">
+                        <span class="z_radio" data-btype="1">公历生日 <img src="{{picUrl}}{{birthtype == '1' ? 'i_radio' : 'i_radioUn'}}.png" alt=""></span>
+                        <span class="z_radio pl-10" data-btype="0">农历生日 <img src="{{picUrl}}{{birthtype == '0' ? 'i_radio' : 'i_radioUn'}}.png" alt=""></span>
+                    </div>
+                </div>
+            </li>
+            <li class="item-content item-link">
+                <div class="item-media"><i class="icon icon-f7"></i></div>
+                <div class="item-inner">
+                    <div class="item-title"></div>
+                    <input class="item-after" type="text" id="birthday" style="width: 4.7rem;">
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="content-block">
+        <div class="row">
+            <div class="col-100"><a href="#" class="button button-big button-fill z_headBg btn_disable" id="save">保存</a></div>
+        </div>
+    </div>
+</script>
+<script type="text/html" id="tpl-levelRule">
+    <h3 class="z_ruleHead clearfix">
+        <img src="{{data.picUrl}}scoreAdd.png" alt="">
+        <span>会员升级</span>
+    </h3>
+    <p class="z_level">会员等级按累计消费金额划分，会员等级划分如下：</p>
+    <table class="z_table">
+        <thead>
+            <tr class="">
+                <th class="">会员等级</th>
+                <th class="">累计消费金额</th>
+            </tr>
+        </thead>
+        <tbody id="">
+            {{each data.data.reverse() as value index}}
+                <tr>
+                    <td>{{value.levelname}}</td>
+                    <td>≥{{value.amount}}</td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</script>
+<script type="text/html" id="tpl-rechargeRule">
+    <h3 class="z_ruleHead clearfix">
+        <img src="{{data.picUrl}}moneyAdd.png" alt="">
+        <span>充值赠送</span>
+    </h3>
+    <p class="z_level">当前充值赠送活动如下：</p>
+    <table class="z_table">
+        <thead>
+            <tr class="">
+                <th class="">充值金额</th>
+                <th class="">&emsp;赠送金额&emsp;</th>
+            </tr>
+        </thead>
+        <tbody id="">
+            {{each data.data as value index}}
+                <tr>
+                    <td>{{value.amount}}</td>
+                    <td>{{value.giftamount}}</td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</script>
+<script type="text/html" id="tpl-pointRule">
+    <h3 class="z_ruleHead clearfix">
+        <img src="{{data.picUrl}}level.png" alt="">
+        <span>积分赠送</span>
+    </h3>
+    <p class="z_level">积分赠送规则如下：</p>
+    <table class="z_table">
+        <thead>
+            <tr class="">
+                <th class="">会员等级</th>
+                <th class="">&emsp;积分满1元赠送&emsp;</th>
+            </tr>
+        </thead>
+        <tbody id="">
+            {{each data.data as value index}}
+                <tr>
+                    <td>{{ value.levelname }}</td>
+                    <td>{{ value.point }}</td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</script>

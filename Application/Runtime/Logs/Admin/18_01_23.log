@@ -1,0 +1,2333 @@
+[ 2018-01-23T09:21:07+08:00 ] 127.0.0.1 /index.php/Admin/Diary/Diary
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 09:21:05 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:21:05 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:21:05 ] [ __construct ]BaseDAO
+SQL: SELECT
+                           uid,
+                          diary_id,
+	                      home_name,
+	                      content_num,
+	                      views,
+	                      comments,
+	                      from_unixtime(dateline, '%Y-%m-%d') time,
+	                      thumb,
+	                      (
+		              SELECT
+			                 name
+		               FROM
+			               cy_company
+		              WHERE
+			                  company_id = cy_diary.company_id
+	                   ) name
+                   FROM
+	                   cy_diary
+                   WHERE 
+                       audit = '1'
+                   AND 
+                       closed = '0'
+                   LIMIT  0,10 [ RunTime:0.2800s ]
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_diary
+                   WHERE 
+                       audit = '1'
+                   AND 
+                       closed = '0' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:21:07 ] [ result ][{"uid":"108","diary_id":"2","home_name":"\u7965\u4e91\u82b1\u56ed","content_num":"1","views":"10","comments":"0","time":"2017-08-11","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_DA7A6C38D3D2F411B37442FF4853FE39.png","name":"\u519b\u745e"},{"uid":"122","diary_id":"3","home_name":"\u91d1\u6d77\u6e7e\u82b1\u56ed\u9152\u5e97","content_num":"1","views":"9","comments":"0","time":"2017-08-11","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_69CDFE33C66567C9858DAB1EC7B6674C.png","name":null},{"uid":"122","diary_id":"4","home_name":"\u9f50\u5546\u94f6\u884c","content_num":"1","views":"15","comments":"0","time":"2017-08-11","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_728AF34E8FFB496781A5EFD064BE394E.png","name":null},{"uid":"117","diary_id":"5","home_name":"\u534e\u65b0\u5bb6\u56ed\u5c0f\u533a ","content_num":"1","views":"27","comments":"0","time":"2017-08-11","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_E2D77C00D2959F208A80590C2BAD88F5.jpg","name":null}]
+DEBUG: [ Jiechengkeji ] [ 09:21:07 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"uid":"108","diary_id":"2","home_name":"\u7965\u4e91\u82b1\u56ed","content_num":"1","views":"10","comments":"0","time":"2017-08-11","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_DA7A6C38D3D2F411B37442FF4853FE39.png","name":"\u519b\u745e"},{"uid":"122","diary_id":"3","home_name":"\u91d1\u6d77\u6e7e\u82b1\u56ed\u9152\u5e97","content_num":"1","views":"9","comments":"0","time":"2017-08-11","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_69CDFE33C66567C9858DAB1EC7B6674C.png","name":null},{"uid":"122","diary_id":"4","home_name":"\u9f50\u5546\u94f6\u884c","content_num":"1","views":"15","comments":"0","time":"2017-08-11","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_728AF34E8FFB496781A5EFD064BE394E.png","name":null},{"uid":"117","diary_id":"5","home_name":"\u534e\u65b0\u5bb6\u56ed\u5c0f\u533a ","content_num":"1","views":"27","comments":"0","time":"2017-08-11","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_E2D77C00D2959F208A80590C2BAD88F5.jpg","name":null}],"pageTotal":4,"pageCurrent":1,"recordTotal":1}}
+
+[ 2018-01-23T09:21:08+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.054003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+DEBUG: [ Jiechengkeji ] [ 09:21:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:21:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:21:07 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                         uid,
+                         company_id,
+                         case_id,
+	                     title,
+	                     photo,
+	                     (SELECT count(*) FROM cy_case_photo WHERE case_id=cy_case.case_id) count
+                      FROM
+	                     cy_case
+                          WHERE 1=1 
+	                 AND 
+	                      city_id ='7'
+                     AND 
+                         closed = 0
+                     AND 
+                         audit = 1
+	                 LIMIT 0,10 [ RunTime:0.0580s ]
+SQL: SELECT 
+	                    count(*) as pageTotal
+                      FROM
+	                       cy_case
+                            WHERE 1=1 
+	                  AND 
+	                       city_id ='7'
+                      AND 
+                           closed = 0
+                      AND 
+                            audit = 1; [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='28' [ RunTime:0.0040s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='30' [ RunTime:0.0060s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='38' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0050s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '28' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='29' [ RunTime:0.0000s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='29' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='38' [ RunTime:0.0000s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '29' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='30' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='29' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='39' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '30' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='31' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '31' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='9' [ RunTime:0.0020s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='27' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '9' [ RunTime:0.0020s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='10' [ RunTime:0.0000s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='27' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '10' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='12' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28' [ RunTime:0.0000s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '12' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='13' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '13' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='11' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28' [ RunTime:0.0000s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '11' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='14' [ RunTime:0.0000s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='27' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='37' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '14' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:21:08 ] [ result ][{"uid":"117","company_id":"0","case_id":"28","title":"\u534e\u65b0\u5bb6\u56ed","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_040B7A57DA0B4CAAA4BAA99FA19C8C68.jpg","count":"4","attr_value_title":"\u6b27\u5f0f","attr_value_name":"\u4e09\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"4"},{"uid":"117","company_id":"0","case_id":"29","title":"\u7ecf\u533a\u7687\u51a0","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_B1224B15159876AFAA476066A0780022.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","attr_value_name":"\u4e2d\u5f0f","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"30","title":"\u5a01\u6d77\u671b\u5c9b\u540d\u90e1","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_39EB60247444D6B7508B63BFDCCBEEF6.jpg","count":"5","attr_value_title":"\u4e2d\u5f0f","attr_value_name":"\u56db\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"31","title":"\u5357\u7af9\u5c9b\u5c0f\u533a","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_99C946C915B7FE9535654553AC84CF4A.jpg","count":"3","attr_value_title":"\u73b0\u4ee3","name":"\u4e8e\u677e\u4e3d","phonecount":"3"},{"uid":"119","company_id":"0","case_id":"9","title":"  \u6d77\u6ee8\u5927\u53a6\u5305\u95f4","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170810_18D184DB623DE5B2435C02451013F096.png","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"10","title":" \u70ed\u6d6a\u5c9b\u81ea\u52a9\u9910\u996e   ","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170810_70B2EAA2906ED83FD778104F85857C82.jpg","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"12","title":" \u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a \uff08A\u533a\uff09","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170810_F8C9C16AD74448325FB9DEBE36BCC563.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"5"},{"uid":"119","company_id":"0","case_id":"13","title":"\u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a\uff08B\u533a\uff09","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170810_4E694D13D479FFC22802DBE9CA667343.jpg","count":"6","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"6"},{"uid":"119","company_id":"0","case_id":"11","title":"\u7279\u4e59\u7532\u6982\u5ff5\u65b9\u6848","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170810_F071CFAF0E8A0069EB88D1CA4DA8F766.jpg","count":"13","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"13"},{"uid":"119","company_id":"0","case_id":"14","title":"\u90b9\u57ce\u4f73\u5408\u00b7\u540d\u4ed5\u8c6a\u5ead","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170810_A985E61F0071BC063573FBA956F69899.png","count":"4","attr_value_title":"\u7b80\u7ea6","attr_value_name":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"4"}]
+DEBUG: [ Jiechengkeji ] [ 09:21:08 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"uid":"117","company_id":"0","case_id":"28","title":"\u534e\u65b0\u5bb6\u56ed","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_040B7A57DA0B4CAAA4BAA99FA19C8C68.jpg","count":"4","attr_value_title":"\u6b27\u5f0f","attr_value_name":"\u4e09\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"4"},{"uid":"117","company_id":"0","case_id":"29","title":"\u7ecf\u533a\u7687\u51a0","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_B1224B15159876AFAA476066A0780022.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","attr_value_name":"\u4e2d\u5f0f","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"30","title":"\u5a01\u6d77\u671b\u5c9b\u540d\u90e1","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_39EB60247444D6B7508B63BFDCCBEEF6.jpg","count":"5","attr_value_title":"\u4e2d\u5f0f","attr_value_name":"\u56db\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"31","title":"\u5357\u7af9\u5c9b\u5c0f\u533a","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170811_99C946C915B7FE9535654553AC84CF4A.jpg","count":"3","attr_value_title":"\u73b0\u4ee3","name":"\u4e8e\u677e\u4e3d","phonecount":"3"},{"uid":"119","company_id":"0","case_id":"9","title":"  \u6d77\u6ee8\u5927\u53a6\u5305\u95f4","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170810_18D184DB623DE5B2435C02451013F096.png","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"10","title":" \u70ed\u6d6a\u5c9b\u81ea\u52a9\u9910\u996e   ","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170810_70B2EAA2906ED83FD778104F85857C82.jpg","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"12","title":" \u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a \uff08A\u533a\uff09","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170810_F8C9C16AD74448325FB9DEBE36BCC563.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"5"},{"uid":"119","company_id":"0","case_id":"13","title":"\u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a\uff08B\u533a\uff09","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170810_4E694D13D479FFC22802DBE9CA667343.jpg","count":"6","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"6"},{"uid":"119","company_id":"0","case_id":"11","title":"\u7279\u4e59\u7532\u6982\u5ff5\u65b9\u6848","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170810_F071CFAF0E8A0069EB88D1CA4DA8F766.jpg","count":"13","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"13"},{"uid":"119","company_id":"0","case_id":"14","title":"\u90b9\u57ce\u4f73\u5408\u00b7\u540d\u4ed5\u8c6a\u5ead","photo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170810_A985E61F0071BC063573FBA956F69899.png","count":"4","attr_value_title":"\u7b80\u7ea6","attr_value_name":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"4"}],"pointtotal":1}
+
+[ 2018-01-23T09:21:10+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 09:21:09 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:21:09 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:21:09 ] [ __construct ]BaseDAO
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='18333333333'; [ RunTime:0.0150s ]
+DEBUG: [ Jiechengkeji ] [ 09:21:10 ] [ result ]{"0":{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6"},"1":{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6"},"2":{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6"},"3":{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba"},"4":{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba"},"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg","jingb":"0","yhj":"2"}
+DEBUG: [ Jiechengkeji ] [ 09:21:10 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"0":{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6"},"1":{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6"},"2":{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6"},"3":{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba"},"4":{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba"},"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg","jingb":"0","yhj":"2"}}
+
+[ 2018-01-23T09:33:48+08:00 ] 127.0.0.1 /index.php/Admin/cy_compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Cy_compay
+
+[ 2018-01-23T09:34:11+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:34:11 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:34:11 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:34:11 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    *
+                      FROM
+	                   cy_company
+	                  WHERE  
+	                   company_id=''
+	                 AND 
+		               audit = '1'
+		             AND 
+		              closed = '0'
+	                 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:34:11 ] [ result ][]
+DEBUG: [ Jiechengkeji ] [ 09:34:11 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2018-01-23T09:36:19+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 09:36:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:36:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:36:19 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0030s ]
+SQL: SELECT
+	                    	b.photo
+                      FROM
+	                    cy_company a,
+	                    cy_case b
+                     WHERE
+                        a.company_id=''
+                     AND
+	                    a.company_id = b.company_id
+                     AND 
+                        a.audit = '1'
+                     AND 
+                        a.closed = '0'
+                     ORDER BY
+	                 a.company_id DESC [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:36:19 ] [ result ][{"count":"0"}]
+DEBUG: [ Jiechengkeji ] [ 09:36:19 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"count":"0"}]}
+
+[ 2018-01-23T10:09:28+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 10:09:28 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:09:28 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:09:28 ] [ __construct ]BaseDAO
+ERR: 1052:Column 'company_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                      b.content
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  company_id=''
+                     LIMIT 0,10
+ERR: 1052:Column 'company_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                      b.content
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  company_id=''
+                     LIMIT 0,10
+
+[ 2018-01-23T10:09:47+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:09:47 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:09:47 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:09:47 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0010s ]
+SQL: SELECT
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	b.photo,
+  c.info,
+  a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a,
+	cy_case b,
+	cy_company_fields c
+WHERE
+	a.company_id = b.company_id
+AND a.company_id = c.company_id
+AND a.audit = '1'
+AND a.closed = '0'
+AND  a.company_id=''
+ORDER BY
+	a.company_id DESC [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 10:09:47 ] [ result ][{"count":"0"}]
+DEBUG: [ Jiechengkeji ] [ 10:09:47 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"count":"0"}]}
+
+[ 2018-01-23T10:09:54+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 10:09:54 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:09:54 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:09:54 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0010s ]
+SQL: SELECT
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	b.photo,
+  c.info,
+  a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a,
+	cy_case b,
+	cy_company_fields c
+WHERE
+	a.company_id = b.company_id
+AND a.company_id = c.company_id
+AND a.audit = '1'
+AND a.closed = '0'
+AND  a.company_id=''
+ORDER BY
+	a.company_id DESC [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:09:54 ] [ result ][{"count":"0"}]
+DEBUG: [ Jiechengkeji ] [ 10:09:54 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"count":"0"}]}
+
+[ 2018-01-23T10:10:14+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:10:14 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:10:14 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:10:14 ] [ __construct ]BaseDAO
+ERR: 1052:Column 'company_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                      b.content
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  company_id=''
+                     LIMIT 0,10
+ERR: 1052:Column 'company_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                      b.content
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  company_id=''
+                     LIMIT 0,10
+
+[ 2018-01-23T10:10:39+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:10:39 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:10:39 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:10:39 ] [ __construct ]BaseDAO
+ERR: 1052:Column 'company_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                      b.content
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  company_id='8'
+                     LIMIT 0,10
+ERR: 1052:Column 'company_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                      b.content
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  company_id='8'
+                     LIMIT 0,10
+
+[ 2018-01-23T10:11:33+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 10:11:33 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:11:33 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:11:33 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                      b.content
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id=''
+                     LIMIT 0,10 [ RunTime:0.0020s ]
+SQL: SELECT
+	                  count(*) AS pageTotal
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id='' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 10:11:33 ] [ result ][]
+DEBUG: [ Jiechengkeji ] [ 10:11:33 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":1,"data":{"result":[],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2018-01-23T10:17:47+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 10:17:47 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:17:47 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:17:47 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                      b.content
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id=''
+                     LIMIT 0,10 [ RunTime:0.0010s ]
+SQL: SELECT
+	                  count(*) AS pageTotal
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id='' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:17:47 ] [ result ][]
+DEBUG: [ Jiechengkeji ] [ 10:17:47 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":1,"data":{"result":[],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2018-01-23T10:17:49+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:17:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:17:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:17:49 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0020s ]
+SQL: SELECT
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	b.photo,
+  c.info,
+  a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a,
+	cy_case b,
+	cy_company_fields c
+WHERE
+	a.company_id = b.company_id
+AND a.company_id = c.company_id
+AND a.audit = '1'
+AND a.closed = '0'
+AND  a.company_id=''
+ORDER BY
+	a.company_id DESC [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:17:49 ] [ result ][{"count":"0"}]
+DEBUG: [ Jiechengkeji ] [ 10:17:49 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"count":"0"}]}
+
+[ 2018-01-23T10:42:54+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=17867
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:42:54 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:42:54 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:42:54 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-01-23T10:43:31+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+DEBUG: [ Jiechengkeji ] [ 10:43:03 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:43:03 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:43:03 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0020s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '' [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 10:43:30 ] [ result ][{"count":"0"}]
+DEBUG: [ Jiechengkeji ] [ 10:43:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"count":"0"}]}
+
+[ 2018-01-23T10:43:40+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 10:43:34 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:43:34 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:43:34 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0020s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '8' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 10:43:38 ] [ result ][{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"","photoo":"photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}]
+DEBUG: [ Jiechengkeji ] [ 10:43:39 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"","photoo":"photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}]}
+
+[ 2018-01-23T10:44:55+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:43:43 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:43:43 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:43:43 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0030s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '8' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 10:44:54 ] [ result ][{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"","photoo":"photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}]
+DEBUG: [ Jiechengkeji ] [ 10:44:54 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"","photoo":"photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}]}
+
+[ 2018-01-23T10:45:09+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 10:44:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:44:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:44:57 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0030s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '8' [ RunTime:0.0050s ]
+DEBUG: [ Jiechengkeji ] [ 10:45:09 ] [ result ]{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"","photoo":"photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","0":{"count":"0"}}
+DEBUG: [ Jiechengkeji ] [ 10:45:09 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"","photoo":"photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","0":{"count":"0"}}}
+
+[ 2018-01-23T10:45:14+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:45:12 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:45:12 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:45:12 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0010s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '8' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:45:14 ] [ result ]{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"","photoo":"photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}
+DEBUG: [ Jiechengkeji ] [ 10:45:14 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"","photoo":"photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}}
+
+[ 2018-01-23T10:45:23+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 10:45:21 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:45:21 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:45:21 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0020s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '8' [ RunTime:0.0050s ]
+DEBUG: [ Jiechengkeji ] [ 10:45:22 ] [ result ]{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"","photoo":"photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}
+DEBUG: [ Jiechengkeji ] [ 10:45:23 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"","photoo":"photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}}
+
+[ 2018-01-23T10:49:08+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 10:49:08 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:49:08 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:49:08 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0010s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '8' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 10:49:08 ] [ result ]{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"http:\/\/music.shulailo.cn\/attachs\/","photoo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}
+DEBUG: [ Jiechengkeji ] [ 10:49:08 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"http:\/\/music.shulailo.cn\/attachs\/","photoo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}}
+
+[ 2018-01-23T10:51:10+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+DEBUG: [ Jiechengkeji ] [ 10:51:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:51:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:51:10 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0020s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '8' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:51:10 ] [ result ]{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"http:\/\/m.shulailo.cn\/attachs\/","photoo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}
+DEBUG: [ Jiechengkeji ] [ 10:51:10 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"http:\/\/m.shulailo.cn\/attachs\/","photoo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}}
+
+[ 2018-01-23T10:53:31+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:53:31 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:53:31 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:53:31 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0010s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '' [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 105 行.
+NOTIC: [8] Undefined index: photo D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 107 行.
+NOTIC: [8] Undefined index: thumb D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 108 行.
+DEBUG: [ Jiechengkeji ] [ 10:53:31 ] [ result ]{"photoo":"http:\/\/music.shulailo.cn\/attachs\/","photo":"http:\/\/m.shulailo.cn\/attachs\/","thumb":"http:\/\/music.shulailo.cn\/attachs\/","count":"0"}
+DEBUG: [ Jiechengkeji ] [ 10:53:31 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"photoo":"http:\/\/music.shulailo.cn\/attachs\/","photo":"http:\/\/m.shulailo.cn\/attachs\/","thumb":"http:\/\/music.shulailo.cn\/attachs\/","count":"0"}}
+
+[ 2018-01-23T10:53:53+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:53:53 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:53:53 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:53:53 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0010s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '8' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:53:53 ] [ result ]{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"http:\/\/m.shulailo.cn\/attachs\/","photoo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}
+DEBUG: [ Jiechengkeji ] [ 10:53:53 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"http:\/\/m.shulailo.cn\/attachs\/","photoo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}}
+
+[ 2018-01-23T10:55:17+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: [ Jiechengkeji ] [ 10:55:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:55:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:55:17 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0000s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '8' [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 10:55:17 ] [ result ]{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"http:\/\/m.shulailo.cn\/attachs\/","photoo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}
+DEBUG: [ Jiechengkeji ] [ 10:55:17 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"http:\/\/m.shulailo.cn\/attachs\/","photoo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}}
+
+[ 2018-01-23T10:56:57+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=17680
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:56:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:56:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:56:57 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2018-01-23T10:57:41+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: [ Jiechengkeji ] [ 10:57:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:57:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:57:01 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0010s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '8' [ RunTime:0.0020s ]
+
+[ 2018-01-23T11:25:56+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 11:25:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:25:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:25:56 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      a. NAME,
+                          b.face
+                     FROM
+	                      cy_designer a,
+	                      cy_member b
+                     WHERE
+	                      a.uid = b.uid
+                     AND a.company_id = ''
+                     AND a.audit = '1'
+                     AND a.closed = '0' [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 11:25:56 ] [ result ][{"name":"\u4f55\u857e","face":""},{"name":"\u674e\u6797\u9896","face":"face\/4C5\/180\/4C56FF4CE4AAF9573AA5DFF913DF997A.jpg"},{"name":"\u5b59\u8bb8\u5149","face":""},{"name":"\u4e8e\u677e\u4e3d","face":""}]
+DEBUG: [ Jiechengkeji ] [ 11:25:56 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"name":"\u4f55\u857e","face":""},{"name":"\u674e\u6797\u9896","face":"face\/4C5\/180\/4C56FF4CE4AAF9573AA5DFF913DF997A.jpg"},{"name":"\u5b59\u8bb8\u5149","face":""},{"name":"\u4e8e\u677e\u4e3d","face":""}]}
+
+[ 2018-01-23T11:37:17+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=15857
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:37:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:37:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:37:17 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2018-01-23T11:37:37+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:37:34 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:37:34 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:37:34 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      a. NAME,
+                          b.face
+                     FROM
+	                      cy_designer a,
+	                      cy_member b
+                     WHERE
+	                      a.uid = b.uid
+                     AND a.company_id = ''
+                     AND a.audit = '1'
+                     AND a.closed = '0' [ RunTime:0.0030s ]
+
+[ 2018-01-23T11:37:42+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:37:42 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:37:42 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:37:42 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      a. NAME,
+                          b.face
+                     FROM
+	                      cy_designer a,
+	                      cy_member b
+                     WHERE
+	                      a.uid = b.uid
+                     AND a.company_id = ''
+                     AND a.audit = '1'
+                     AND a.closed = '0' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:37:42 ] [ result ][{"name":"\u4f55\u857e","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"name":"\u674e\u6797\u9896","face":"http:\/\/music.shulailo.cn\/attachs\/http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"name":"\u5b59\u8bb8\u5149","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"name":"\u4e8e\u677e\u4e3d","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]
+DEBUG: [ Jiechengkeji ] [ 11:37:42 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"name":"\u4f55\u857e","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"name":"\u674e\u6797\u9896","face":"http:\/\/music.shulailo.cn\/attachs\/http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"name":"\u5b59\u8bb8\u5149","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"name":"\u4e8e\u677e\u4e3d","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]}
+
+[ 2018-01-23T11:37:45+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:37:45 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:37:45 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:37:45 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      a. NAME,
+                          b.face
+                     FROM
+	                      cy_designer a,
+	                      cy_member b
+                     WHERE
+	                      a.uid = b.uid
+                     AND a.company_id = ''
+                     AND a.audit = '1'
+                     AND a.closed = '0' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:37:45 ] [ result ][{"name":"\u4f55\u857e","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"name":"\u674e\u6797\u9896","face":"http:\/\/music.shulailo.cn\/attachs\/http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"name":"\u5b59\u8bb8\u5149","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"name":"\u4e8e\u677e\u4e3d","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]
+DEBUG: [ Jiechengkeji ] [ 11:37:45 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"name":"\u4f55\u857e","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"name":"\u674e\u6797\u9896","face":"http:\/\/music.shulailo.cn\/attachs\/http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"name":"\u5b59\u8bb8\u5149","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"name":"\u4e8e\u677e\u4e3d","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]}
+
+[ 2018-01-23T11:38:03+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:38:03 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:38:03 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:38:03 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0000s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '' [ RunTime:0.0040s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 105 行.
+NOTIC: [8] Undefined index: photo D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 107 行.
+NOTIC: [8] Undefined index: thumb D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 108 行.
+DEBUG: [ Jiechengkeji ] [ 11:38:03 ] [ result ]{"photoo":"http:\/\/music.shulailo.cn\/attachs\/","photo":"http:\/\/m.shulailo.cn\/attachs","thumb":"http:\/\/music.shulailo.cn\/attachs\/","count":"0"}
+DEBUG: [ Jiechengkeji ] [ 11:38:03 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"photoo":"http:\/\/music.shulailo.cn\/attachs\/","photo":"http:\/\/m.shulailo.cn\/attachs","thumb":"http:\/\/music.shulailo.cn\/attachs\/","count":"0"}}
+
+[ 2018-01-23T11:38:17+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 11:38:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:38:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:38:17 ] [ __construct ]BaseDAO
+SQL: SELECT
+			             COUNT(*) COUNT
+	           	     FROM
+			             cy_company a,
+			             cy_case b
+		             WHERE
+		                 a.company_id=''
+		              AND 
+		                 a.company_id = b.company_id
+		              AND 
+		                 a.audit = '1'
+		              AND 
+		                 a.closed = '0' [ RunTime:0.0010s ]
+SQL: SELECT
+	a.`name`,
+	a.tenders_num,
+	a.case_num,
+	a.yuyue_num,
+	a.thumb,
+	a.photo,
+	(
+		SELECT
+			photo
+		FROM
+			cy_case
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) photoo,
+	(
+		SELECT
+			info
+		FROM
+			cy_company_fields
+		WHERE
+			company_id = a.company_id
+		LIMIT 0,
+		1
+	) info,
+	a.addr,
+	a.comments,
+	a.score,
+	a.score1,
+	a.score2,
+	a.score3
+FROM
+	cy_company a
+WHERE
+	a.audit = '1'
+AND a.closed = '0'
+AND a.company_id = '8' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:38:17 ] [ result ]{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"http:\/\/m.shulailo.cn\/attachs","photoo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}
+DEBUG: [ Jiechengkeji ] [ 11:38:17 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","tenders_num":"0","case_num":"0","yuyue_num":"0","thumb":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_B2E1C5D9687008084A552F3C7AF5765E.jpg","photo":"http:\/\/m.shulailo.cn\/attachs","photoo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg","info":"1","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","comments":"0","score":"0","score1":"0","score2":"0","score3":"0","count":"0"}}
+
+[ 2018-01-23T15:44:28+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=19786
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 15:44:28 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:44:28 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:44:28 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-23T15:44:35+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:44:35 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:44:35 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:44:35 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                        b.content,
+                      (SELECT COUNT(*) FROM cy_company_comment ) conut
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id=''
+                     LIMIT 0,10 [ RunTime:0.0020s ]
+SQL: SELECT
+	                  count(*) AS pageTotal
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id='' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:44:35 ] [ result ][]
+DEBUG: [ Jiechengkeji ] [ 15:44:35 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":1,"data":{"result":[],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2018-01-23T15:44:40+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:44:40 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:44:40 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:44:40 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                        b.content,
+                      (SELECT COUNT(*) FROM cy_company_comment ) conut
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id=''
+                     LIMIT 0,10 [ RunTime:0.0020s ]
+SQL: SELECT
+	                  count(*) AS pageTotal
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id='' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:44:40 ] [ result ][]
+DEBUG: [ Jiechengkeji ] [ 15:44:40 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":1,"data":{"result":[],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2018-01-23T15:45:51+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 15:45:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:45:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:45:51 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                        b.content,
+                      (SELECT COUNT(*) FROM cy_company_comment ) conut
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id='8'
+                     LIMIT 0,10 [ RunTime:0.0010s ]
+SQL: SELECT
+                          uname,
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='124' [ RunTime:0.0010s ]
+SQL: SELECT
+	                  count(*) AS pageTotal
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id='' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 15:45:51 ] [ result ][{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"1","face":"http:\/\/music.shulailo.cn\/attachs\/face\/C8F\/180\/C8FFE9A587B126F152ED3D89A146B445.jpg","uname":"13806316709"}]
+DEBUG: [ Jiechengkeji ] [ 15:45:51 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"1","face":"http:\/\/music.shulailo.cn\/attachs\/face\/C8F\/180\/C8FFE9A587B126F152ED3D89A146B445.jpg","uname":"13806316709"}],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2018-01-23T16:08:37+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=15933
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 16:08:37 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:08:37 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:08:37 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-23T16:08:42+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 16:08:42 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:08:42 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:08:42 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                        b.content,
+                      (SELECT COUNT(*) FROM cy_company_comment ) conut
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id=''
+                     LIMIT 0,10 [ RunTime:0.0030s ]
+SQL: SELECT
+	                  count(*) AS pageTotal
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id='' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:08:42 ] [ result ][]
+DEBUG: [ Jiechengkeji ] [ 16:08:42 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":1,"data":{"result":[],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2018-01-23T16:10:42+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 16:09:36 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:09:36 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:09:37 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                        b.content,
+                      (SELECT COUNT(*) FROM cy_company_comment ) conut
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id='8'
+                     LIMIT 0,10 [ RunTime:0.0020s ]
+SQL: SELECT
+                          uname,
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='124' [ RunTime:0.0010s ]
+SQL: SELECT
+                          uname,
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='124' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 132 行.
+NOTIC: [8] Undefined offset: 1 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 133 行.
+NOTIC: [8] Undefined offset: 1 xdebug://debug-eval(1) : eval()'d code 第 1 行.
+SQL: SELECT
+                          uname,
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='124' [ RunTime:0.0440s ]
+NOTIC: [8] Undefined offset: 2 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 132 行.
+NOTIC: [8] Undefined offset: 2 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 133 行.
+SQL: SELECT
+                          uname,
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='124' [ RunTime:0.0110s ]
+NOTIC: [8] Undefined offset: 3 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 132 行.
+NOTIC: [8] Undefined offset: 3 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 133 行.
+SQL: SELECT
+                          uname,
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='124' [ RunTime:0.0170s ]
+NOTIC: [8] Undefined offset: 4 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 132 行.
+NOTIC: [8] Undefined offset: 4 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 133 行.
+SQL: SELECT
+                          uname,
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='124' [ RunTime:0.0070s ]
+NOTIC: [8] Undefined offset: 5 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 132 行.
+NOTIC: [8] Undefined offset: 5 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 133 行.
+SQL: SELECT
+                          uname,
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='124' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 6 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 132 行.
+NOTIC: [8] Undefined offset: 6 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 133 行.
+SQL: SELECT
+                          uname,
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='124' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 7 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 132 行.
+NOTIC: [8] Undefined offset: 7 D:\bewin.WhjzProject.com\Application\Admin\Service\CompayService.class.php 第 133 行.
+SQL: SELECT
+	                  count(*) AS pageTotal
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id='' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:10:42 ] [ result ][{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":"13806316709","face":"http:\/\/music.shulailo.cn\/attachs\/face\/C8F\/180\/C8FFE9A587B126F152ED3D89A146B445.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"1","score2":"2","score3":"3","score4":"4","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]
+DEBUG: [ Jiechengkeji ] [ 16:10:42 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":"13806316709","face":"http:\/\/music.shulailo.cn\/attachs\/face\/C8F\/180\/C8FFE9A587B126F152ED3D89A146B445.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"1","score2":"2","score3":"3","score4":"4","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"uid":"124","company_id":"8","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","score1":"5","score2":"5","score3":"5","score4":"5","score5":"5","dateline":"2017-06-27","content":"ddddddd","conut":"8","uname":null,"face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2018-01-23T16:12:33+08:00 ] 127.0.0.1 /index.php/Admin/Compay/cy_compay_f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 16:10:45 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:10:45 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:10:45 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.uid,
+	                    b.company_id,
+	                    a.`name`,
+	                    b.score1,
+	                    b.score2,
+	                    b.score3,
+	                    b.score4,
+	                    b.score5,
+	                    from_unixtime(b.dateline, '%Y-%m-%d') dateline,
+                        b.content,
+                      (SELECT COUNT(*) FROM cy_company_comment ) conut
+                    FROM
+	                    cy_company a,
+	                    cy_company_comment b
+                    WHERE  a.company_id=b.company_id
+                     AND  a.company_id='8'
+                     LIMIT 0,10 [ RunTime:0.0010s ]
+SQL: SELECT
+                          uname,
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='124' [ RunTime:0.0010s ]
+SQL: SELECT
+                          uname,
+                          face
+                     FROM
+	                      cy_member
+	                 WHERE 
+	                   uid='124' [ RunTime:0.0010s ]
+

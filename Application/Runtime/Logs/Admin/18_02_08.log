@@ -1,0 +1,2113 @@
+[ 2018-02-08T09:09:22+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:22 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:09:22 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:09:22 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 96 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 99 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0160s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:22 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-02-08T09:09:23+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:23 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:09:23 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:09:23 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 96 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 99 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:09:23 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-02-08T09:22:15+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 09:22:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:22:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:22:15 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 96 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 99 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:22:15 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-02-08T09:22:15+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 09:22:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:22:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:22:15 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 96 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 99 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:22:15 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-02-08T09:29:56+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:29:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:29:56 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 96 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 99 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:56 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-02-08T09:29:57+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:29:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:29:57 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 96 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 99 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:29:57 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-02-08T09:30:11+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:11 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:30:11 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:30:11 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 96 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 99 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:11 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-02-08T09:30:11+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:11 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:30:11 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:30:11 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 96 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 99 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:11 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-02-08T10:52:02+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 10:52:02 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:52:02 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:52:02 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 10:52:02 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-02-08T10:52:03+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 10:52:02 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:52:02 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:52:03 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 10:52:03 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-02-08T10:55:51+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:55:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:55:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:55:51 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:55:51 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-02-08T10:55:52+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:55:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:55:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:55:52 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:55:52 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-02-08T10:57:49+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:57:48 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:57:48 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:57:49 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 10:57:49 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-02-08T10:57:49+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 10:57:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:57:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:57:49 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:57:49 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-02-08T11:19:01+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:19:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:19:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:19:01 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:19:01 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-02-08T11:19:01+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:19:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:19:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:19:01 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:19:01 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017001s ]
+
+[ 2018-02-08T11:35:49+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: [ Jiechengkeji ] [ 11:35:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:35:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:35:49 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:35:49 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2018-02-08T11:35:50+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:35:50 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:35:50 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:35:50 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:35:50 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-02-08T12:53:18+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 12:53:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 12:53:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 12:53:18 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 12:53:18 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-02-08T12:53:19+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 12:53:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 12:53:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 12:53:19 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 12:53:19 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-02-08T13:20:19+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 13:20:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:20:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:20:19 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 13:20:19 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-02-08T13:20:21+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 13:20:21 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:20:21 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:20:21 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 13:20:21 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2018-02-08T13:25:06+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+DEBUG: [ Jiechengkeji ] [ 13:25:06 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:25:06 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:25:06 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 13:25:06 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-02-08T13:25:07+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 13:25:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:25:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:25:07 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 13:25:07 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-02-08T13:39:44+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 13:39:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:39:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:39:44 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 13:39:44 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-02-08T13:39:44+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 13:39:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:39:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:39:44 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 13:39:44 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-02-08T14:19:38+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 14:19:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:19:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:19:38 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-02-08T14:19:58+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:19:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:19:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:19:51 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0000s ]
+
+[ 2018-02-08T14:20:01+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=16130
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:20:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:20:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:20:01 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2018-02-08T14:20:32+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee_photo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: [ Jiechengkeji ] [ 14:20:16 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:20:16 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:20:16 ] [ __construct ]BaseDAO
+SQL: SELECT
+                	    uid,
+	                 company_id
+                     FROM
+	                     cy_case 
+	                     WHERE 
+                       case_id='' [ RunTime:0.1170s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 39 行.
+SQL: 	  SELECT
+				               a.name,
+				               b.face,
+				               a.uid  designer_id
+			               FROM
+			                	cy_designer a,
+			                	 cy_member b
+			               WHERE 
+			                a.uid=b.uid
+			                AND 
+			                	a.uid=''
+			                AND 
+                                a.closed = 0
+                            AND 
+                                a.audit = 1 [ RunTime:0.0090s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 41 行.
+NOTIC: [8] Undefined index: name D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 46 行.
+SQL: 	  SELECT
+	     a.name,
+		 b.face
+FROM
+	cy_company a, 
+ cy_member b
+ WHERE
+ a.uid=b.uid
+ AND 
+			                	a.company_id=''
+			                AND 
+                                 a.closed = 0
+                            AND 
+                                 a.audit = 1 [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: face D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 48 行.
+SQL: SELECT
+                		attr_id,
+	                   attr_value_id
+                     FROM
+	                     cy_case_attr
+	                     WHERE 
+                       case_id='' [ RunTime:0.0100s ]
+SQL: 	SELECT
+	                         a.photo
+                        FROM
+	                         cy_case_photo  a
+                        WHERE
+                              a.case_id=''
+                      [ RunTime:0.0110s ]
+SQL: SELECT
+                         count(*) as pageTotal
+                       FROM
+	                         cy_case_comment a,
+	                         cy_member b
+                       WHERE
+	                         a.uid = b.uid
+                       AND 
+                              a.case_id='' [ RunTime:0.0060s ]
+DEBUG: [ Jiechengkeji ] [ 14:20:31 ] [ result ][{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","commentTotal":0,"carousel":[]}]
+DEBUG: [ Jiechengkeji ] [ 14:20:32 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","commentTotal":0,"carousel":[]}}
+
+[ 2018-02-08T14:21:19+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee_photo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:20:37 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:20:37 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:20:37 ] [ __construct ]BaseDAO
+SQL: SELECT
+                	    uid,
+	                 company_id
+                     FROM
+	                     cy_case 
+	                     WHERE 
+                       case_id='' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 39 行.
+SQL: 	  SELECT
+				               a.name,
+				               b.face,
+				               a.uid  designer_id
+			               FROM
+			                	cy_designer a,
+			                	 cy_member b
+			               WHERE 
+			                a.uid=b.uid
+			                AND 
+			                	a.uid=''
+			                AND 
+                                a.closed = 0
+                            AND 
+                                a.audit = 1 [ RunTime:0.0040s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 41 行.
+NOTIC: [8] Undefined index: name D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 46 行.
+SQL: 	  SELECT
+	     a.name,
+		 b.face
+FROM
+	cy_company a, 
+ cy_member b
+ WHERE
+ a.uid=b.uid
+ AND 
+			                	a.company_id=''
+			                AND 
+                                 a.closed = 0
+                            AND 
+                                 a.audit = 1 [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: face D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 48 行.
+SQL: SELECT
+                		attr_id,
+	                   attr_value_id
+                     FROM
+	                     cy_case_attr
+	                     WHERE 
+                       case_id='' [ RunTime:0.0090s ]
+SQL: 	SELECT
+	                         a.photo
+                        FROM
+	                         cy_case_photo  a
+                        WHERE
+                              a.case_id=''
+                      [ RunTime:0.0060s ]
+SQL: SELECT
+                         count(*) as pageTotal
+                       FROM
+	                         cy_case_comment a,
+	                         cy_member b
+                       WHERE
+	                         a.uid = b.uid
+                       AND 
+                              a.case_id='' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:21:19 ] [ result ][{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","commentTotal":0,"carousel":[]}]
+DEBUG: [ Jiechengkeji ] [ 14:21:19 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","commentTotal":0,"carousel":[]}}
+
+[ 2018-02-08T14:22:43+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee_photo?case_id=147
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 14:21:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:21:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:21:19 ] [ __construct ]BaseDAO
+SQL: SELECT
+                	    uid,
+	                 company_id
+                     FROM
+	                     cy_case 
+	                     WHERE 
+                       case_id='147' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 39 行.
+SQL: 	  SELECT
+				               a.name,
+				               b.face,
+				               a.uid  designer_id
+			               FROM
+			                	cy_designer a,
+			                	 cy_member b
+			               WHERE 
+			                a.uid=b.uid
+			                AND 
+			                	a.uid=''
+			                AND 
+                                a.closed = 0
+                            AND 
+                                a.audit = 1 [ RunTime:0.0180s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 41 行.
+NOTIC: [8] Undefined index: name D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 46 行.
+SQL: 	  SELECT
+	     a.name,
+		 b.face
+FROM
+	cy_company a, 
+ cy_member b
+ WHERE
+ a.uid=b.uid
+ AND 
+			                	a.company_id=''
+			                AND 
+                                 a.closed = 0
+                            AND 
+                                 a.audit = 1 [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: face D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 48 行.
+SQL: SELECT
+                		attr_id,
+	                   attr_value_id
+                     FROM
+	                     cy_case_attr
+	                     WHERE 
+                       case_id='147' [ RunTime:0.0040s ]
+SQL: 	SELECT
+	                         a.photo
+                        FROM
+	                         cy_case_photo  a
+                        WHERE
+                              a.case_id='147'
+                      [ RunTime:0.0020s ]
+SQL: SELECT
+                         count(*) as pageTotal
+                       FROM
+	                         cy_case_comment a,
+	                         cy_member b
+                       WHERE
+	                         a.uid = b.uid
+                       AND 
+                              a.case_id='147' [ RunTime:0.1470s ]
+DEBUG: [ Jiechengkeji ] [ 14:22:42 ] [ result ][{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","commentTotal":0,"carousel":[]}]
+DEBUG: [ Jiechengkeji ] [ 14:22:43 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","commentTotal":0,"carousel":[]}}
+
+[ 2018-02-08T14:23:59+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee_photo?case_id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+DEBUG: [ Jiechengkeji ] [ 14:22:43 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:22:43 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:22:43 ] [ __construct ]BaseDAO
+SQL: SELECT
+                	    uid,
+	                 company_id
+                     FROM
+	                     cy_case 
+	                     WHERE 
+                       case_id='46' [ RunTime:0.0020s ]
+SQL: 	  SELECT
+				               a.name,
+				               b.face,
+				               a.uid  designer_id
+			               FROM
+			                	cy_designer a,
+			                	 cy_member b
+			               WHERE 
+			                a.uid=b.uid
+			                AND 
+			                	a.uid='122'
+			                AND 
+                                a.closed = 0
+                            AND 
+                                a.audit = 1 [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: name D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 46 行.
+SQL: 	  SELECT
+	     a.name,
+		 b.face
+FROM
+	cy_company a, 
+ cy_member b
+ WHERE
+ a.uid=b.uid
+ AND 
+			                	a.company_id='8'
+			                AND 
+                                 a.closed = 0
+                            AND 
+                                 a.audit = 1 [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: face D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 48 行.
+SQL: SELECT
+                		attr_id,
+	                   attr_value_id
+                     FROM
+	                     cy_case_attr
+	                     WHERE 
+                       case_id='46' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='41'
+                           AND 
+                           attr_id='5' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='71'
+                           AND 
+                           attr_id='4' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: attr_value_title D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 60 行.
+SQL: 	SELECT
+	                         a.photo
+                        FROM
+	                         cy_case_photo  a
+                        WHERE
+                              a.case_id='46'
+                      [ RunTime:0.0030s ]
+SQL: SELECT
+                         count(*) as pageTotal
+                       FROM
+	                         cy_case_comment a,
+	                         cy_member b
+                       WHERE
+	                         a.uid = b.uid
+                       AND 
+                              a.case_id='46' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:23:59 ] [ result ][{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","attr_value_name":"\u522b\u5885","attr_value_title":["\u5317\u7f8e"],"commentTotal":0,"carousel":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_85F1FB47EF9F8B3120DAA535FCD7B163.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_DBB59934291E782E5C7B6B3049D685D9.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_8D366CB80D2904AEF2849BF2D4AF131B.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_A6320E5251FC1BC1BC3043220A9B6C1D.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_CE2ABFF30E38391CD5DA17D75C5940E0.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_DE37987C57E5D9C9F8E6243F3E8067F4.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_E516D951FDD333CFA015A2A5BBC2686C.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_94C52F23DA5CB1DFED9CBE24B27F86CD.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_2E7C80DEE5524654F03B52425C724457.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_FB20E244722C4CD54B86625DDBDC0062.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_0E0C0A9B8A2BA2709F8BB2FD2AC673DF.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_1F27D4007D224B61CAF1FCE449D63C9B.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_EB6635B36EF662975D5FC3E0040A4981.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_76451F9765B0CE2B1ED16CE3B51BE99C.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_900DD5A44B7458CE7A914E7A853CEF5E.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 14:23:59 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","attr_value_name":"\u522b\u5885","attr_value_title":["\u5317\u7f8e"],"commentTotal":0,"carousel":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_85F1FB47EF9F8B3120DAA535FCD7B163.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_DBB59934291E782E5C7B6B3049D685D9.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_8D366CB80D2904AEF2849BF2D4AF131B.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_A6320E5251FC1BC1BC3043220A9B6C1D.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_CE2ABFF30E38391CD5DA17D75C5940E0.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_DE37987C57E5D9C9F8E6243F3E8067F4.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_E516D951FDD333CFA015A2A5BBC2686C.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_94C52F23DA5CB1DFED9CBE24B27F86CD.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_2E7C80DEE5524654F03B52425C724457.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_FB20E244722C4CD54B86625DDBDC0062.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_0E0C0A9B8A2BA2709F8BB2FD2AC673DF.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_1F27D4007D224B61CAF1FCE449D63C9B.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_EB6635B36EF662975D5FC3E0040A4981.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_76451F9765B0CE2B1ED16CE3B51BE99C.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_900DD5A44B7458CE7A914E7A853CEF5E.jpg"]}}
+
+[ 2018-02-08T14:25:43+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee_photo?case_id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+DEBUG: [ Jiechengkeji ] [ 14:24:09 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:24:09 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:24:09 ] [ __construct ]BaseDAO
+SQL: SELECT
+                	    uid,
+	                 company_id
+                     FROM
+	                     cy_case 
+	                     WHERE 
+                       case_id='46' [ RunTime:0.0020s ]
+SQL: 	  SELECT
+				               a.name,
+				               b.face,
+				               a.uid  designer_id
+			               FROM
+			                	cy_designer a,
+			                	 cy_member b
+			               WHERE 
+			                a.uid=b.uid
+			                AND 
+			                	a.uid='122'
+			                AND 
+                                a.closed = 0
+                            AND 
+                                a.audit = 1 [ RunTime:0.0020s ]
+SQL: SELECT
+                		attr_id,
+	                   attr_value_id
+                     FROM
+	                     cy_case_attr
+	                     WHERE 
+                       case_id='46' [ RunTime:0.0050s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='41'
+                           AND 
+                           attr_id='5' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='71'
+                           AND 
+                           attr_id='4' [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: attr_value_title D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 60 行.
+SQL: 	SELECT
+	                         a.photo
+                        FROM
+	                         cy_case_photo  a
+                        WHERE
+                              a.case_id='46'
+                      [ RunTime:0.0030s ]
+SQL: SELECT
+                         count(*) as pageTotal
+                       FROM
+	                         cy_case_comment a,
+	                         cy_member b
+                       WHERE
+	                         a.uid = b.uid
+                       AND 
+                              a.case_id='46' [ RunTime:0.0040s ]
+DEBUG: [ Jiechengkeji ] [ 14:25:43 ] [ result ][{"name":"\u5b59\u8bb8\u5149","face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","designer_id":"122","attr_value_name":"\u522b\u5885","attr_value_title":["\u5317\u7f8e"],"commentTotal":0,"carousel":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_85F1FB47EF9F8B3120DAA535FCD7B163.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_DBB59934291E782E5C7B6B3049D685D9.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_8D366CB80D2904AEF2849BF2D4AF131B.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_A6320E5251FC1BC1BC3043220A9B6C1D.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_CE2ABFF30E38391CD5DA17D75C5940E0.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_DE37987C57E5D9C9F8E6243F3E8067F4.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_E516D951FDD333CFA015A2A5BBC2686C.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_94C52F23DA5CB1DFED9CBE24B27F86CD.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_2E7C80DEE5524654F03B52425C724457.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_FB20E244722C4CD54B86625DDBDC0062.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_0E0C0A9B8A2BA2709F8BB2FD2AC673DF.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_1F27D4007D224B61CAF1FCE449D63C9B.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_EB6635B36EF662975D5FC3E0040A4981.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_76451F9765B0CE2B1ED16CE3B51BE99C.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_900DD5A44B7458CE7A914E7A853CEF5E.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 14:25:43 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"name":"\u5b59\u8bb8\u5149","face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","designer_id":"122","attr_value_name":"\u522b\u5885","attr_value_title":["\u5317\u7f8e"],"commentTotal":0,"carousel":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_85F1FB47EF9F8B3120DAA535FCD7B163.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_DBB59934291E782E5C7B6B3049D685D9.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_8D366CB80D2904AEF2849BF2D4AF131B.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_A6320E5251FC1BC1BC3043220A9B6C1D.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_CE2ABFF30E38391CD5DA17D75C5940E0.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_DE37987C57E5D9C9F8E6243F3E8067F4.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_E516D951FDD333CFA015A2A5BBC2686C.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_94C52F23DA5CB1DFED9CBE24B27F86CD.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_2E7C80DEE5524654F03B52425C724457.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_FB20E244722C4CD54B86625DDBDC0062.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_0E0C0A9B8A2BA2709F8BB2FD2AC673DF.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_1F27D4007D224B61CAF1FCE449D63C9B.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_EB6635B36EF662975D5FC3E0040A4981.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_76451F9765B0CE2B1ED16CE3B51BE99C.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_900DD5A44B7458CE7A914E7A853CEF5E.jpg"]}}
+
+[ 2018-02-08T14:25:55+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee_photo?case_id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:25:55 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:25:55 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:25:55 ] [ __construct ]BaseDAO
+SQL: SELECT
+                	    uid,
+	                 company_id
+                     FROM
+	                     cy_case 
+	                     WHERE 
+                       case_id='46' [ RunTime:0.0030s ]
+SQL: 	  SELECT
+				               a.name,
+				               b.face,
+				               a.uid  designer_id
+			               FROM
+			                	cy_designer a,
+			                	 cy_member b
+			               WHERE 
+			                a.uid=b.uid
+			                AND 
+			                	a.uid='122'
+			                AND 
+                                a.closed = 0
+                            AND 
+                                a.audit = 1 [ RunTime:0.0010s ]
+SQL: SELECT
+                		attr_id,
+	                   attr_value_id
+                     FROM
+	                     cy_case_attr
+	                     WHERE 
+                       case_id='46' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='41'
+                           AND 
+                           attr_id='5' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='71'
+                           AND 
+                           attr_id='4' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: attr_value_title D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 60 行.
+SQL: 	SELECT
+	                         a.photo
+                        FROM
+	                         cy_case_photo  a
+                        WHERE
+                              a.case_id='46'
+                      [ RunTime:0.0020s ]
+SQL: SELECT
+                         count(*) as pageTotal
+                       FROM
+	                         cy_case_comment a,
+	                         cy_member b
+                       WHERE
+	                         a.uid = b.uid
+                       AND 
+                              a.case_id='46' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:25:55 ] [ result ][{"name":"\u5b59\u8bb8\u5149","face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","designer_id":"122","attr_value_name":"\u522b\u5885","attr_value_title":["\u5317\u7f8e"],"commentTotal":0,"carousel":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_85F1FB47EF9F8B3120DAA535FCD7B163.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_DBB59934291E782E5C7B6B3049D685D9.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_8D366CB80D2904AEF2849BF2D4AF131B.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_A6320E5251FC1BC1BC3043220A9B6C1D.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_CE2ABFF30E38391CD5DA17D75C5940E0.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_DE37987C57E5D9C9F8E6243F3E8067F4.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_E516D951FDD333CFA015A2A5BBC2686C.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_94C52F23DA5CB1DFED9CBE24B27F86CD.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_2E7C80DEE5524654F03B52425C724457.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_FB20E244722C4CD54B86625DDBDC0062.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_0E0C0A9B8A2BA2709F8BB2FD2AC673DF.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_1F27D4007D224B61CAF1FCE449D63C9B.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_EB6635B36EF662975D5FC3E0040A4981.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_76451F9765B0CE2B1ED16CE3B51BE99C.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_900DD5A44B7458CE7A914E7A853CEF5E.jpg"]}]
+DEBUG: [ Jiechengkeji ] [ 14:25:55 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"name":"\u5b59\u8bb8\u5149","face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","designer_id":"122","attr_value_name":"\u522b\u5885","attr_value_title":["\u5317\u7f8e"],"commentTotal":0,"carousel":["http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_85F1FB47EF9F8B3120DAA535FCD7B163.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_DBB59934291E782E5C7B6B3049D685D9.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_8D366CB80D2904AEF2849BF2D4AF131B.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_A6320E5251FC1BC1BC3043220A9B6C1D.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_CE2ABFF30E38391CD5DA17D75C5940E0.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_DE37987C57E5D9C9F8E6243F3E8067F4.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_E516D951FDD333CFA015A2A5BBC2686C.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_94C52F23DA5CB1DFED9CBE24B27F86CD.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_2E7C80DEE5524654F03B52425C724457.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_FB20E244722C4CD54B86625DDBDC0062.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_0E0C0A9B8A2BA2709F8BB2FD2AC673DF.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_1F27D4007D224B61CAF1FCE449D63C9B.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_EB6635B36EF662975D5FC3E0040A4981.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_76451F9765B0CE2B1ED16CE3B51BE99C.jpg","http:\/\/www.whjz365.cn\/attachs\/photo\/201708\/20170825_900DD5A44B7458CE7A914E7A853CEF5E.jpg"]}}
+
+[ 2018-02-08T15:24:24+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+DEBUG: [ Jiechengkeji ] [ 15:24:24 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:24:24 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:24:24 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:24:24 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-02-08T15:24:26+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034002s ]
+DEBUG: [ Jiechengkeji ] [ 15:24:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:24:26 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:24:26 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:24:26 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-02-08T15:44:57+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+DEBUG: [ Jiechengkeji ] [ 15:44:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:44:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:44:57 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:44:57 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-02-08T15:44:58+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 15:44:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:44:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:44:58 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:44:58 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2018-02-08T15:55:17+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 15:55:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:55:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:55:17 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:55:17 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-02-08T15:55:18+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:55:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:55:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:55:18 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:55:18 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-02-08T16:12:56+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 16:12:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:12:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:12:56 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:12:56 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2018-02-08T16:12:56+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+DEBUG: [ Jiechengkeji ] [ 16:12:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:12:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:12:56 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:12:56 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-02-08T16:25:57+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 16:25:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:25:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:25:56 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:25:56 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2018-02-08T16:25:57+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 16:25:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:25:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:25:57 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:25:57 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-02-08T16:48:38+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:38 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:38 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-02-08T16:48:38+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:38 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:38 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+

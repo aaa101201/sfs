@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>盈帆科技</title>
+    <include file="Template/tpl-header" />
+</head>
+<body>
+    <div class="page-group">
+        <div class="page page-current" id="dealPhoto">
+            <style>
+                .clipHtml{
+                    font-size: 100px !important;
+                    font-size: calc(100vw/3.2) !important;
+                }
+                .clipHtml body{
+                    font-size: .14rem;
+                    background: #f5f5f5;
+                    padding: 0;
+                    margin: 0;
+                    color: #333;
+                }
+                .clipHtml .titlebar {
+                    background: #fff;
+                    line-height: .18rem;
+                    padding: .12rem 0;
+                    text-align: center;
+                    font-size: .15rem;
+                    box-shadow: 0 .01rem .02rem rgba(0, 0, 0, .15);
+                }
+                .clipHtml .imglist {
+                    padding: .1rem;
+                }
+                .clipHtml .imglist .item {
+                    background: #fff;
+                    padding: .05rem;
+                    margin-bottom: .1rem;
+                    border-radius: .03rem;
+                    box-shadow: 0 .02rem .04rem rgba(0, 0, 0, .15);
+                }
+                .clipHtml .imglist .item img {
+                    width: 100%;
+                }
+                .z_img{
+                    display: none;
+                }
+            </style>
+            <header class="bar bar-nav z_headBg">
+                <a class="button button-link button-nav pull-left" href="__APP__/Home/User/userInfo">
+                    <span class="icon icon-left"></span> 返回
+                </a>
+                <h1 class='title'>头像</h1>
+                <a class="icon icon-settings pull-right" id="choosePhoto"></a>
+            </header>
+            <div class="content dealPhotoDiv" id="dealPhotoDiv">
+                <img src="" alt="" id="photo">
+                <input class="z_hide" type="file" name="" value="" accept="image/*" id="uploadImg">
+            </div>
+            <img src="" alt="" id="clipImg" class="z_img">
+        </div>
+    </div>
+    <include file="Template/tpl-footer" />
+</body>
+</html>

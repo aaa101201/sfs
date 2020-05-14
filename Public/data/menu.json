@@ -1,0 +1,55 @@
+{
+    "code": 1,
+    "data": [{
+                "id": "1",
+                "pid": "0",
+                "name": "首页",
+                "url": "Admin/Index/dashboard",
+                "type": "0",
+                "weight": "1",
+                "display": "1",
+                "icon": "home",
+                "menus": []
+            }, {
+                "id": "100",
+                "pid": "0",
+                "name": "会员管理",
+                "url": "/User",
+                "type": "0",
+                "weight": "2",
+                "display": "1",
+                "icon": "tasks",
+                "menus": [{
+                        "id": "110",
+                        "pid": "100",
+                        "name": "全部会员",
+                        "url": "Admin/User/userList",
+                        "type": "1",
+                        "weight": "1",
+                        "display": "1",
+                        "icon": "th",
+                        "menus": []
+                }]
+            }, {
+                "id": "100",
+                "pid": "0",
+                "name": "商户管理",
+                "url": "/Shop",
+                "type": "0",
+                "weight": "2",
+                "display": "1",
+                "icon": "tasks",
+                "menus": [{
+                        "id": "110",
+                        "pid": "100",
+                        "name": "商户列表",
+                        "url": "Admin/Shop/shopList",
+                        "type": "1",
+                        "weight": "1",
+                        "display": "1",
+                        "icon": "th",
+                        "menus": []
+                    }]
+                }
+            ]
+}

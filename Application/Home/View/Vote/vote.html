@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>冠名萝卜拇指任务，拿走小米高档手环</title>
+	<include file="Common/header"/>
+	<link rel="stylesheet" href="/Public/vote/css/vote.min.css?t=1487038798305">
+</head>
+<body>
+<div class="page-group">
+	<div class="page" id="vote">
+		<!-- 标题栏 -->
+		<header class="bar bar-nav">
+			<h1 id="vote_title" class="title"></h1>
+			<a class="button button-link button-nav pull-right open-panel" id='user-center-btn' href="javascript:;" style="display: none;">
+				<span class="iconf iconf-user02"></span>
+			</a>
+		</header>
+
+		<!-- 这里是页面内容区 -->
+		<div class="content">
+			<!-- 轮播图 -->
+			<div class="swiper-container" data-space-between="10">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="javascript:void(0);">
+							<img class="banner" src="/Public/vote/images/vote_banner01.jpg" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:void(0);">
+							<img class="banner" src="/Public/vote/images/vote_banner02.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+			<ul class="three_count">
+				<li>选项数<br><span id="item_num"></span></li>
+				<li>投票人数<br><span id="vote_num"></span></li>
+				<li>访问量<br><span id="visit_num"></span></li>
+			</ul>
+			<div class="content-block">
+				<div id="vote_info" class="vote_info">
+					<!--to be filled-->
+				</div>
+				<div class="list-block">
+					<ul id="votes" class="votes">
+						<!--to be filled-->
+					</ul>
+				</div>
+			</div>
+			<div class="content-block">
+				<div class="row">
+					<div class="col-100">
+						<p><a id="submit" href="#" class="button button-big button_orange">我想好了</a></p>
+					</div>
+				</div>
+				<a href="javascript:;" id="know_others" style="visibility:hidden;"><p class="f_right f14 marg_top_15">
+					看看大家的想法</p></a>
+			</div>
+			<!-- 底部版权信息 -->
+			<footer class="text-center padd_20" style="display: none;">
+				<p class="fc_orange f16">aaa</p>
+				<p class="fc_orange f10">www.luobojianzhi.com</p>
+				<p class="f10">最靠谱的大学生兼职平台</p>
+			</footer>
+		</div>
+	</div>
+	<div class="panel-overlay"></div>
+	<!-- Left Panel with reveal effect -->
+	<div class="panel panel-left panel-cover" id='user_info'>
+		<!--to be filled-->
+	</div>
+</div>
+<include file="Common/tpl/tpl-vote"/>
+<include file="Common/footer"/>
+</body>
+</html>
+<script src="/Public/vote/js/zepto.min.js"></script>
+<script src="/Public/vote/js/sm.min.js"></script>
+<script src="/Public/vote/js/vote.js?t=1487038798305"></script>

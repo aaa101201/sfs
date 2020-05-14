@@ -1,0 +1,174 @@
+<script type="text/html" id="tpl-fullInfo">
+    <div class="content-block f14 wrapRegCont list-block">
+        <!--baseInfo-->
+        <div class="row no-gutter  item-content">
+            <div class="item-inner">
+                <div class="col-25 text-left item-title pos_rela line_r">
+                    姓&emsp;&emsp;名<span class="need-info-star">*</span>
+                </div>
+                <div class="col-75 item-input">
+                    <input id="" class="form-control gttv" type="text" name="realname" value="{{realname}}" placeholder="请填写真实姓名" />
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutter  item-content">
+            <div class="item-inner">
+                <div class="col-25 text-left item-title pos_rela line_r">
+                    性&emsp;&emsp;别<span class="need-info-star">*</span>
+                </div>
+                <div class="col-75 item-input tx_indent">
+                    <input id="s_male" class="marg_left_10 marg_right_10" type="radio" name="gender" value="1" {{gender==1?'checked':''}} /><label for="s_male" class="marg_right_10">男</label>
+                    <input id="s_female" class="marg_left_10 marg_right_10" type="radio" name="gender" value="0" {{gender==1?'':'checked'}}/><label for="s_female" class="">女</label>
+                </div>   
+            </div>
+        </div>
+        <!--schoolInfo-->
+        <div class="row no-gutter item-content">
+            <div class="item-inner">
+                <div class="col-25 text-left item-title pos_rela line_r">
+                    城&emsp;&emsp;市<span class="need-info-star">*</span>
+                </div>
+                <div class="col-75">
+                    <div class="col-50 f_left selectProvince pos_rela item-input">
+                        <select class="tx_indent" name="provinceId" id="province-list">
+
+                        </select>
+                        <span class="icon icon-right pos_arr"></span>
+                    </div>
+                    <div class="col-50 f_right selectCity pos_rela item-input">
+                        <select class="tx_indent" name="cityId" id="city-list">
+                          
+                        </select>
+                        <span class="icon icon-right pos_arr" style="right: -.45rem;"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutter item-content item-link">
+            <div class="item-inner">
+                <div class="col-25 text-left item-title pos_rela line_r">
+                    区&emsp;&emsp;域<span class="need-info-star">*</span>
+                </div>
+                <div class="col-75 ">
+                    <div class="f_left pos_rela item-input">
+                        <!-- <span class="fc_lightGray">点击选择区域</span> -->
+                        <select class="tx_ellips tx_indent" name="regionId" id="region-list">
+                          
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutter item-content item-link">
+            <div class="item-inner">
+                <div class="col-25 text-left item-title pos_rela line_r">
+                    学&emsp;&emsp;校<span class="need-info-star">*</span>
+                </div>
+                <div class="col-75 ">
+                    <div class="f_left pos_rela selectSchool item-input">
+                        <!-- <span class="fc_lightGray">点击选择学校</span> -->
+                        <select class="tx_ellips tx_indent" name="schoolId" id="school-list">
+                          
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutter selectClass  item-content item-link">
+            <div class="item-inner">
+                <div class="col-25 text-left pos_rela line_r">
+                    年&emsp;&emsp;级<span class="need-info-star">*</span>
+                </div>
+                <div class="col-75 ">
+                    <div class="f_left pos_rela tx_indent  item-input">
+                        <select class="tx_indent" name="grade" id="grade-list">
+                        </select>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="row no-gutter  item-content">
+            <div class="item-inner">
+                <div class="col-25 text-left item-title pos_rela line_r">
+                    专&emsp;&emsp;业<span class="need-info-star">*</span>
+                </div>
+                <div class="col-75 item-input">
+                    <input id="userMajor" class="form-control gttv" type="text" name="major" placeholder="请填写主修专业" />
+                </div>
+            </div>
+        </div>
+
+        <!--moreInfo-->
+        <div class="row no-gutter item-content item-link">
+            <div class="item-inner">
+                <div class="col-25 text-left item-title pos_rela line_r">
+                    学&emsp;&emsp;历<span class="need-info-star">*</span>
+                </div>
+                <div class="col-75">
+                    <div class="f_left pos_rela item-input">
+                        <select class="tx_indent" name="degree" id="degree-list">
+                            {{if !degree}}
+                            <option value="">请选择学历</option>
+                            {{/if}}
+                            <option value="3" {{degree == 3 ? 'selected' : ''}}>研究生</option>
+                            <option value="2" {{degree == 2 ? 'selected' : ''}}>本科</option>
+                            <option value="1" {{degree == 1 ? 'selected' : ''}}>大专</option>
+                            <option value="0" {{degree == 0 ? 'selected' : ''}}>大专以下</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutter item-content item-link">
+            <div class="item-inner">
+                <div class="col-25 text-left item-title pos_rela line_r">
+                    期望月薪<span class="need-info-star">*</span>
+                </div>
+                <div class="col-75 ">
+                    <div class="f_left pos_rela item-input">
+                        <!-- <span class="fc_lightGray">点击选择区域</span> -->
+                        <select name="expectPay" class="tx_ellips tx_indent" id="wage-list">
+                            {{if !expectpay}}
+                            <option value="">请选择期望薪资</option>
+                            {{/if}}
+                            <option value="0" {{expectpay == 0 ? 'selected' : ''}}>2000-3500</option>
+                            <option value="1" {{expectpay == 1 ? 'selected' : ''}}>3500-5000</option>
+                            <option value="2" {{expectpay == 2 ? 'selected' : ''}}>5000-8000</option>
+                            <option value="3" {{expectpay == 3 ? 'selected' : ''}}>8000以上</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutter item-content">
+            <div class="item-inner">
+                <div class="col-25 text-left item-title pos_rela line_r">
+                    实践|培训<span class="need-info-star">*</span>
+                </div>
+                <div class="col-75 item-input wrapTextarea">
+                    <textarea class="form-control gttv" type="textarea" name="practice" placeholder="从社会实践或培训经历中获得的知识技能" >{{practice}}</textarea>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutter item-content">
+            <div class="item-inner">
+                <div class="col-25 text-left item-title pos_rela line_r">
+                    自我评价<span class="need-info-star">*</span>
+                </div>
+                <div class="col-75 item-input wrapTextarea">
+                    <textarea class="form-control gttv" type="textarea" name="intro" placeholder="不少于50字说明你的优势或特长" >{{intro}}</textarea>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutter item-content">
+            <div class="item-inner">
+                <div class="col-25 text-left item-title pos_rela line_r">
+                    职业规划
+                </div>
+                <div class="col-75 item-input wrapTextarea">
+                    <textarea class="form-control gttv" type="textarea" name="planning" placeholder="假如被录用,未来两年如何规划(清晰的个人规划让你拥有更多机会)">{{planning}}</textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>

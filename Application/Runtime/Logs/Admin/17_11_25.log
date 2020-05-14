@@ -1,0 +1,1956 @@
+[ 2017-11-25T10:34:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+DEBUG: [ Jiechengkeji ] [ 10:34:11 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:34:11 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:34:11 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-11-25T10:34:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:34:12 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:34:12 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:34:12 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-25T10:42:15+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=17093
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:42:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:42:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:42:15 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-25T10:43:45+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney_remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:43:45 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:43:45 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:43:45 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                    remark kitingMoney_remark
+                     FROM
+	                    kitingMoney
+                     WHERE
+	                    cy_apply_id = '56'
+                     ORDER BY
+                        id 
+                     DESC 
+                         LIMIT 0,1 
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                    remark kitingMoney_remark
+                     FROM
+	                    kitingMoney
+                     WHERE
+	                    cy_apply_id = '56'
+                     ORDER BY
+                        id 
+                     DESC 
+                         LIMIT 0,1 
+
+[ 2017-11-25T10:44:15+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:44:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:44:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:44:01 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0070s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney
+                        WHERE 
+                           homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0080s ]
+DEBUG: [ Jiechengkeji ] [ 10:44:11 ] [ result ][{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}]
+DEBUG: [ Jiechengkeji ] [ 10:44:15 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}],"pageTotal":1,"pageCurrent":1,"recordTotal":2}}
+
+[ 2017-11-25T10:44:26+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 10:44:22 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:44:22 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:44:22 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney
+                        WHERE 
+                           homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0040s ]
+DEBUG: [ Jiechengkeji ] [ 10:44:25 ] [ result ][{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}]
+DEBUG: [ Jiechengkeji ] [ 10:44:26 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}],"pageTotal":1,"pageCurrent":1,"recordTotal":2}}
+
+[ 2017-11-25T10:52:59+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:47:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:47:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:47:07 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0020s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney
+                        WHERE 
+                           homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:52:59 ] [ result ][{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}]
+DEBUG: [ Jiechengkeji ] [ 10:52:59 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}],"pageTotal":1,"pageCurrent":1,"recordTotal":2}}
+
+[ 2017-11-25T10:54:33+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:53:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:53:26 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:53:26 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                       *, 
+	                  CASE
+	                       adorm_state_lx
+                      WHEN 
+                           '1' 
+                      THEN
+	                       '已签署合同'
+                      WHEN 
+                            '2' 
+                      THEN
+	                       '待签署合同'
+                      ELSE
+	                       '问题数据'
+                      END 
+                            adorm_state_lx 
+                      FROM
+	                      adorm_state   
+	                  WHERE
+                          cy_apply_id = '56' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:54:32 ] [ result ]{"id":"3","cy_apply_id":"56","adorm_id":null,"adorm_name":"","adorm_state_money":"","adorm_li":"\u5bb6\u88c5\u8d37","adorm_state_lx":"\u5f85\u7b7e\u7f72\u5408\u540c","remark1":"","createtime":"2017-11-24 16:56:24","updatetime":"2017-11-24 16:56:24"}
+DEBUG: [ Jiechengkeji ] [ 10:54:32 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"id":"3","cy_apply_id":"56","adorm_id":null,"adorm_name":"","adorm_state_money":"","adorm_li":"\u5bb6\u88c5\u8d37","adorm_state_lx":"\u5f85\u7b7e\u7f72\u5408\u540c","remark1":"","createtime":"2017-11-24 16:56:24","updatetime":"2017-11-24 16:56:24"}}
+
+[ 2017-11-25T10:55:09+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_frostmoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 10:54:50 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:54:50 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:54:50 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                          homeMoney_frostmoney ,
+                          (SELECT  frostmoney_text  FROM  moneyText) frostmoney_text 
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                         cy_apply_id = '56' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 10:55:07 ] [ result ]{"homemoney_frostmoney":"1281605","frostmoney_text":"\u51bb\u7ed3\u4f59\u989d\uff1a\u4e1a\u4e3b\u5411\u201c\u5bb6\u88c5\u5b9d\u201d\u7533\u8bf7\u8d37\u6b3e\u6210\u529f\u540e\uff0c\u5e73\u53f0\u5c06\u865a\u62df\u8d27\u5e01\u8f6c\u4e3a\u51bb\u7ed3\u4f59\u989d\uff1b\u6b64\u51bb\u7ed3\u4f59\u989d\u53ea\u53ef\u5728\u5e73\u53f0\u4f7f\u7528\u3002 "}
+DEBUG: [ Jiechengkeji ] [ 10:55:08 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_frostmoney":"1281605","frostmoney_text":"\u51bb\u7ed3\u4f59\u989d\uff1a\u4e1a\u4e3b\u5411\u201c\u5bb6\u88c5\u5b9d\u201d\u7533\u8bf7\u8d37\u6b3e\u6210\u529f\u540e\uff0c\u5e73\u53f0\u5c06\u865a\u62df\u8d27\u5e01\u8f6c\u4e3a\u51bb\u7ed3\u4f59\u989d\uff1b\u6b64\u51bb\u7ed3\u4f59\u989d\u53ea\u53ef\u5728\u5e73\u53f0\u4f7f\u7528\u3002 "}}
+
+[ 2017-11-25T10:56:31+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney_remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:56:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:56:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:56:18 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                    remark kitingMoney_remark
+                     FROM
+	                    kitingMoney
+                     WHERE
+	                    cy_apply_id = '56'
+                     ORDER BY
+                        id 
+                     DESC 
+                         LIMIT 0,1 
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                    remark kitingMoney_remark
+                     FROM
+	                    kitingMoney
+                     WHERE
+	                    cy_apply_id = '56'
+                     ORDER BY
+                        id 
+                     DESC 
+                         LIMIT 0,1 
+
+[ 2017-11-25T10:57:33+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney_remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:57:29 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:57:29 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:57:29 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                    remark kitingMoney_remark
+                     FROM
+	                    kitingMoney
+                     WHERE
+	                    cy_apply_id = '56'
+                     ORDER BY
+                        id 
+                     DESC 
+                         LIMIT 0,1 
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                    remark kitingMoney_remark
+                     FROM
+	                    kitingMoney
+                     WHERE
+	                    cy_apply_id = '56'
+                     ORDER BY
+                        id 
+                     DESC 
+                         LIMIT 0,1 
+
+[ 2017-11-25T10:59:56+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney_remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:57:36 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:57:36 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:57:36 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                    remark kitingMoney_remark
+                     FROM
+	                    kitingMoney
+                     WHERE
+	                    cy_apply_id = '56'
+                     ORDER BY
+                        id 
+                     DESC 
+                         LIMIT 0,1 
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                    remark kitingMoney_remark
+                     FROM
+	                    kitingMoney
+                     WHERE
+	                    cy_apply_id = '56'
+                     ORDER BY
+                        id 
+                     DESC 
+                         LIMIT 0,1 
+
+[ 2017-11-25T11:00:01+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney_remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:59:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:59:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:59:58 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                   homeMoney_money
+                     FROM
+	                    homemoney
+                     WHERE
+	                    cy_apply_id = '56'
+                  [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:00:00 ] [ result ]{"homemoney_money":"1281405"}
+DEBUG: [ Jiechengkeji ] [ 11:00:01 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_money":"1281405"}}
+
+[ 2017-11-25T11:00:33+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_sq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:00:33 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:00:33 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:00:33 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                          homeMoney_shcr,
+                          createtime
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                      cy_apply_id = '56' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:00:33 ] [ result ]{"homemoney_shcr":"2563210","createtime":"2017-11-24 15:09:40"}
+DEBUG: [ Jiechengkeji ] [ 11:00:33 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_shcr":"2563210","createtime":"2017-11-24 15:09:40"}}
+
+[ 2017-11-25T11:02:41+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/refundMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:00:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:00:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:00:51 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                        refund_Money,refund_time,
+                        (SELECT refund_text FROM moneyText ) refund_text  
+                     FROM 
+                        refundMoney   
+                     WHERE 
+                        cy_apply_id = '56' 
+                     AND  
+                        homeMoney_id='24' [ RunTime:0.0080s ]
+DEBUG: [ Jiechengkeji ] [ 11:02:41 ] [ result ]{"refund_money":"2563210","refund_time":"2018-11-24 15:09:40","refund_text":"\u8bf7\u4e8e\u8fd8\u6b3e\u65e517:00\u524d\u5c06\u8db3\u989d\u8d44\u91d1\u5b58\u5165\u60a8\u7684\u8fd8\u6b3e\u8d26\u6237\uff0c\u5177\u4f53\u91d1\u989d\u4ee5\u5b9e\u9645\u6263\u6b3e\u4e3a\u51c6\u3002\u82e5\u672a\u53ca\u65f6\u8fd8\u6b3e\u5c06\u9075\u7167**\u94f6\u884c\u300a\u5f81\u4fe1\u7ba1\u7406\u6761\u4f8b\u300b\u4e0a\u62a5\u9884\u671f\u4fe1\u606f\u3002"}
+DEBUG: [ Jiechengkeji ] [ 11:02:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"refund_money":"2563210","refund_time":"2018-11-24 15:09:40","refund_text":"\u8bf7\u4e8e\u8fd8\u6b3e\u65e517:00\u524d\u5c06\u8db3\u989d\u8d44\u91d1\u5b58\u5165\u60a8\u7684\u8fd8\u6b3e\u8d26\u6237\uff0c\u5177\u4f53\u91d1\u989d\u4ee5\u5b9e\u9645\u6263\u6b3e\u4e3a\u51c6\u3002\u82e5\u672a\u53ca\u65f6\u8fd8\u6b3e\u5c06\u9075\u7167**\u94f6\u884c\u300a\u5f81\u4fe1\u7ba1\u7406\u6761\u4f8b\u300b\u4e0a\u62a5\u9884\u671f\u4fe1\u606f\u3002"}}
+
+[ 2017-11-25T11:04:16+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:02:59 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:02:59 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:02:59 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '2',
+		                     '贷款消费类型',
+		                     '2017-11-25 11:03:06',
+		                     '2017-11-25 11:03:06'
+	                    ) [ RunTime:0.0030s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:04:10 ] [ result ][{"id":"75"}]
+ERR: 1054:Unknown column 'survey_id' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '56',
+		                     '75',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:03:06',
+		                     '2017-11-25 11:03:06'
+	                    )
+ERR: 1054:Unknown column 'survey_id' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '56',
+		                     '75',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:03:06',
+		                     '2017-11-25 11:03:06'
+	                    )
+
+[ 2017-11-25T11:06:23+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:06:14 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:06:14 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:06:14 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '2',
+		                     '贷款消费类型',
+		                     '2017-11-25 11:06:16',
+		                     '2017-11-25 11:06:16'
+	                    ) [ RunTime:0.0020s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:06:20 ] [ result ][{"id":"76"}]
+ERR: 1054:Unknown column 'adorm_money_m' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '56',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:06:16',
+		                     '2017-11-25 11:06:16'
+	                    )
+ERR: 1054:Unknown column 'adorm_money_m' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '56',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:06:16',
+		                     '2017-11-25 11:06:16'
+	                    )
+
+[ 2017-11-25T11:08:09+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:08:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:08:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:08:01 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '2',
+		                     '贷款消费类型',
+		                     '2017-11-25 11:08:03',
+		                     '2017-11-25 11:08:03'
+	                    ) [ RunTime:0.0020s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:08:07 ] [ result ][{"id":"77"}]
+ERR: 1054:Unknown column 'adorm_money_m' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '56',
+	                         '14',
+		                     '科技公司',
+		                     '2',
+		                     '2',
+		                     '2017-11-25 11:08:03',
+		                     '2017-11-25 11:08:03'
+	                    )
+ERR: 1054:Unknown column 'adorm_money_m' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '56',
+	                         '14',
+		                     '科技公司',
+		                     '2',
+		                     '2',
+		                     '2017-11-25 11:08:03',
+		                     '2017-11-25 11:08:03'
+	                    )
+
+[ 2017-11-25T11:11:13+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 11:10:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:10:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:10:56 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '2',
+		                     '贷款消费类型',
+		                     '2017-11-25 11:11:01',
+		                     '2017-11-25 11:11:01'
+	                    ) [ RunTime:0.0060s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:11:05 ] [ result ][{"id":"78"}]
+ERR: 1054:Unknown column 'survey_id' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '56',
+		                     '78',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:11:01',
+		                     '2017-11-25 11:11:01'
+	                    )
+ERR: 1054:Unknown column 'survey_id' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '56',
+		                     '78',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:11:01',
+		                     '2017-11-25 11:11:01'
+	                    )
+
+[ 2017-11-25T11:12:20+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:12:14 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:12:14 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:12:14 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '2',
+		                     '贷款消费类型',
+		                     '2017-11-25 11:12:17',
+		                     '2017-11-25 11:12:17'
+	                    ) [ RunTime:0.0050s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0660s ]
+DEBUG: [ Jiechengkeji ] [ 11:12:19 ] [ result ][{"id":"79"}]
+ERR: 1054:Unknown column 'survey_id' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '56',
+		                     '79',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:12:17',
+		                     '2017-11-25 11:12:17'
+	                    )
+ERR: 1054:Unknown column 'survey_id' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '56',
+		                     '79',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:12:17',
+		                     '2017-11-25 11:12:17'
+	                    )
+
+[ 2017-11-25T11:16:55+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:16:46 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:16:46 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:16:46 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '2',
+		                     '贷款消费类型',
+		                     '2017-11-25 11:16:48',
+		                     '2017-11-25 11:16:48'
+	                    ) [ RunTime:0.0030s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:16:53 ] [ result ][{"id":"80"}]
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_money (
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '80',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:16:48',
+		                     '2017-11-25 11:16:48'
+	                    )
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_money (
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '80',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:16:48',
+		                     '2017-11-25 11:16:48'
+	                    )
+
+[ 2017-11-25T11:20:31+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:19:54 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:19:54 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:19:54 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '2',
+		                     '贷款消费类型',
+		                     '2017-11-25 11:19:57',
+		                     '2017-11-25 11:19:57'
+	                    ) [ RunTime:0.0030s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:19:59 ] [ result ][{"id":"81"}]
+SQL:  INSERT INTO 
+                         adorm_money (
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '81',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:19:57',
+		                     '2017-11-25 11:19:57'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         company 
+                         (
+                             cy_apply_id,
+	                         company_id,
+	                         adorm_id ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                     (
+		                     '56',
+		                     '1',
+		                     '14',
+		                     '2017-11-25 11:19:57',
+		                     '2017-11-25 11:19:57'
+	                     ) [ RunTime:0.0040s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '81',
+		                     '24',
+		                     '100',
+		                     '2017-11-25 11:19:57'
+	                    ) [ RunTime:0.0030s ]
+SQL: SELECT 
+                          homeMoney_frostmoney ,
+                          (SELECT  frostmoney_text  FROM  moneyText) frostmoney_text 
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                         cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT 
+                     *
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  AND  
+                        homeMoney_id='24' [ RunTime:0.0040s ]
+SQL:  INSERT INTO 
+                         consume  (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         consume_frostmoney ,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '1281505',
+		                     '2017-11-25 11:19:57',
+		                     '2017-11-25 11:19:57'
+	                    ) [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 8 for Admin\Service\JiazService::adorm_state(), called in D:\jiazhuangdai.com\Application\Admin\Controller\JiazController.class.php on line 148 and defined D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 198 行.
+NOTIC: [8] Undefined variable: updatetime D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 199 行.
+ERR: 1366:Incorrect integer value: '科技公司' for column 'adorm_id' at row 1
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id ,
+	                         adorm_name,
+	                         adorm_state_money ,
+	                         adorm_li,
+	                         adorm_state_lx,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                    (
+		                     '14',
+		                     '科技公司',
+	                         '100',
+		                     '现金',
+		                     '2',
+		                     '2017-11-25 11:19:57',
+		                     '2017-11-25 11:19:57',
+		                     ''
+	                    )
+ERR: 1366:Incorrect integer value: '科技公司' for column 'adorm_id' at row 1
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id ,
+	                         adorm_name,
+	                         adorm_state_money ,
+	                         adorm_li,
+	                         adorm_state_lx,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                    (
+		                     '14',
+		                     '科技公司',
+	                         '100',
+		                     '现金',
+		                     '2',
+		                     '2017-11-25 11:19:57',
+		                     '2017-11-25 11:19:57',
+		                     ''
+	                    )
+
+[ 2017-11-25T11:22:50+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:22:31 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:22:31 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:22:31 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '2',
+		                     '贷款消费类型',
+		                     '2017-11-25 11:22:35',
+		                     '2017-11-25 11:22:35'
+	                    ) [ RunTime:0.0010s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 11:22:38 ] [ result ][{"id":"82"}]
+SQL:  INSERT INTO 
+                         adorm_money (
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '82',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:22:35',
+		                     '2017-11-25 11:22:35'
+	                    ) [ RunTime:0.0020s ]
+SQL:  INSERT INTO 
+                         company 
+                         (
+                             cy_apply_id,
+	                         company_id,
+	                         adorm_id ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                     (
+		                     '56',
+		                     '1',
+		                     '14',
+		                     '2017-11-25 11:22:35',
+		                     '2017-11-25 11:22:35'
+	                     ) [ RunTime:0.0020s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '82',
+		                     '24',
+		                     '100',
+		                     '2017-11-25 11:22:35'
+	                    ) [ RunTime:0.0020s ]
+SQL: SELECT 
+                          homeMoney_frostmoney ,
+                          (SELECT  frostmoney_text  FROM  moneyText) frostmoney_text 
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                         cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT 
+                     *
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  AND  
+                        homeMoney_id='24' [ RunTime:0.0030s ]
+SQL: SELECT 
+                        consume_frostmoney
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  ORDER BY 
+                        id 
+                  DESC 
+                         LIMIT 0,1 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         consume  (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         consume_frostmoney ,
+	                         createtime,
+	                         updatetime
+                          )
+             VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '1281405',
+		                     '2017-11-25 11:22:35',
+		                     '2017-11-25 11:22:35'
+	                    ) [ RunTime:0.0120s ]
+SQL:  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id ,
+	                         adorm_name,
+	                         adorm_state_money ,
+	                         adorm_li,
+	                         adorm_state_lx,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                    (
+		                     '56',
+		                     '14',
+	                         '科技公司',
+		                     '100',
+		                     '现金',
+		                     '2',
+		                     '2017-11-25 11:22:35',
+		                     '2017-11-25 11:22:35'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:22:49 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:22:50 ] [ result ]{"msg":"\u5bb6\u88c5\u6d88\u8d39\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-25T11:45:20+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:45:20 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:45:20 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:45:20 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         survey_type,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '贷款消费类型',
+		                     '2017-11-25 11:45:20',
+		                     '2017-11-25 11:45:20'
+	                    ) [ RunTime:0.0020s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:45:20 ] [ result ][{"id":"83"}]
+SQL:  INSERT INTO 
+                         adorm_money (
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '83',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:45:20',
+		                     '2017-11-25 11:45:20'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         company 
+                         (
+                             cy_apply_id,
+	                         company_id,
+	                         adorm_id ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                     (
+		                     '56',
+		                     '2',
+		                     '14',
+		                     '2017-11-25 11:45:20',
+		                     '2017-11-25 11:45:20'
+	                     ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '100',
+		                     '2017-11-25 11:45:20',
+		                     '2017-11-25 11:45:20'
+	                    ) [ RunTime:0.0000s ]
+SQL: SELECT 
+                          homeMoney_frostmoney ,
+                          (SELECT  frostmoney_text  FROM  moneyText) frostmoney_text 
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                         cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT 
+                     *
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  AND  
+                        homeMoney_id='24' [ RunTime:0.0010s ]
+SQL: SELECT 
+                        consume_frostmoney
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  ORDER BY 
+                        id 
+                  DESC 
+                         LIMIT 0,1 [ RunTime:0.0000s ]
+SQL:  INSERT INTO 
+                         consume  (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         consume_frostmoney ,
+	                         createtime,
+	                         updatetime
+                          )
+             VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '1281305',
+		                     '2017-11-25 11:45:20',
+		                     '2017-11-25 11:45:20'
+	                    ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 8 for Admin\Service\JiazService::adorm_state(), called in D:\jiazhuangdai.com\Application\Admin\Controller\JiazController.class.php on line 148 and defined D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 196 行.
+NOTIC: [8] Undefined variable: updatetime D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 197 行.
+ERR: 1366:Incorrect integer value: '科技公司' for column 'adorm_id' at row 1
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id ,
+	                         adorm_name,
+	                         adorm_state_money ,
+	                         adorm_li,
+	                         adorm_state_lx,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                    (
+		                     '14',
+		                     '科技公司',
+	                         '100',
+		                     '现金',
+		                     '2',
+		                     '2017-11-25 11:45:20',
+		                     '2017-11-25 11:45:20',
+		                     ''
+	                    )
+ERR: 1366:Incorrect integer value: '科技公司' for column 'adorm_id' at row 1
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id ,
+	                         adorm_name,
+	                         adorm_state_money ,
+	                         adorm_li,
+	                         adorm_state_lx,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                    (
+		                     '14',
+		                     '科技公司',
+	                         '100',
+		                     '现金',
+		                     '2',
+		                     '2017-11-25 11:45:20',
+		                     '2017-11-25 11:45:20',
+		                     ''
+	                    )
+
+[ 2017-11-25T11:46:02+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:46:02 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:46:02 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:46:02 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         survey_type,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '贷款消费类型',
+		                     '2017-11-25 11:46:02',
+		                     '2017-11-25 11:46:02'
+	                    ) [ RunTime:0.0040s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:46:02 ] [ result ][{"id":"84"}]
+SQL:  INSERT INTO 
+                         adorm_money (
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '84',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:46:02',
+		                     '2017-11-25 11:46:02'
+	                    ) [ RunTime:0.0020s ]
+SQL:  INSERT INTO 
+                         company 
+                         (
+                             cy_apply_id,
+	                         company_id,
+	                         adorm_id ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                     (
+		                     '56',
+		                     '2',
+		                     '14',
+		                     '2017-11-25 11:46:02',
+		                     '2017-11-25 11:46:02'
+	                     ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '100',
+		                     '2017-11-25 11:46:02',
+		                     '2017-11-25 11:46:02'
+	                    ) [ RunTime:0.0030s ]
+SQL: SELECT 
+                          homeMoney_frostmoney ,
+                          (SELECT  frostmoney_text  FROM  moneyText) frostmoney_text 
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                         cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT 
+                     *
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  AND  
+                        homeMoney_id='24' [ RunTime:0.0010s ]
+SQL: SELECT 
+                        consume_frostmoney
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  ORDER BY 
+                        id 
+                  DESC 
+                         LIMIT 0,1 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         consume  (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         consume_frostmoney ,
+	                         createtime,
+	                         updatetime
+                          )
+             VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '1281205',
+		                     '2017-11-25 11:46:02',
+		                     '2017-11-25 11:46:02'
+	                    ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 8 for Admin\Service\JiazService::adorm_state(), called in D:\jiazhuangdai.com\Application\Admin\Controller\JiazController.class.php on line 148 and defined D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 196 行.
+NOTIC: [8] Undefined variable: updatetime D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 197 行.
+ERR: 1366:Incorrect integer value: '科技公司' for column 'adorm_id' at row 1
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id ,
+	                         adorm_name,
+	                         adorm_state_money ,
+	                         adorm_li,
+	                         adorm_state_lx,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                    (
+		                     '14',
+		                     '科技公司',
+	                         '100',
+		                     '现金',
+		                     '2',
+		                     '2017-11-25 11:46:02',
+		                     '2017-11-25 11:46:02',
+		                     ''
+	                    )
+ERR: 1366:Incorrect integer value: '科技公司' for column 'adorm_id' at row 1
+ [ SQL语句 ] :  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id ,
+	                         adorm_name,
+	                         adorm_state_money ,
+	                         adorm_li,
+	                         adorm_state_lx,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                    (
+		                     '14',
+		                     '科技公司',
+	                         '100',
+		                     '现金',
+		                     '2',
+		                     '2017-11-25 11:46:02',
+		                     '2017-11-25 11:46:02',
+		                     ''
+	                    )
+
+[ 2017-11-25T11:47:15+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 11:47:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:47:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:47:15 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         survey_type,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '贷款消费类型',
+		                     '2017-11-25 11:47:15',
+		                     '2017-11-25 11:47:15'
+	                    ) [ RunTime:0.0010s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:47:15 ] [ result ][{"id":"85"}]
+SQL:  INSERT INTO 
+                         adorm_money (
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '85',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-25 11:47:15',
+		                     '2017-11-25 11:47:15'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         company 
+                         (
+                             cy_apply_id,
+	                         company_id,
+	                         adorm_id ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                     (
+		                     '56',
+		                     '2',
+		                     '14',
+		                     '2017-11-25 11:47:15',
+		                     '2017-11-25 11:47:15'
+	                     ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '100',
+		                     '2017-11-25 11:47:15',
+		                     '2017-11-25 11:47:15'
+	                    ) [ RunTime:0.0030s ]
+SQL: SELECT 
+                          homeMoney_frostmoney ,
+                          (SELECT  frostmoney_text  FROM  moneyText) frostmoney_text 
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                         cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT 
+                     *
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  AND  
+                        homeMoney_id='24' [ RunTime:0.0010s ]
+SQL: SELECT 
+                        consume_frostmoney
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  ORDER BY 
+                        id 
+                  DESC 
+                         LIMIT 0,1 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         consume  (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         consume_frostmoney ,
+	                         createtime,
+	                         updatetime
+                          )
+             VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '1281105',
+		                     '2017-11-25 11:47:15',
+		                     '2017-11-25 11:47:15'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id ,
+	                         adorm_name,
+	                         adorm_state_money ,
+	                         adorm_li,
+	                         adorm_state_lx,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                    (
+		                     '56',
+		                     '14',
+	                         '科技公司',
+		                     '100',
+		                     '现金',
+		                     '2',
+		                     '2017-11-25 11:47:15',
+		                     '2017-11-25 11:47:15'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:47:15 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:47:15 ] [ result ]{"msg":"\u5bb6\u88c5\u6d88\u8d39\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-25T15:50:19+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/refundMoneyadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:50:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:50:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:50:19 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                     *
+                  FROM 
+                        refundMoney   
+                  WHERE 
+                        cy_apply_id = '56'
+                  ORDER BY 
+                         id 
+                   DESC 
+                         LIMIT 0,1 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         refundMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         refund_shcr,
+	                         refund_time ,
+	                         refund_Money ,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '2563210',
+	                         '2018-11-24 15:09:40',
+		                     '2563110',
+		                     '2017-11-25 15:50:19',
+		                     '2017-11-25 15:50:19'
+	                    ) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:50:19 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 15:50:19 ] [ result ]{"msg":"\u8fd8\u6b3e\u70b9\u51fb\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-25T15:51:46+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=12079
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:51:46 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:51:46 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:51:46 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-11-25T15:52:51+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/refundMoneyadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 15:51:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:51:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:51:49 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                     *
+                  FROM 
+                        refundMoney   
+                  WHERE 
+                        cy_apply_id = '56'
+                  ORDER BY 
+                         id 
+                   DESC 
+                         LIMIT 0,1 [ RunTime:0.0020s ]
+SQL:  INSERT INTO 
+                         refundMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         refund_shcr,
+	                         refund_time ,
+	                         refund_Money ,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '2563210',
+	                         '2018-11-24 15:09:40',
+		                     '2563010',
+		                     '2017-11-25 15:51:52',
+		                     '2017-11-25 15:51:52'
+	                    ) [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 15:52:50 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 15:52:51 ] [ result ]{"msg":"\u8fd8\u6b3e\u70b9\u51fb\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-25T15:55:56+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homemoneyUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:55:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:55:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:55:56 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'homeMoney_state' in 'field list'
+ [ SQL语句 ] : UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_state='1'
+                     WHERE 
+                         cy_apply_id= '56'
+ERR: 1054:Unknown column 'homeMoney_state' in 'field list'
+ [ SQL语句 ] : UPDATE 
+                         homeMoney 
+                     SET 
+                         homeMoney_state='1'
+                     WHERE 
+                         cy_apply_id= '56'
+
+[ 2017-11-25T16:02:17+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homemoneyUpdatee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 16:02:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:02:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:02:17 ] [ __construct ]BaseDAO
+SQL: UPDATE adorm_state
+SET adorm_state_lx = '1'
+WHERE
+	cy_apply_id = '56'
+AND adorm_li = '家装贷' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 16:02:17 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 16:02:17 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-25T16:02:37+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homemoneyUpdatee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:02:37 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:02:37 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:02:37 ] [ __construct ]BaseDAO
+SQL: UPDATE adorm_state
+SET adorm_state_lx = '2'
+WHERE
+	cy_apply_id = '56'
+AND adorm_li = '家装贷' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 16:02:37 ] [ result ]1
+DEBUG: [ Jiechengkeji ] [ 16:02:37 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":1}
+

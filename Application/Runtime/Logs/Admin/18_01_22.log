@@ -1,0 +1,2848 @@
+[ 2018-01-22T09:30:21+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=18001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:21 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:30:21 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:30:21 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.031001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.046003s ]
+
+[ 2018-01-22T09:30:30+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 09:30:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:30:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:30:30 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 09:30:30 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:30:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2018-01-22T09:31:10+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: [ Jiechengkeji ] [ 09:31:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:31:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:31:10 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 09:31:10 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:31:10 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2018-01-22T10:50:38+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=15783
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 10:50:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:50:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:50:38 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-22T10:50:51+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 10:50:45 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:50:45 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:50:45 ] [ __construct ]BaseDAO
+
+[ 2018-01-22T10:51:15+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:51:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:51:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:51:15 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 10:51:15 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 10:51:15 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[],"0":{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}}
+
+[ 2018-01-22T10:51:19+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:51:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:51:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:51:19 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 10:51:19 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 10:51:19 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[],"0":{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}}
+
+[ 2018-01-22T10:51:32+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:51:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:51:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:51:32 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 10:51:32 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 10:51:32 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[],"0":{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}}
+
+[ 2018-01-22T10:51:48+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:51:48 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:51:48 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:51:48 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 10:51:48 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 10:51:48 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[],"0":{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}}
+
+[ 2018-01-22T10:51:49+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:51:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:51:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:51:49 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 10:51:49 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 10:51:49 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[],"0":{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}}
+
+[ 2018-01-22T10:52:01+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 10:52:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:52:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:52:01 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 10:52:01 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 10:52:01 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]}
+
+[ 2018-01-22T10:54:34+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=16558
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:54:33 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:54:33 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:54:34 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-22T10:55:05+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 10:54:48 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:54:48 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:54:48 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 10:55:04 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 10:55:04 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]}
+
+[ 2018-01-22T10:55:55+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:55:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:55:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:55:18 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 10:55:55 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 10:55:55 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]}
+
+[ 2018-01-22T10:56:14+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:55:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:55:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:55:57 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 10:56:14 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 10:56:14 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]}
+
+[ 2018-01-22T10:56:45+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 10:56:16 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:56:16 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:56:16 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 10:56:45 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 10:56:45 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]}
+
+[ 2018-01-22T10:56:59+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:56:48 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:56:48 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:56:48 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 28 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 30 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 10:56:55 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 10:56:59 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]}
+
+[ 2018-01-22T10:59:01+08:00 ] 127.0.0.1 /index.php/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:58:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:58:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:58:32 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                      * 
+                    FROM
+                      cy_member 
+                    WHERE uname = '15666319057' 
+                      AND passwd = '4297f44b13955235245b2497399d7a93' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:59:01 ] [ result ]{"uid":"109","group_id":"2","uname":"15666319057","passwd":"4297f44b13955235245b2497399d7a93","from":"designer","mail":"1501641505@jzz.com","mobile":"","credits":"0","gold":"0","gender":"woman","city_id":"7","realname":"","face":"","face_80":"","face_32":"","y":"0","m":"0","d":"0","verify":"0","uc_uid":"0","cart":"","lastlogin":"1504594884","loginip":"112.247.254.206","closed":"0","regip":"112.247.251.48","dateline":"1501641505","bank":null,"fromw":"0"}
+DEBUG: [ Jiechengkeji ] [ 10:59:01 ] [ result ]{"msg":"\u767b\u5f55\u6210\u529f\uff01","code":0,"data":[]}
+
+[ 2018-01-22T10:59:40+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:59:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:59:26 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:59:26 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'; [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 10:59:40 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 10:59:40 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]}
+
+[ 2018-01-22T10:59:50+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:59:50 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:59:50 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:59:50 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'; [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 10:59:50 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 10:59:50 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]}
+
+[ 2018-01-22T11:00:00+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13387
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:00:00 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:00:00 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:00:00 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2018-01-22T11:00:23+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+DEBUG: [ Jiechengkeji ] [ 11:00:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:00:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:00:05 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'; [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 11:00:23 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 11:00:23 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]}
+
+[ 2018-01-22T11:01:12+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 11:00:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:00:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:00:32 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'; [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname=''; [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+DEBUG: [ Jiechengkeji ] [ 11:01:12 ] [ result ]0
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 11:01:12 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}]}
+
+[ 2018-01-22T11:01:17+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 11:01:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:01:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:01:17 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'; [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+DEBUG: [ Jiechengkeji ] [ 11:01:17 ] [ result ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 11:01:17 ] [ result ]
+
+[ 2018-01-22T11:01:22+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 11:01:22 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:01:22 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:01:22 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'; [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+DEBUG: [ Jiechengkeji ] [ 11:01:22 ] [ result ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 11:01:22 ] [ result ]
+
+[ 2018-01-22T11:02:05+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:02:05 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:02:05 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:02:05 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'; [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+DEBUG: [ Jiechengkeji ] [ 11:02:05 ] [ result ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 11:02:05 ] [ result ]
+
+[ 2018-01-22T11:02:19+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=12441
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 11:02:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:02:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:02:19 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2018-01-22T11:03:58+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:02:22 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:02:22 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:02:22 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'; [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+DEBUG: [ Jiechengkeji ] [ 11:02:32 ] [ result ]
+NOTIC: [2] Illegal string offset 'jingb' xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [2] Illegal string offset 'jingb' xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 11:03:58 ] [ result ]
+
+[ 2018-01-22T11:04:31+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 11:04:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:04:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:04:19 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'; [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+DEBUG: [ Jiechengkeji ] [ 11:04:28 ] [ result ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 11:04:31 ] [ result ]
+
+[ 2018-01-22T11:04:56+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:04:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:04:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:04:51 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'; [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+DEBUG: [ Jiechengkeji ] [ 11:04:56 ] [ result ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 11:04:56 ] [ result ]
+
+[ 2018-01-22T11:05:17+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:05:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:05:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:05:17 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'; [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+DEBUG: [ Jiechengkeji ] [ 11:05:17 ] [ result ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 11:05:17 ] [ result ]
+
+[ 2018-01-22T11:05:18+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:05:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:05:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:05:18 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'; [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 32 行.
+DEBUG: [ Jiechengkeji ] [ 11:05:18 ] [ result ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 11:05:18 ] [ result ]
+
+[ 2018-01-22T11:07:20+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:07:20 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:07:20 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:07:20 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	WHERE 
+//	   uname='15666319057'' at line 21
+ [ SQL语句 ] : SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+//	WHERE 
+//	   uname='15666319057'
+	   
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	WHERE 
+//	   uname='15666319057'' at line 21
+ [ SQL语句 ] : SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+//	WHERE 
+//	   uname='15666319057'
+	   
+
+[ 2018-01-22T11:07:29+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: [ Jiechengkeji ] [ 11:07:29 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:07:29 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:07:29 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	WHERE 
+//	   uname='15666319057'' at line 21
+ [ SQL语句 ] : SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+//	WHERE 
+//	   uname='15666319057'
+	   
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//	WHERE 
+//	   uname='15666319057'' at line 21
+ [ SQL语句 ] : SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+//	WHERE 
+//	   uname='15666319057'
+	   
+
+[ 2018-01-22T11:07:49+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:07:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:07:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:07:49 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+
+	    [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:07:49 ] [ result ][{"uname":"15666319057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"18628905199","face":"face\/5F9\/180\/5F93F983524DEF3DCA464469D2CF9F3E.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"18663109799","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"15666319077","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"15666219025","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"15666319999","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"15666319066","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"15666319000","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13720131975","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"15666319333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"13181148765","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"15666319059","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15666319055","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15666319051","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"13962472699","face":"face\/698\/180\/698D51A19D8A121CE581499D7B701668.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13697619564","face":"face\/7F6\/180\/7F6FFAA6BB0B408017B62254211691B5.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13888587430","face":"face\/732\/180\/73278A4A86960EEB576A8FD4C9EC6997.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13806666614","face":"face\/5FD\/180\/5FD0B37CD7DBBB00F97BA6CE92BF5ADD.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13881726527","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13255668844","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15106316655","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13336306662","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"15166128873","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"15634305824","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"18863165330","face":"face\/4C5\/180\/4C56FF4CE4AAF9573AA5DFF913DF997A.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13721933099","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13589104069","face":"face\/202\/180\/202CB962AC59075B964B07152D234B70.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13806316709","face":"face\/C8F\/180\/C8FFE9A587B126F152ED3D89A146B445.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13220830555","face":"face\/069\/180\/069059B7EF840F0C74A814EC9237B6EC.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"13176800815","face":"face\/EC5\/180\/EC5DECCA5ED3D6B8079E2E7E7BACC9F2.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666319068","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18363100063","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666339057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666339055","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666323323","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15655265632","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666349058","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"13061131111","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13061144321","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666319052","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"13829856623","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666329086","face":"face\/069\/180\/069059B7EF840F0C74A814EC9237B6EC.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15699639057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15266322212","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15645454545","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666369056","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15666319053","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15262311231","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15666319089","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13829856632","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13963160366","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"15106316682","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15106306671","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15106306681","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13465225618","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15106306680","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13465223808","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15106316670","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15106316672","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15684517575","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13153408999","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"18663127983","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13371161071","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"18663159188","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15725608666","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13863116814","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13906313379","face":"face\/006\/180\/006F52E9102A8D3BE2FE5614F42BA989.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"13666309628","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666319957","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13829856699","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15666319001","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15666339056","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15454547487","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13823999999","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15622222222","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"1555555555","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15664454901","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13181148766","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13181148767","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15111319057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"13181148767","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363122269","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363133369","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"}]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Controller\UmemberController.class.php 第 23 行.
+DEBUG: [ Jiechengkeji ] [ 11:07:49 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"uname":"15666319057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2","logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"},{"uname":"18628905199","face":"face\/5F9\/180\/5F93F983524DEF3DCA464469D2CF9F3E.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"18663109799","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"15666319077","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"15666219025","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"15666319999","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"15666319066","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"15666319000","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13720131975","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"15666319333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"13181148765","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"15666319059","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15666319055","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15666319051","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"13962472699","face":"face\/698\/180\/698D51A19D8A121CE581499D7B701668.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13697619564","face":"face\/7F6\/180\/7F6FFAA6BB0B408017B62254211691B5.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13888587430","face":"face\/732\/180\/73278A4A86960EEB576A8FD4C9EC6997.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13806666614","face":"face\/5FD\/180\/5FD0B37CD7DBBB00F97BA6CE92BF5ADD.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13881726527","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13255668844","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15106316655","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13336306662","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"15166128873","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"15634305824","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"18863165330","face":"face\/4C5\/180\/4C56FF4CE4AAF9573AA5DFF913DF997A.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13721933099","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"},{"uname":"13589104069","face":"face\/202\/180\/202CB962AC59075B964B07152D234B70.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13806316709","face":"face\/C8F\/180\/C8FFE9A587B126F152ED3D89A146B445.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13220830555","face":"face\/069\/180\/069059B7EF840F0C74A814EC9237B6EC.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"13176800815","face":"face\/EC5\/180\/EC5DECCA5ED3D6B8079E2E7E7BACC9F2.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666319068","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18363100063","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666339057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666339055","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666323323","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15655265632","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666349058","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"13061131111","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13061144321","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666319052","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"13829856623","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666329086","face":"face\/069\/180\/069059B7EF840F0C74A814EC9237B6EC.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15699639057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15266322212","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15645454545","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666369056","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15666319053","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15262311231","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15666319089","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13829856632","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13963160366","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"15106316682","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15106306671","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15106306681","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13465225618","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15106306680","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13465223808","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15106316670","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15106316672","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15684517575","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13153408999","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"18663127983","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13371161071","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"18663159188","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15725608666","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13863116814","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13906313379","face":"face\/006\/180\/006F52E9102A8D3BE2FE5614F42BA989.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"13666309628","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15666319957","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13829856699","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15666319001","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15666339056","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15454547487","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13823999999","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15622222222","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"1555555555","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"15664454901","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13181148766","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"13181148767","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"15111319057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u516c\u53f8","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"13181148767","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u88c5\u4fee\u5de5\u4eba","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363100069","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363122269","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u4f1a\u5458","jingb":"0","yhj":"2"},{"uname":"18363133369","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"},{"uname":"18333333333","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u5efa\u6750\u5546\u5bb6","jingb":"0","yhj":"2"}]}
+
+[ 2018-01-22T11:09:18+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:09:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:09:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:09:18 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'
+	    [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 30 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 37 行.
+DEBUG: [ Jiechengkeji ] [ 11:09:18 ] [ result ]
+DEBUG: [ Jiechengkeji ] [ 11:09:18 ] [ result ]
+
+[ 2018-01-22T11:09:46+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:09:46 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:09:46 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:09:46 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'
+	    [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 30 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 37 行.
+DEBUG: [ Jiechengkeji ] [ 11:09:46 ] [ result ]
+DEBUG: [ Jiechengkeji ] [ 11:09:46 ] [ result ]
+
+[ 2018-01-22T11:10:42+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13311
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:10:42 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:10:42 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:10:42 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2018-01-22T11:11:48+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 11:10:54 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:10:54 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:10:54 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'
+	    [ RunTime:0.0050s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 0 xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 37 行.
+DEBUG: [ Jiechengkeji ] [ 11:11:48 ] [ result ]
+DEBUG: [ Jiechengkeji ] [ 11:11:48 ] [ result ]
+
+[ 2018-01-22T11:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:11:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:11:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:11:51 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'
+	    [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 30 行.
+DEBUG: [ Jiechengkeji ] [ 11:11:56 ] [ result ]{"uname":"15666319057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","0":{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}}
+NOTIC: [8] Use of undefined constant result - assumed 'result' xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [8] Undefined index: result xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [8] Undefined index: result xdebug://debug-eval(1) : eval()'d code 第 1 行.
+DEBUG: [ Jiechengkeji ] [ 11:12:48 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","0":{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}}}
+
+[ 2018-01-22T11:12:56+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 11:12:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:12:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:12:51 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'
+	    [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 30 行.
+DEBUG: [ Jiechengkeji ] [ 11:12:55 ] [ result ]{"uname":"15666319057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","result":{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}}
+DEBUG: [ Jiechengkeji ] [ 11:12:56 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","result":{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}}}
+
+[ 2018-01-22T11:13:39+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 11:13:00 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:13:00 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:13:00 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'
+	    [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 30 行.
+DEBUG: [ Jiechengkeji ] [ 11:13:39 ] [ result ]{"uname":"15666319057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","result":{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}}
+DEBUG: [ Jiechengkeji ] [ 11:13:39 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","result":{"logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}}}
+
+[ 2018-01-22T11:14:07+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:13:42 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:13:42 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:13:42 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'
+	    [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 30 行.
+DEBUG: [ Jiechengkeji ] [ 11:13:46 ] [ result ]{"uname":"15666319057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}
+NOTIC: [8] Undefined offset: 0 xdebug://debug-eval(1) : eval()'d code 第 1 行.
+DEBUG: [ Jiechengkeji ] [ 11:14:06 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319057","face":"","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","logo":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg"}}
+
+[ 2018-01-22T11:17:22+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 11:14:09 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:14:09 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:14:09 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'
+	    [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 30 行.
+DEBUG: [ Jiechengkeji ] [ 11:14:16 ] [ result ]{"uname":"15666319057","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08"}
+DEBUG: [ Jiechengkeji ] [ 11:17:21 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319057","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08"}}
+
+[ 2018-01-22T11:20:51+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:18:45 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:18:45 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:18:45 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'
+	    [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'face' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'face' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 3 xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [2] Illegal string offset 'face' xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'face' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 31 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 34 行.
+NOTIC: [2] Illegal string offset 'jingb' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 36 行.
+NOTIC: [2] Illegal string offset 'yhj' D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 37 行.
+DEBUG: [ Jiechengkeji ] [ 11:20:51 ] [ result ]
+DEBUG: [ Jiechengkeji ] [ 11:20:51 ] [ result ]
+
+[ 2018-01-22T11:21:05+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:20:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:20:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:20:57 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'
+	    [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 3 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 41 行.
+DEBUG: [ Jiechengkeji ] [ 11:21:04 ] [ result ]{"uname":"15666319057","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08"}
+DEBUG: [ Jiechengkeji ] [ 11:21:05 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319057","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08"}}
+
+[ 2018-01-22T11:22:29+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 11:22:27 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:22:27 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:22:27 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'
+	    [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 3 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 41 行.
+DEBUG: [ Jiechengkeji ] [ 11:22:29 ] [ result ]{"uname":"15666319057","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","0":{"jingb":"0","yhj":"2"}}
+DEBUG: [ Jiechengkeji ] [ 11:22:29 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319057","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","0":{"jingb":"0","yhj":"2"}}}
+
+[ 2018-01-22T11:22:58+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 11:22:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:22:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:22:58 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: createuname D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 25 行.
+SQL: SELECT
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   uname='15666319057'
+	    [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 3 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 41 行.
+DEBUG: [ Jiechengkeji ] [ 11:22:58 ] [ result ]{"uname":"15666319057","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"}
+DEBUG: [ Jiechengkeji ] [ 11:22:58 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"uname":"15666319057","face":"http:\/\/music.shulailo.cn\/attachs\/face\/face.jpg","name":"\u5bb6\u88c5\u52a9\u624b\u8bbe\u8ba1\u5e08","jingb":"0","yhj":"2"}}
+
+[ 2018-01-22T11:40:52+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:40:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:40:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:40:52 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php 第 62 行.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php 第 63 行.
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: INSERT INTO `cy_member_fields` (
+                                 	`uid`
+                                           )
+                                 VALUES
+	                                      (
+	                              	'221'
+	                                       ) [ RunTime:0.0020s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '221',
+                    '8',
+                    '18333333333',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1516592452',
+                    '192.168.1.22',
+                    '0',
+                    '192.168.1.22',
+                    '1516592452',
+                     NULL,
+                    '0' 
+                  ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:40:52 ] [ result ]{"msg":"\u7528\u6237\u6dfb\u52a0\u6210\u529f!","code":0,"data":[]}
+
+[ 2018-01-22T11:40:57+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+DEBUG: [ Jiechengkeji ] [ 11:40:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:40:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:40:57 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php 第 62 行.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php 第 63 行.
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: INSERT INTO `cy_member_fields` (
+                                 	`uid`
+                                           )
+                                 VALUES
+	                                      (
+	                              	'222'
+	                                       ) [ RunTime:0.0020s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '222',
+                    '8',
+                    '18333333333',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1516592457',
+                    '192.168.1.22',
+                    '0',
+                    '192.168.1.22',
+                    '1516592457',
+                     NULL,
+                    '0' 
+                  ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:40:57 ] [ result ]{"msg":"\u7528\u6237\u6dfb\u52a0\u6210\u529f!","code":0,"data":[]}
+
+[ 2018-01-22T14:07:57+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=18875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:07:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:07:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:07:57 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-01-22T14:08:23+08:00 ] 127.0.0.1 /index.php/Admin/Diary/Diary
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 14:08:23 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:08:23 ] [ _initialized ]AuthController
+
+[ 2018-01-22T14:08:53+08:00 ] 127.0.0.1 /index.php/Admin/Diary/Diary
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: [ Jiechengkeji ] [ 14:08:53 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:08:53 ] [ _initialized ]AuthController
+
+[ 2018-01-22T14:09:11+08:00 ] 127.0.0.1 /index.php/Admin/Diary/Diary
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 14:09:11 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:09:11 ] [ _initialized ]AuthController
+
+[ 2018-01-22T14:09:58+08:00 ] 127.0.0.1 /index.php/Admin/Diary/Diary
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+DEBUG: [ Jiechengkeji ] [ 14:09:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:09:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:09:58 ] [ __construct ]BaseDAO
+
+[ 2018-01-22T14:10:42+08:00 ] 127.0.0.1 /index.php/Admin/Diary/Diary
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:10:42 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:10:42 ] [ _initialized ]AuthController
+
+[ 2018-01-22T14:11:26+08:00 ] 127.0.0.1 /index.php/Admin/Diary/Diary
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 14:11:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:11:26 ] [ _initialized ]AuthController
+
+[ 2018-01-22T14:11:29+08:00 ] 127.0.0.1 /index.php/Admin/Diary/Diary
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:11:29 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:11:29 ] [ _initialized ]AuthController
+
+[ 2018-01-22T14:12:33+08:00 ] 127.0.0.1 /index.php/Admin/Diary/Diary
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 14:12:28 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:12:28 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:12:28 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '
+	                      thumb,
+	                      (
+		              SELEC' at line 8
+ [ SQL语句 ] : SELECT
+                           uid,
+                          diary_id,
+	                      home_name,
+	                      content_num,
+	                      views,
+	                      comments,
+	                      from_unixtime(dateline, '%Y-%m-%d') time,,
+	                      thumb,
+	                      (
+		              SELECT
+			                 name
+		               FROM
+			               cy_company
+		              WHERE
+			                  company_id = cy_diary.company_id
+	                   ) name
+                   FROM
+	                   cy_diary
+                   WHERE 
+                       audit = '1'
+                   AND 
+                       closed = '0'
+                   LIMIT  0,10
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '
+	                      thumb,
+	                      (
+		              SELEC' at line 8
+ [ SQL语句 ] : SELECT
+                           uid,
+                          diary_id,
+	                      home_name,
+	                      content_num,
+	                      views,
+	                      comments,
+	                      from_unixtime(dateline, '%Y-%m-%d') time,,
+	                      thumb,
+	                      (
+		              SELECT
+			                 name
+		               FROM
+			               cy_company
+		              WHERE
+			                  company_id = cy_diary.company_id
+	                   ) name
+                   FROM
+	                   cy_diary
+                   WHERE 
+                       audit = '1'
+                   AND 
+                       closed = '0'
+                   LIMIT  0,10
+
+[ 2018-01-22T14:14:21+08:00 ] 127.0.0.1 /index.php/Admin/Diary/Diary
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:14:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:14:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:14:20 ] [ __construct ]BaseDAO
+
+[ 2018-01-22T14:14:24+08:00 ] 127.0.0.1 /index.php/Admin/Diary/Diary
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:14:24 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:14:24 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:14:24 ] [ __construct ]BaseDAO
+SQL: SELECT
+                           uid,
+                          diary_id,
+	                      home_name,
+	                      content_num,
+	                      views,
+	                      comments,
+	                      from_unixtime(dateline, '%Y-%m-%d') time,
+	                      thumb,
+	                      (
+		              SELECT
+			                 name
+		               FROM
+			               cy_company
+		              WHERE
+			                  company_id = cy_diary.company_id
+	                   ) name
+                   FROM
+	                   cy_diary
+                   WHERE 
+                       audit = '1'
+                   AND 
+                       closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0010s ]
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_diary
+                   WHERE 
+                       audit = '1'
+                   AND 
+                       closed = '0' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:14:24 ] [ result ][{"uid":"108","diary_id":"2","home_name":"\u7965\u4e91\u82b1\u56ed","content_num":"1","views":"10","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_DA7A6C38D3D2F411B37442FF4853FE39.png","name":"\u519b\u745e"},{"uid":"122","diary_id":"3","home_name":"\u91d1\u6d77\u6e7e\u82b1\u56ed\u9152\u5e97","content_num":"1","views":"9","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_69CDFE33C66567C9858DAB1EC7B6674C.png","name":null},{"uid":"122","diary_id":"4","home_name":"\u9f50\u5546\u94f6\u884c","content_num":"1","views":"15","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_728AF34E8FFB496781A5EFD064BE394E.png","name":null},{"uid":"117","diary_id":"5","home_name":"\u534e\u65b0\u5bb6\u56ed\u5c0f\u533a ","content_num":"1","views":"27","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_E2D77C00D2959F208A80590C2BAD88F5.jpg","name":null}]
+DEBUG: [ Jiechengkeji ] [ 14:14:24 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"uid":"108","diary_id":"2","home_name":"\u7965\u4e91\u82b1\u56ed","content_num":"1","views":"10","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_DA7A6C38D3D2F411B37442FF4853FE39.png","name":"\u519b\u745e"},{"uid":"122","diary_id":"3","home_name":"\u91d1\u6d77\u6e7e\u82b1\u56ed\u9152\u5e97","content_num":"1","views":"9","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_69CDFE33C66567C9858DAB1EC7B6674C.png","name":null},{"uid":"122","diary_id":"4","home_name":"\u9f50\u5546\u94f6\u884c","content_num":"1","views":"15","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_728AF34E8FFB496781A5EFD064BE394E.png","name":null},{"uid":"117","diary_id":"5","home_name":"\u534e\u65b0\u5bb6\u56ed\u5c0f\u533a ","content_num":"1","views":"27","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_E2D77C00D2959F208A80590C2BAD88F5.jpg","name":null}],"pageTotal":4,"pageCurrent":1,"recordTotal":1}}
+
+[ 2018-01-22T14:18:05+08:00 ] 127.0.0.1 /index.php/Admin/Diary/Diary
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:18:05 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:18:05 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:18:05 ] [ __construct ]BaseDAO
+SQL: SELECT
+                           uid,
+                          diary_id,
+	                      home_name,
+	                      content_num,
+	                      views,
+	                      comments,
+	                      from_unixtime(dateline, '%Y-%m-%d') time,
+	                      thumb,
+	                      (
+		              SELECT
+			                 name
+		               FROM
+			               cy_company
+		              WHERE
+			                  company_id = cy_diary.company_id
+	                   ) name
+                   FROM
+	                   cy_diary
+                   WHERE 
+                       audit = '1'
+                   AND 
+                       closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0020s ]
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_diary
+                   WHERE 
+                       audit = '1'
+                   AND 
+                       closed = '0' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:18:05 ] [ result ][{"uid":"108","diary_id":"2","home_name":"\u7965\u4e91\u82b1\u56ed","content_num":"1","views":"10","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_DA7A6C38D3D2F411B37442FF4853FE39.png","name":"\u519b\u745e"},{"uid":"122","diary_id":"3","home_name":"\u91d1\u6d77\u6e7e\u82b1\u56ed\u9152\u5e97","content_num":"1","views":"9","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_69CDFE33C66567C9858DAB1EC7B6674C.png","name":null},{"uid":"122","diary_id":"4","home_name":"\u9f50\u5546\u94f6\u884c","content_num":"1","views":"15","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_728AF34E8FFB496781A5EFD064BE394E.png","name":null},{"uid":"117","diary_id":"5","home_name":"\u534e\u65b0\u5bb6\u56ed\u5c0f\u533a ","content_num":"1","views":"27","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_E2D77C00D2959F208A80590C2BAD88F5.jpg","name":null}]
+DEBUG: [ Jiechengkeji ] [ 14:18:05 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"uid":"108","diary_id":"2","home_name":"\u7965\u4e91\u82b1\u56ed","content_num":"1","views":"10","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_DA7A6C38D3D2F411B37442FF4853FE39.png","name":"\u519b\u745e"},{"uid":"122","diary_id":"3","home_name":"\u91d1\u6d77\u6e7e\u82b1\u56ed\u9152\u5e97","content_num":"1","views":"9","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_69CDFE33C66567C9858DAB1EC7B6674C.png","name":null},{"uid":"122","diary_id":"4","home_name":"\u9f50\u5546\u94f6\u884c","content_num":"1","views":"15","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_728AF34E8FFB496781A5EFD064BE394E.png","name":null},{"uid":"117","diary_id":"5","home_name":"\u534e\u65b0\u5bb6\u56ed\u5c0f\u533a ","content_num":"1","views":"27","comments":"0","time":"2017-08-11","thumb":"photo\/201708\/20170811_E2D77C00D2959F208A80590C2BAD88F5.jpg","name":null}],"pageTotal":4,"pageCurrent":1,"recordTotal":1}}
+
+[ 2018-01-22T15:48:14+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=12991
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 15:48:14 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:48:14 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:48:14 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-22T15:49:28+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+DEBUG: [ Jiechengkeji ] [ 15:48:36 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:48:36 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:48:36 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                         uid,
+                         company_id,
+                         case_id,
+	                     title,
+	                     photo,
+	                     (SELECT count(*) FROM cy_case_photo WHERE case_id=cy_case.case_id) count
+                      FROM
+	                     cy_case
+                          WHERE 1=1 AND 
+                         case_id
+                          IN (
+	                SELECT
+		                   case_id
+	                FROM
+		                    cy_case_attr
+	                WHERE
+		                    attr_id in (
+		            SELECT
+				              attr_id
+			         FROM
+				              cy_data_attr_value
+			         WHERE
+				              title = '')
+			                   )
+	                 AND 
+	                      city_id ='7'
+                     AND 
+                         closed = 0
+                     AND 
+                         audit = 1
+	                 LIMIT 0,10 [ RunTime:0.0040s ]
+SQL: SELECT 
+	                    count(*) as pageTotal
+                      FROM
+	                       cy_case
+                            WHERE 1=1 AND 
+                         case_id
+                          IN (
+	                SELECT
+		                   case_id
+	                FROM
+		                    cy_case_attr
+	                WHERE
+		                    attr_id in (
+		            SELECT
+				              attr_id
+			         FROM
+				              cy_data_attr_value
+			         WHERE
+				              title = '')
+			                   )
+	                  AND 
+	                       city_id ='7'
+                      AND 
+                           closed = 0
+                      AND 
+                            audit = 1; [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 15:49:28 ] [ result ][]
+DEBUG: [ Jiechengkeji ] [ 15:49:28 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[],"pointtotal":1}
+
+[ 2018-01-22T15:50:01+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+DEBUG: [ Jiechengkeji ] [ 15:49:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:49:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:49:30 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                         uid,
+                         company_id,
+                         case_id,
+	                     title,
+	                     photo,
+	                     (SELECT count(*) FROM cy_case_photo WHERE case_id=cy_case.case_id) count
+                      FROM
+	                     cy_case
+                          WHERE 1=1 AND 
+                         case_id
+                          IN (
+	                SELECT
+		                   case_id
+	                FROM
+		                    cy_case_attr
+	                WHERE
+		                    attr_id in (
+		            SELECT
+				              attr_id
+			         FROM
+				              cy_data_attr_value
+			         WHERE
+				              title = '')
+			                   )
+	                 AND 
+	                      city_id ='7'
+                     AND 
+                         closed = 0
+                     AND 
+                         audit = 1
+	                 LIMIT 0,10 [ RunTime:0.0030s ]
+SQL: SELECT 
+	                    count(*) as pageTotal
+                      FROM
+	                       cy_case
+                            WHERE 1=1 AND 
+                         case_id
+                          IN (
+	                SELECT
+		                   case_id
+	                FROM
+		                    cy_case_attr
+	                WHERE
+		                    attr_id in (
+		            SELECT
+				              attr_id
+			         FROM
+				              cy_data_attr_value
+			         WHERE
+				              title = '')
+			                   )
+	                  AND 
+	                       city_id ='7'
+                      AND 
+                           closed = 0
+                      AND 
+                            audit = 1; [ RunTime:0.0040s ]
+DEBUG: [ Jiechengkeji ] [ 15:50:01 ] [ result ][]
+DEBUG: [ Jiechengkeji ] [ 15:50:01 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[],"pointtotal":1}
+
+[ 2018-01-22T15:50:16+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 15:50:03 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:50:03 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:50:03 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                         uid,
+                         company_id,
+                         case_id,
+	                     title,
+	                     photo,
+	                     (SELECT count(*) FROM cy_case_photo WHERE case_id=cy_case.case_id) count
+                      FROM
+	                     cy_case
+                          WHERE 1=1 
+	                 AND 
+	                      city_id ='7'
+                     AND 
+                         closed = 0
+                     AND 
+                         audit = 1
+	                 LIMIT 0,10 [ RunTime:0.0020s ]
+SQL: SELECT 
+	                    count(*) as pageTotal
+                      FROM
+	                       cy_case
+                            WHERE 1=1 
+	                  AND 
+	                       city_id ='7'
+                      AND 
+                           closed = 0
+                      AND 
+                            audit = 1; [ RunTime:0.0020s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='28' [ RunTime:0.0020s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='30' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='38' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0030s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '28' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='29' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='29' [ RunTime:0.0100s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='38' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '29' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='30' [ RunTime:0.0020s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='29' [ RunTime:0.0030s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='39' [ RunTime:0.0020s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '30' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='31' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='117' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '31' [ RunTime:0.0000s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='9' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='27' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '9' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='10' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='27' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '10' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='12' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28' [ RunTime:0.0000s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '12' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='13' [ RunTime:0.0110s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0020s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '13' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='11' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '11' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     attr_id,
+                         attr_value_id
+                     FROM
+	                     cy_case a,
+	                    cy_case_attr b
+                     WHERE
+	                    a.case_id = b.case_id
+	                 AND
+                         b.attr_id!='6'
+                     AND
+                       a.case_id='14' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='27' [ RunTime:0.0010s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='28' [ RunTime:0.0030s ]
+SQL: SELECT
+			    	      title
+			           FROM
+				           cy_data_attr_value
+                       WHERE
+                           attr_value_id='37' [ RunTime:0.0010s ]
+SQL: SELECT
+	                      name
+                       FROM
+	                      cy_designer
+                       WHERE
+                          uid='119' [ RunTime:0.0010s ]
+SQL: SELECT
+	                     COUNT(*) count
+                      FROM
+	                     cy_case_photo
+                     WHERE
+	                    case_id = '14' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 15:50:16 ] [ result ][{"uid":"117","company_id":"0","case_id":"28","title":"\u534e\u65b0\u5bb6\u56ed","photo":"photo\/201708\/20170811_040B7A57DA0B4CAAA4BAA99FA19C8C68.jpg","count":"4","attr_value_title":"\u6b27\u5f0f","attr_value_name":"\u4e09\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"4"},{"uid":"117","company_id":"0","case_id":"29","title":"\u7ecf\u533a\u7687\u51a0","photo":"photo\/201708\/20170811_B1224B15159876AFAA476066A0780022.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","attr_value_name":"\u4e2d\u5f0f","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"30","title":"\u5a01\u6d77\u671b\u5c9b\u540d\u90e1","photo":"photo\/201708\/20170811_39EB60247444D6B7508B63BFDCCBEEF6.jpg","count":"5","attr_value_title":"\u4e2d\u5f0f","attr_value_name":"\u56db\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"31","title":"\u5357\u7af9\u5c9b\u5c0f\u533a","photo":"photo\/201708\/20170811_99C946C915B7FE9535654553AC84CF4A.jpg","count":"3","attr_value_title":"\u73b0\u4ee3","name":"\u4e8e\u677e\u4e3d","phonecount":"3"},{"uid":"119","company_id":"0","case_id":"9","title":"  \u6d77\u6ee8\u5927\u53a6\u5305\u95f4","photo":"photo\/201708\/20170810_18D184DB623DE5B2435C02451013F096.png","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"10","title":" \u70ed\u6d6a\u5c9b\u81ea\u52a9\u9910\u996e   ","photo":"photo\/201708\/20170810_70B2EAA2906ED83FD778104F85857C82.jpg","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"12","title":" \u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a \uff08A\u533a\uff09","photo":"photo\/201708\/20170810_F8C9C16AD74448325FB9DEBE36BCC563.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"5"},{"uid":"119","company_id":"0","case_id":"13","title":"\u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a\uff08B\u533a\uff09","photo":"photo\/201708\/20170810_4E694D13D479FFC22802DBE9CA667343.jpg","count":"6","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"6"},{"uid":"119","company_id":"0","case_id":"11","title":"\u7279\u4e59\u7532\u6982\u5ff5\u65b9\u6848","photo":"photo\/201708\/20170810_F071CFAF0E8A0069EB88D1CA4DA8F766.jpg","count":"13","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"13"},{"uid":"119","company_id":"0","case_id":"14","title":"\u90b9\u57ce\u4f73\u5408\u00b7\u540d\u4ed5\u8c6a\u5ead","photo":"photo\/201708\/20170810_A985E61F0071BC063573FBA956F69899.png","count":"4","attr_value_title":"\u7b80\u7ea6","attr_value_name":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"4"}]
+DEBUG: [ Jiechengkeji ] [ 15:50:16 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"uid":"117","company_id":"0","case_id":"28","title":"\u534e\u65b0\u5bb6\u56ed","photo":"photo\/201708\/20170811_040B7A57DA0B4CAAA4BAA99FA19C8C68.jpg","count":"4","attr_value_title":"\u6b27\u5f0f","attr_value_name":"\u4e09\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"4"},{"uid":"117","company_id":"0","case_id":"29","title":"\u7ecf\u533a\u7687\u51a0","photo":"photo\/201708\/20170811_B1224B15159876AFAA476066A0780022.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","attr_value_name":"\u4e2d\u5f0f","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"30","title":"\u5a01\u6d77\u671b\u5c9b\u540d\u90e1","photo":"photo\/201708\/20170811_39EB60247444D6B7508B63BFDCCBEEF6.jpg","count":"5","attr_value_title":"\u4e2d\u5f0f","attr_value_name":"\u56db\u5c45","name":"\u4e8e\u677e\u4e3d","phonecount":"5"},{"uid":"117","company_id":"0","case_id":"31","title":"\u5357\u7af9\u5c9b\u5c0f\u533a","photo":"photo\/201708\/20170811_99C946C915B7FE9535654553AC84CF4A.jpg","count":"3","attr_value_title":"\u73b0\u4ee3","name":"\u4e8e\u677e\u4e3d","phonecount":"3"},{"uid":"119","company_id":"0","case_id":"9","title":"  \u6d77\u6ee8\u5927\u53a6\u5305\u95f4","photo":"photo\/201708\/20170810_18D184DB623DE5B2435C02451013F096.png","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"10","title":" \u70ed\u6d6a\u5c9b\u81ea\u52a9\u9910\u996e   ","photo":"photo\/201708\/20170810_70B2EAA2906ED83FD778104F85857C82.jpg","count":"10","attr_value_title":"\u7b80\u7ea6","name":"\u4f55\u857e","phonecount":"10"},{"uid":"119","company_id":"0","case_id":"12","title":" \u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a \uff08A\u533a\uff09","photo":"photo\/201708\/20170810_F8C9C16AD74448325FB9DEBE36BCC563.jpg","count":"5","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"5"},{"uid":"119","company_id":"0","case_id":"13","title":"\u96e8\u6da6\u5965\u7279\u83b1\u65af\u7f8e\u98df\u5e7f\u573a\uff08B\u533a\uff09","photo":"photo\/201708\/20170810_4E694D13D479FFC22802DBE9CA667343.jpg","count":"6","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"6"},{"uid":"119","company_id":"0","case_id":"11","title":"\u7279\u4e59\u7532\u6982\u5ff5\u65b9\u6848","photo":"photo\/201708\/20170810_F071CFAF0E8A0069EB88D1CA4DA8F766.jpg","count":"13","attr_value_title":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"13"},{"uid":"119","company_id":"0","case_id":"14","title":"\u90b9\u57ce\u4f73\u5408\u00b7\u540d\u4ed5\u8c6a\u5ead","photo":"photo\/201708\/20170810_A985E61F0071BC063573FBA956F69899.png","count":"4","attr_value_title":"\u7b80\u7ea6","attr_value_name":"\u73b0\u4ee3","name":"\u4f55\u857e","phonecount":"4"}],"pointtotal":1}
+

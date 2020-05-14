@@ -1,0 +1,42 @@
+[ 2018-01-29T14:18:23+08:00 ] 60.212.253.222 /ajax/index.php/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:User
+
+[ 2018-01-29T14:18:49+08:00 ] 60.212.253.222 /ajax/index.php/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:User
+
+[ 2018-01-29T14:19:20+08:00 ] 60.212.253.222 /ajax/index.php/index/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+ERR: 无法加载模块:Index
+
+[ 2018-01-29T14:19:23+08:00 ] 223.167.152.126 /ajax/index.php/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:User
+
+[ 2018-01-29T14:20:01+08:00 ] 60.212.253.222 /ajax/index.php/index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Index
+
+[ 2018-01-29T14:20:20+08:00 ] 120.204.17.71 /ajax/index.php/index/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:Index
+
+[ 2018-01-29T14:21:01+08:00 ] 58.247.212.98 /ajax/index.php/index/logo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+ERR: 无法加载模块:Index
+

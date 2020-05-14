@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>盈帆科技</title>
+    <include file="Template/tpl-header" />
+</head>
+
+<body>
+    <div class="page-group">
+        <div class="page page-current scoreList" id="scoreList">
+            <header class="bar bar-nav z_headBg">
+                <a class="button button-link button-nav pull-left back" href="__APP__/Home/User/userCenter">
+                    <span class="icon icon-left"></span> 返回
+                </a>
+                <h1 class='title'>积分查询</h1>
+            </header>
+            <div class="content infinite-scroll infinite-scroll-bottom" data-distance="200">
+                <p class="scoreHeader">
+                    <span class="fs-14">当前积分 </span>
+                    <span class="fs-20" id="score">****分</span>
+                    <span class="fs-14 icon icon-gift fr" id="exchangeGift"> 兑换礼品</span>
+                </p>
+                <div class="list-block media-list" id="scoreListDiv">
+
+                </div>
+                <div class="infinite-scroll-preloader">
+                    <div class="preloader"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <include file="Template/tpl-footer" />
+</body>
+
+</html>

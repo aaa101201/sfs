@@ -1,0 +1,135 @@
+[ 2018-01-08T14:03:57+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=18772
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+DEBUG: [ Jiechengkeji ] [ 14:03:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:03:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:03:57 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-08T14:04:04+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_tophot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+DEBUG: [ Jiechengkeji ] [ 14:04:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:04:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:04:04 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                     *
+                      FROM
+	                    cy_tophot
+	                  WHERE  
+	                    tophot != ''
+                      GROUP BY
+	                    id DESC
+                      LIMIT 0,
+                        6 [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 14:04:04 ] [ result ][{"id":"5","tophot":"\u70ed\u641c\u641c\u7d22","createtime":"2018-01-04 09:54:40","updatetime":"2018-01-04 09:54:40"},{"id":"4","tophot":"\u70ed\u641c\u641c\u7d22","createtime":"2018-01-04 09:53:03","updatetime":"2018-01-04 09:53:03"},{"id":"3","tophot":"\u6574\u4f53\u6d4b\u8bd51","createtime":"2017-12-08 14:28:31","updatetime":"2017-12-11 10:47:44"},{"id":"2","tophot":"\u6574\u4f53\u6d4b\u8bd51","createtime":"2017-12-08 14:23:03","updatetime":"2017-12-11 10:47:44"},{"id":"1","tophot":"\u6574\u4f53\u6d4b\u8bd51","createtime":"2017-12-08 14:20:01","updatetime":"2017-12-11 14:18:41"}]
+DEBUG: [ Jiechengkeji ] [ 14:04:04 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"5","tophot":"\u70ed\u641c\u641c\u7d22","createtime":"2018-01-04 09:54:40","updatetime":"2018-01-04 09:54:40"},{"id":"4","tophot":"\u70ed\u641c\u641c\u7d22","createtime":"2018-01-04 09:53:03","updatetime":"2018-01-04 09:53:03"},{"id":"3","tophot":"\u6574\u4f53\u6d4b\u8bd51","createtime":"2017-12-08 14:28:31","updatetime":"2017-12-11 10:47:44"},{"id":"2","tophot":"\u6574\u4f53\u6d4b\u8bd51","createtime":"2017-12-08 14:23:03","updatetime":"2017-12-11 10:47:44"},{"id":"1","tophot":"\u6574\u4f53\u6d4b\u8bd51","createtime":"2017-12-08 14:20:01","updatetime":"2017-12-11 14:18:41"}]}
+
+[ 2018-01-08T14:04:33+08:00 ] 127.0.0.1 /index.php/Admin/Article/Activity_d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 14:04:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:04:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:04:32 ] [ __construct ]BaseDAO
+
+[ 2018-01-08T14:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Article/Activity_d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:06:08 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:06:08 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:06:08 ] [ __construct ]BaseDAO
+
+[ 2018-01-08T14:06:32+08:00 ] 127.0.0.1 /index.php/Admin/Article/Activity_d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 14:06:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:06:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:06:32 ] [ __construct ]BaseDAO
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from = 'article'' at line 6
+ [ SQL语句 ] : SELECT
+	*
+FROM
+cy_article
+WHERE
+	from = 'article';
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from = 'article'' at line 6
+ [ SQL语句 ] : SELECT
+	*
+FROM
+cy_article
+WHERE
+	from = 'article';
+
+[ 2018-01-08T14:34:42+08:00 ] 127.0.0.1 /index.php/Admin/Article/Activity_d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 14:34:42 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:34:42 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:34:42 ] [ __construct ]BaseDAO
+SQL: SELECT
+	title ,from_unixtime(dateline,'%Y-%m-%d')  dateline
+FROM
+	cy_article
+WHERE
+ audit = '1'
+AND closed = '0'
+AND article_id in('36','3','4','10','37','38','40','41','42','43','44','45') [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:34:42 ] [ result ][{"title":"\u5bb6\u5ead\u88c5\u4fee\u5c0f\u5e38\u8bc6\u5927\u5168","dateline":"2017-08-02"},{"title":"\u3010\u676d\u5dde\u3011\u60a6\u9e92\u7f8e\u5bd3\u73af\u4fdd\u7b80\u7ea6\u7f8e\u5f0f\u5f00\u5de5~\uff08\u65bd\u5de5\uff1a\u5168\u987a\u88c5\u9970\uff09","dateline":"2013-12-16"},{"title":"\u57ce\u5e02\u767d\u9886\u4e70\u623f\u83ab\u5fc3\u6025 \u56db\u4e2a\u5c0ftips\u6765\u6559\u4f60","dateline":"2013-12-23"},{"title":"\u7d22\u83f2\u4e9a\u8863\u67dc\u643a\u624b\u7535\u5f71\u300a\u79c1\u4eba\u8ba2\u5236\u300b\uff0c\u8be0\u91ca\u5b9a\u5236\u5bb6\u5c45\u771f\u8c1b","dateline":"2014-01-18"},{"title":"\u65b0\u623f\u4ea4\u623f\u7684\u6d41\u7a0b\u662f\u4ec0\u4e48\uff1f","dateline":"2017-08-03"},{"title":"\u88c5\u4fee\u5f00\u59cb\u4e4b\u524d\u8981\u51c6\u5907\u4ec0\u4e48","dateline":"2017-08-09"},{"title":"\u88c5\u4fee\u65bd\u5de5\u5927\u81f4\u53ef\u4ee5\u5206\u4e3a\u4ee5\u4e0b\u51e0\u4e2a\u9636\u6bb5","dateline":"2017-08-09"},{"title":"\u955c\u9762\u5143\u7d20\u5728\u5ba4\u5185\u827a\u672f\u8bbe\u8ba1\u4e2d\u7684\u8fd0\u7528","dateline":"2017-08-09"},{"title":"\u5efa\u7b51\u6750\u6599\u77e5\u8bc6\u5927\u5168\u5206\u7c7b\uff08\u8d85\u5168\uff09\u4e00","dateline":"2017-08-09"},{"title":"\u9a8c\u6536\u623f\u5b50\u6ce8\u610f\u4e8b\u9879\u653b\u7565","dateline":"2017-08-09"},{"title":"\u8981\u60f3\u65bd\u5de5\u505a\u5f97\u597d \u516b\u5927\u5e38\u8bc6\u4e0d\u53ef\u5c11","dateline":"2017-08-09"},{"title":"\u56db\u62db\u6559\u4f60\u6253\u9020\u826f\u597d\u9910\u5385\u5bb6\u5c45\u5165\u95e8\u98ce\u6c34","dateline":"2017-08-09"}]
+DEBUG: [ Jiechengkeji ] [ 14:34:42 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"title":"\u5bb6\u5ead\u88c5\u4fee\u5c0f\u5e38\u8bc6\u5927\u5168","dateline":"2017-08-02"},{"title":"\u3010\u676d\u5dde\u3011\u60a6\u9e92\u7f8e\u5bd3\u73af\u4fdd\u7b80\u7ea6\u7f8e\u5f0f\u5f00\u5de5~\uff08\u65bd\u5de5\uff1a\u5168\u987a\u88c5\u9970\uff09","dateline":"2013-12-16"},{"title":"\u57ce\u5e02\u767d\u9886\u4e70\u623f\u83ab\u5fc3\u6025 \u56db\u4e2a\u5c0ftips\u6765\u6559\u4f60","dateline":"2013-12-23"},{"title":"\u7d22\u83f2\u4e9a\u8863\u67dc\u643a\u624b\u7535\u5f71\u300a\u79c1\u4eba\u8ba2\u5236\u300b\uff0c\u8be0\u91ca\u5b9a\u5236\u5bb6\u5c45\u771f\u8c1b","dateline":"2014-01-18"},{"title":"\u65b0\u623f\u4ea4\u623f\u7684\u6d41\u7a0b\u662f\u4ec0\u4e48\uff1f","dateline":"2017-08-03"},{"title":"\u88c5\u4fee\u5f00\u59cb\u4e4b\u524d\u8981\u51c6\u5907\u4ec0\u4e48","dateline":"2017-08-09"},{"title":"\u88c5\u4fee\u65bd\u5de5\u5927\u81f4\u53ef\u4ee5\u5206\u4e3a\u4ee5\u4e0b\u51e0\u4e2a\u9636\u6bb5","dateline":"2017-08-09"},{"title":"\u955c\u9762\u5143\u7d20\u5728\u5ba4\u5185\u827a\u672f\u8bbe\u8ba1\u4e2d\u7684\u8fd0\u7528","dateline":"2017-08-09"},{"title":"\u5efa\u7b51\u6750\u6599\u77e5\u8bc6\u5927\u5168\u5206\u7c7b\uff08\u8d85\u5168\uff09\u4e00","dateline":"2017-08-09"},{"title":"\u9a8c\u6536\u623f\u5b50\u6ce8\u610f\u4e8b\u9879\u653b\u7565","dateline":"2017-08-09"},{"title":"\u8981\u60f3\u65bd\u5de5\u505a\u5f97\u597d \u516b\u5927\u5e38\u8bc6\u4e0d\u53ef\u5c11","dateline":"2017-08-09"},{"title":"\u56db\u62db\u6559\u4f60\u6253\u9020\u826f\u597d\u9910\u5385\u5bb6\u5c45\u5165\u95e8\u98ce\u6c34","dateline":"2017-08-09"}]}
+
+[ 2018-01-08T14:34:45+08:00 ] 127.0.0.1 /index.php/Admin/Article/Activity_d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:34:45 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:34:45 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:34:45 ] [ __construct ]BaseDAO
+SQL: SELECT
+	title ,from_unixtime(dateline,'%Y-%m-%d')  dateline
+FROM
+	cy_article
+WHERE
+ audit = '1'
+AND closed = '0'
+AND article_id in('36','3','4','10','37','38','40','41','42','43','44','45') [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:34:45 ] [ result ][{"title":"\u5bb6\u5ead\u88c5\u4fee\u5c0f\u5e38\u8bc6\u5927\u5168","dateline":"2017-08-02"},{"title":"\u3010\u676d\u5dde\u3011\u60a6\u9e92\u7f8e\u5bd3\u73af\u4fdd\u7b80\u7ea6\u7f8e\u5f0f\u5f00\u5de5~\uff08\u65bd\u5de5\uff1a\u5168\u987a\u88c5\u9970\uff09","dateline":"2013-12-16"},{"title":"\u57ce\u5e02\u767d\u9886\u4e70\u623f\u83ab\u5fc3\u6025 \u56db\u4e2a\u5c0ftips\u6765\u6559\u4f60","dateline":"2013-12-23"},{"title":"\u7d22\u83f2\u4e9a\u8863\u67dc\u643a\u624b\u7535\u5f71\u300a\u79c1\u4eba\u8ba2\u5236\u300b\uff0c\u8be0\u91ca\u5b9a\u5236\u5bb6\u5c45\u771f\u8c1b","dateline":"2014-01-18"},{"title":"\u65b0\u623f\u4ea4\u623f\u7684\u6d41\u7a0b\u662f\u4ec0\u4e48\uff1f","dateline":"2017-08-03"},{"title":"\u88c5\u4fee\u5f00\u59cb\u4e4b\u524d\u8981\u51c6\u5907\u4ec0\u4e48","dateline":"2017-08-09"},{"title":"\u88c5\u4fee\u65bd\u5de5\u5927\u81f4\u53ef\u4ee5\u5206\u4e3a\u4ee5\u4e0b\u51e0\u4e2a\u9636\u6bb5","dateline":"2017-08-09"},{"title":"\u955c\u9762\u5143\u7d20\u5728\u5ba4\u5185\u827a\u672f\u8bbe\u8ba1\u4e2d\u7684\u8fd0\u7528","dateline":"2017-08-09"},{"title":"\u5efa\u7b51\u6750\u6599\u77e5\u8bc6\u5927\u5168\u5206\u7c7b\uff08\u8d85\u5168\uff09\u4e00","dateline":"2017-08-09"},{"title":"\u9a8c\u6536\u623f\u5b50\u6ce8\u610f\u4e8b\u9879\u653b\u7565","dateline":"2017-08-09"},{"title":"\u8981\u60f3\u65bd\u5de5\u505a\u5f97\u597d \u516b\u5927\u5e38\u8bc6\u4e0d\u53ef\u5c11","dateline":"2017-08-09"},{"title":"\u56db\u62db\u6559\u4f60\u6253\u9020\u826f\u597d\u9910\u5385\u5bb6\u5c45\u5165\u95e8\u98ce\u6c34","dateline":"2017-08-09"}]
+DEBUG: [ Jiechengkeji ] [ 14:34:45 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"title":"\u5bb6\u5ead\u88c5\u4fee\u5c0f\u5e38\u8bc6\u5927\u5168","dateline":"2017-08-02"},{"title":"\u3010\u676d\u5dde\u3011\u60a6\u9e92\u7f8e\u5bd3\u73af\u4fdd\u7b80\u7ea6\u7f8e\u5f0f\u5f00\u5de5~\uff08\u65bd\u5de5\uff1a\u5168\u987a\u88c5\u9970\uff09","dateline":"2013-12-16"},{"title":"\u57ce\u5e02\u767d\u9886\u4e70\u623f\u83ab\u5fc3\u6025 \u56db\u4e2a\u5c0ftips\u6765\u6559\u4f60","dateline":"2013-12-23"},{"title":"\u7d22\u83f2\u4e9a\u8863\u67dc\u643a\u624b\u7535\u5f71\u300a\u79c1\u4eba\u8ba2\u5236\u300b\uff0c\u8be0\u91ca\u5b9a\u5236\u5bb6\u5c45\u771f\u8c1b","dateline":"2014-01-18"},{"title":"\u65b0\u623f\u4ea4\u623f\u7684\u6d41\u7a0b\u662f\u4ec0\u4e48\uff1f","dateline":"2017-08-03"},{"title":"\u88c5\u4fee\u5f00\u59cb\u4e4b\u524d\u8981\u51c6\u5907\u4ec0\u4e48","dateline":"2017-08-09"},{"title":"\u88c5\u4fee\u65bd\u5de5\u5927\u81f4\u53ef\u4ee5\u5206\u4e3a\u4ee5\u4e0b\u51e0\u4e2a\u9636\u6bb5","dateline":"2017-08-09"},{"title":"\u955c\u9762\u5143\u7d20\u5728\u5ba4\u5185\u827a\u672f\u8bbe\u8ba1\u4e2d\u7684\u8fd0\u7528","dateline":"2017-08-09"},{"title":"\u5efa\u7b51\u6750\u6599\u77e5\u8bc6\u5927\u5168\u5206\u7c7b\uff08\u8d85\u5168\uff09\u4e00","dateline":"2017-08-09"},{"title":"\u9a8c\u6536\u623f\u5b50\u6ce8\u610f\u4e8b\u9879\u653b\u7565","dateline":"2017-08-09"},{"title":"\u8981\u60f3\u65bd\u5de5\u505a\u5f97\u597d \u516b\u5927\u5e38\u8bc6\u4e0d\u53ef\u5c11","dateline":"2017-08-09"},{"title":"\u56db\u62db\u6559\u4f60\u6253\u9020\u826f\u597d\u9910\u5385\u5bb6\u5c45\u5165\u95e8\u98ce\u6c34","dateline":"2017-08-09"}]}
+

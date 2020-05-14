@@ -1,0 +1,1783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="16b03d28-fc06-448f-ab86-af71b010a46f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/trunk/Uploads/CompanyLicense" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.4029563">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="CaseeController.class.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/CaseeController.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="247">
+                  <caret line="18" column="69" lean-forward="true" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+                  <folding>
+                    <marker date="1517463502000" expanded="true" signature="2781:2811" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CaseeService.class.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Application/Admin/Service/CaseeService.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="245">
+                  <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#121#157#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CaseeDao.class.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/CaseeDao.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="171">
+                  <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+                  <folding>
+                    <marker date="1517454729000" expanded="true" signature="421:996" ph="SELECT uid, " />
+                    <marker date="1517454729000" expanded="true" signature="611:675" ph="SELECT count... cy_case_photo" />
+                    <marker date="1517454729000" expanded="true" signature="1335:1669" ph="SELECT count... cy_case" />
+                    <marker date="1517454729000" expanded="true" signature="4132:4504" ph="SELECT attr_... cy_case" />
+                    <marker date="1517454729000" expanded="true" signature="4663:4852" ph="SELECT uid, cy_case" />
+                    <marker date="1517454729000" expanded="true" signature="5011:5210" ph="SELECT attr_... cy_case_attr" />
+                    <marker date="1517454729000" expanded="true" signature="5365:5528" ph="SELECT name cy_designer" />
+                    <marker date="1517454729000" expanded="true" signature="5705:5949" ph="SELECT title... cy_data_attr_value" />
+                    <marker date="1517454729000" expanded="true" signature="6127:6371" ph="SELECT title... cy_data_attr_value" />
+                    <marker date="1517454729000" expanded="true" signature="6527:6703" ph="SELECT COUNT... " />
+                    <marker date="1517454729000" expanded="true" signature="6851:6998" ph="SELECT title... cy_data_attr_value" />
+                    <marker date="1517454729000" expanded="true" signature="7148:7297" ph="SELECT title... cy_data_attr_value" />
+                    <marker date="1517454729000" expanded="true" signature="7447:7597" ph="SELECT title... cy_data_attr_value" />
+                    <marker date="1517454729000" expanded="true" signature="7757:8205" ph="SELECT a.nam... cy_designer" />
+                    <marker date="1517454729000" expanded="true" signature="8372:8657" ph="SELECT a.nam... cy_company" />
+                    <marker date="1517454729000" expanded="true" signature="8819:9012" ph="SELECT a.pho... cy_case_photo" />
+                    <marker date="1517454729000" expanded="true" signature="9191:9350" ph="SELECT uid F... cy_member" />
+                    <marker date="1517454729000" expanded="true" signature="9523:10014" ph="SELECT b.una... " />
+                    <marker date="1517454729000" expanded="true" signature="10188:10500" ph="SELECT count... cy_case_comment" />
+                    <marker date="1517454729000" expanded="true" signature="10668:10832" ph="SELECT b.cas... cy_case" />
+                    <marker date="1517454729000" expanded="true" signature="11022:11206" ph="SELECT b.cas... cy_case" />
+                    <marker date="1517454729000" expanded="true" signature="11448:11553" ph="SELECT count... cy_case" />
+                    <marker date="1517454729000" expanded="true" signature="11731:11858" ph="SELECT count... cy_case" />
+                    <marker date="1517454729000" expanded="true" signature="12043:12576" ph="INSERT INTO cy_case_comment... " />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="ShopController.class.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/ShopController.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ShopService.class.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Application/Admin/Service/ShopService.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="304">
+                  <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+                  <folding>
+                    <element signature="e#120#156#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ShopDao.class.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/ShopDao.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>type1</find>
+      <find>Umember_up</find>
+      <find>Umember_company_cb</find>
+      <find>Umember_wz</find>
+      <find>designerl</find>
+      <find>Umember_company_team</find>
+      <find>Umember_company_jg</find>
+      <find>Umember_cr</find>
+      <find>Umember_company_tj</find>
+      <find>create</find>
+      <find>Umember_rjcx</find>
+      <find>Umember_xgcx</find>
+      <find>Umember_company</find>
+      <find>Umember_designer_tj</find>
+      <find>login</find>
+      <find>Umember_designer</find>
+      <find>Umember_company_cr</find>
+      <find>cy_Designer_k</find>
+      <find>cy_Designer_a</find>
+      <find>cy_companyly</find>
+      <find>cy_Designer_f</find>
+      <find>Article_xs</find>
+      <find>Article_wz</find>
+      <find>cy_compay_f</find>
+      <find>cy_compay_a</find>
+      <find>dele</find>
+      <find>setFitment</find>
+      <find>cy_compay_k</find>
+      <find>Casee_photo</find>
+      <find>setcompany</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/ApplyController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Enum/SessionEnum.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/WechatController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/main.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/FileController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/CompanyController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Service/CompanyService.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Dao/CompanyDao.class.php" />
+        <option value="$PROJECT_DIR$/Application/Enum/UserEnum.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Service/JiazService.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Dao/JiazDao.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/JiazController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Common/Common/function.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Dao/IndexDao.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/TendersController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/ArticleController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Dao/ArticleDao.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Service/TendersService.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Dao/TendersDao.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/CompayController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/UmemberController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Service/UserService.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Service/UmemberService.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Dao/UmemberDao.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Service/IndexService.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Dao/DesignerDao.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/DesignerController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Service/DesignerService.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Service/ArticleService.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Dao/CaseeDao.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Service/CaseeService.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Dao/GsDao.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Dao/CompayDao.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Service/CompayService.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Service/GsService.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/ShopController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Service/ShopService.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Dao/ShopDao.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="bewin.WhjzProject.com" id="c4951c5a-9e02-4ef2-a99e-7aaba39cd4b8" name="bewin.WhjzProject.com" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="D:/bewin.WhjzProject.com" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Service" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dao" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bewin.WhjzProject.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.bewin.WhjzProject.com">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="bewin.WhjzProject.com" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="bewin.WhjzProject.com">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.bewin.WhjzProject.com" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator.PC-20171013PNCE\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16b03d28-fc06-448f-ab86-af71b010a46f" name="Default" comment="" />
+      <created>1506652095834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506652095834</updated>
+      <workItem from="1506652097222" duration="4201000" />
+      <workItem from="1508205149438" duration="12000" />
+      <workItem from="1508290515794" duration="6000" />
+      <workItem from="1510363281939" duration="7142000" />
+      <workItem from="1510382369154" duration="6494000" />
+      <workItem from="1510535117055" duration="1411000" />
+      <workItem from="1510536720280" duration="14728000" />
+      <workItem from="1510626560656" duration="1985000" />
+      <workItem from="1510707906525" duration="20678000" />
+      <workItem from="1510794766573" duration="20226000" />
+      <workItem from="1510881176121" duration="5282000" />
+      <workItem from="1510908813639" duration="194000" />
+      <workItem from="1510909100915" duration="58000" />
+      <workItem from="1510967695310" duration="13101000" />
+      <workItem from="1511226531097" duration="17497000" />
+      <workItem from="1511312993075" duration="42000" />
+      <workItem from="1511314171758" duration="17001000" />
+      <workItem from="1511400199380" duration="21787000" />
+      <workItem from="1511487184641" duration="11189000" />
+      <workItem from="1511572500833" duration="12112000" />
+      <workItem from="1511744730984" duration="6495000" />
+      <workItem from="1511751789363" duration="11985000" />
+      <workItem from="1511773435424" duration="143000" />
+      <workItem from="1511832284635" duration="7143000" />
+      <workItem from="1511918576111" duration="7948000" />
+      <workItem from="1511940967486" duration="1960000" />
+      <workItem from="1512006759230" duration="6550000" />
+      <workItem from="1512090626408" duration="11669000" />
+      <workItem from="1512177015630" duration="4303000" />
+      <workItem from="1512349732608" duration="908000" />
+      <workItem from="1512351013557" duration="7649000" />
+      <workItem from="1512438358344" duration="1857000" />
+      <workItem from="1512695030507" duration="4787000" />
+      <workItem from="1512715307262" duration="1901000" />
+      <workItem from="1512781809188" duration="8187000" />
+      <workItem from="1512954740559" duration="9727000" />
+      <workItem from="1513064125607" duration="6254000" />
+      <workItem from="1513127737977" duration="6952000" />
+      <workItem from="1513213841499" duration="92000" />
+      <workItem from="1513218049195" duration="16000" />
+      <workItem from="1513219061216" duration="10000" />
+      <workItem from="1513300706107" duration="17041000" />
+      <workItem from="1513386909785" duration="11951000" />
+      <workItem from="1513559591359" duration="22223000" />
+      <workItem from="1513646083690" duration="176000" />
+      <workItem from="1513648575880" duration="995000" />
+      <workItem from="1513664748361" duration="2261000" />
+      <workItem from="1513667270250" duration="3638000" />
+      <workItem from="1514510701132" duration="27000" />
+      <workItem from="1514531046857" duration="858000" />
+      <workItem from="1514855401468" duration="575000" />
+      <workItem from="1517619322200" duration="29089000" />
+      <workItem from="1517794300284" duration="21065000" />
+      <workItem from="1517879964195" duration="28777000" />
+      <workItem from="1517965676376" duration="21239000" />
+      <workItem from="1518052681487" duration="21605000" />
+      <workItem from="1518138487264" duration="2768000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="506418000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php</url>
+          <line>322</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Common/Common/function.php</url>
+          <line>92</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php</url>
+          <line>51</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php</url>
+          <line>53</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>146</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>148</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>161</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>158</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php</url>
+          <line>73</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php</url>
+          <line>114</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>193</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>194</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>195</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>196</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>197</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>170</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>171</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>242</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>243</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php</url>
+          <line>415</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php</url>
+          <line>422</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php</url>
+          <line>455</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php</url>
+          <line>462</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php</url>
+          <line>423</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php</url>
+          <line>414</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php</url>
+          <line>171</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php</url>
+          <line>173</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php</url>
+          <line>490</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>260</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php</url>
+          <line>261</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php</url>
+          <line>489</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php</url>
+          <line>493</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php</url>
+          <line>605</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/IndexService.class.php</url>
+          <line>56</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/IndexService.class.php</url>
+          <line>57</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/IndexService.class.php</url>
+          <line>54</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/IndexDao.class.php</url>
+          <line>35</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/IndexDao.class.php</url>
+          <line>42</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/IndexService.class.php</url>
+          <line>62</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/IndexService.class.php</url>
+          <line>63</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/IndexService.class.php</url>
+          <line>64</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Common/Common/function.php</url>
+          <line>73</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Common/Common/function.php</url>
+          <line>76</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Common/Common/function.php</url>
+          <line>77</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UmemberService.class.php</url>
+          <line>749</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UmemberService.class.php</url>
+          <line>746</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UmemberService.class.php</url>
+          <line>748</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/UmemberService.class.php</url>
+          <line>747</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php</url>
+          <line>58</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php</url>
+          <line>63</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php</url>
+          <line>65</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/IndexService.class.php</url>
+          <line>115</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/IndexService.class.php</url>
+          <line>118</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/IndexService.class.php</url>
+          <line>120</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/IndexService.class.php</url>
+          <line>127</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/IndexDao.class.php</url>
+          <line>134</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/IndexDao.class.php</url>
+          <line>140</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php</url>
+          <line>233</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/CaseeService.class.php</url>
+          <line>36</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/CaseeService.class.php</url>
+          <line>37</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Service/CaseeService.class.php</url>
+          <line>38</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/CaseeDao.class.php</url>
+          <line>162</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/CaseeDao.class.php</url>
+          <line>164</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/CaseeDao.class.php</url>
+          <line>167</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/CaseeDao.class.php</url>
+          <line>169</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/CaseeDao.class.php</url>
+          <line>258</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Dao/CaseeDao.class.php</url>
+          <line>272</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="255" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Application/Enum/UserEnum.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/JiazDao.class.php" />
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Service/JiazService.class.php" />
+    <entry file="file://$PROJECT_DIR$/Application/Home/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Think.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3933">
+          <caret line="215" column="0" lean-forward="false" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/ApplyController.class.php" />
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/JiazController.class.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/FileController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/FilterController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="206" column="9" lean-forward="false" selection-start-line="206" selection-start-column="9" selection-end-line="206" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/BaseDao.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AuthController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/CompanycaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TendersController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="86" column="46" lean-forward="false" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Service/TendersService.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Enum/SessionEnum.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/TendersDao.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2204">
+          <caret line="121" column="46" lean-forward="true" selection-start-line="121" selection-start-column="46" selection-end-line="121" selection-end-column="46" />
+          <folding>
+            <marker date="1517902532542" expanded="true" signature="297:443" ph="SELECT * FRO... cy_tenders_setting" />
+            <marker date="1517902532542" expanded="true" signature="597:727" ph="SELECT * FRO... cy_data_city" />
+            <marker date="1517902532542" expanded="true" signature="898:1044" ph="SELECT * FRO... cy_member" />
+            <marker date="1517902532542" expanded="true" signature="1213:1343" ph="SELECT * FRO... cy_data_area" />
+            <marker date="1517902532542" expanded="true" signature="1530:1673" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1517902532542" expanded="true" signature="1859:2165" ph="INSERT INTO `cy_tenders_attr`... " />
+            <marker date="1517902532542" expanded="true" signature="2423:5650" ph="INSERT INTO `cy_tenders`... " />
+            <marker date="1517902532542" expanded="true" signature="5772:6080" ph="SELECT from_... cy_tenders" />
+            <marker date="1517902532542" expanded="true" signature="6460:6617" ph="SELECT * FRO... cy_tenders_setting" />
+            <marker date="1517902532542" expanded="true" signature="6788:6935" ph="SELECT name cy_tenders_setting" />
+            <marker date="1517902532542" expanded="true" signature="7106:7253" ph="SELECT name cy_tenders_setting" />
+            <marker date="1517902532542" expanded="true" signature="7424:7576" ph="SELECT title... cy_data_attr_value" />
+            <marker date="1517902532542" expanded="true" signature="7747:7894" ph="SELECT name cy_tenders_setting" />
+            <marker date="1517902532542" expanded="true" signature="8068:8158" ph="SELECT * FRO... cy_tenders_photo" />
+            <marker date="1517902532542" expanded="true" signature="8342:8589" ph="SELECT conta... cy_designer_yuyue" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/DiaryController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/IndexDao.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <marker date="1517543550000" expanded="true" signature="371:747" ph="select disti... admin_auth_resource" />
+            <marker date="1517543550000" expanded="true" signature="925:1115" ph="SELECT a.fro... cy_member" />
+            <marker date="1517543550000" expanded="true" signature="1263:1431" ph="SELECT uname... cy_member" />
+            <marker date="1517543550000" expanded="true" signature="1299:1365" ph="SELECT city_... cy_data_city" />
+            <marker date="1517543550000" expanded="true" signature="1586:1732" ph="SELECT * FRO... cy_data_city" />
+            <marker date="1517543550000" expanded="true" signature="1947:2318" ph="UPDATE cy_me... " />
+            <marker date="1517543550000" expanded="true" signature="2530:3664" ph="INSERT INTO cy_member... " />
+            <marker date="1517543550000" expanded="true" signature="3808:4033" ph="UPDATE cy_me... " />
+            <marker date="1517543550000" expanded="true" signature="4167:4304" ph="SELECT * FRO... cy_member" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/CaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="199" column="44" lean-forward="true" selection-start-line="199" selection-start-column="44" selection-end-line="199" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <marker date="1517544722000" expanded="true" signature="911:979" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Service/IndexService.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="51" column="38" lean-forward="false" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/UmemberController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="254" column="55" lean-forward="false" selection-start-line="254" selection-start-column="39" selection-end-line="254" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="220" column="50" lean-forward="false" selection-start-line="220" selection-start-column="38" selection-end-line="220" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Service/UserService.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="316" column="48" lean-forward="true" selection-start-line="316" selection-start-column="48" selection-end-line="316" selection-end-column="48" />
+          <folding>
+            <element signature="e#118#134#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/DesignerDao.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="357" column="21" lean-forward="false" selection-start-line="357" selection-start-column="21" selection-end-line="357" selection-end-column="21" />
+          <folding>
+            <marker date="1518065926252" expanded="true" signature="501:976" ph="SELECT uid, cy_designer" />
+            <marker date="1518065926252" expanded="true" signature="3873:4000" ph="SELECT count... cy_designer" />
+            <marker date="1518065926252" expanded="true" signature="4166:4314" ph="SELECT * FRO... cy_member" />
+            <marker date="1518065926252" expanded="true" signature="4464:4741" ph="SELECT case_... cy_case" />
+            <marker date="1518065926252" expanded="true" signature="4900:5054" ph="SELECT * FRO... cy_designer" />
+            <marker date="1518065926252" expanded="true" signature="5289:6010" ph="INSERT INTO cy_designer_yuyue... " />
+            <marker date="1518065926252" expanded="true" signature="6214:6935" ph="INSERT INTO cy_designer_yuyue... " />
+            <marker date="1518065926252" expanded="true" signature="7072:7255" ph="UPDATE cy_de... " />
+            <marker date="1518065926252" expanded="true" signature="7390:7528" ph="SELECT name cy_designer" />
+            <marker date="1518065926252" expanded="true" signature="7700:7783" ph="SELECT * FRO... cy_data_area" />
+            <marker date="1518065926252" expanded="true" signature="7955:8099" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518065926252" expanded="true" signature="8269:8412" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518065926252" expanded="true" signature="8582:8726" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518065926252" expanded="true" signature="8896:9040" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518065926252" expanded="true" signature="9217:9281" ph="SELECT city_... cy_data_area" />
+            <marker date="1518065926252" expanded="true" signature="9454:10447" ph="SELECT a.NAM... cy_designer" />
+            <marker date="1518065926252" expanded="true" signature="9670:9817" ph="SELECT NAME cy_company" />
+            <marker date="1518065926252" expanded="true" signature="10595:10928" ph="SELECT COUNT... " />
+            <marker date="1518065926252" expanded="true" signature="11101:11372" ph="SELECT a.uid... cy_designer" />
+            <marker date="1518065926252" expanded="true" signature="11118:11177" ph="SELECT NAME cy_designer" />
+            <marker date="1518065926252" expanded="true" signature="11338:11372" ph="SELECT a.uid... cy_designer" />
+            <marker date="1518065926252" expanded="true" signature="11543:11685" ph="SELECT count... cy_designer" />
+            <marker date="1518065926252" expanded="true" signature="11843:11995" ph="SELECT face cy_member" />
+            <marker date="1518065926252" expanded="true" signature="12152:12307" ph="SELECT uid F... cy_member" />
+            <marker date="1518065926252" expanded="true" signature="12471:12632" ph="SELECT uid F... cy_member" />
+            <marker date="1518065926252" expanded="true" signature="12866:13748" ph="INSERT INTO cy_designer_comment... " />
+            <marker date="1518065926252" expanded="true" signature="13896:14241" ph="SELECT artic... cy_designer_article" />
+            <marker date="1518065926252" expanded="true" signature="14417:14587" ph="SELECT count... cy_designer_article" />
+            <marker date="1518065926252" expanded="true" signature="14749:15089" ph="SELECT uid, cy_designer_article" />
+            <marker date="1518065926252" expanded="true" signature="15252:15516" ph="SELECT uid, cy_designer_article" />
+            <marker date="1518065926252" expanded="true" signature="15702:15890" ph="UPDATE cy_de... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Service/DiaryService.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/UserDao.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding>
+            <marker date="1518056788582" expanded="true" signature="496:672" ph="SELECT uid,g... cy_member" />
+            <marker date="1518056788582" expanded="true" signature="856:1035" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518056788582" expanded="true" signature="856:1059" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518056788582" expanded="true" signature="856:1085" ph="SELECT title... cy_company_attr" />
+            <marker date="1518056788582" expanded="true" signature="1267:1771" ph="SELECT ( SEL... cy_company" />
+            <marker date="1518056788582" expanded="true" signature="1291:1373" ph="SELECT city_... cy_data_city" />
+            <marker date="1518056788582" expanded="true" signature="1393:1475" ph="SELECT area_... cy_data_area" />
+            <marker date="1518056788582" expanded="true" signature="1582:1670" ph="SELECT info cy_company_fields" />
+            <marker date="1518056788582" expanded="true" signature="1944:2282" ph="SELECT ( SEL... cy_designer" />
+            <marker date="1518056788582" expanded="true" signature="1956:2039" ph="SELECT city_... cy_data_city" />
+            <marker date="1518056788582" expanded="true" signature="2059:2142" ph="SELECT area_... cy_data_area" />
+            <marker date="1518056788582" expanded="true" signature="2451:2647" ph="SELECT attr_... cy_data_attr_value" />
+            <marker date="1518056788582" expanded="true" signature="2824:2981" ph="DELETE FROM " />
+            <marker date="1518056788582" expanded="true" signature="3098:3183" ph="SELECT attr_... cy_data_attr_value" />
+            <marker date="1518056788582" expanded="true" signature="3357:3436" ph="SELECT attr_... cy_data_attr_value" />
+            <marker date="1518056788582" expanded="true" signature="3622:3679" ph="SELECT * FRO... cy_company" />
+            <marker date="1518056788582" expanded="true" signature="3622:3735" ph="SELECT * FRO... " />
+            <marker date="1518056788582" expanded="true" signature="3622:3757" ph="SELECT * FRO... " />
+            <marker date="1518056788582" expanded="true" signature="3687:3728" ph="SELECT * FRO... cy_designer" />
+            <marker date="1518056788582" expanded="true" signature="3907:4202" ph="SELECT b.com... cy_member" />
+            <marker date="1518056788582" expanded="true" signature="4353:4512" ph="SELECT uid F... cy_member" />
+            <marker date="1518056788582" expanded="true" signature="4666:4751" ph="SELECT title... cy_data_attr_value" />
+            <marker date="1518056788582" expanded="true" signature="4927:5001" ph="SELECT attr_... cy_data_attr_value" />
+            <marker date="1518056788582" expanded="true" signature="5198:5657" ph="INSERT INTO `cy_company_attr`... " />
+            <marker date="1518056788582" expanded="true" signature="5780:5977" ph="SELECT attr_... cy_data_attr_value" />
+            <marker date="1518056788582" expanded="true" signature="6148:6221" ph="SELECT attr_... cy_company" />
+            <marker date="1518056788582" expanded="true" signature="6394:6568" ph="SELECT a.uid... cy_member" />
+            <marker date="1518056788582" expanded="true" signature="6968:7091" ph="SELECT a.uid... cy_member" />
+            <marker date="1518056788582" expanded="true" signature="7265:7455" ph="SELECT compa... cy_company" />
+            <marker date="1518056788582" expanded="true" signature="7608:7685" ph="SELECT a.uid... cy_member" />
+            <marker date="1518056788582" expanded="true" signature="7861:8041" ph="SELECT * FRO... cy_member" />
+            <marker date="1518056788582" expanded="true" signature="8211:8571" ph="INSERT INTO `cy_member_fields`... " />
+            <marker date="1518056788582" expanded="true" signature="8825:9626" ph="INSERT INTO cy_member" />
+            <marker date="1518056788582" expanded="true" signature="9895:12056" ph="INSERT INTO `cy_designer`... " />
+            <marker date="1518056788582" expanded="true" signature="12186:12351" ph="SELECT * FRO... cy_mechanic" />
+            <marker date="1518056788582" expanded="true" signature="12519:12706" ph="SELECT * FRO... cy_company_banner" />
+            <marker date="1518056788582" expanded="true" signature="12862:13004" ph="DELETE FROM " />
+            <marker date="1518056788582" expanded="true" signature="13145:13664" ph="INSERT INTO `cy_company_banner`... " />
+            <marker date="1518056788582" expanded="true" signature="13863:15304" ph="INSERT INTO `cy_mechanic`... " />
+            <marker date="1518056788582" expanded="true" signature="15452:15898" ph="INSERT INTO `cy_mechanic_attr`... " />
+            <marker date="1518056788582" expanded="true" signature="16046:16492" ph="INSERT INTO `cy_mechanic_attr`... " />
+            <marker date="1518056788582" expanded="true" signature="16639:17020" ph="INSERT INTO `cy_company_fields`... " />
+            <marker date="1518056788582" expanded="true" signature="17144:17298" ph="SELECT * FRO... cy_company" />
+            <marker date="1518056788582" expanded="true" signature="17454:17629" ph="SELECT * FRO... cy_company_fields" />
+            <marker date="1518056788582" expanded="true" signature="17789:17952" ph="SELECT * FRO... cy_company_fields" />
+            <marker date="1518056788582" expanded="true" signature="18130:18321" ph="UPDATE cy_co... " />
+            <marker date="1518056788582" expanded="true" signature="18596:19409" ph="UPDATE cy_co... " />
+            <marker date="1518056788582" expanded="true" signature="19559:19797" ph="UPDATE cy_de... " />
+            <marker date="1518056788582" expanded="true" signature="19935:20079" ph="DELETE FROM " />
+            <marker date="1518056788582" expanded="true" signature="19935:20106" ph="DELETE FROM " />
+            <marker date="1518056788582" expanded="true" signature="19935:20149" ph="DELETE FROM " />
+            <marker date="1518056788582" expanded="true" signature="20289:20504" ph="DELETE FROM " />
+            <marker date="1518056788582" expanded="true" signature="20577:20825" ph="UPDATE cy_de... " />
+            <marker date="1518056788582" expanded="true" signature="20970:21416" ph="INSERT INTO `cy_designer_attr`... " />
+            <marker date="1518056788582" expanded="true" signature="21569:22017" ph="INSERT INTO `cy_designer_attr`... " />
+            <marker date="1518056788582" expanded="true" signature="22165:22226" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518056788582" expanded="true" signature="22165:22232" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518056788582" expanded="true" signature="22165:22268" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518056788582" expanded="true" signature="22437:22495" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518056788582" expanded="true" signature="22662:22720" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518056788582" expanded="true" signature="22953:23430" ph="UPDATE cy_me... " />
+            <marker date="1518056788582" expanded="true" signature="23556:23717" ph="SELECT * FRO... cy_designer_attr" />
+            <marker date="1518056788582" expanded="true" signature="23556:23736" ph="SELECT * FRO... cy_designer_attr" />
+            <marker date="1518056788582" expanded="true" signature="23891:24052" ph="SELECT * FRO... cy_designer_attr" />
+            <marker date="1518056788582" expanded="true" signature="24204:24360" ph="SELECT * FRO... cy_designer" />
+            <marker date="1518056788582" expanded="true" signature="24514:24751" ph="SELECT a.gro... cy_member_group" />
+            <marker date="1518056788582" expanded="true" signature="25021:25675" ph="UPDATE cy_me... " />
+            <marker date="1518056788582" expanded="true" signature="25974:28977" ph="INSERT INTO `cy_company`... " />
+            <marker date="1518056788582" expanded="true" signature="29412:31572" ph="INSERT INTO `cy_shop`... " />
+            <marker date="1518056788582" expanded="true" signature="31701:31886" ph="INSERT INTO `cy_shop_fields`... " />
+            <marker date="1518056788582" expanded="true" signature="32026:32204" ph="UPDATE cy_sh... " />
+            <marker date="1518056788582" expanded="true" signature="32380:32794" ph="UPDATE cy_sh... " />
+            <marker date="1518056788582" expanded="true" signature="32960:33258" ph="UPDATE cy_sh... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/DesignerController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2546">
+          <caret line="139" column="35" lean-forward="false" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Service/DesignerService.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4028">
+          <caret line="220" column="13" lean-forward="false" selection-start-line="220" selection-start-column="13" selection-end-line="220" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/ArticleDao.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4522">
+          <caret line="243" column="21" lean-forward="false" selection-start-line="243" selection-start-column="21" selection-end-line="243" selection-end-column="21" />
+          <folding>
+            <marker date="1517814844621" expanded="true" signature="287:480" ph="SELECT photo... cy_article_lbphoto" />
+            <marker date="1517814844621" expanded="true" signature="628:884" ph="SELECT cat_i... cy_article_cate" />
+            <marker date="1517814844621" expanded="true" signature="1032:1254" ph="SELECT cat_i... cy_article_cate" />
+            <marker date="1517814844621" expanded="true" signature="1402:1799" ph="SELECT title... cy_article" />
+            <marker date="1517814844621" expanded="true" signature="1953:2155" ph="SELECT cat_i... cy_article_cate" />
+            <marker date="1517814844621" expanded="true" signature="2309:2511" ph="SELECT cat_i... cy_article_cate" />
+            <marker date="1517814844621" expanded="true" signature="2665:2866" ph="SELECT cat_i... cy_article_cate" />
+            <marker date="1517814844621" expanded="true" signature="3020:3222" ph="SELECT cat_i... cy_article_cate" />
+            <marker date="1517814844621" expanded="true" signature="3390:4075" ph="SELECT a.art... cy_article" />
+            <marker date="1517814844621" expanded="true" signature="4245:4675" ph="SELECT count... cy_article" />
+            <marker date="1517814844621" expanded="true" signature="4840:5346" ph="SELECT count... cy_article" />
+            <marker date="1517814844621" expanded="true" signature="5521:6277" ph="SELECT a.art... cy_article" />
+            <marker date="1517814844621" expanded="true" signature="6448:7244" ph="SELECT a.cat... " />
+            <marker date="1517814844621" expanded="true" signature="6687:6846" ph="SELECT COUNT... cy_article_comment" />
+            <marker date="1517814844621" expanded="true" signature="7400:7904" ph="SELECT a.tit... cy_article" />
+            <marker date="1517814844621" expanded="true" signature="8081:8518" ph="SELECT b.uid... cy_member" />
+            <marker date="1517814844621" expanded="true" signature="8693:8974" ph="SELECT count... cy_member" />
+            <marker date="1517814844621" expanded="true" signature="9131:9290" ph="SELECT uid F... cy_member" />
+            <marker date="1517814844621" expanded="true" signature="9476:9891" ph="INSERT INTO cy_article_comment... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Service/ArticleService.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3762">
+          <caret line="206" column="9" lean-forward="false" selection-start-line="206" selection-start-column="9" selection-end-line="206" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/ArticleController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Service/UmemberService.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="62" column="50" lean-forward="false" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
+          <folding>
+            <element signature="e#120#136#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/GsDao.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+          <folding>
+            <marker date="1518079879474" expanded="true" signature="294:594" ph="SELECT case_... cy_case" />
+            <marker date="1518079879474" expanded="true" signature="738:897" ph="SELECT photo... cy_index" />
+            <marker date="1518079879474" expanded="true" signature="1038:1116" ph="SELECT * FRO... cy_hot" />
+            <marker date="1518079879474" expanded="true" signature="1270:2045" ph="SELECT a.com... cy_company" />
+            <marker date="1518079879474" expanded="true" signature="1722:1792" ph="SELECT count... cy_company_comment" />
+            <marker date="1518079879474" expanded="true" signature="2201:2424" ph="SELECT phone... cy_tp" />
+            <marker date="1518079879474" expanded="true" signature="2573:2839" ph="SELECT * FRO... cy_tophot" />
+            <marker date="1518079879474" expanded="true" signature="2988:3235" ph="SELECT * FRO... cy_history" />
+            <marker date="1518079879474" expanded="true" signature="3391:3702" ph="SELECT * FRO... cy_history" />
+            <marker date="1518079879474" expanded="true" signature="3876:4472" ph="SELECT a.com... cy_company" />
+            <marker date="1518079879474" expanded="true" signature="4643:4881" ph="SELECT count... cy_company" />
+            <marker date="1518079879474" expanded="true" signature="5034:5311" ph="SELECT case_... cy_case" />
+            <marker date="1518079879474" expanded="true" signature="5472:5621" ph="SELECT * FRO... cy_member" />
+            <marker date="1518079879474" expanded="true" signature="5795:6416" ph="SELECT uid, cy_designer" />
+            <marker date="1518079879474" expanded="true" signature="6592:6826" ph="SELECT count... cy_designer" />
+            <marker date="1518079879474" expanded="true" signature="6592:6850" ph="SELECT count... cy_designer" />
+            <marker date="1518079879474" expanded="true" signature="6592:6897" ph="SELECT count... cy_designer" />
+            <marker date="1518079879474" expanded="true" signature="7081:7429" ph="INSERT INTO cy_history... " />
+            <marker date="1518079879474" expanded="true" signature="7570:7858" ph="INSERT INTO cy_tophot... " />
+            <marker date="1518079879474" expanded="true" signature="7987:8099" ph="SELECT count... cy_company" />
+            <marker date="1518079879474" expanded="true" signature="8451:8836" ph="SELECT comme... cy_company" />
+            <marker date="1518079879474" expanded="true" signature="9007:9475" ph="SELECT ( SEL... cy_mechanic" />
+            <marker date="1518079879474" expanded="true" signature="9054:9205" ph="SELECT title... cy_data_attr_value" />
+            <marker date="1518079879474" expanded="true" signature="9829:10312" ph="SELECT uid, cy_designer" />
+            <marker date="1518079879474" expanded="true" signature="10651:11327" ph="SELECT DISTI... cy_mechanic" />
+            <marker date="1518079879474" expanded="true" signature="10754:10914" ph="SELECT area_... cy_data_area" />
+            <marker date="1518079879474" expanded="true" signature="11010:11165" ph="SELECT city_... cy_data_city" />
+            <marker date="1518079879474" expanded="true" signature="11711:11878" ph="SELECT DISTI... cy_mechanic" />
+            <marker date="1518079879474" expanded="true" signature="12069:12225" ph="SELECT * FRO... cy_adv_item" />
+            <marker date="1518079879474" expanded="true" signature="12425:12594" ph="SELECT * FRO... cy_block_item" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/CompayDao.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <marker date="1518080709603" expanded="true" signature="492:1057" ph="SELECT comme... cy_company" />
+            <marker date="1518080709603" expanded="true" signature="838:917" ph="SELECT count... cy_company_comment" />
+            <marker date="1518080709603" expanded="true" signature="3579:3714" ph="SELECT * FRO... cy_data_area" />
+            <marker date="1518080709603" expanded="true" signature="3888:4179" ph="SELECT case_... cy_case" />
+            <marker date="1518080709603" expanded="true" signature="4576:4703" ph="SELECT count... cy_company" />
+            <marker date="1518080709603" expanded="true" signature="4864:4954" ph="SELECT * FRO... cy_data_area" />
+            <marker date="1518080709603" expanded="true" signature="5129:5276" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518080709603" expanded="true" signature="5431:5578" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518080709603" expanded="true" signature="5750:5897" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518080709603" expanded="true" signature="6069:6217" ph="SELECT * FRO... cy_data_attr_value" />
+            <marker date="1518080709603" expanded="true" signature="6381:6512" ph="SELECT photo... cy_case" />
+            <marker date="1518080709603" expanded="true" signature="6672:7200" ph="SELECT b.pho... cy_company" />
+            <marker date="1518080709603" expanded="true" signature="7031:7071" ph="SELECT COUNT... cy_company_comment" />
+            <marker date="1518080709603" expanded="true" signature="7031:7101" ph="SELECT count... cy_company_comment" />
+            <marker date="1518080709603" expanded="true" signature="7354:7616" ph="SELECT COUNT... " />
+            <marker date="1518080709603" expanded="true" signature="7775:8405" ph="SELECT a.com... cy_company" />
+            <marker date="1518080709603" expanded="true" signature="8188:8258" ph="SELECT count... cy_company_comment" />
+            <marker date="1518080709603" expanded="true" signature="8576:8763" ph="UPDATE cy_di... " />
+            <marker date="1518080709603" expanded="true" signature="8982:9978" ph="INSERT INTO cy_compay_comment... " />
+            <marker date="1518080709603" expanded="true" signature="10105:10264" ph="SELECT a. NA... cy_designer" />
+            <marker date="1518080709603" expanded="true" signature="10430:10601" ph="SELECT uid F... cy_company" />
+            <marker date="1518080709603" expanded="true" signature="10761:11127" ph="SELECT a. NA... cy_designer" />
+            <marker date="1518080709603" expanded="true" signature="11304:11942" ph="SELECT a.uid... cy_company" />
+            <marker date="1518080709603" expanded="true" signature="11304:11964" ph="SELECT a.uid... cy_company" />
+            <marker date="1518080709603" expanded="true" signature="11304:11982" ph="SELECT a.uid... cy_company" />
+            <marker date="1518080709603" expanded="true" signature="11304:11985" ph="SELECT a.uid... cy_company" />
+            <marker date="1518080709603" expanded="true" signature="11304:11989" ph="SELECT a.uid... cy_company" />
+            <marker date="1518080709603" expanded="true" signature="11687:11726" ph="SELECT COUNT... cy_company_comment" />
+            <marker date="1518080709603" expanded="true" signature="12160:12337" ph="SELECT count... cy_company" />
+            <marker date="1518080709603" expanded="true" signature="12160:12415" ph="SELECT count... cy_company" />
+            <marker date="1518080709603" expanded="true" signature="12160:12418" ph="SELECT a.uid... cy_company" />
+            <marker date="1518080709603" expanded="true" signature="12571:12756" ph="SELECT uname... cy_member" />
+            <marker date="1518080709603" expanded="true" signature="12911:13066" ph="SELECT uid F... cy_member" />
+            <marker date="1518080709603" expanded="true" signature="13284:13873" ph="INSERT INTO cy_compay_yuyue... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Service/GsService.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="58" column="69" lean-forward="false" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/CompayController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="852">
+          <caret line="157" column="49" lean-forward="false" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="49" />
+          <folding>
+            <marker date="1517909190500" expanded="true" signature="461:516" ph="..." />
+            <marker date="1517909190500" expanded="true" signature="1837:1920" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/GsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/UmemberDao.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="516" column="4" lean-forward="false" selection-start-line="516" selection-start-column="4" selection-end-line="522" selection-end-column="45" />
+          <folding>
+            <marker date="1518062329295" expanded="true" signature="316:975" ph="SELECT a.una... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="1153:1932" ph="SELECT a.uid... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="2095:2398" ph="SELECT a.una... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="2553:2822" ph="SELECT a.una... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="2553:2823" ph="SELECT a.una... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="2553:2851" ph="SELECT a.una... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="3017:3389" ph="SELECT a.uid... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="3563:3922" ph="SELECT a.una... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="4077:4230" ph="SELECT * FRO... cy_diary" />
+            <marker date="1518062329295" expanded="true" signature="4380:4539" ph="SELECT * FRO... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="4695:4854" ph="SELECT * FRO... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="5003:5163" ph="SELECT * FRO... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="5337:5495" ph="SELECT * FRO... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="5645:5913" ph="SELECT b.com... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="6064:6234" ph="SELECT b.are... cy_company" />
+            <marker date="1518062329295" expanded="true" signature="6452:7033" ph="INSERT INTO cy_member_verify... " />
+            <marker date="1518062329295" expanded="true" signature="7161:7320" ph="SELECT * FRO... cy_company" />
+            <marker date="1518062329295" expanded="true" signature="7478:7636" ph="SELECT * FRO... cy_company" />
+            <marker date="1518062329295" expanded="true" signature="7784:7940" ph="SELECT * FRO... cy_tenders_setting" />
+            <marker date="1518062329295" expanded="true" signature="8099:8380" ph="SELECT * FRO... cy_diary" />
+            <marker date="1518062329295" expanded="true" signature="8664:9439" ph="UPDATE cy_di... " />
+            <marker date="1518062329295" expanded="true" signature="9694:10950" ph="INSERT INTO cy_diary... " />
+            <marker date="1518062329295" expanded="true" signature="11093:11643" ph="SELECT diary... " />
+            <marker date="1518062329295" expanded="true" signature="11807:12017" ph="SELECT count... cy_diary" />
+            <marker date="1518062329295" expanded="true" signature="12169:12367" ph="SELECT count... cy_company" />
+            <marker date="1518062329295" expanded="true" signature="12532:12704" ph="UPDATE cy_di... " />
+            <marker date="1518062329295" expanded="true" signature="12843:13015" ph="UPDATE cy_di... " />
+            <marker date="1518062329295" expanded="true" signature="13144:13276" ph="DELETE FROM " />
+            <marker date="1518062329295" expanded="true" signature="13425:14512" ph="SELECT b.ite... " />
+            <marker date="1518062329295" expanded="true" signature="13425:14607" ph="SELECT a.dia... " />
+            <marker date="1518062329295" expanded="true" signature="13425:14654" ph="SELECT a.dia... " />
+            <marker date="1518062329295" expanded="true" signature="13425:14658" ph="SELECT a.dia... " />
+            <marker date="1518062329295" expanded="true" signature="14822:15168" ph="SELECT count... cy_company" />
+            <marker date="1518062329295" expanded="true" signature="15322:15378" ph="SELECT b.ite... " />
+            <marker date="1518062329295" expanded="true" signature="15536:16379" ph="SELECT * FRO... cy_diary_item" />
+            <marker date="1518062329295" expanded="true" signature="16224:16289" ph="SELECT title... cy_diary" />
+            <marker date="1518062329295" expanded="true" signature="16573:16979" ph="INSERT INTO cy_diary... " />
+            <marker date="1518062329295" expanded="true" signature="17140:17418" ph="UPDATE cy_di... " />
+            <marker date="1518062329295" expanded="true" signature="17541:17919" ph="SELECT * FRO... cy_tenders" />
+            <marker date="1518062329295" expanded="true" signature="17562:17644" ph="SELECT area_... cy_data_area" />
+            <marker date="1518062329295" expanded="true" signature="17659:17732" ph="SELECT count... cy_data_area" />
+            <marker date="1518062329295" expanded="true" signature="18082:18398" ph="SELECT ask_i... cy_ask" />
+            <marker date="1518062329295" expanded="true" signature="18082:18425" ph="SELECT ask_i... cy_ask" />
+            <marker date="1518062329295" expanded="true" signature="18082:18428" ph="SELECT ask_i... cy_ask" />
+            <marker date="1518062329295" expanded="true" signature="18082:18432" ph="SELECT ask_i... cy_ask" />
+            <marker date="1518062329295" expanded="true" signature="18584:18712" ph="SELECT count... cy_company" />
+            <marker date="1518062329295" expanded="true" signature="18885:20071" ph="SELECT answe... cy_ask_answer" />
+            <marker date="1518062329295" expanded="true" signature="18885:20118" ph="SELECT answe... cy_ask_answer" />
+            <marker date="1518062329295" expanded="true" signature="18885:20122" ph="SELECT answe... cy_ask_answer" />
+            <marker date="1518062329295" expanded="true" signature="18885:20178" ph="SELECT answe... cy_ask_answer" />
+            <marker date="1518062329295" expanded="true" signature="18974:19033" ph="SELECT * FRO... cy_ask" />
+            <marker date="1518062329295" expanded="true" signature="20280:20456" ph="SELECT count... cy_ask_answer" />
+            <marker date="1518062329295" expanded="true" signature="20615:20831" ph="SELECT yuyue... cy_company_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="20616:20809" ph="SELECT yuyue... cy_company_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="20616:20830" ph="SELECT yuyue... cy_company_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="20616:20831" ph="SELECT yuyue... cy_company_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="20658:20731" ph="SELECT NAME cy_company" />
+            <marker date="1518062329295" expanded="true" signature="21007:21229" ph="SELECT yuyue... " />
+            <marker date="1518062329295" expanded="true" signature="21007:21230" ph="SELECT yuyue... " />
+            <marker date="1518062329295" expanded="true" signature="21007:21254" ph="SELECT yuyue... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="21007:21258" ph="SELECT yuyue... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="21049:21123" ph="SELECT NAME cy_company" />
+            <marker date="1518062329295" expanded="true" signature="21429:21796" ph="SELECT mobil... " />
+            <marker date="1518062329295" expanded="true" signature="21429:21819" ph="SELECT mobil... " />
+            <marker date="1518062329295" expanded="true" signature="21429:21834" ph="SELECT mobil... " />
+            <marker date="1518062329295" expanded="true" signature="21429:21838" ph="SELECT mobil... " />
+            <marker date="1518062329295" expanded="true" signature="21450:21532" ph="SELECT area_... cy_data_area" />
+            <marker date="1518062329295" expanded="true" signature="21547:21620" ph="SELECT count... cy_data_area" />
+            <marker date="1518062329295" expanded="true" signature="21991:22065" ph="SELECT count... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="21991:22128" ph="SELECT count... cy_tenders" />
+            <marker date="1518062329295" expanded="true" signature="21991:22176" ph="SELECT count... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="22291:22427" ph="SELECT count... cy_company" />
+            <marker date="1518062329295" expanded="true" signature="22589:22806" ph="SELECT yuyue... " />
+            <marker date="1518062329295" expanded="true" signature="22590:22806" ph="SELECT yuyue... cy_shop_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="22632:22702" ph="SELECT NAME cy_company" />
+            <marker date="1518062329295" expanded="true" signature="22969:23379" ph="SELECT a.ord... cy_order" />
+            <marker date="1518062329295" expanded="true" signature="23117:23180" ph="SELECT name cy_shop" />
+            <marker date="1518062329295" expanded="true" signature="23193:23266" ph="SELECT photo... cy_product" />
+            <marker date="1518062329295" expanded="true" signature="23530:23905" ph="SELECT a.ord... cy_order" />
+            <marker date="1518062329295" expanded="true" signature="23530:23906" ph="SELECT a.ord... cy_order" />
+            <marker date="1518062329295" expanded="true" signature="23678:23741" ph="SELECT name cy_shop" />
+            <marker date="1518062329295" expanded="true" signature="23754:23827" ph="SELECT photo... cy_product" />
+            <marker date="1518062329295" expanded="true" signature="24067:24247" ph="UPDATE cy_de... " />
+            <marker date="1518062329295" expanded="true" signature="24386:24567" ph="UPDATE cy_or... " />
+            <marker date="1518062329295" expanded="true" signature="24724:25060" ph="SELECT *, ( cy_tenders" />
+            <marker date="1518062329295" expanded="true" signature="24724:25119" ph="SELECT artic... cy_designer_article" />
+            <marker date="1518062329295" expanded="true" signature="24724:25162" ph="SELECT artic... cy_designer_article" />
+            <marker date="1518062329295" expanded="true" signature="24724:25166" ph="SELECT artic... cy_designer_article" />
+            <marker date="1518062329295" expanded="true" signature="25334:25509" ph="SELECT count... cy_company" />
+            <marker date="1518062329295" expanded="true" signature="25685:25846" ph="DELETE FROM " />
+            <marker date="1518062329295" expanded="true" signature="26015:26298" ph="UPDATE cy_or... " />
+            <marker date="1518062329295" expanded="true" signature="26458:27005" ph="INSERT INTO cy_designer_article... " />
+            <marker date="1518062329295" expanded="true" signature="27160:27412" ph="SELECT * FRO... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="27160:27447" ph="SELECT FROM cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="27160:27490" ph="SELECT a.mob... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="27160:27494" ph="SELECT a.mob... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="27160:27550" ph="SELECT a.mob... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="27665:27839" ph="SELECT count... cy_designer_article" />
+            <marker date="1518062329295" expanded="true" signature="27665:27840" ph="SELECT count... cy_designer_article" />
+            <marker date="1518062329295" expanded="true" signature="28007:28569" ph="SELECT home_... cy_case" />
+            <marker date="1518062329295" expanded="true" signature="28399:28433" ph="SELECT COUNT... cy_case" />
+            <marker date="1518062329295" expanded="true" signature="28399:28443" ph="SELECT COUNT... cy_case" />
+            <marker date="1518062329295" expanded="true" signature="28739:29312" ph="SELECT case_... cy_case" />
+            <marker date="1518062329295" expanded="true" signature="29130:29174" ph="SELECT COUNT... cy_case" />
+            <marker date="1518062329295" expanded="true" signature="29482:29650" ph="UPDATE cy_de... " />
+            <marker date="1518062329295" expanded="true" signature="29811:30088" ph="SELECT artic... cy_designer_article" />
+            <marker date="1518062329295" expanded="true" signature="29811:30101" ph="SELECT a.uid... cy_designer" />
+            <marker date="1518062329295" expanded="true" signature="29811:30112" ph="SELECT a.uid... cy_designer" />
+            <marker date="1518062329295" expanded="true" signature="29811:30127" ph="SELECT a.uid... cy_designer" />
+            <marker date="1518062329295" expanded="true" signature="29811:30131" ph="SELECT a.uid... cy_designer" />
+            <marker date="1518062329295" expanded="true" signature="29966:30023" ph="SELECT mail cy_member" />
+            <marker date="1518062329295" expanded="true" signature="30312:30486" ph="SELECT count... cy_designer" />
+            <marker date="1518062329295" expanded="true" signature="30662:30883" ph="UPDATE cy_de... " />
+            <marker date="1518062329295" expanded="true" signature="31037:31268" ph="UPDATE cy_de... " />
+            <marker date="1518062329295" expanded="true" signature="31410:31704" ph="SELECT a.con... cy_company_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="31416:31691" ph="SELECT a.con... cy_company_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="31416:31704" ph="SELECT a.con... cy_company_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="31895:32388" ph="SELECT a.con... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="31895:32389" ph="SELECT a.con... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="31895:32402" ph="SELECT ( SEL... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="31895:32434" ph="SELECT ( SEL... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="31895:32449" ph="SELECT ( SEL... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="31895:32453" ph="SELECT ( SEL... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="31895:32509" ph="SELECT ( SEL... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="31947:32078" ph="SELECT uname... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="32637:32826" ph="SELECT count... cy_designer_yuyue" />
+            <marker date="1518062329295" expanded="true" signature="33020:33386" ph="SELECT a.con... cy_company_comment" />
+            <marker date="1518062329295" expanded="true" signature="33020:33394" ph="SELECT comme... cy_company_comment" />
+            <marker date="1518062329295" expanded="true" signature="33020:33409" ph="SELECT comme... cy_company_comment" />
+            <marker date="1518062329295" expanded="true" signature="33020:33413" ph="SELECT comme... cy_company_comment" />
+            <marker date="1518062329295" expanded="true" signature="33111:33169" ph="SELECT UNAME... cy_member" />
+            <marker date="1518062329295" expanded="true" signature="33592:33660" ph="SELECT count... cy_company_comment" />
+            <marker date="1518062329295" expanded="true" signature="33592:33781" ph="SELECT count... cy_company_comment" />
+            <marker date="1518062329295" expanded="true" signature="33978:34213" ph="UPDATE cy_de... " />
+            <marker date="1518062329295" expanded="true" signature="34363:34978" ph="SELECT * FRO... cy_tenders" />
+            <marker date="1518062329295" expanded="true" signature="34484:34632" ph="SELECT area_... cy_data_area" />
+            <marker date="1518062329295" expanded="true" signature="35174:35810" ph="SELECT b.loo... cy_tenders" />
+            <marker date="1518062329295" expanded="true" signature="35174:35831" ph="SELECT b.loo... cy_tenders" />
+            <marker date="1518062329295" expanded="true" signature="35174:35884" ph="SELECT b.loo... cy_tenders" />
+            <marker date="1518062329295" expanded="true" signature="35174:35931" ph="SELECT b.loo... cy_tenders" />
+            <marker date="1518062329295" expanded="true" signature="35174:35935" ph="SELECT b.loo... cy_tenders" />
+            <marker date="1518062329295" expanded="true" signature="36120:36418" ph="SELECT count... cy_company_comment" />
+            <marker date="1518062329295" expanded="true" signature="36120:36466" ph="SELECT count... cy_tenders" />
+            <marker date="1518062329295" expanded="true" signature="36580:37131" ph="SELECT comme... cy_company_comment" />
+            <marker date="1518062329295" expanded="true" signature="37407:38264" ph="INSERT INTO cy_home_site... " />
+            <marker date="1518062329295" expanded="true" signature="38407:38699" ph="SELECT title... cy_home_site" />
+            <marker date="1518062329295" expanded="true" signature="38407:38739" ph="SELECT title... cy_home_site" />
+            <marker date="1518062329295" expanded="true" signature="38407:38792" ph="SELECT title... cy_home_site" />
+            <marker date="1518062329295" expanded="true" signature="39075:39740" ph="UPDATE cy_ho... " />
+            <marker date="1518062329295" expanded="true" signature="39884:40046" ph="UPDATE cy_ho... " />
+            <marker date="1518062329295" expanded="true" signature="39884:40067" ph="UPDATE cy_ho... " />
+            <marker date="1518062329295" expanded="true" signature="39884:40114" ph="UPDATE cy_ho... " />
+            <marker date="1518062329295" expanded="true" signature="40202:40971" ph="SELECT title... cy_home_site_item" />
+            <marker date="1518062329295" expanded="true" signature="41186:41650" ph="INSERT INTO cy_home_site_item... " />
+            <marker date="1518062329295" expanded="true" signature="41853:42263" ph="UPDATE cy_ho... " />
+            <marker date="1518062329295" expanded="true" signature="42408:43271" ph="SELECT title... cy_home_site_item" />
+            <marker date="1518062329295" expanded="true" signature="42488:42558" ph="SELECT title... cy_home_site" />
+            <marker date="1518062329295" expanded="true" signature="43443:43596" ph="DELETE FROM " />
+            <marker date="1518062329295" expanded="true" signature="43722:43814" ph="SELECT artic... cy_d" />
+            <marker date="1518062329295" expanded="true" signature="43722:43828" ph="SELECT artic... cy_data_attr_value" />
+            <marker date="1518062329295" expanded="true" signature="43722:43871" ph="SELECT artic... cy_designer_article" />
+            <marker date="1518062329295" expanded="true" signature="44035:44175" ph="SELECT NAME cy_home" />
+            <marker date="1518062329295" expanded="true" signature="44334:44468" ph="SELECT name cy_home" />
+            <marker date="1518062329295" expanded="true" signature="44334:44482" ph="SELECT name cy_home" />
+            <marker date="1518062329295" expanded="true" signature="44646:44814" ph="SELECT * FRO... cy_company" />
+            <marker date="1518062329295" expanded="true" signature="44957:44963" ph="SELECT * FRO... cy_tenders_setting" />
+            <marker date="1518062329295" expanded="true" signature="44957:45113" ph="SELECT * FRO... cy_tenders_setting" />
+            <marker date="1518062329295" expanded="true" signature="45256:45413" ph="SELECT * FRO... cy_tenders_setting" />
+            <marker date="1518062329295" expanded="true" signature="45566:45733" ph="SELECT * FRO... cy_tenders_setting" />
+            <marker date="1518062329295" expanded="true" signature="45884:46049" ph="SELECT * FRO... cy_tenders_setting" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Service/CompayService.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="113" column="52" lean-forward="true" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/CaseeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="69" lean-forward="true" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+          <folding>
+            <marker date="1517463502000" expanded="true" signature="2781:2811" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Service/CaseeService.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#121#157#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/CaseeDao.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <marker date="1517454729000" expanded="true" signature="421:996" ph="SELECT uid, " />
+            <marker date="1517454729000" expanded="true" signature="611:675" ph="SELECT count... cy_case_photo" />
+            <marker date="1517454729000" expanded="true" signature="1335:1669" ph="SELECT count... cy_case" />
+            <marker date="1517454729000" expanded="true" signature="4132:4504" ph="SELECT attr_... cy_case" />
+            <marker date="1517454729000" expanded="true" signature="4663:4852" ph="SELECT uid, cy_case" />
+            <marker date="1517454729000" expanded="true" signature="5011:5210" ph="SELECT attr_... cy_case_attr" />
+            <marker date="1517454729000" expanded="true" signature="5365:5528" ph="SELECT name cy_designer" />
+            <marker date="1517454729000" expanded="true" signature="5705:5949" ph="SELECT title... cy_data_attr_value" />
+            <marker date="1517454729000" expanded="true" signature="6127:6371" ph="SELECT title... cy_data_attr_value" />
+            <marker date="1517454729000" expanded="true" signature="6527:6703" ph="SELECT COUNT... " />
+            <marker date="1517454729000" expanded="true" signature="6851:6998" ph="SELECT title... cy_data_attr_value" />
+            <marker date="1517454729000" expanded="true" signature="7148:7297" ph="SELECT title... cy_data_attr_value" />
+            <marker date="1517454729000" expanded="true" signature="7447:7597" ph="SELECT title... cy_data_attr_value" />
+            <marker date="1517454729000" expanded="true" signature="7757:8205" ph="SELECT a.nam... cy_designer" />
+            <marker date="1517454729000" expanded="true" signature="8372:8657" ph="SELECT a.nam... cy_company" />
+            <marker date="1517454729000" expanded="true" signature="8819:9012" ph="SELECT a.pho... cy_case_photo" />
+            <marker date="1517454729000" expanded="true" signature="9191:9350" ph="SELECT uid F... cy_member" />
+            <marker date="1517454729000" expanded="true" signature="9523:10014" ph="SELECT b.una... " />
+            <marker date="1517454729000" expanded="true" signature="10188:10500" ph="SELECT count... cy_case_comment" />
+            <marker date="1517454729000" expanded="true" signature="10668:10832" ph="SELECT b.cas... cy_case" />
+            <marker date="1517454729000" expanded="true" signature="11022:11206" ph="SELECT b.cas... cy_case" />
+            <marker date="1517454729000" expanded="true" signature="11448:11553" ph="SELECT count... cy_case" />
+            <marker date="1517454729000" expanded="true" signature="11731:11858" ph="SELECT count... cy_case" />
+            <marker date="1517454729000" expanded="true" signature="12043:12576" ph="INSERT INTO cy_case_comment... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Service/ShopService.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#120#156#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Dao/ShopDao.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/ShopController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,37 @@
+<script type="text/html" id="tpl-leastInfo">
+    <div class="content-block f14 wrapRegCont list-block">
+        <!--baseInfo-->
+        <div class="row no-gutter  item-content">
+            <div class="item-inner">
+                <div class="col-25 text-left item-title pos_rela line_r">
+                    姓&emsp;&emsp;名<span class="need-info-star">*</span>
+                </div>
+                <div class="col-75 item-input">
+                    <input id="" class="form-control gttv" type="text" name="realname" value="{{realname}}" placeholder="请填写真实姓名" />
+                </div>
+            </div>
+        </div>
+        <!--schoolInfo-->
+        <div class="row no-gutter item-content">
+            <div class="item-inner">
+                <div class="col-25 text-left item-title pos_rela line_r">
+                    城&emsp;&emsp;市<span class="need-info-star">*</span>
+                </div>
+                <div class="col-75">
+                    <div class="col-50 f_left selectProvince pos_rela item-input">
+                        <select class="tx_indent" name="provinceId" id="province-list">
+
+                        </select>
+                        <span class="icon icon-right pos_arr"></span>
+                    </div>
+                    <div class="col-50 f_right selectCity pos_rela item-input">
+                        <select class="tx_indent" name="cityId" id="city-list">
+                          
+                        </select>
+                        <span class="icon icon-right pos_arr" style="right: -.45rem;"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>

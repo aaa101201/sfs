@@ -1,0 +1,1971 @@
+[ 2017-11-16T09:53:25+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=16151
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+DEBUG: [ Jiechengkeji ] [ 09:53:25 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:53:25 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:53:25 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-11-16T09:53:37+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:53:37 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:53:37 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:53:37 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          SUM(survey_money) survey_money
+                     FROM
+	                      survey  [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 09:53:37 ] [ result ]{"survey_money":"50068"}
+DEBUG: [ Jiechengkeji ] [ 09:53:37 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"survey_money":"50068"}}
+
+[ 2017-11-16T09:53:41+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:53:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:53:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:53:41 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          SUM(survey_money) survey_money
+                     FROM
+	                      survey  [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 09:53:41 ] [ result ]{"survey_money":"50068"}
+DEBUG: [ Jiechengkeji ] [ 09:53:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"survey_money":"50068"}}
+
+[ 2017-11-16T10:33:28+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:33:28 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:33:28 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:33:28 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0000s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pageTotal D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 154 行.
+DEBUG: [ Jiechengkeji ] [ 10:33:28 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:33:28 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":0,"pageTotal":0,"pageCurrent":null}}
+
+[ 2017-11-16T10:33:50+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13590
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:33:50 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:33:50 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:33:50 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-11-16T10:34:45+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:33:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:33:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:33:56 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pageTotal D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 154 行.
+DEBUG: [ Jiechengkeji ] [ 10:33:56 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:34:44 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":0,"pageTotal":0,"pageCurrent":null}}
+
+[ 2017-11-16T10:36:24+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:34:47 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:34:47 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:34:47 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pageTotal D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 154 行.
+DEBUG: [ Jiechengkeji ] [ 10:36:23 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:36:24 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":0,"pageTotal":0,"pageCurrent":null}}
+
+[ 2017-11-16T10:37:12+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:36:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:36:26 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:36:26 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pageTotal D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 154 行.
+DEBUG: [ Jiechengkeji ] [ 10:37:12 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:37:12 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":0,"pageTotal":0,"pageCurrent":null}}
+
+[ 2017-11-16T10:38:28+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:37:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:37:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:37:15 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pageTotal D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 154 行.
+DEBUG: [ Jiechengkeji ] [ 10:38:27 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:38:28 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":0,"pageTotal":0,"pageCurrent":null}}
+
+[ 2017-11-16T10:38:59+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:38:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:38:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:38:30 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pageTotal D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 154 行.
+DEBUG: [ Jiechengkeji ] [ 10:38:57 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:38:58 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":0,"pageTotal":0,"pageCurrent":null}}
+
+[ 2017-11-16T10:40:03+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:39:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:39:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:39:01 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pageTotal xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [8] Undefined index: pageTotal D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 154 行.
+DEBUG: [ Jiechengkeji ] [ 10:40:03 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:40:03 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":0,"pageTotal":0,"pageCurrent":null}}
+
+[ 2017-11-16T10:40:21+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:40:05 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:40:05 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:40:05 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pageTotal D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 154 行.
+DEBUG: [ Jiechengkeji ] [ 10:40:20 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:40:21 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":0,"pageTotal":0,"pageCurrent":null}}
+
+[ 2017-11-16T10:42:02+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:40:24 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:40:24 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:40:24 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pageTotal D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 154 行.
+DEBUG: [ Jiechengkeji ] [ 10:42:00 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:42:02 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":0,"pageTotal":0,"pageCurrent":null}}
+
+[ 2017-11-16T10:42:30+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:42:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:42:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:42:04 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0000s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 55 行.
+DEBUG: [ Jiechengkeji ] [ 10:42:30 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:42:30 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":0,"pageTotal":0,"pageCurrent":null}}
+
+[ 2017-11-16T10:44:13+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 10:42:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:42:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:42:32 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:44:11 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:44:13 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":0.4,"pageTotal":0,"pageCurrent":"4"}}
+
+[ 2017-11-16T10:46:08+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:44:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:44:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:44:15 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 10:46:05 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:46:07 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":0,"pageTotal":0,"pageCurrent":"4"}}
+
+[ 2017-11-16T10:46:19+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:46:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:46:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:46:10 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 10:46:17 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:46:19 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":1,"pageTotal":0,"pageCurrent":"4"}}
+
+[ 2017-11-16T10:48:36+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:47:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:47:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:47:44 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:48:35 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:48:36 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":1,"pageTotal":0,"pageCurrent":"4"}}
+
+[ 2017-11-16T10:48:53+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:48:45 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:48:45 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:48:45 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0000s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:48:52 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:48:53 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":1,"pageTotal":0,"pageCurrent":"4"}}
+
+[ 2017-11-16T10:49:28+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:49:20 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:49:20 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:49:20 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:49:26 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:49:28 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":"4","pageTotal":1,"pageCurrent":"1"}}
+
+[ 2017-11-16T10:52:23+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:52:21 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:52:21 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:52:21 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 10:52:23 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:52:23 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":4,"pageTotal":1,"pageCurrent":"1"}}
+
+[ 2017-11-16T10:53:50+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:53:46 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:53:46 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:53:47 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          *
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:53:49 ] [ result ][{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:53:50 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"2","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","remark":"","remark1":"","createtime":"12417","updatetime":"2017-11-15 15:52:46"},{"id":"3","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","remark":"","remark1":"","createtime":"12217","updatetime":"2017-11-15 15:53:04"},{"id":"4","cy_apply_id":"14","homemoney_id":"46","survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","remark":"","remark1":"","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"}],"recordTotal":4,"pageTotal":1,"pageCurrent":1}}
+
+[ 2017-11-16T10:56:20+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:56:20 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:56:20 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:56:20 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         survey_name,survey_payment,survey_money,updatetime
+                     FROM
+	                      survey 
+	                        WHERE
+	                         homeMoney_id = '46'
+                         AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                      count(*) as pageTotal
+                    FROM 
+                      survey
+                      [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 10:56:20 ] [ result ][{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","updatetime":"2017-11-15 15:52:46"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","updatetime":"2017-11-15 15:53:04"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-15 16:02:11"}]
+DEBUG: [ Jiechengkeji ] [ 10:56:20 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","updatetime":"2017-11-15 15:52:46"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","updatetime":"2017-11-15 15:53:04"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-15 16:02:11"}],"recordTotal":4,"pageTotal":1,"pageCurrent":1}}
+
+[ 2017-11-16T11:31:52+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:31:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:31:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:31:52 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                            homeMoney_id ='46'
+                          ORDER BY
+	                              id DESC
+                              LIMIT 0,1 [ RunTime:0.0020s ]
+SQL: UPDATE 
+                         homemoney 
+                      SET 
+                         homeMoney_money='200'
+                      WHERE 
+                         cy_apply_id= 46 [ RunTime:0.0040s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '签署合同款',
+	                         '提现',
+		                     '200',
+		                     '2017-11-16 11:31:52',
+		                     '2017-11-16 11:31:52'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_payment,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '200',
+		                     '2017-11-16 11:31:52',
+		                     '2017-11-16 11:31:52'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '15666319051',
+	                         '200',
+		                     '1',
+		                     '11817',
+		                     '2017-11-16 11:31:52',
+		                     '2017-11-16 11:31:52'
+	                    ) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:31:52 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:31:52 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0}
+
+[ 2017-11-16T11:32:31+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=12228
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 11:32:31 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:32:31 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:32:31 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-11-16T11:33:01+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: [ Jiechengkeji ] [ 11:32:33 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:32:33 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:32:33 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                            homeMoney_id ='46'
+                          ORDER BY
+	                              id DESC
+                              LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homemoney 
+                      SET 
+                         homeMoney_money='200'
+                      WHERE 
+                         cy_apply_id= 46 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '签署合同款',
+	                         '提现',
+		                     '200',
+		                     '2017-11-16 11:32:36',
+		                     '2017-11-16 11:32:36'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_payment,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '200',
+		                     '2017-11-16 11:32:36',
+		                     '2017-11-16 11:32:36'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '15666319051',
+	                         '200',
+		                     '1',
+		                     '11617',
+		                     '2017-11-16 11:32:36',
+		                     '2017-11-16 11:32:36'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:32:56 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:33:01 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0}
+
+[ 2017-11-16T11:33:36+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:33:11 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:33:11 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:33:11 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                            homeMoney_id ='46'
+                          ORDER BY
+	                              id DESC
+                              LIMIT 0,1 [ RunTime:0.0020s ]
+SQL: UPDATE 
+                         homemoney 
+                      SET 
+                         homeMoney_money='200'
+                      WHERE 
+                         cy_apply_id= 46 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '签署合同款',
+	                         '提现',
+		                     '200',
+		                     '2017-11-16 11:33:13',
+		                     '2017-11-16 11:33:13'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_payment,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '200',
+		                     '2017-11-16 11:33:13',
+		                     '2017-11-16 11:33:13'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '15666319051',
+	                         '200',
+		                     '1',
+		                     '11417',
+		                     '2017-11-16 11:33:13',
+		                     '2017-11-16 11:33:13'
+	                    ) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:33:35 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:33:36 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0}
+
+[ 2017-11-16T11:35:54+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:35:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:35:26 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:35:26 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                            homeMoney_id ='46'
+                          ORDER BY
+	                              id DESC
+                              LIMIT 0,1 [ RunTime:0.0030s ]
+SQL: UPDATE 
+                         homemoney 
+                      SET 
+                         homeMoney_money='200'
+                      WHERE 
+                         cy_apply_id= 46 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '签署合同款',
+	                         '提现',
+		                     '200',
+		                     '2017-11-16 11:35:28',
+		                     '2017-11-16 11:35:28'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_payment,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '200',
+		                     '2017-11-16 11:35:28',
+		                     '2017-11-16 11:35:28'
+	                    ) [ RunTime:0.0000s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '15666319051',
+	                         '200',
+		                     '1',
+		                     '11217',
+		                     '2017-11-16 11:35:28',
+		                     '2017-11-16 11:35:28'
+	                    ) [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:35:53 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:35:54 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0}
+
+[ 2017-11-16T11:36:29+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:36:20 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:36:20 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:36:20 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                            homeMoney_id ='46'
+                          ORDER BY
+	                              id DESC
+                              LIMIT 0,1 [ RunTime:0.0020s ]
+SQL: UPDATE 
+                         homemoney 
+                      SET 
+                         homeMoney_money='200'
+                      WHERE 
+                         cy_apply_id= 46 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '签署合同款',
+	                         '提现',
+		                     '200',
+		                     '2017-11-16 11:36:23',
+		                     '2017-11-16 11:36:23'
+	                    ) [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'survey_payment' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_payment,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '200',
+		                     '2017-11-16 11:36:23',
+		                     '2017-11-16 11:36:23'
+	                    )
+ERR: 1054:Unknown column 'survey_payment' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_payment,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '200',
+		                     '2017-11-16 11:36:23',
+		                     '2017-11-16 11:36:23'
+	                    )
+
+[ 2017-11-16T11:39:00+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:38:24 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:38:24 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:38:24 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                            homeMoney_id ='46'
+                          ORDER BY
+	                              id DESC
+                              LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: UPDATE 
+                         homemoney 
+                      SET 
+                         homeMoney_money='200'
+                      WHERE 
+                         cy_apply_id= 46 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '签署合同款',
+	                         '提现',
+		                     '200',
+		                     '2017-11-16 11:38:27',
+		                     '2017-11-16 11:38:27'
+	                    ) [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'survey_payment' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_payment,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '200',
+		                     '2017-11-16 11:38:27',
+		                     '2017-11-16 11:38:27'
+	                    )
+ERR: 1054:Unknown column 'survey_payment' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_payment,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '200',
+		                     '2017-11-16 11:38:27',
+		                     '2017-11-16 11:38:27'
+	                    )
+
+[ 2017-11-16T11:39:20+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:39:03 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:39:03 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:39:03 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                            homeMoney_id ='46'
+                          ORDER BY
+	                              id DESC
+                              LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homemoney 
+                      SET 
+                         homeMoney_money='200'
+                      WHERE 
+                         cy_apply_id= 46 [ RunTime:0.0020s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '签署合同款',
+	                         '提现',
+		                     '200',
+		                     '2017-11-16 11:39:04',
+		                     '2017-11-16 11:39:04'
+	                    ) [ RunTime:0.0020s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '200',
+		                     '2017-11-16 11:39:04',
+		                     '2017-11-16 11:39:04'
+	                    ) [ RunTime:0.0020s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '15666319051',
+	                         '200',
+		                     '1',
+		                     '11017',
+		                     '2017-11-16 11:39:04',
+		                     '2017-11-16 11:39:04'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:39:18 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:39:20 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0}
+
+[ 2017-11-16T11:40:06+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:40:03 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:40:03 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:40:03 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                         remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                            homeMoney_id ='46'
+                          ORDER BY
+	                              id DESC
+                              LIMIT 0,1 [ RunTime:0.0020s ]
+SQL: UPDATE 
+                         homemoney 
+                      SET 
+                         homeMoney_money='100'
+                      WHERE 
+                         cy_apply_id= 46 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '签署合同款',
+	                         '提现',
+		                     '100',
+		                     '2017-11-16 11:40:05',
+		                     '2017-11-16 11:40:05'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '100',
+		                     '2017-11-16 11:40:05',
+		                     '2017-11-16 11:40:05'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                    (
+		                     '14',
+		                     '46',
+		                     '15666319051',
+	                         '100',
+		                     '1',
+		                     '10917',
+		                     '2017-11-16 11:40:05',
+		                     '2017-11-16 11:40:05'
+	                    ) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:40:06 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:40:06 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0}
+
+[ 2017-11-16T14:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:01:06 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:01:06 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:01:06 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         homeMoney_card
+                     FROM
+	                      homeMoney      
+	                 WHERE
+                      cy_apply_id = '26' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:01:06 ] [ result ]{"homemoney_card":"15666319999"}
+DEBUG: [ Jiechengkeji ] [ 14:01:06 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_card":"15666319999"}}
+
+[ 2017-11-16T14:01:18+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:01:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:01:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:01:17 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         homeMoney_card
+                     FROM
+	                      homeMoney      
+	                 WHERE
+                      cy_apply_id = '1' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:01:18 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 14:01:18 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0}
+
+[ 2017-11-16T14:02:54+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:02:54 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:02:54 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:02:54 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         homeMoney_card
+                     FROM
+	                      homeMoney      
+	                 WHERE
+                      cy_apply_id = '1' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 14:02:54 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 14:02:54 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-16T14:03:13+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 14:03:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:03:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:03:13 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         homeMoney_card
+                     FROM
+	                      homeMoney      
+	                 WHERE
+                      cy_apply_id = '24' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:03:13 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 14:03:13 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-16T14:03:24+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 14:03:24 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:03:24 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:03:24 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         homeMoney_card
+                     FROM
+	                      homeMoney      
+	                 WHERE
+                      cy_apply_id = '26' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:03:24 ] [ result ]{"homemoney_card":"15666319999"}
+DEBUG: [ Jiechengkeji ] [ 14:03:24 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_card":"15666319999"}}
+
+[ 2017-11-16T14:05:03+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:05:03 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:05:03 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:05:03 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         survey_name,survey_payment,survey_money,updatetime
+                     FROM
+	                      survey 
+	                 WHERE
+	                         homeMoney_id = '46'
+                     AND cy_apply_id = '10' [ RunTime:0.0000s ]
+SQL: SELECT
+                       count(*) as pageTotal
+                      FROM 
+                        survey
+                      [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 14:05:03 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 14:05:03 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"recordTotal":16,"pageTotal":2,"pageCurrent":1}}
+
+[ 2017-11-16T14:05:25+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:05:25 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:05:25 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:05:25 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         survey_name,survey_payment,survey_money,updatetime
+                     FROM
+	                      survey 
+	                 WHERE
+	                         homeMoney_id = '46'
+                     AND cy_apply_id = '1' [ RunTime:0.0000s ]
+SQL: SELECT
+                       count(*) as pageTotal
+                      FROM 
+                        survey
+                      [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 14:05:25 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 14:05:25 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[],"recordTotal":16,"pageTotal":2,"pageCurrent":1}}
+
+[ 2017-11-16T14:13:17+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:13:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:13:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:13:17 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         survey_name,survey_payment,survey_money,updatetime
+                     FROM
+	                      survey 
+	                 WHERE
+	                         homeMoney_id = '46'
+                     AND cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                       count(*) as pageTotal
+                      FROM 
+                        survey
+                      [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:13:17 ] [ result ][{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","updatetime":"2017-11-15 15:52:46"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","updatetime":"2017-11-15 15:53:04"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-15 16:02:11"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:31:52"},{"survey_name":"","survey_payment":"200","survey_money":"","updatetime":"2017-11-16 11:31:52"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:32:36"},{"survey_name":"","survey_payment":"200","survey_money":"","updatetime":"2017-11-16 11:32:36"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:33:13"},{"survey_name":"","survey_payment":"200","survey_money":"","updatetime":"2017-11-16 11:33:13"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:35:28"},{"survey_name":"","survey_payment":"200","survey_money":"","updatetime":"2017-11-16 11:35:28"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:36:23"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:38:27"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:39:04"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-16 11:40:05"}]
+DEBUG: [ Jiechengkeji ] [ 14:13:17 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12417","updatetime":"2017-11-15 15:52:46"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"12217","updatetime":"2017-11-15 15:53:04"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-15 16:02:11"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:31:52"},{"survey_name":"","survey_payment":"200","survey_money":"","updatetime":"2017-11-16 11:31:52"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:32:36"},{"survey_name":"","survey_payment":"200","survey_money":"","updatetime":"2017-11-16 11:32:36"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:33:13"},{"survey_name":"","survey_payment":"200","survey_money":"","updatetime":"2017-11-16 11:33:13"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:35:28"},{"survey_name":"","survey_payment":"200","survey_money":"","updatetime":"2017-11-16 11:35:28"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:36:23"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:38:27"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"200","updatetime":"2017-11-16 11:39:04"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-16 11:40:05"}],"pageTotal":2,"pageCurrent":1,"recordTotal":16}}
+
+[ 2017-11-16T14:36:40+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13966
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:36:40 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:36:40 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:36:40 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-11-16T14:37:29+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:36:54 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:36:54 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:36:54 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         homeMoney_state
+                     FROM
+	                      homeMoney      
+	                 WHERE
+                      cy_apply_id = '26' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: homeMoney_state D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 79 行.
+DEBUG: [ Jiechengkeji ] [ 14:37:28 ] [ result ]已提交
+DEBUG: [ Jiechengkeji ] [ 14:37:29 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":"\u5df2\u63d0\u4ea4"}
+
+[ 2017-11-16T14:39:05+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 14:39:02 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:39:02 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:39:02 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         homeMoney_state
+                     FROM
+	                      homeMoney      
+	                 WHERE
+                      cy_apply_id = '26' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: homeMoney_state D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 79 行.
+DEBUG: [ Jiechengkeji ] [ 14:39:04 ] [ result ]{"homemoney_state":"2"}
+DEBUG: [ Jiechengkeji ] [ 14:39:04 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_state":"2"}}
+
+[ 2017-11-16T14:39:59+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:39:21 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:39:21 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:39:21 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         homeMoney_state
+                     FROM
+	                      homeMoney      
+	                 WHERE
+                      cy_apply_id = '26' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: homeMoney_state D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 79 行.
+NOTIC: [8] Undefined index: homeMoney_state xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [8] Undefined index: homeMoney_state xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [8] Undefined index: homeMoney_state xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [8] Undefined index: homeMoney_state xdebug://debug-eval(1) : eval()'d code 第 1 行.
+NOTIC: [8] Undefined index: homeMoney_state xdebug://debug-eval(1) : eval()'d code 第 1 行.
+DEBUG: [ Jiechengkeji ] [ 14:39:59 ] [ result ]{"homemoney_state":"2"}
+DEBUG: [ Jiechengkeji ] [ 14:39:59 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_state":"2"}}
+
+[ 2017-11-16T14:40:05+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:40:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:40:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:40:01 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         homeMoney_state
+                     FROM
+	                      homeMoney      
+	                 WHERE
+                      cy_apply_id = '26' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 14:40:04 ] [ result ]{"homemoney_state":"2"}
+DEBUG: [ Jiechengkeji ] [ 14:40:05 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_state":"2"}}
+
+[ 2017-11-16T14:41:09+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:40:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:40:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:40:15 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         homeMoney_state
+                     FROM
+	                      homeMoney      
+	                 WHERE
+                      cy_apply_id = '26' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:41:08 ] [ result ]{"homemoney_state":"2"}
+DEBUG: [ Jiechengkeji ] [ 14:41:09 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_state":"2"}}
+
+[ 2017-11-16T14:41:18+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 14:41:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:41:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:41:15 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         homeMoney_state
+                     FROM
+	                      homeMoney      
+	                 WHERE
+                      cy_apply_id = '26' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 14:41:18 ] [ result ]{"homemoney_state":"\u5df2\u63d0\u4ea4"}
+DEBUG: [ Jiechengkeji ] [ 14:41:18 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_state":"\u5df2\u63d0\u4ea4"}}
+
+[ 2017-11-16T14:44:27+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:44:25 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:44:25 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:44:25 ] [ __construct ]BaseDAO
+SQL: SELECT
+                         homeMoney_state
+                     FROM
+	                      homeMoney      
+	                 WHERE
+                      cy_apply_id = '26' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:44:27 ] [ result ]{"homemoney_state":"\u5df2\u7b7e\u7f72\u5408\u540c"}
+DEBUG: [ Jiechengkeji ] [ 14:44:27 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_state":"\u5df2\u7b7e\u7f72\u5408\u540c"}}
+
+[ 2017-11-16T15:17:18+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: [ Jiechengkeji ] [ 15:17:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:17:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:17:18 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                    withdra_state,
+	                    (
+		            SELECT
+			            kitingMoney_text
+		            FROM
+			            moneyText
+	                    ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                    FROM
+	                    kitingMoney
+	               WHERE 
+                        homeMoney_id = '46'
+                   AND 
+                       cy_apply_id = '14' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:17:18 ] [ result ][{"withdra_name":"13829856632","withdra_money":"12617","withdra_state":"2","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:51:26","updatetime":"2017-11-15 15:51:26"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:52:46","updatetime":"2017-11-15 15:52:46"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:53:04","updatetime":"2017-11-15 15:53:04"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:31:52","updatetime":"2017-11-16 11:31:52"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:32:36","updatetime":"2017-11-16 11:32:36"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:33:13","updatetime":"2017-11-16 11:33:13"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:35:28","updatetime":"2017-11-16 11:35:28"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:39:04","updatetime":"2017-11-16 11:39:04"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:40:05","updatetime":"2017-11-16 11:40:05"}]
+DEBUG: [ Jiechengkeji ] [ 15:17:18 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"13829856632","withdra_money":"12617","withdra_state":"2","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:51:26","updatetime":"2017-11-15 15:51:26"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:52:46","updatetime":"2017-11-15 15:52:46"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:53:04","updatetime":"2017-11-15 15:53:04"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:31:52","updatetime":"2017-11-16 11:31:52"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:32:36","updatetime":"2017-11-16 11:32:36"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:33:13","updatetime":"2017-11-16 11:33:13"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:35:28","updatetime":"2017-11-16 11:35:28"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:39:04","updatetime":"2017-11-16 11:39:04"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:40:05","updatetime":"2017-11-16 11:40:05"}],"pageTotal":0,"pageCurrent":0,"recordTotal":0}}
+
+[ 2017-11-16T15:21:23+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:21:23 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:21:23 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:21:23 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                    withdra_state,
+	                    (
+		            SELECT
+			            kitingMoney_text
+		            FROM
+			            moneyText
+	                    ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                    FROM
+	                    kitingMoney
+	               WHERE 
+                        homeMoney_id = '46'
+                   AND 
+                       cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:21:23 ] [ result ][{"withdra_name":"13829856632","withdra_money":"12617","withdra_state":"2","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:51:26","updatetime":"2017-11-15 15:51:26"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:52:46","updatetime":"2017-11-15 15:52:46"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:53:04","updatetime":"2017-11-15 15:53:04"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:31:52","updatetime":"2017-11-16 11:31:52"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:32:36","updatetime":"2017-11-16 11:32:36"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:33:13","updatetime":"2017-11-16 11:33:13"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:35:28","updatetime":"2017-11-16 11:35:28"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:39:04","updatetime":"2017-11-16 11:39:04"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:40:05","updatetime":"2017-11-16 11:40:05"}]
+DEBUG: [ Jiechengkeji ] [ 15:21:23 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"13829856632","withdra_money":"12617","withdra_state":"2","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:51:26","updatetime":"2017-11-15 15:51:26"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:52:46","updatetime":"2017-11-15 15:52:46"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:53:04","updatetime":"2017-11-15 15:53:04"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:31:52","updatetime":"2017-11-16 11:31:52"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:32:36","updatetime":"2017-11-16 11:32:36"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:33:13","updatetime":"2017-11-16 11:33:13"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:35:28","updatetime":"2017-11-16 11:35:28"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:39:04","updatetime":"2017-11-16 11:39:04"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"1","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:40:05","updatetime":"2017-11-16 11:40:05"}],"pageTotal":3,"pageCurrent":1,"recordTotal":25}}
+
+[ 2017-11-16T15:30:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:30:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:30:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:30:10 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-16T15:30:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:30:11 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:30:11 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:30:11 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-11-16T15:41:09+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:41:09 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:41:09 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:41:09 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                        homeMoney_id = '46'
+                     AND 
+                        cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:41:09 ] [ result ][{"withdra_name":"13829856632","withdra_money":"12617","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:51:26","updatetime":"2017-11-15 15:51:26"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:52:46","updatetime":"2017-11-15 15:52:46"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:53:04","updatetime":"2017-11-15 15:53:04"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:31:52","updatetime":"2017-11-16 11:31:52"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:32:36","updatetime":"2017-11-16 11:32:36"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:33:13","updatetime":"2017-11-16 11:33:13"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:35:28","updatetime":"2017-11-16 11:35:28"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:39:04","updatetime":"2017-11-16 11:39:04"},{"withdra_name":"15666319051","withdra_money":"100","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:40:05","updatetime":"2017-11-16 11:40:05"}]
+DEBUG: [ Jiechengkeji ] [ 15:41:09 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"13829856632","withdra_money":"12617","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:51:26","updatetime":"2017-11-15 15:51:26"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:52:46","updatetime":"2017-11-15 15:52:46"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:53:04","updatetime":"2017-11-15 15:53:04"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:31:52","updatetime":"2017-11-16 11:31:52"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:32:36","updatetime":"2017-11-16 11:32:36"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:33:13","updatetime":"2017-11-16 11:33:13"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:35:28","updatetime":"2017-11-16 11:35:28"},{"withdra_name":"15666319051","withdra_money":"200","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:39:04","updatetime":"2017-11-16 11:39:04"},{"withdra_name":"15666319051","withdra_money":"100","case\r\n\t                    withdra_state\r\n                     when \r\n                        '1' \r\n                     then\r\n\t                    '\u5df2\u63d0\u4ea4'\r\n                     when \r\n                        '2' \r\n                     then\r\n\t         ":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:40:05","updatetime":"2017-11-16 11:40:05"}],"pageTotal":3,"pageCurrent":1,"recordTotal":25}}
+
+[ 2017-11-16T15:42:13+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:42:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:42:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:42:13 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                        homeMoney_id = '46'
+                     AND 
+                        cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:42:13 ] [ result ][{"withdra_name":"13829856632","withdra_money":"12617","withdra_state":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:51:26","updatetime":"2017-11-15 15:51:26"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:52:46","updatetime":"2017-11-15 15:52:46"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:53:04","updatetime":"2017-11-15 15:53:04"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:31:52","updatetime":"2017-11-16 11:31:52"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:32:36","updatetime":"2017-11-16 11:32:36"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:33:13","updatetime":"2017-11-16 11:33:13"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:35:28","updatetime":"2017-11-16 11:35:28"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:39:04","updatetime":"2017-11-16 11:39:04"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:40:05","updatetime":"2017-11-16 11:40:05"}]
+DEBUG: [ Jiechengkeji ] [ 15:42:13 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"13829856632","withdra_money":"12617","withdra_state":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:51:26","updatetime":"2017-11-15 15:51:26"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:52:46","updatetime":"2017-11-15 15:52:46"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:53:04","updatetime":"2017-11-15 15:53:04"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:31:52","updatetime":"2017-11-16 11:31:52"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:32:36","updatetime":"2017-11-16 11:32:36"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:33:13","updatetime":"2017-11-16 11:33:13"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:35:28","updatetime":"2017-11-16 11:35:28"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:39:04","updatetime":"2017-11-16 11:39:04"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:40:05","updatetime":"2017-11-16 11:40:05"}],"pageTotal":3,"pageCurrent":1,"recordTotal":25}}
+
+[ 2017-11-16T15:44:12+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:44:12 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:44:12 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:44:12 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                        homeMoney_id = '46'
+                     AND 
+                        cy_apply_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:44:12 ] [ result ][{"withdra_name":"13829856632","withdra_money":"12617","withdra_state":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:51:26","updatetime":"2017-11-15 15:51:26"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:52:46","updatetime":"2017-11-15 15:52:46"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:53:04","updatetime":"2017-11-15 15:53:04"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:31:52","updatetime":"2017-11-16 11:31:52"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:32:36","updatetime":"2017-11-16 11:32:36"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:33:13","updatetime":"2017-11-16 11:33:13"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:35:28","updatetime":"2017-11-16 11:35:28"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:39:04","updatetime":"2017-11-16 11:39:04"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:40:05","updatetime":"2017-11-16 11:40:05"}]
+DEBUG: [ Jiechengkeji ] [ 15:44:12 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"13829856632","withdra_money":"12617","withdra_state":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:51:26","updatetime":"2017-11-15 15:51:26"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:52:46","updatetime":"2017-11-15 15:52:46"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 15:53:04","updatetime":"2017-11-15 15:53:04"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-15 16:02:11","updatetime":"2017-11-15 16:02:11"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:31:52","updatetime":"2017-11-16 11:31:52"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:32:36","updatetime":"2017-11-16 11:32:36"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:33:13","updatetime":"2017-11-16 11:33:13"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:35:28","updatetime":"2017-11-16 11:35:28"},{"withdra_name":"15666319051","withdra_money":"200","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:39:04","updatetime":"2017-11-16 11:39:04"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-16 11:40:05","updatetime":"2017-11-16 11:40:05"}],"pageTotal":3,"pageCurrent":1,"recordTotal":25}}
+
+[ 2017-11-16T15:56:31+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_frostmoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:56:31 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:56:31 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:56:31 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                          homeMoney_frostmoney  
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                      cy_apply_id = '26' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:56:31 ] [ result ]{"homemoney_frostmoney":"32806"}
+DEBUG: [ Jiechengkeji ] [ 15:56:31 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_frostmoney":"32806"}}
+
+[ 2017-11-16T16:00:23+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_frostmoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:00:23 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:00:23 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:00:23 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                          homeMoney_frostmoney ,
+                          (SELECT  frostmoney_text  FROM  moneyText) frostmoney_text 
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                      cy_apply_id = '26' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 16:00:23 ] [ result ]{"homemoney_frostmoney":"32806","frostmoney_text":"\u51bb\u7ed3\u4f59\u989d\uff1a\u4e1a\u4e3b\u5411\u201c\u5bb6\u88c5\u5b9d\u201d\u7533\u8bf7\u8d37\u6b3e\u6210\u529f\u540e\uff0c\u5e73\u53f0\u5c06\u865a\u62df\u8d27\u5e01\u8f6c\u4e3a\u51bb\u7ed3\u4f59\u989d\uff1b\u6b64\u51bb\u7ed3\u4f59\u989d\u53ea\u53ef\u5728\u5e73\u53f0\u4f7f\u7528\u3002 "}
+DEBUG: [ Jiechengkeji ] [ 16:00:23 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_frostmoney":"32806","frostmoney_text":"\u51bb\u7ed3\u4f59\u989d\uff1a\u4e1a\u4e3b\u5411\u201c\u5bb6\u88c5\u5b9d\u201d\u7533\u8bf7\u8d37\u6b3e\u6210\u529f\u540e\uff0c\u5e73\u53f0\u5c06\u865a\u62df\u8d27\u5e01\u8f6c\u4e3a\u51bb\u7ed3\u4f59\u989d\uff1b\u6b64\u51bb\u7ed3\u4f59\u989d\u53ea\u53ef\u5728\u5e73\u53f0\u4f7f\u7528\u3002 "}}
+
+[ 2017-11-16T16:12:08+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney_remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:12:08 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:12:08 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:12:08 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    remark kitingMoney_remark
+                     FROM
+	                    kitingMoney
+                     WHERE
+	                    cy_apply_id = '26'
+                     ORDER BY id DESC LIMIT 0,1  [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 16:12:08 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 16:12:08 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-16T16:12:32+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney_remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+DEBUG: [ Jiechengkeji ] [ 16:12:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:12:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:12:32 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    remark kitingMoney_remark
+                     FROM
+	                    kitingMoney
+                     WHERE
+	                    cy_apply_id = '14'
+                     ORDER BY id DESC LIMIT 0,1  [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:12:32 ] [ result ]{"kitingmoney_remark":"10917"}
+DEBUG: [ Jiechengkeji ] [ 16:12:32 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"kitingmoney_remark":"10917"}}
+
+[ 2017-11-16T17:08:59+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney_remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 17:08:59 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 17:08:59 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 17:08:59 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    remark kitingMoney_remark
+                     FROM
+	                    kitingMoney
+                     WHERE
+	                    cy_apply_id = '14'
+                     ORDER BY id DESC LIMIT 0,1  [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 17:08:59 ] [ result ]{"kitingmoney_remark":"10917"}
+DEBUG: [ Jiechengkeji ] [ 17:08:59 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"kitingmoney_remark":"10917"}}
+
+[ 2017-11-16T17:09:05+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney_remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 17:09:05 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 17:09:05 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 17:09:05 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    remark kitingMoney_remark
+                     FROM
+	                    kitingMoney
+                     WHERE
+	                    cy_apply_id = '14'
+                     ORDER BY id DESC LIMIT 0,1  [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 17:09:05 ] [ result ]{"kitingmoney_remark":"10917"}
+DEBUG: [ Jiechengkeji ] [ 17:09:05 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"kitingmoney_remark":"10917"}}
+

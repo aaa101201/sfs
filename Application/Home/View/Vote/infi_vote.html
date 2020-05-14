@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{$title}</title>
+	<include file="Common/header" />
+    <link rel="stylesheet" href="/Public/vote/css/vote.min.css?t=1481691463999">
+</head>
+<body>
+	<div class="page-group">
+        <div class="page" id="infi_vote">
+            <!-- 这里是页面内容区 -->
+            <div class="content infinite-scroll" data-distance="100">
+                <!-- 轮播图 -->
+                <div class="swiper-container" data-space-between="10">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0);">
+                                <img class="banner" src="/Public/vote/images/vote_banner01.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0);">
+                                <img class="banner" src="/Public/vote/images/vote_banner02.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                
+                <ul class="three_count">
+                    <li>报名人数<br><span id="join_num">&nbsp;</span></li>
+                    <li>投票人数<br><span id="vote_num">&nbsp;</span></li>
+                    <li>访问量<br><span id="visit_num">&nbsp;</span></li>
+                </ul>
+                <div class="time timedead" id="time2dead">
+                    距活动结束:<span id="time_d">&nbsp;&nbsp;</span>天<span id="time_h">&nbsp;&nbsp;</span>时<span id="time_m">&nbsp;&nbsp;</span>分<span style="visibility:hidden;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </div>
+                <div class="rule">
+                    <span class="iconv iconv-rule"></span>活动规则及奖品设置
+                    <a href="__APP__/Home/Vote/infi_rule" class="f_right">查看详情<span class="iconv iconv-arrow_r"></span></a>
+                </div>
+                <ul class="join_list" id="join_list">
+                    <!--to be filled-->
+                </ul>
+                <div class="infinite-scroll-preloader">
+                    <div class="preloader"></div>
+                </div>
+            </div>
+            <div class="addItem"><span></span></div>
+            <div class="addOverlay">
+                <ul>
+                    <li id="Reload"><a href="">重新加载</a></li>
+                    <li id="Join" style="display:none;"><a href="" data-no-cache="true">我要报名</a></li>
+                    <li id="Stat" style="display:none;"><a href="">当前排名</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <include file="Common/tpl/tpl-infiVote" />
+    <include file="Common/footer" />
+</body>
+</html>
+<script src="/Public/vote/js/infiVote.js?t=1481691463999"></script>

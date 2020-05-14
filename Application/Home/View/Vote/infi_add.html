@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>萝卜兼职</title>
+	<include file="Common/header" />
+    <link rel="stylesheet" href="/Public/vote/css/vote.min.css?t=1481691463999">
+</head>
+<body>
+	<div class="page-group">
+        <div class="page" id="infi_add">
+            <!-- 这里是页面内容区 -->
+            <div class="content">
+                <div class="content-block">
+                    <h2>我要报名</h2>
+                    <form action="">
+                        <input type="text" name="title" id="title" placeholder="请输入作品标题">
+                        <input type="tel" name="phone" id="phone" placeholder="请输入您的手机号">
+                        <p>* 请输入正确的手机号，方便联系您兑换奖品</p>
+                        <input type="file" name="file" id="photo" style="display: none;">
+                        <label class="file file_ph" id="photo_btn" for="photo"></label>
+                        <textarea placeholder="您可以在此为您上传的照片添加描述~" name="intro" id="intro" cols="30" rows="10"></textarea>
+                        <p>* 照片描述请不要超过50字</p>
+                    </form>
+                </div>
+                <div class="content-block">
+                    <div class="row">
+                        <div class="col-100">
+                            <p><a id="submit" href="#" class="button button-big button-red">确认提交</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <include file="Common/tpl/tpl-infiVote" />
+    <include file="Common/footer" />
+</body>
+</html>
+<script src="/Public/vote/js/infiVote.js?t=1481691463999"></script>

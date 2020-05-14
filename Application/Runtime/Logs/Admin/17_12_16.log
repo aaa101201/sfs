@@ -1,0 +1,1499 @@
+[ 2017-12-16T10:53:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:53:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:53:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:53:15 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-16T10:53:34+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:53:34 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:53:34 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:53:34 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry '182' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '1',
+		                           '王海煊',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          '内容',
+		                               '0',
+		                               '0',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513392814,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1062:Duplicate entry '182' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '1',
+		                           '王海煊',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          '内容',
+		                               '0',
+		                               '0',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513392814,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-16T10:53:50+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13636
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:53:50 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:53:50 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:53:50 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.175010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.127007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.148008s ]
+
+[ 2017-12-16T10:53:52+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:53:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:53:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:53:52 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '182' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '1',
+		                           '王海煊',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          '内容',
+		                               '0',
+		                               '0',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513392832,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1062:Duplicate entry '182' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '1',
+		                           '王海煊',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          '内容',
+		                               '0',
+		                               '0',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513392832,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-16T10:53:55+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:53:55 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:53:55 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:53:55 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '182' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '1',
+		                           '王海煊',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          '内容',
+		                               '0',
+		                               '0',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513392835,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1062:Duplicate entry '182' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '1',
+		                           '王海煊',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          '内容',
+		                               '0',
+		                               '0',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513392835,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-16T10:54:04+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic%E3%80%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 10:54:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:54:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:54:04 ] [ __construct ]BaseDAO
+ERR: 非法操作:Mechanic、
+
+[ 2017-12-16T10:54:09+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:54:09 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:54:09 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:54:09 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '182' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '1',
+		                           '王海煊',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          '内容',
+		                               '0',
+		                               '0',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513392849,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1062:Duplicate entry '182' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '1',
+		                           '王海煊',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          '内容',
+		                               '0',
+		                               '0',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513392849,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-16T10:54:24+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:54:24 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:54:24 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:54:24 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '182' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '1',
+		                           '王海煊',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          '内容',
+		                               '0',
+		                               '0',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513392864,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1062:Duplicate entry '182' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '1',
+		                           '王海煊',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          '内容',
+		                               '0',
+		                               '0',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513392864,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-16T10:57:16+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:55:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:55:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:55:56 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '182' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '1',
+		                           '王海煊',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          '内容',
+		                               '0',
+		                               '0',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513392956,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1062:Duplicate entry '182' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '1',
+		                           '王海煊',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          '内容',
+		                               '0',
+		                               '0',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513392956,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-16T10:57:24+08:00 ] 127.0.0.1 /index.php/Admin/User/setDesigner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:57:24 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:57:24 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:57:24 ] [ __construct ]BaseDAO
+ERR: 非法操作:setDesigner
+
+[ 2017-12-16T11:09:36+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:57:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:57:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:57:44 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT * FROM cy_mechanic_attr WHERE uid='182' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:09:36 ] [ result ]{"msg":"\u5de5\u4eba\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-16T11:09:49+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:09:42 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:09:42 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:09:43 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT 
+                         * 
+                     FROM 
+                         cy_mechanic 
+                     WHERE 
+                          uid='182' [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_mechanic 
+                     SET 
+                        group_id='1' ,
+                        city_id='7' ,
+                        flushtime='1513393783' ,
+                        name='王海煊' ,
+                        area_id='2' ,
+                        mobile='' ,
+                        qq='1012013566' ,
+                        about='内容' 
+                     WHERE 
+                         uid='182' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:09:47 ] [ result ]1
+DEBUG: [ Jiechengkeji ] [ 11:09:49 ] [ result ]{"msg":"\u5de5\u4eba\u6ce8\u518c\u8d44\u6599\u8bbe\u7f6e\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-16T11:10:01+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:09:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:09:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:09:58 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: SELECT 
+                         * 
+                     FROM 
+                         cy_mechanic 
+                     WHERE 
+                          uid='182' [ RunTime:0.0020s ]
+SQL: UPDATE 
+                        cy_mechanic 
+                     SET 
+                        group_id='1' ,
+                        city_id='7' ,
+                        flushtime='1513393798' ,
+                        name='王海煊' ,
+                        area_id='2' ,
+                        mobile='' ,
+                        qq='1012013566' ,
+                        about='内容' 
+                     WHERE 
+                         uid='182' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:10:00 ] [ result ]1
+DEBUG: [ Jiechengkeji ] [ 11:10:01 ] [ result ]{"msg":"\u5de5\u4eba\u6ce8\u518c\u8d44\u6599\u8bbe\u7f6e\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-16T11:10:19+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:10:14 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:10:14 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:10:14 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0020s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='59' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='11' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:10:19 ] [ result ]{"msg":"\u5de5\u4eba\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u5931\u8d25!","code":1}
+
+[ 2017-12-16T11:18:46+08:00 ] 127.0.0.1 /index.php/Admin/User/setDesigner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:18:46 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:18:46 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:18:46 ] [ __construct ]BaseDAO
+ERR: 非法操作:setDesigner
+
+[ 2017-12-16T11:19:44+08:00 ] 127.0.0.1 /index.php/Admin/User/designer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:19:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:19:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:19:44 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_designer 
+                     WHERE 
+                       uid='182' [ RunTime:0.0000s ]
+SQL: INSERT INTO `cy_designer` (
+	                           `uid`,
+	                           `group_id`,
+	                           `company_id`,
+	                           `city_id`,
+                               `area_id`,
+	                           `name`,
+	                           `school`,
+	                           `qq`,
+	                           `mobile`,
+	                           `attention_num`,
+                               `yuyue_num`,
+	                           `case_num`,
+	                           `blog_num`,
+	                           `views`,
+	                           `tenders_num`,
+	                           `tenders_sign`,
+	                           `comments`,
+	                           `score`,
+	                           `score1`,
+	                           `score2`,
+	                           `score3`,
+	                           `slogan`,
+	                           `about`,
+	                           `orderby`,
+	                           `flushtime`,
+	                           `audit`,
+	                           `closed`,
+                          	   `dateline`
+                                 )
+                          VALUES
+	                            (
+		                       '182',
+		                       '8',
+		                       '0',
+		                       '7',
+		                       '3',
+	                  	       '王海煊',
+		                       '哈瑞宝',
+		                       '1013566@qq.com',
+		                       '18363100075',
+		                       '0',
+		                       '0',
+	                      	   '0',
+		                       '0',
+		                       '0',
+		                       '0',
+		                       '0',
+		                       '0',
+		                       '0',
+		                       '0',
+		                       '0',
+	                           '0',
+		                       '发达',
+		                       '公司的风格',
+	                       	   '50',
+		                       '1513394384',
+		                       '0',
+		                       '0',
+		                       '1513394384'
+	) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:19:44 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:19:44 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u6210\u529f\uff01","code":0,"data":[]}
+
+[ 2017-12-16T11:20:00+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:20:00 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:20:00 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:20:00 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0000s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='59' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='11' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:20:00 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u5931\u8d25!","code":1}
+
+[ 2017-12-16T11:20:05+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:20:05 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:20:05 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:20:05 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='59' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='11' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:20:05 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u5931\u8d25!","code":1}
+
+[ 2017-12-16T11:20:48+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:20:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:20:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:20:18 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='59' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='11' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:20:47 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u5931\u8d25!","code":1}
+
+[ 2017-12-16T11:21:16+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:21:02 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:21:02 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:21:02 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='52' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='12' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:21:16 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u5931\u8d25!","code":1}
+
+[ 2017-12-16T11:24:04+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:21:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:21:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:21:18 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='52' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='12' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:04 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u5931\u8d25!","code":1}
+
+[ 2017-12-16T11:24:14+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:06 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:24:06 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:24:06 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_designer 
+                     WHERE 
+                       uid='182' [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='52' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='12' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:14 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u5931\u8d25!","code":1}
+
+[ 2017-12-16T11:25:19+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:24:16 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:24:16 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:24:16 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_designer 
+                     WHERE 
+                       uid='182' [ RunTime:0.0020s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='52' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='12' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:25:19 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u5931\u8d25!","code":1}
+
+[ 2017-12-16T11:33:20+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:25:21 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:25:21 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:25:21 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='52' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='12' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:33:20 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u5931\u8d25!","code":1}
+
+[ 2017-12-16T11:33:32+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:33:23 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:33:23 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:33:23 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0000s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='52' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='12' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:33:32 ] [ result ]null
+
+[ 2017-12-16T11:33:54+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:33:40 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:33:40 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:33:40 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='52' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='12' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:33:54 ] [ result ]null
+
+[ 2017-12-16T11:34:14+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:33:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:33:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:33:58 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0010s ]
+SQL: INSERT INTO `cy_mechanic_attr` (
+                                 	`uid`,
+	                            `attr_id`,
+	                         `attr_value_id`
+                                           )
+                                 VALUES
+	                                      (
+	                              	'182',
+		                       '12',
+		                           '52'
+	                                       ) [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:34:14 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:34:14 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-16T11:34:34+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 11:34:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:34:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:34:17 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='52' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='12' [ RunTime:0.0050s ]
+DEBUG: [ Jiechengkeji ] [ 11:34:34 ] [ result ]null
+
+[ 2017-12-16T11:34:55+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:34:37 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:34:37 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:34:37 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='52' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='12' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:34:55 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-16T11:36:15+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 11:36:11 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:36:11 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:36:11 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0000s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='53' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='12' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:36:15 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-16T11:36:24+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:36:22 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:36:22 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:36:22 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0020s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0020s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='53' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='12' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:36:24 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-16T11:39:56+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 11:39:48 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:39:48 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:39:48 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0010s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='54' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='13' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:39:56 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-16T11:41:10+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:40:24 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:40:24 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:40:24 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' [ RunTime:0.0000s ]
+SQL: UPDATE 
+                        cy_mechanic_attr 
+                     SET 
+                        attr_value_id='54' 
+                     WHERE 
+                         uid='182' 
+                     AND 
+                        attr_id='13' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:41:10 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-16T11:41:16+08:00 ] 127.0.0.1 /index.php/Admin/User/designer_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 11:41:12 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:41:12 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:41:12 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 2 for Admin\Dao\UserDao::Mechanic(), called in D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php on line 122 and defined D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php 第 251 行.
+NOTIC: [8] Undefined variable: attr_id D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php 第 259 行.
+SQL: SELECT 
+                      * 
+                     FROM 
+                      cy_mechanic_attr 
+                     WHERE 
+                       uid='182' 
+                    AND  
+                      attr_id='' [ RunTime:0.0010s ]
+SQL: INSERT INTO `cy_mechanic_attr` (
+                                 	`uid`,
+	                            `attr_id`,
+	                         `attr_value_id`
+                                           )
+                                 VALUES
+	                                      (
+	                              	'182',
+		                       '13',
+		                           '54'
+	                                       ) [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 11:41:15 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:41:16 ] [ result ]{"msg":"\u8bbe\u8ba1\u5e08\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u6210\u529f!","code":0,"data":[]}
+

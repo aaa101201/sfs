@@ -1,0 +1,48 @@
+.banner {
+  object-fit: cover;
+  max-height: 40vw;
+  width: 100%;
+}
+
+.swiper-container {
+  padding-bottom: 0;
+}
+
+.content-block {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+#vote .vote_info {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.headimg {
+  width: 1rem;
+  height: 1rem;
+  object-fit: cover;
+  vertical-align: -0.35rem;
+  margin: 0.5rem;
+}
+
+#statistics .list-block li {
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+}
+#statistics .list-block li:last-child {
+  border-bottom: none;
+}
+#statistics .list-block li span {
+  display: inline-block;
+  width: 10rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#statistics .list-block li small {
+  margin-top: 0.5rem;
+  color: #ccc;
+}
+
+/*# sourceMappingURL=vote.css.map */

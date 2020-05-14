@@ -1,0 +1,124 @@
+[ 2017-11-17T09:32:43+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney_remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.044003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:42 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:32:42 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:32:42 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    remark kitingMoney_remark
+                     FROM
+	                    kitingMoney
+                     WHERE
+	                    cy_apply_id = '14'
+                     ORDER BY id DESC LIMIT 0,1  [ RunTime:0.0680s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:43 ] [ result ]{"kitingmoney_remark":"10917"}
+DEBUG: [ Jiechengkeji ] [ 09:32:43 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"kitingmoney_remark":"10917"}}
+
+[ 2017-11-17T09:32:51+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_sq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:32:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:32:51 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                          homeMoney_shcr,
+                           createtime
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                      cy_apply_id = '26' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:51 ] [ result ]{"homemoney_shcr":"65612","createtime":"1510639379"}
+DEBUG: [ Jiechengkeji ] [ 09:32:51 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_shcr":"65612","createtime":"1510639379"}}
+
+[ 2017-11-17T09:32:58+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_sq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:32:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:32:58 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                          homeMoney_shcr,
+                           createtime
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                      cy_apply_id = '26' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:58 ] [ result ]{"homemoney_shcr":"65612","createtime":"1510639379"}
+DEBUG: [ Jiechengkeji ] [ 09:32:58 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_shcr":"65612","createtime":"1510639379"}}
+
+[ 2017-11-17T09:33:51+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_sq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:33:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:33:51 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                          homeMoney_shcr,
+                           createtime
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                      cy_apply_id = '46' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:51 ] [ result ]{"homemoney_shcr":"25234","createtime":"2017-11-15 15:51:26"}
+DEBUG: [ Jiechengkeji ] [ 09:33:51 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_shcr":"25234","createtime":"2017-11-15 15:51:26"}}
+
+[ 2017-11-17T09:43:18+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/refundMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:43:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:43:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:43:18 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                        refund_Money,refund_time,
+                        (SELECT refund_text FROM moneyText ) refund_text  
+                     FROM 
+                        refundMoney   
+                     WHERE 
+                        cy_apply_id = '14' 
+                    AND  
+                        homeMoney_id='46' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 09:43:18 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:43:18 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-17T09:44:03+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/refundMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:44:03 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:44:03 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:44:03 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                        refund_Money,refund_time,
+                        (SELECT refund_text FROM moneyText ) refund_text  
+                     FROM 
+                        refundMoney   
+                     WHERE 
+                        cy_apply_id = '46' 
+                    AND  
+                        homeMoney_id='14' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 09:44:03 ] [ result ]{"refund_money":"25234","refund_time":"2018-11-15 15:51:26","refund_text":"\u8bf7\u4e8e\u8fd8\u6b3e\u65e517:00\u524d\u5c06\u8db3\u989d\u8d44\u91d1\u5b58\u5165\u60a8\u7684\u8fd8\u6b3e\u8d26\u6237\uff0c\u5177\u4f53\u91d1\u989d\u4ee5\u5b9e\u9645\u6263\u6b3e\u4e3a\u51c6\u3002\u82e5\u672a\u53ca\u65f6\u8fd8\u6b3e\u5c06\u9075\u7167**\u94f6\u884c\u300a\u5f81\u4fe1\u7ba1\u7406\u6761\u4f8b\u300b\u4e0a\u62a5\u9884\u671f\u4fe1\u606f\u3002"}
+DEBUG: [ Jiechengkeji ] [ 09:44:03 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"refund_money":"25234","refund_time":"2018-11-15 15:51:26","refund_text":"\u8bf7\u4e8e\u8fd8\u6b3e\u65e517:00\u524d\u5c06\u8db3\u989d\u8d44\u91d1\u5b58\u5165\u60a8\u7684\u8fd8\u6b3e\u8d26\u6237\uff0c\u5177\u4f53\u91d1\u989d\u4ee5\u5b9e\u9645\u6263\u6b3e\u4e3a\u51c6\u3002\u82e5\u672a\u53ca\u65f6\u8fd8\u6b3e\u5c06\u9075\u7167**\u94f6\u884c\u300a\u5f81\u4fe1\u7ba1\u7406\u6761\u4f8b\u300b\u4e0a\u62a5\u9884\u671f\u4fe1\u606f\u3002"}}
+

@@ -1,0 +1,2281 @@
+[ 2017-11-27T09:07:47+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=16774
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:07:47 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:07:47 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:07:47 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.014001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-11-27T09:08:24+08:00 ] 127.0.0.1 /index.php/Admin/Company/remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:08:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:08:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:08:04 ] [ __construct ]BaseDAO
+SQL: SELECT
+	*, CASE adorm_money_b
+WHEN '1' THEN
+	'已入账消费款'
+WHEN '2' THEN
+	'待入账消费款'
+ELSE
+	'问题数据'
+END adorm_money_b
+FROM
+	adorm_money [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'cy_apply_id' in 'where clause'
+ [ SQL语句 ] : SELECT
+                        count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+           WHERE cy_apply_id='56' AND adorm_id='46'
+ERR: 1054:Unknown column 'cy_apply_id' in 'where clause'
+ [ SQL语句 ] : SELECT
+                        count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+           WHERE cy_apply_id='56' AND adorm_id='46'
+
+[ 2017-11-27T09:14:52+08:00 ] 127.0.0.1 /index.php/Admin/Company/remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:14:43 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:14:43 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:14:43 ] [ __construct ]BaseDAO
+SQL: SELECT
+	*, CASE adorm_money_b
+WHEN '1' THEN
+	'已入账消费款'
+WHEN '2' THEN
+	'待入账消费款'
+ELSE
+	'问题数据'
+END adorm_money_b
+FROM
+	adorm_money WHERE   adorm_id  = '46'   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 2 for Admin\Dao\CompanyDao::pageTotal(), called in D:\jiazhuangdai.com\Application\Admin\Service\CompanyService.class.php on line 25 and defined D:\jiazhuangdai.com\Application\Admin\Dao\CompanyDao.class.php 第 33 行.
+NOTIC: [8] Undefined variable: adorm_id D:\jiazhuangdai.com\Application\Admin\Dao\CompanyDao.class.php 第 38 行.
+SQL: SELECT
+                        count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+           WHERE  adorm_id='' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:14:51 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:14:52 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2017-11-27T09:15:00+08:00 ] 127.0.0.1 /index.php/Admin/Company/remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:14:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:14:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:14:56 ] [ __construct ]BaseDAO
+SQL: SELECT
+	*, CASE adorm_money_b
+WHEN '1' THEN
+	'已入账消费款'
+WHEN '2' THEN
+	'待入账消费款'
+ELSE
+	'问题数据'
+END adorm_money_b
+FROM
+	adorm_money WHERE   adorm_id  = '14'   [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 2 for Admin\Dao\CompanyDao::pageTotal(), called in D:\jiazhuangdai.com\Application\Admin\Service\CompanyService.class.php on line 25 and defined D:\jiazhuangdai.com\Application\Admin\Dao\CompanyDao.class.php 第 33 行.
+NOTIC: [8] Undefined variable: adorm_id D:\jiazhuangdai.com\Application\Admin\Dao\CompanyDao.class.php 第 38 行.
+SQL: SELECT
+                        count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+           WHERE  adorm_id='' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:14:59 ] [ result ][{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"}]
+DEBUG: [ Jiechengkeji ] [ 09:15:00 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"}],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2017-11-27T09:23:27+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:23:21 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:23:21 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:23:21 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         survey_type,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '贷款消费类型',
+		                     '2017-11-27 09:23:24',
+		                     '2017-11-27 09:23:24'
+	                    ) [ RunTime:0.0780s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0040s ]
+DEBUG: [ Jiechengkeji ] [ 09:23:25 ] [ result ][{"id":"86"}]
+SQL:  INSERT INTO 
+                         adorm_money (
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '86',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-27 09:23:24',
+		                     '2017-11-27 09:23:24'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         company 
+                         (
+                             cy_apply_id,
+	                         company_id,
+	                         adorm_id ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                     (
+		                     '56',
+		                     '2',
+		                     '14',
+		                     '2017-11-27 09:23:24',
+		                     '2017-11-27 09:23:24'
+	                     ) [ RunTime:0.0100s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '100',
+		                     '2017-11-27 09:23:24',
+		                     '2017-11-27 09:23:24'
+	                    ) [ RunTime:0.0050s ]
+SQL: SELECT 
+                          homeMoney_frostmoney ,
+                          (SELECT  frostmoney_text  FROM  moneyText) frostmoney_text 
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                         cy_apply_id = '56' [ RunTime:0.0080s ]
+SQL: SELECT 
+                     *
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  AND  
+                        homeMoney_id='24' [ RunTime:0.0060s ]
+SQL: SELECT 
+                        consume_frostmoney
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  ORDER BY 
+                        id 
+                  DESC 
+                         LIMIT 0,1 [ RunTime:0.0040s ]
+SQL:  INSERT INTO 
+                         consume  (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         consume_frostmoney ,
+	                         createtime,
+	                         updatetime
+                          )
+             VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '1281005',
+		                     '2017-11-27 09:23:24',
+		                     '2017-11-27 09:23:24'
+	                    ) [ RunTime:0.0100s ]
+SQL:  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id ,
+	                         adorm_name,
+	                         adorm_state_money ,
+	                         adorm_li,
+	                         adorm_state_lx,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                    (
+		                     '56',
+		                     '14',
+	                         '科技公司',
+		                     '100',
+		                     '现金',
+		                     '2',
+		                     '2017-11-27 09:23:24',
+		                     '2017-11-27 09:23:24'
+	                    ) [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 09:23:27 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 09:23:27 ] [ result ]{"msg":"\u5bb6\u88c5\u6d88\u8d39\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-27T09:24:31+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=19701
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 09:24:31 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:24:31 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:24:31 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-27T09:32:20+08:00 ] 127.0.0.1 /index.php/Admin/Company/RemarkUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:20 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:32:20 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:32:20 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_money   
+                     SET 
+                         adorm_money_b='1'
+                     WHERE 
+                         survey_id= '81' AND adorm_id='46' [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:20 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:32:20 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-27T09:32:57+08:00 ] 127.0.0.1 /index.php/Admin/Company/RemarkUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:55 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:32:55 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:32:55 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_money   
+                     SET 
+                         adorm_money_b='1'
+                     WHERE 
+                         survey_id= '81' AND adorm_id='46' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:32:56 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:32:57 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-27T09:33:02+08:00 ] 127.0.0.1 /index.php/Admin/Company/RemarkUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:00 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:33:00 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:33:00 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_money   
+                     SET 
+                         adorm_money_b='1'
+                     WHERE 
+                         survey_id= '81' AND adorm_id='46' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:02 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:33:02 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-27T09:34:21+08:00 ] 127.0.0.1 /index.php/Admin/Company/RemarkUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:33:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:33:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:33:04 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_money   
+                     SET 
+                         adorm_money_b='1'
+                     WHERE 
+                         survey_id= '81' AND adorm_id='46' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:34:20 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:34:20 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-27T09:34:26+08:00 ] 127.0.0.1 /index.php/Admin/Company/RemarkUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:34:23 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:34:23 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:34:23 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_money   
+                     SET 
+                         adorm_money_b='1'
+                     WHERE 
+                         survey_id= '81' AND adorm_id='14' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:34:25 ] [ result ]1
+DEBUG: [ Jiechengkeji ] [ 09:34:26 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":1}
+
+[ 2017-11-27T09:34:44+08:00 ] 127.0.0.1 /index.php/Admin/Company/RemarkUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:34:42 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:34:42 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:34:42 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_money   
+                     SET 
+                         adorm_money_b='1'
+                     WHERE 
+                         survey_id= '81' AND adorm_id='14' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 09:34:44 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:34:44 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-27T09:35:09+08:00 ] 127.0.0.1 /index.php/Admin/Company/homeMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:35:09 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:35:09 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:35:09 ] [ __construct ]BaseDAO
+SQL: SELECT
+	*, CASE adorm_money_m
+WHEN '1' THEN
+	'已入账装修贷'
+WHEN '2' THEN
+	'未入账装修贷'
+ELSE
+	'问题数据'
+END adorm_money_m
+FROM
+	adorm_money
+WHERE
+ adorm_id = '46' [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 2 for Admin\Dao\CompanyDao::pageTotal_homeMoney(), called in D:\jiazhuangdai.com\Application\Admin\Service\CompanyService.class.php on line 34 and defined D:\jiazhuangdai.com\Application\Admin\Dao\CompanyDao.class.php 第 42 行.
+NOTIC: [8] Undefined variable: adorm_id D:\jiazhuangdai.com\Application\Admin\Dao\CompanyDao.class.php 第 46 行.
+ERR: 1054:Unknown column 'adorm_id' in 'where clause'
+ [ SQL语句 ] : SELECT
+                         count(*) as pageTotal
+                     FROM 
+                         homeMoney WHERE  adorm_id='' 
+ERR: 1054:Unknown column 'adorm_id' in 'where clause'
+ [ SQL语句 ] : SELECT
+                         count(*) as pageTotal
+                     FROM 
+                         homeMoney WHERE  adorm_id='' 
+
+[ 2017-11-27T09:35:47+08:00 ] 127.0.0.1 /index.php/Admin/Company/homeMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:35:43 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:35:43 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:35:43 ] [ __construct ]BaseDAO
+SQL: SELECT
+	*, CASE adorm_money_m
+WHEN '1' THEN
+	'已入账装修贷'
+WHEN '2' THEN
+	'未入账装修贷'
+ELSE
+	'问题数据'
+END adorm_money_m
+FROM
+	adorm_money
+WHERE
+ adorm_id = '14' [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'adorm_id' in 'where clause'
+ [ SQL语句 ] : SELECT
+                         count(*) as pageTotal
+                     FROM 
+                         homeMoney WHERE  adorm_id='14' 
+ERR: 1054:Unknown column 'adorm_id' in 'where clause'
+ [ SQL语句 ] : SELECT
+                         count(*) as pageTotal
+                     FROM 
+                         homeMoney WHERE  adorm_id='14' 
+
+[ 2017-11-27T09:38:01+08:00 ] 127.0.0.1 /index.php/Admin/Company/homeMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:37:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:37:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:37:58 ] [ __construct ]BaseDAO
+SQL: SELECT
+	*, CASE adorm_money_m
+WHEN '1' THEN
+	'已入账装修贷'
+WHEN '2' THEN
+	'未入账装修贷'
+ELSE
+	'问题数据'
+END adorm_money_m
+FROM
+	adorm_money
+WHERE
+ adorm_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                         count(*) as pageTotal
+                     FROM 
+                         adorm_money WHERE  adorm_id='14'  [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 09:38:01 ] [ result ][{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"}]
+DEBUG: [ Jiechengkeji ] [ 09:38:01 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"}],"pageTotal":1,"pageCurrent":1,"recordTotal":6}}
+
+[ 2017-11-27T09:39:01+08:00 ] 127.0.0.1 /index.php/Admin/Company/homeMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:38:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:38:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:38:58 ] [ __construct ]BaseDAO
+SQL: SELECT
+	*, CASE adorm_money_m
+WHEN '1' THEN
+	'已入账装修贷'
+WHEN '2' THEN
+	'未入账装修贷'
+ELSE
+	'问题数据'
+END adorm_money_m
+FROM
+	adorm_money
+WHERE
+ adorm_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                         count(*) as pageTotal
+                     FROM 
+                         adorm_money WHERE  adorm_id='14'  [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:39:01 ] [ result ][{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"}]
+DEBUG: [ Jiechengkeji ] [ 09:39:01 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"}],"pageTotal":1,"pageCurrent":1,"recordTotal":6}}
+
+[ 2017-11-27T09:39:41+08:00 ] 127.0.0.1 /index.php/Admin/Company/companyaUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:39:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:39:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:39:41 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_money   
+                     SET 
+                         adorm_money_m='1'
+                     WHERE 
+                         survey_id= '81' AND adorm_id='46' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 09:39:41 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:39:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-27T09:40:14+08:00 ] 127.0.0.1 /index.php/Admin/Company/companyaUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:40:14 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:40:14 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:40:14 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_money   
+                     SET 
+                         adorm_money_m='1'
+                     WHERE 
+                         survey_id= '81' AND adorm_id='14' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:40:14 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:40:14 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-27T09:40:27+08:00 ] 127.0.0.1 /index.php/Admin/Company/companyaUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:40:27 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:40:27 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:40:27 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_money   
+                     SET 
+                         adorm_money_m='1'
+                     WHERE 
+                         survey_id= '81' AND adorm_id='14' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:40:27 ] [ result ]1
+DEBUG: [ Jiechengkeji ] [ 09:40:27 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":1}
+
+[ 2017-11-27T09:40:59+08:00 ] 127.0.0.1 /index.php/Admin/Company/Companya
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:40:59 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:40:59 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:40:59 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] :    INSERT INTO 
+                         Company (
+                              cy_apply_id,
+	                          company_id ,
+	                          remark,
+	                          createtime,
+	                          updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '1',
+		                     '',
+		                     '2017-11-27 09:40:59',
+		                     '2017-11-27 09:40:59'
+	                    )
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] :    INSERT INTO 
+                         Company (
+                              cy_apply_id,
+	                          company_id ,
+	                          remark,
+	                          createtime,
+	                          updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '1',
+		                     '',
+		                     '2017-11-27 09:40:59',
+		                     '2017-11-27 09:40:59'
+	                    )
+
+[ 2017-11-27T09:42:46+08:00 ] 127.0.0.1 /index.php/Admin/Company/Companya
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:42:46 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:42:46 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:42:46 ] [ __construct ]BaseDAO
+SQL:    INSERT INTO 
+                         Company (
+                              cy_apply_id,
+	                          company_id ,
+	                          adorm_id,
+	                          createtime,
+	                          updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '1',
+		                     '14',
+		                     '2017-11-27 09:42:46',
+		                     '2017-11-27 09:42:46'
+	                    ) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 09:42:46 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 09:42:46 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":true}
+
+[ 2017-11-27T09:44:40+08:00 ] 127.0.0.1 /index.php/Admin/Company/JingduUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:44:40 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:44:40 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:44:40 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'remark' in 'where clause'
+ [ SQL语句 ] : UPDATE                 
+                Company 
+                     SET 
+                         company_id='2'
+                     WHERE 
+                         cy_apply_id= '56' AND  remark='14'
+ERR: 1054:Unknown column 'remark' in 'where clause'
+ [ SQL语句 ] : UPDATE                 
+                Company 
+                     SET 
+                         company_id='2'
+                     WHERE 
+                         cy_apply_id= '56' AND  remark='14'
+
+[ 2017-11-27T09:45:01+08:00 ] 127.0.0.1 /index.php/Admin/Company/JingduUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:45:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:45:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:45:01 ] [ __construct ]BaseDAO
+SQL: UPDATE                 
+                Company 
+                     SET 
+                         company_id='2'
+                     WHERE 
+                         cy_apply_id= '56' AND  adorm_id='14' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 09:45:01 ] [ result ]3
+DEBUG: [ Jiechengkeji ] [ 09:45:01 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":3}
+
+[ 2017-11-27T09:45:39+08:00 ] 127.0.0.1 /index.php/Admin/Company/matter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:45:36 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:45:36 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:45:36 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      *, 
+	                  CASE 
+	                      a.company_id 
+                      WHEN 
+                          '1' 
+                      THEN
+	                     '开始装修'
+                      WHEN 
+                           '2' 
+                      THEN
+	                     '正在装修'
+                      ELSE
+	                     '问题数据'
+                      END 
+                          company_id 
+                      FROM
+	                      Company  a,
+	                      cy_apply b
+                     WHERE
+	                      a.cy_apply_id = b.id AND a.cy_apply_id='56' AND a.adorm_id='14' [ RunTime:0.0040s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                          Company a,
+	                      cy_apply b
+                     WHERE
+	                       a.cy_apply_id = b.id AND a.cy_apply_id='56' AND a.adorm_id='14' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:45:36 ] [ result ][{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"}]
+DEBUG: [ Jiechengkeji ] [ 09:45:39 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"}],"pageTotal":1,"pageCurrent":1,"recordTotal":7}}
+
+[ 2017-11-27T09:46:38+08:00 ] 127.0.0.1 /index.php/Admin/Company/Contract
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:46:35 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:46:35 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:46:35 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                     *, CASE a.adorm_state_lx
+                     WHEN '1' THEN
+	                      '已签署合同'
+                     WHEN '2' THEN
+	                      '待签署合同'
+                     ELSE
+	                      '问题数据'
+                     END adorm_state_lx
+                     FROM
+	                      adorm_state a,
+	                 cy_apply b
+                    WHERE
+	a.cy_apply_id = b.id AND a.cy_apply_id='56' AND a.adorm_id='14' [ RunTime:0.0010s ]
+SQL: SELECT
+                          count(*) as pageTotal
+                      FROM 
+                         adorm_state a,
+	cy_apply b
+WHERE
+	a.cy_apply_id = b.id AND a.cy_apply_id='56' AND a.adorm_id='14' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:46:35 ] [ result ][{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5f85\u7b7e\u7f72\u5408\u540c","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5f85\u7b7e\u7f72\u5408\u540c","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5f85\u7b7e\u7f72\u5408\u540c","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"}]
+DEBUG: [ Jiechengkeji ] [ 09:46:38 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5f85\u7b7e\u7f72\u5408\u540c","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5f85\u7b7e\u7f72\u5408\u540c","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5f85\u7b7e\u7f72\u5408\u540c","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"}],"pageTotal":1,"pageCurrent":1,"recordTotal":3}}
+
+[ 2017-11-27T09:49:24+08:00 ] 127.0.0.1 /index.php/Admin/Companyadorm_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Companyadorm_state
+
+[ 2017-11-27T09:49:35+08:00 ] 127.0.0.1 /index.php/Admin/Company/adorm_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:49:35 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:49:35 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:49:35 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'adorm_state_id' in 'where clause'
+ [ SQL语句 ] : UPDATE 
+                         adorm_state 
+                     SET 
+                         remark='2'
+                     WHERE 
+                         cy_apply_id= '56' and adorm_state_id='14'
+ERR: 1054:Unknown column 'adorm_state_id' in 'where clause'
+ [ SQL语句 ] : UPDATE 
+                         adorm_state 
+                     SET 
+                         remark='2'
+                     WHERE 
+                         cy_apply_id= '56' and adorm_state_id='14'
+
+[ 2017-11-27T09:50:44+08:00 ] 127.0.0.1 /index.php/Admin/Company/adorm_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 09:50:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:50:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:50:44 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'adorm_state_id' in 'where clause'
+ [ SQL语句 ] : UPDATE 
+                         adorm_state 
+                     SET 
+                         adorm_state_lx='2'
+                     WHERE 
+                         cy_apply_id= '56' and adorm_state_id='14'
+ERR: 1054:Unknown column 'adorm_state_id' in 'where clause'
+ [ SQL语句 ] : UPDATE 
+                         adorm_state 
+                     SET 
+                         adorm_state_lx='2'
+                     WHERE 
+                         cy_apply_id= '56' and adorm_state_id='14'
+
+[ 2017-11-27T09:51:59+08:00 ] 127.0.0.1 /index.php/Admin/Company/adorm_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:51:59 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:51:59 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:51:59 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_state 
+                     SET 
+                         adorm_state_lx='2'
+                     WHERE 
+                         cy_apply_id= '56' and adorm_id='14' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 09:51:59 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 09:51:59 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-27T09:52:34+08:00 ] 127.0.0.1 /index.php/Admin/Company/adorm_state_no
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 09:52:34 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:52:34 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:52:34 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_state 
+                     SET 
+                         adorm_state_lx='1'
+                     WHERE 
+                         cy_apply_id= '56' and adorm_id='14' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:52:34 ] [ result ]3
+DEBUG: [ Jiechengkeji ] [ 09:52:34 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":3}
+
+[ 2017-11-27T10:21:44+08:00 ] 127.0.0.1 /index.php/Admin/Company/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:21:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:21:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:21:44 ] [ __construct ]BaseDAO
+ERR: 非法操作:survey_a
+
+[ 2017-11-27T10:23:03+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:22:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:22:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:22:52 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         survey_type,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '贷款消费类型',
+		                     '2017-11-27 10:22:56',
+		                     '2017-11-27 10:22:56'
+	                    ) [ RunTime:0.0010s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:22:58 ] [ result ][{"id":"87"}]
+SQL:  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id ,
+	                         survey_id,
+	                         adorm_name,
+	                         adorm_state_money ,
+	                         adorm_li,
+	                         adorm_state_lx,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                    (
+		                     '56',
+		                     '14',
+		                     '87',
+	                         '科技公司',
+		                     '100',
+		                     '现金',
+		                     '2',
+		                     '2017-11-27 10:22:56',
+		                     '2017-11-27 10:22:56'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         adorm_money (
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '87',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-27 10:22:56',
+		                     '2017-11-27 10:22:56'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         company 
+                         (
+                             cy_apply_id,
+	                         company_id,
+	                         adorm_id ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                     (
+		                     '56',
+		                     '2',
+		                     '14',
+		                     '2017-11-27 10:22:56',
+		                     '2017-11-27 10:22:56'
+	                     ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '100',
+		                     '2017-11-27 10:22:56',
+		                     '2017-11-27 10:22:56'
+	                    ) [ RunTime:0.0010s ]
+SQL: SELECT 
+                          homeMoney_frostmoney ,
+                          (SELECT  frostmoney_text  FROM  moneyText) frostmoney_text 
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                         cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT 
+                     *
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  AND  
+                        homeMoney_id='24' [ RunTime:0.0010s ]
+SQL: SELECT 
+                        consume_frostmoney
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  ORDER BY 
+                        id 
+                  DESC 
+                         LIMIT 0,1 [ RunTime:0.0000s ]
+SQL:  INSERT INTO 
+                         consume  (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         consume_frostmoney ,
+	                         createtime,
+	                         updatetime
+                          )
+             VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '1280905',
+		                     '2017-11-27 10:22:56',
+		                     '2017-11-27 10:22:56'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:23:03 ] [ result ]{"msg":"\u5bb6\u88c5\u6d88\u8d39\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-27T10:26:49+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:26:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:26:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:26:49 ] [ __construct ]BaseDAO
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         survey_type,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '消费',
+		                     '100',
+		                     '贷款消费类型',
+		                     '2017-11-27 10:26:49',
+		                     '2017-11-27 10:26:49'
+	                    ) [ RunTime:0.0010s ]
+SQL: SELECT  last_insert_id()  AS  id [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 10:26:49 ] [ result ][{"id":"88"}]
+SQL:  INSERT INTO 
+                         adorm_state (
+                             cy_apply_id,
+	                         adorm_id ,
+	                         survey_id,
+	                         adorm_name,
+	                         adorm_state_money ,
+	                         adorm_li,
+	                         adorm_state_lx,
+	                         createtime,
+	                         updatetime
+                          )
+              VALUES
+	                    (
+		                     '56',
+		                     '14',
+		                     '88',
+	                         '科技公司',
+		                     '100',
+		                     '现金',
+		                     '2',
+		                     '2017-11-27 10:26:49',
+		                     '2017-11-27 10:26:49'
+	                    ) [ RunTime:0.0030s ]
+SQL:  INSERT INTO 
+                         adorm_money (
+	                         survey_id ,
+	                         adorm_id,
+	                         adorm_name ,
+	                         adorm_money_m,
+	                         adorm_money_b,
+	                         createtime,
+	                         updatetime
+                          )
+                 VALUES
+	                    (
+		                     '88',
+	                         '14',
+		                     '科技公司',
+		                     '',
+		                     '',
+		                     '2017-11-27 10:26:49',
+		                     '2017-11-27 10:26:49'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         company 
+                         (
+                             cy_apply_id,
+	                         company_id,
+	                         adorm_id ,
+	                         createtime,
+	                         updatetime
+                          )
+                      VALUES
+	                     (
+		                     '56',
+		                     '2',
+		                     '14',
+		                     '2017-11-27 10:26:49',
+		                     '2017-11-27 10:26:49'
+	                     ) [ RunTime:0.0000s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '100',
+		                     '2017-11-27 10:26:49',
+		                     '2017-11-27 10:26:49'
+	                    ) [ RunTime:0.0010s ]
+SQL: SELECT 
+                          homeMoney_frostmoney ,
+                          (SELECT  frostmoney_text  FROM  moneyText) frostmoney_text 
+                     FROM 
+                          homeMoney  
+                     WHERE 
+                         cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT 
+                     *
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  AND  
+                        homeMoney_id='24' [ RunTime:0.0010s ]
+SQL: SELECT 
+                        consume_frostmoney
+                  FROM 
+                        consume   
+                  WHERE 
+                        cy_apply_id = '56' 
+                  ORDER BY 
+                        id 
+                  DESC 
+                         LIMIT 0,1 [ RunTime:0.0000s ]
+SQL:  INSERT INTO 
+                         consume  (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         consume_frostmoney ,
+	                         createtime,
+	                         updatetime
+                          )
+             VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '1280805',
+		                     '2017-11-27 10:26:49',
+		                     '2017-11-27 10:26:49'
+	                    ) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 10:26:49 ] [ result ]{"msg":"\u5bb6\u88c5\u6d88\u8d39\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-27T10:27:20+08:00 ] 127.0.0.1 /index.php/Admin/Company/adorm_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:27:20 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:27:20 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:27:20 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_state 
+                     SET 
+                         adorm_state_lx='2'
+                     WHERE 
+                         cy_apply_id= '56' and survey_id='87' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:27:20 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 10:27:20 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-27T10:27:53+08:00 ] 127.0.0.1 /index.php/Admin/Company/adorm_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:27:53 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:27:53 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:27:53 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_state 
+                     SET 
+                         adorm_state_lx='2'
+                     WHERE 
+                         cy_apply_id= '56' and survey_id='87' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:27:53 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 10:27:53 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-27T10:28:12+08:00 ] 127.0.0.1 /index.php/Admin/Company/adorm_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:28:12 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:28:12 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:28:12 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_state 
+                     SET 
+                         adorm_state_lx='2'
+                     WHERE 
+                         cy_apply_id= '56' and survey_id='87' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 10:28:12 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 10:28:12 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-27T10:28:25+08:00 ] 127.0.0.1 /index.php/Admin/Company/adorm_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:28:25 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:28:25 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:28:25 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_state 
+                     SET 
+                         adorm_state_lx='2'
+                     WHERE 
+                         cy_apply_id= '56' and survey_id='87' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:28:25 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 10:28:25 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[]}
+
+[ 2017-11-27T10:28:37+08:00 ] 127.0.0.1 /index.php/Admin/Company/adorm_state_no
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:28:37 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:28:37 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:28:37 ] [ __construct ]BaseDAO
+SQL: UPDATE 
+                         adorm_state 
+                     SET 
+                         adorm_state_lx='1'
+                     WHERE 
+                         cy_apply_id= '56' and survey_id='87' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:28:37 ] [ result ]1
+DEBUG: [ Jiechengkeji ] [ 10:28:37 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":1}
+
+[ 2017-11-27T10:29:04+08:00 ] 127.0.0.1 /index.php/Admin/Company/Contract
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:29:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:29:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:29:04 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                     *, CASE a.adorm_state_lx
+                     WHEN '1' THEN
+	                      '已签署合同'
+                     WHEN '2' THEN
+	                      '待签署合同'
+                     ELSE
+	                      '问题数据'
+                     END adorm_state_lx
+                     FROM
+	                      adorm_state a,
+	                      cy_apply b
+                    WHERE
+	                      a.cy_apply_id = b.id 
+	                AND 
+	                      a.cy_apply_id='56' 
+	                AND 
+	                       a.adorm_id='14' [ RunTime:0.0010s ]
+SQL: SELECT
+                          count(*) as pageTotal
+                      FROM 
+                         adorm_state a,
+	cy_apply b
+WHERE
+	a.cy_apply_id = b.id AND a.cy_apply_id='56' AND a.adorm_id='14' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:29:04 ] [ result ][{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"87","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5f85\u7b7e\u7f72\u5408\u540c","survey_id":"88","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"}]
+DEBUG: [ Jiechengkeji ] [ 10:29:04 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"87","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5f85\u7b7e\u7f72\u5408\u540c","survey_id":"88","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"}],"pageTotal":1,"pageCurrent":1,"recordTotal":5}}
+
+[ 2017-11-27T10:37:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:37:37 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:37:37 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:37:37 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-11-27T11:33:20+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:33:20 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:33:20 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:33:20 ] [ __construct ]BaseDAO
+ERR: 非法操作:remark
+
+[ 2017-11-27T11:33:54+08:00 ] 127.0.0.1 /index.php/Admin/Company/remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:33:54 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:33:54 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:33:54 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    *,
+	                    CASE adorm_money_b
+                    WHEN '1' THEN
+	                      '已入账消费款'
+                    WHEN '2' THEN
+	                      '待入账消费款'
+                    ELSE
+	                      '问题数据'
+                    END 
+                          adorm_money_b
+                    FROM
+	                     adorm_money 
+	                WHERE  
+	                      adorm_id  = '14'  [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-9' at line 9
+ [ SQL语句 ] : SELECT
+                           count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+                     WHERE  
+                             adorm_id='14' 
+                     ORDER BY
+	                           id 
+	                LIMIT 10,-9
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-9' at line 9
+ [ SQL语句 ] : SELECT
+                           count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+                     WHERE  
+                             adorm_id='14' 
+                     ORDER BY
+	                           id 
+	                LIMIT 10,-9
+
+[ 2017-11-27T11:34:10+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=17817
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:34:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:34:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:34:10 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-27T11:34:34+08:00 ] 127.0.0.1 /index.php/Admin/Company/remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:34:12 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:34:12 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:34:12 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    *,
+	                    CASE adorm_money_b
+                    WHEN '1' THEN
+	                      '已入账消费款'
+                    WHEN '2' THEN
+	                      '待入账消费款'
+                    ELSE
+	                      '问题数据'
+                    END 
+                          adorm_money_b
+                    FROM
+	                     adorm_money 
+	                WHERE  
+	                      adorm_id  = '14'  [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-9' at line 9
+ [ SQL语句 ] : SELECT
+                           count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+                     WHERE  
+                             adorm_id='14' 
+                     ORDER BY
+	                           id 
+	                LIMIT 10,-9
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-9' at line 9
+ [ SQL语句 ] : SELECT
+                           count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+                     WHERE  
+                             adorm_id='14' 
+                     ORDER BY
+	                           id 
+	                LIMIT 10,-9
+
+[ 2017-11-27T11:34:39+08:00 ] 127.0.0.1 /index.php/Admin/Company/remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:34:36 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:34:36 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:34:36 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    *,
+	                    CASE adorm_money_b
+                    WHEN '1' THEN
+	                      '已入账消费款'
+                    WHEN '2' THEN
+	                      '待入账消费款'
+                    ELSE
+	                      '问题数据'
+                    END 
+                          adorm_money_b
+                    FROM
+	                     adorm_money 
+	                WHERE  
+	                      adorm_id  = '14'  [ RunTime:0.0010s ]
+SQL: SELECT
+                           count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+                     WHERE  
+                             adorm_id='14' 
+                     ORDER BY
+	                           id 
+	                LIMIT 10,0 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:34:38 ] [ result ][{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5f85\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"},{"id":"7","survey_id":"87","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-27 10:22:56","updatetime":"2017-11-27 10:22:56"},{"id":"8","survey_id":"88","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-27 10:26:49","updatetime":"2017-11-27 10:26:49"}]
+DEBUG: [ Jiechengkeji ] [ 11:34:39 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5f85\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"},{"id":"7","survey_id":"87","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-27 10:22:56","updatetime":"2017-11-27 10:22:56"},{"id":"8","survey_id":"88","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-27 10:26:49","updatetime":"2017-11-27 10:26:49"}],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2017-11-27T11:42:36+08:00 ] 127.0.0.1 /index.php/Admin/Company/homeMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 11:42:24 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:42:24 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:42:24 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      *, 
+	                      CASE adorm_money_m
+                      WHEN '1' THEN
+	                      '已入账装修贷'
+                      WHEN '2' THEN
+	                     '未入账装修贷'
+                      ELSE
+	                     '问题数据'
+                      END 
+                            adorm_money_m
+                      FROM
+	                      adorm_money
+                      WHERE
+                            adorm_id = '14' [ RunTime:0.0000s ]
+SQL: SELECT
+                         count(*) as pageTotal
+                     FROM 
+                         adorm_money WHERE  adorm_id='14'  
+                     ORDER BY
+	                     id 
+	                LIMIT 10,0 [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 11:42:35 ] [ result ][{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"2","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"},{"id":"7","survey_id":"87","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 10:22:56","updatetime":"2017-11-27 10:22:56"},{"id":"8","survey_id":"88","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 10:26:49","updatetime":"2017-11-27 10:26:49"}]
+DEBUG: [ Jiechengkeji ] [ 11:42:36 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"2","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"},{"id":"7","survey_id":"87","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 10:22:56","updatetime":"2017-11-27 10:22:56"},{"id":"8","survey_id":"88","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 10:26:49","updatetime":"2017-11-27 10:26:49"}],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2017-11-27T11:43:12+08:00 ] 127.0.0.1 /index.php/Admin/Company/matter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:43:12 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:43:12 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:43:12 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      *, 
+	                  CASE 
+	                      a.company_id 
+                      WHEN 
+                          '1' 
+                      THEN
+	                     '开始装修'
+                      WHEN 
+                           '2' 
+                      THEN
+	                     '正在装修'
+                      ELSE
+	                     '问题数据'
+                      END 
+                          company_id 
+                      FROM
+	                      Company  a,
+	                      cy_apply b
+                      WHERE
+	                      a.cy_apply_id = b.id  
+	                  AND 
+	                      a.cy_apply_id='56' 
+	                   AND 
+	                       a.adorm_id='14' [ RunTime:0.0010s ]
+ERR: 1052:Column 'id' in order clause is ambiguous
+ [ SQL语句 ] : SELECT
+                        count(*) as pageTotal
+                      FROM 
+                          Company a,
+	                      cy_apply b
+                      WHERE
+	                       a.cy_apply_id = b.id 
+	                  AND
+	                        a.cy_apply_id='56'
+	                  AND 
+	                        a.adorm_id='14'
+	                  ORDER BY
+	                     id 
+	                   LIMIT 10,0
+ERR: 1052:Column 'id' in order clause is ambiguous
+ [ SQL语句 ] : SELECT
+                        count(*) as pageTotal
+                      FROM 
+                          Company a,
+	                      cy_apply b
+                      WHERE
+	                       a.cy_apply_id = b.id 
+	                  AND
+	                        a.cy_apply_id='56'
+	                  AND 
+	                        a.adorm_id='14'
+	                  ORDER BY
+	                     id 
+	                   LIMIT 10,0
+
+[ 2017-11-27T11:44:25+08:00 ] 127.0.0.1 /index.php/Admin/Company/homeMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:44:25 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:44:25 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:44:25 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      *, 
+	                      CASE adorm_money_m
+                      WHEN '1' THEN
+	                      '已入账装修贷'
+                      WHEN '2' THEN
+	                     '未入账装修贷'
+                      ELSE
+	                     '问题数据'
+                      END 
+                            adorm_money_m
+                      FROM
+	                      adorm_money
+                      WHERE
+                            adorm_id = '14' [ RunTime:0.0010s ]
+SQL: SELECT
+                         count(*) as pageTotal
+                     FROM 
+                         adorm_money WHERE  adorm_id='14'  
+                     ORDER BY
+	                     id 
+	                LIMIT 10,0 [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:44:25 ] [ result ][{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"2","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"},{"id":"7","survey_id":"87","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 10:22:56","updatetime":"2017-11-27 10:22:56"},{"id":"8","survey_id":"88","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 10:26:49","updatetime":"2017-11-27 10:26:49"}]
+DEBUG: [ Jiechengkeji ] [ 11:44:25 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"2","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"},{"id":"7","survey_id":"87","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 10:22:56","updatetime":"2017-11-27 10:22:56"},{"id":"8","survey_id":"88","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 10:26:49","updatetime":"2017-11-27 10:26:49"}],"pageTotal":0,"pageCurrent":1,"recordTotal":0}}
+
+[ 2017-11-27T11:45:07+08:00 ] 127.0.0.1 /index.php/Admin/Company/matter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:45:06 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:45:06 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:45:06 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      *, 
+	                  CASE 
+	                      a.company_id 
+                      WHEN 
+                          '1' 
+                      THEN
+	                     '开始装修'
+                      WHEN 
+                           '2' 
+                      THEN
+	                     '正在装修'
+                      ELSE
+	                     '问题数据'
+                      END 
+                          company_id 
+                      FROM
+	                      Company  a,
+	                      cy_apply b
+                      WHERE
+	                      a.cy_apply_id = b.id  
+	                  AND 
+	                      a.cy_apply_id='56' 
+	                   AND 
+	                       a.adorm_id='14' [ RunTime:0.0010s ]
+ERR: 1052:Column 'id' in order clause is ambiguous
+ [ SQL语句 ] : SELECT
+                        count(*) as pageTotal
+                      FROM 
+                          Company a,
+	                      cy_apply b
+                      WHERE
+	                       a.cy_apply_id = b.id 
+	                  AND
+	                        a.cy_apply_id='56'
+	                  AND 
+	                        a.adorm_id='14'
+	                  ORDER BY
+	                     id 
+	                   LIMIT 10,0
+ERR: 1052:Column 'id' in order clause is ambiguous
+ [ SQL语句 ] : SELECT
+                        count(*) as pageTotal
+                      FROM 
+                          Company a,
+	                      cy_apply b
+                      WHERE
+	                       a.cy_apply_id = b.id 
+	                  AND
+	                        a.cy_apply_id='56'
+	                  AND 
+	                        a.adorm_id='14'
+	                  ORDER BY
+	                     id 
+	                   LIMIT 10,0
+
+[ 2017-11-27T11:48:18+08:00 ] 127.0.0.1 /index.php/Admin/Company/remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:48:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:48:18 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    *,
+	                    CASE adorm_money_b
+                    WHEN '1' THEN
+	                      '已入账消费款'
+                    WHEN '2' THEN
+	                      '待入账消费款'
+                    ELSE
+	                      '问题数据'
+                    END 
+                          adorm_money_b
+                    FROM
+	                     adorm_money 
+	                WHERE  
+	                      adorm_id  = '14'   
+	                ORDER BY
+	                           id 
+	                LIMIT 10,0 [ RunTime:0.0010s ]
+SQL: SELECT
+                           count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+                     WHERE  
+                             adorm_id='14' 
+                  [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:18 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 11:48:18 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[],"pageTotal":1,"pageCurrent":1,"recordTotal":8}}
+
+[ 2017-11-27T11:48:29+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=14166
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:29 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:48:29 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:48:29 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-11-27T11:48:46+08:00 ] 127.0.0.1 /index.php/Admin/Company/remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:33 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:48:33 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:48:33 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    *,
+	                    CASE adorm_money_b
+                    WHEN '1' THEN
+	                      '已入账消费款'
+                    WHEN '2' THEN
+	                      '待入账消费款'
+                    ELSE
+	                      '问题数据'
+                    END 
+                          adorm_money_b
+                    FROM
+	                     adorm_money 
+	                WHERE  
+	                      adorm_id  = '14'   
+	                ORDER BY
+	                           id 
+	                LIMIT 10,0 [ RunTime:0.0010s ]
+SQL: SELECT
+                           count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+                     WHERE  
+                             adorm_id='14' 
+                  [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:45 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 11:48:46 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[],"pageTotal":1,"pageCurrent":1,"recordTotal":8}}
+
+[ 2017-11-27T11:49:08+08:00 ] 127.0.0.1 /index.php/Admin/Company/remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:48:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:48:49 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    *,
+	                    CASE adorm_money_b
+                    WHEN '1' THEN
+	                      '已入账消费款'
+                    WHEN '2' THEN
+	                      '待入账消费款'
+                    ELSE
+	                      '问题数据'
+                    END 
+                          adorm_money_b
+                    FROM
+	                     adorm_money 
+	                WHERE  
+	                      adorm_id  = '14'   
+	                ORDER BY
+	                           id 
+	                LIMIT 10,0 [ RunTime:0.0000s ]
+SQL: SELECT
+                           count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+                     WHERE  
+                             adorm_id='14' 
+                  [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:49:07 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 11:49:08 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[],"pageTotal":1,"pageCurrent":1,"recordTotal":8}}
+
+[ 2017-11-27T11:49:41+08:00 ] 127.0.0.1 /index.php/Admin/Company/remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:49:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:49:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:49:10 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    *,
+	                    CASE adorm_money_b
+                    WHEN '1' THEN
+	                      '已入账消费款'
+                    WHEN '2' THEN
+	                      '待入账消费款'
+                    ELSE
+	                      '问题数据'
+                    END 
+                          adorm_money_b
+                    FROM
+	                     adorm_money 
+	                WHERE  
+	                      adorm_id  = '14'   
+	                ORDER BY
+	                           id 
+	                LIMIT 10,0 [ RunTime:0.0010s ]
+SQL: SELECT
+                           count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+                     WHERE  
+                             adorm_id='14' 
+                  [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:49:40 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 11:49:41 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[],"pageTotal":1,"pageCurrent":1,"recordTotal":8}}
+
+[ 2017-11-27T11:50:55+08:00 ] 127.0.0.1 /index.php/Admin/Company/remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:50:55 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:50:55 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:50:55 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    *,
+	                    CASE adorm_money_b
+                    WHEN '1' THEN
+	                      '已入账消费款'
+                    WHEN '2' THEN
+	                      '待入账消费款'
+                    ELSE
+	                      '问题数据'
+                    END 
+                          adorm_money_b
+                    FROM
+	                     adorm_money 
+	                WHERE  
+	                      adorm_id  = '14'   
+	                ORDER BY
+	                           id 
+	                LIMIT 0,10 [ RunTime:0.0010s ]
+SQL: SELECT
+                           count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+                     WHERE  
+                             adorm_id='14' 
+                  [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:50:55 ] [ result ][{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5f85\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"},{"id":"7","survey_id":"87","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-27 10:22:56","updatetime":"2017-11-27 10:22:56"},{"id":"8","survey_id":"88","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-27 10:26:49","updatetime":"2017-11-27 10:26:49"}]
+DEBUG: [ Jiechengkeji ] [ 11:50:55 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5f85\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"},{"id":"7","survey_id":"87","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-27 10:22:56","updatetime":"2017-11-27 10:22:56"},{"id":"8","survey_id":"88","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-27 10:26:49","updatetime":"2017-11-27 10:26:49"}],"pageTotal":1,"pageCurrent":1,"recordTotal":8}}
+
+[ 2017-11-27T11:53:04+08:00 ] 127.0.0.1 /index.php/Admin/Company/homeMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:53:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:53:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:53:04 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      *, 
+	                      CASE adorm_money_m
+                      WHEN '1' THEN
+	                      '已入账装修贷'
+                      WHEN '2' THEN
+	                     '未入账装修贷'
+                      ELSE
+	                     '问题数据'
+                      END 
+                            adorm_money_m
+                      FROM
+	                      adorm_money
+                      WHERE
+                            adorm_id = '14'  
+                    ORDER BY
+	                     id 
+	                LIMIT 0,10 [ RunTime:0.0010s ]
+SQL: SELECT
+                         count(*) as pageTotal
+                     FROM 
+                         adorm_money WHERE  adorm_id='14'  
+                  [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:53:04 ] [ result ][{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"2","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"},{"id":"7","survey_id":"87","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 10:22:56","updatetime":"2017-11-27 10:22:56"},{"id":"8","survey_id":"88","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 10:26:49","updatetime":"2017-11-27 10:26:49"}]
+DEBUG: [ Jiechengkeji ] [ 11:53:04 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"2","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u5df2\u5165\u8d26\u88c5\u4fee\u8d37","adorm_money_b":"1","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"},{"id":"7","survey_id":"87","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 10:22:56","updatetime":"2017-11-27 10:22:56"},{"id":"8","survey_id":"88","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"\u95ee\u9898\u6570\u636e","adorm_money_b":"","remark":"","remark1":"","createtime":"2017-11-27 10:26:49","updatetime":"2017-11-27 10:26:49"}],"pageTotal":1,"pageCurrent":1,"recordTotal":8}}
+
+[ 2017-11-27T11:55:52+08:00 ] 127.0.0.1 /index.php/Admin/Company/Contract
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:55:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:55:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:55:52 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                     *, CASE a.adorm_state_lx
+                     WHEN '1' THEN
+	                      '已签署合同'
+                     WHEN '2' THEN
+	                      '待签署合同'
+                     ELSE
+	                      '问题数据'
+                     END adorm_state_lx
+                     FROM
+	                      adorm_state a,
+	                      cy_apply b
+                     WHERE
+	                      a.cy_apply_id = b.id 
+	                 AND 
+	                      a.cy_apply_id='56' 
+	                 AND 
+	                       a.adorm_id='14' 
+	                  ORDER BY
+	                     a.id 
+	                LIMIT 0,10 [ RunTime:0.0010s ]
+SQL: SELECT
+                          count(*) as pageTotal
+                      FROM 
+                         adorm_state a,
+	                      cy_apply b
+                      WHERE
+	                      a.cy_apply_id = b.id 
+	                  AND 
+	                       a.cy_apply_id='56' 
+	                  AND 
+	                       a.adorm_id='14'
+	                   [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:55:52 ] [ result ][{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"87","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5f85\u7b7e\u7f72\u5408\u540c","survey_id":"88","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"}]
+DEBUG: [ Jiechengkeji ] [ 11:55:52 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","survey_id":"87","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","adorm_id":"14","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_state_money":"100","adorm_li":"\u73b0\u91d1","adorm_state_lx":"\u5f85\u7b7e\u7f72\u5408\u540c","survey_id":"88","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"}],"pageTotal":1,"pageCurrent":1,"recordTotal":5}}
+
+[ 2017-11-27T11:56:13+08:00 ] 127.0.0.1 /index.php/Admin/Company/matter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:56:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:56:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:56:13 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                      *, 
+	                  CASE 
+	                      a.company_id 
+                      WHEN 
+                          '1' 
+                      THEN
+	                     '开始装修'
+                      WHEN 
+                           '2' 
+                      THEN
+	                     '正在装修'
+                      ELSE
+	                     '问题数据'
+                      END 
+                          company_id 
+                      FROM
+	                      Company  a,
+	                      cy_apply b
+                      WHERE
+	                      a.cy_apply_id = b.id  
+	                  AND 
+	                      a.cy_apply_id='56' 
+	                   AND 
+	                       a.adorm_id='14'  ORDER BY
+	                     a.id 
+	                LIMIT 0,10 [ RunTime:0.0010s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                          Company a,
+	                      cy_apply b
+                      WHERE
+	                       a.cy_apply_id = b.id 
+	                  AND
+	                        a.cy_apply_id='56'
+	                  AND 
+	                        a.adorm_id='14'
+	                 [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:56:13 ] [ result ][{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"}]
+DEBUG: [ Jiechengkeji ] [ 11:56:13 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"},{"id":"56","cy_apply_id":"56","company_id":"\u6b63\u5728\u88c5\u4fee","adorm_id":"14","remark1":"","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40","census":"\u6574\u4f53\u6d4b\u8bd5","workphone":"18363100066","phone":"18363100066","name":"\u738b\u6d77\u714a","wifephone":"18363100066","homeaddress":"\u6574\u4f53\u6d4b\u8bd5","email":"1012013566@qq.com","number":"2","address":"\u6574\u4f53\u6d4b\u8bd5","marride":"2","homephone":"18363100066","money":"2563210","wife":"2","card":"230505199102180536","bankcard":"230505199102180536"}],"pageTotal":1,"pageCurrent":1,"recordTotal":9}}
+
+[ 2017-11-27T11:56:38+08:00 ] 127.0.0.1 /index.php/Admin/Company/remark
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 11:56:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:56:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:56:38 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    *,
+	                    CASE adorm_money_b
+                    WHEN '1' THEN
+	                      '已入账消费款'
+                    WHEN '2' THEN
+	                      '待入账消费款'
+                    ELSE
+	                      '问题数据'
+                    END 
+                          adorm_money_b
+                    FROM
+	                     adorm_money 
+	                WHERE  
+	                      adorm_id  = '14'   
+	                ORDER BY
+	                           id 
+	                LIMIT 0,10 [ RunTime:0.0000s ]
+SQL: SELECT
+                           count(*) as pageTotal
+                     FROM 
+                        	adorm_money
+                     WHERE  
+                             adorm_id='14' 
+                  [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:56:38 ] [ result ][{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5f85\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"},{"id":"7","survey_id":"87","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-27 10:22:56","updatetime":"2017-11-27 10:22:56"},{"id":"8","survey_id":"88","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-27 10:26:49","updatetime":"2017-11-27 10:26:49"}]
+DEBUG: [ Jiechengkeji ] [ 11:56:38 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"id":"1","survey_id":"81","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5f85\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:19:57","updatetime":"2017-11-25 11:19:57"},{"id":"2","survey_id":"82","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:22:35","updatetime":"2017-11-25 11:22:35"},{"id":"3","survey_id":"83","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:45:20","updatetime":"2017-11-25 11:45:20"},{"id":"4","survey_id":"84","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:46:02","updatetime":"2017-11-25 11:46:02"},{"id":"5","survey_id":"85","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-25 11:47:15","updatetime":"2017-11-25 11:47:15"},{"id":"6","survey_id":"86","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"1","adorm_money_b":"\u5df2\u5165\u8d26\u6d88\u8d39\u6b3e","remark":"","remark1":"","createtime":"2017-11-27 09:23:24","updatetime":"2017-11-27 09:23:24"},{"id":"7","survey_id":"87","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-27 10:22:56","updatetime":"2017-11-27 10:22:56"},{"id":"8","survey_id":"88","adorm_name":"\u79d1\u6280\u516c\u53f8","adorm_id":"14","adorm_money_m":"","adorm_money_b":"\u95ee\u9898\u6570\u636e","remark":"","remark1":"","createtime":"2017-11-27 10:26:49","updatetime":"2017-11-27 10:26:49"}],"pageTotal":1,"pageCurrent":1,"recordTotal":8}}
+
+[ 2017-11-27T12:02:29+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 12:02:29 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 12:02:29 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 12:02:29 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56'  
+                          ORDER BY
+	                     id 
+	                LIMIT 0,10 [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 3 for Admin\Dao\JiazDao::pageTotal_kitingMoney(), called in D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php on line 122 and defined D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 241 行.
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney
+                      WHERE 
+                           homeMoney_id = '24'
+                       AND 
+                        cy_apply_id = '56'
+                  [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 12:02:29 ] [ result ][{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}]
+DEBUG: [ Jiechengkeji ] [ 12:02:29 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}],"pageTotal":1,"pageCurrent":1,"recordTotal":2}}
+
+[ 2017-11-27T14:25:15+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:25:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:25:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:25:15 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56'  
+                          ORDER BY
+	                     id 
+	                LIMIT 0,10 [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Admin\Dao\JiazDao::pageTotal_kitingMoney(), called in D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php on line 122 and defined D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 241 行.
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney
+                      WHERE 
+                           homeMoney_id = '24'
+                       AND 
+                        cy_apply_id = '56'
+                  [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:25:15 ] [ result ][{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}]
+DEBUG: [ Jiechengkeji ] [ 14:25:15 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}],"pageTotal":1,"pageCurrent":1,"recordTotal":2}}
+
+[ 2017-11-27T14:27:38+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:27:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:27:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:27:38 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56'  
+                          ORDER BY
+	                     id 
+	                LIMIT 0,10 [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Admin\Dao\JiazDao::pageTotal_kitingMoney(), called in D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php on line 122 and defined D:\jiazhuangdai.com\Application\Admin\Dao\JiazDao.class.php 第 241 行.
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney
+                      WHERE 
+                           homeMoney_id = '24'
+                       AND 
+                        cy_apply_id = '56'
+                  [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 14:27:38 ] [ result ][{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}]
+DEBUG: [ Jiechengkeji ] [ 14:27:38 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}],"pageTotal":1,"pageCurrent":1,"recordTotal":2}}
+

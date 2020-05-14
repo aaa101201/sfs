@@ -1,0 +1,728 @@
+/*企业端，共用的还引入原来的main样式，私有样式都放在这个文件*/
+
+/* 完善企业信息页面*/
+#showZImg img {
+	border: 0;
+	margin-left: 1rem;
+}
+.showZImg {
+	line-height: 3.2rem;
+    height: 3.2rem;
+	font-size: .5rem;
+}
+.wrapRegCont .row div.wrapBtnForUp {
+	display: block;
+	line-height: 1;
+	border: 1px solid #ff9900;
+	border-radius: .2rem;
+    background-color: #fff;
+    padding: .3rem .6rem;
+    margin-top: .8rem;
+    margin-right: -.9rem;
+}
+.wrapRegCont .row div.wrapBtnForUp label {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.wrapPerfectInfo .list-block .tagInner{
+	height: 4rem ;
+}
+.wrapRegCont .row div.webuploader-pick {
+	line-height: 1;
+	color: #ff9900;
+}
+/* 发布成功页面*/
+.bakTx {
+	padding: 0 .75rem;
+}
+.wrapLine {
+	padding: .75rem 0;
+	line-height: 3;
+}
+.wrapLine::after {
+	border-bottom: 1px solid #ccc;
+	-webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    content: '';
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    display: block;
+}
+.wrapLine-top::before {
+	border-top: 1px solid #ccc;
+	-webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    content: '';
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    display: block;
+}
+.wrapBakTx::after {
+	border-bottom: 1px solid #ccc;
+	-webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    content: '';
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    display: block;
+    padding-bottom: .75rem;
+}
+.statusIcon {
+	font-size: 4rem;
+}
+/*发布兼职页面*/
+.wrapPerfectInfo .list-block  .wrapTagTextArea textarea {
+	font-size: .7rem;
+}
+/*人员信息列表页面*/
+.resetConBlock .content-block {
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+.buttons-tab .button.active {
+    color: #ff9900;
+    border-color: #ff9900;
+    z-index: 100;
+}
+.button.active, .button:active {
+    background-color: rgba(0,0,0,0);
+    border-radius: 0;
+}
+.wrapTel {
+	position: absolute;
+	font-size: 1.8rem;
+	color: #ff9900;
+}
+.wrapTel span {
+	font-size: .8rem;
+	color: #f5100e;
+}
+.cancelFav .userYes {
+	border: 1px solid #ff9900;
+	color: #ff9900;
+}
+/*兼职详情页*/
+#bizJobDetail .content {
+	bottom: 0;
+	background-color: #eee !important;
+}
+/*人员信息页*/
+#applyUserList .buttons-tab,#sendList .buttons-tab, #payList_toPay .buttons-tab , #payList_paid .buttons-tab
+, #payUserList_toPay .titleCheck , #payUserList_paid .buttons-tab, #payAmount .buttons-tab, #recharge .buttons-tab{
+    position: absolute;
+    top: 2.2rem;
+    width: 100%;
+}
+#payUserList_toPay .titleCheck {
+	background: #fff;
+	display: flex;
+}
+#payUserList_toPay .titleCheck div{ 
+	width: 89%;
+    height: 2.1rem;
+    line-height: 2rem;
+	color: #5f646e;
+    font-size: 0.8rem;
+    -webkit-box-flex: 1;
+    padding-right: 10px;
+}
+#payUserList_toPay .titleCheck input {
+	margin-right: 20px;
+	float: none; 
+	margin-top: 9px;
+}
+    
+#applyUserList .content,#sendList .content, #payList_toPay .content, #payList_paid .content 
+, #payAmount .content, #recharge .content{
+    top: 85px;
+}
+#payUserList_toPay .content {
+	top: 86px;
+}
+/*钱包充值页*/
+.payType {
+	padding: .85rem;
+	background-color: #eee;
+}
+.payTypeLi img,.payTypeLi span {
+	float: left;
+}
+.payTypeLi img {
+	width: 22px;
+	margin-right: 1rem;
+}
+.payTypeLi span {
+	line-height: 18px;
+}
+.payTypeLi input {
+	float: right;
+	width: 20px;
+	height: 20px;
+	-webkit-appearance: none;
+	background: url(/Public/images/i_radio.png) no-repeat scroll 0 0;
+	background-size: contain;
+}
+/*发放工资人员信息页*/
+#payUserList_toPay input {
+	/*font-size: 1rem;*/
+	-webkit-appearance: none !important;
+	background: url(/Public/images/i_uncheck.png) no-repeat scroll 0 0;
+	background-size: 1.2rem;
+	width: 1.2rem;
+	height: 1.2rem;
+	border: 0 none;
+}
+#payUserList_toPay input:checked {
+	/*font-size: 1rem;*/
+	-webkit-appearance: none !important;
+	background: url(/Public/images/i_checkEd.png) no-repeat scroll 0 0;
+	background-size: 1.2rem;
+	width: 1.2rem;
+	height: 1.2rem;
+}
+
+/*营销类页面样式-广告页*/
+.ff {
+	font-family: '\5FAE\8F6F\96C5\9ED1', '\534E\6587\7EC6\9ED1', Helvetica, Tahoma, Arial, sans-serif !important;
+}
+#bizAd,#bizJoin {
+	overflow: auto;
+}
+#bizAd .content,#bizJoin .content{
+	background: url(/Public/images/ad_bg.png) no-repeat scroll 0 0 #fed529 !important;
+	background-size: contain !important;
+	width: 100% !important;
+	min-height: 880px !important;
+	overflow-y: scroll !important;
+    overflow-x: hidden !important;
+	color: #311919 !important;
+	font-size: .5rem;
+	position: relative;
+	top: 0;
+	height: auto !important;
+}
+#bizJoin .content {
+	background: url(/Public/images/join_bg2.png) no-repeat scroll 0 0 #fd9812 !important;
+	background-size: contain !important;
+	width: 100% !important;
+	min-height: 1000px !important;
+}
+#bizAd .content .p1 {
+	/*margin: 250px auto auto 75px;*/
+	margin:67% auto auto 20%;
+}
+#bizAd .content .p2 {
+	/*margin: 35px 0 auto 162px;*/
+	margin: 9% 0 auto 43%;
+}
+#bizAd .content .p2 .title {
+	margin: 0 0 0 60px !important;
+	line-height: 1.2;
+	font-size: .7rem;
+	color: #311919 !important;
+	text-align: left;
+}
+#bizAd .content .form_ad {
+	margin: 50px auto 0;
+	width: 100%;
+	height: 240px;
+}
+#bizAd .content .form_ad fieldset,#bizJoin .content .form_ad fieldset {
+	/*height: 240px;*/
+	/*width: 322px;*/
+	height: 12rem;
+	width: 16rem;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid #311919;
+}
+#bizAd .content .form_ad fieldset .adTstyle,#bizJoin .content .form_ad fieldset .adTstyle {
+	width: 105px;
+	height: 34px;
+	line-height: 34px;
+	font-size: .85rem;
+	border: 1px solid #311919;
+	background-color: #fdce00;
+}
+#bizAd .content .form_ad fieldset .txtStyle,#bizJoin .content .form_ad fieldset .txtStyle,#bizJoin select {
+	width: 200px;
+	height: 23px;
+	-webkit-appearance: none;
+	border: 1px solid #311919;
+}
+#bizJoin .content .form_ad fieldset .txtStyle,#bizJoin select {
+	width: 260px;
+}
+#bizJoin .wrapProv {
+	margin-left: 22px;
+    margin-right: 20px;
+}
+#bizJoin select {
+	width: 120px;
+	-webkit-appearance: menulist !important;
+	font-size: .5rem;
+	text-indent: 10px;
+}
+#bizAd .content .form_ad fieldset span,#bizJoin .content .form_ad fieldset span {
+	text-align: left;
+    margin: 20px auto 10px 58px;
+    display: block;
+    font-size: 14px;
+}
+#bizJoin .content .form_ad fieldset span {
+	margin: 5px auto 5px 28px;
+}
+#bizAd .btn_submit,#bizJoin .btn_submit {
+	width: 87px;
+    height: 34px;
+    line-height: 34px;
+    font-size: .85rem;
+    border: 1px solid #311919;
+    background-color: #fdce00;
+    text-align: center;
+    margin: -17px auto;
+}   
+#bizAd .btn_submit:hover,#bizJoin .btn_submit:hover {
+	cursor: pointer;
+	background-color: #fec02a;
+} 
+.footer_botm {
+    height: 114px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-image: url("/Public/images/bottom.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+.footer_botm .btn_call, .footer_botm .btn_pt {
+    position: absolute;
+}
+.footer_botm .btn_call {
+    left: 10px;
+    bottom: 20px;
+    width: 95px;
+}
+.footer_botm .btn_pt {
+    right: 12px;
+    bottom: 20px;
+    width: 125px;
+}
+/*营销类页面样式-加盟页*/
+#bizJoin section {
+	padding: 0 22px;
+	margin-bottom: 20px;
+}
+#bizJoin section h3 {
+	font-size: 1rem;
+    color: #fff08d;
+    font-weight: normal;
+}
+#bizJoin section h3 span {
+	font-size: .85rem;
+    color: #ffcc00;
+    margin-left: 10px;
+}
+#bizJoin section div {
+	text-indent: 20px;
+}
+/*bizFindPT.css*/
+#bizFindPT {
+    overflow: auto;
+}
+#bizFindPT, .bizFindPT * {
+    color: #292929;
+    background-color: #FEDE47;
+    font-family: "Microsoft YaHei";
+    margin: 0;
+    padding: 0;
+}
+#bizFindPT section {
+    width: 6.58rem;
+    margin: 0 auto;
+    background-color: transparent;
+}
+#bizFindPT header {
+    background-image: url("/Public/images/pt_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3.52rem;
+    text-indent: -99999px;
+    margin-bottom: -0.2rem;
+}
+#bizFindPT h3 {
+    font-size: 0.3rem;
+    font-weight: normal;
+    margin-left: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+#bizFindPT h3:before {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-left: -0.26rem;
+    margin-top: 0.11rem;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0.14rem 0 0.14rem 0.14rem;
+    border-color: transparent #292929;
+}
+#bizFindPT article {
+    overflow: hidden;
+    font-size: 0.23rem;
+    margin-bottom: 0.24rem;
+    height: 1.2rem;
+}
+#bizFindPT article:last-child {
+    height: 1.78rem;
+}
+#bizFindPT article ul {
+    margin-left: 0.54rem;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 100%;
+}
+#bizFindPT article ul li {
+    line-height: 0.42rem;
+    white-space: nowrap;
+}
+#bizFindPT article div {
+    width: 0.47rem;
+    float: left;
+    background-color: #353432;
+    color: #fff;
+    text-align: center;
+    line-height: 0.25rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+#bizFindPT section article:last-child div {
+    padding-bottom: 0.36rem;
+    padding-top: 0.36rem;
+}
+/*表单*/
+#bizFindPT .wrapform {
+    width: 3.84rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#bizFindPT label, #bizFindPT input, #bizFindPT button {
+    width: 100%;
+    display: block;
+    font-size: 0.35rem;
+}
+#bizFindPT label {
+    margin-top: 0.4rem;
+    margin-bottom: 0.05rem;
+}
+#bizFindPT input {
+    border: 1px solid #311919;
+    background-color: #fff;
+}
+#bizFindPT fieldset {
+    box-sizing: content-box;
+    height: 5.7rem;
+    width: 5.4rem;
+    margin: 0.57rem auto 3.5rem auto;
+    border: 1px solid #000;
+    padding-bottom: 0.6rem;
+    position: relative;
+}
+#bizFindPT legend {
+    text-align: center;
+}
+#bizFindPT .upload {
+    box-sizing: content-box;
+    padding: 0.04rem 0.1rem;
+    height: 0.44rem;
+    width: 1.26rem;
+    line-height: 0.44rem;
+    position: relative;
+    color: #292929;
+    background: #fff;
+    border: 1px solid #311919;
+    border-radius: 0.02rem;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 0.3rem;
+    text-align: center;
+}
+#bizFindPT .upload input {
+    position: absolute;
+    height: 0.44rem;
+    font-size: 1rem;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+#bizFindPT .btn_sub {
+    position: absolute;
+    left: calc(50% - 1.3rem);
+    bottom: -0.45rem;
+}
+#bizFindPT footer {
+    height: 2.4rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    background-image: url("/Public/images/bottom.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+#bizFindPT .btn_call, .btn_pt {
+    position: absolute;
+}
+#bizFindPT .btn_call {
+    left: 0.18rem;
+    top: 1.16rem;
+}
+#bizFindPT .btn_pt {
+    right: 0.25rem;
+    top: 1.08rem;
+}
+#bizFindPT img {
+    background-color: transparent;
+}
+#bizFindPT fieldset>img {
+    width: 2.6rem;
+    height: 0.94rem;
+}
+#bizFindPT fieldset legend img {
+    height: 0.94rem;
+    width: 5.13rem;
+}
+#bizFindPT footer img {
+    width: 1.9rem;
+    height: 0.81rem;
+}
+#bizFindPT footer img:last-child {
+    width: 2.14rem;
+    height: 0.89rem;
+}
+#bizFindPT .upsuccess {
+    position: absolute;
+    margin-left: 0.25rem;
+    margin-top: -0.05rem;
+    background-color: transparent;
+    color: green; 
+    font-size: 0.4rem;
+    display: none;
+}
+@-webkit-keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.escape-count {
+    font-size: 0.6rem;
+    color: rgb(51, 51, 51);
+    margin-right: 0.5rem;
+}
+.escape-count i {
+    font-style: normal;
+    color: #f90;
+}
+
+/*企业投递记录和发放工资合并*/
+.job-pre-check {
+    position: absolute;
+    left: 0.8rem;
+    top: 1.35rem;
+    -webkit-appearance: none;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 2px;
+    border: 1px solid #999;
+}
+.job-pre-check::after {
+    content: '';
+    width: 0.5rem;
+    height: 0.2rem;
+    display: inline-block;
+    color: transparent;
+    border: 2px solid currentColor;
+    border-top: none;
+    border-right: none;
+    border-radius: 1px;
+    position: absolute;
+    top: 0.15rem;
+    left: 0.05rem;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.job-pre-check:checked::after {
+    color: #f90;
+}
+.pre-check.jobLi {
+    padding-left: 5rem;
+    height: 3.5rem;
+}
+.pre-check.jobLi .detail-item {
+    padding-top: 0.5rem;
+}
+.pre-check.jobLi .iType {
+    left: 2.25rem;
+    top: 0.75rem;
+}
+.check-all {
+    display: block;
+    width: 100%;
+    height: 2rem;
+    position: relative;
+}
+.check-all .job-pre-check {
+    top: 0.6rem;
+}
+.check-all-text {
+    color: #999;
+    font-size: 0.7rem;
+    padding-left: 1.8rem;
+    vertical-align: -0.3rem;
+}
+.btn-fix-bottom {
+    width: 100%;
+    height: 2.175rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    background: #f90;
+    line-height: 2.175rem;
+    text-align: center;
+    display: block;
+}
+.btn-fix-bottom:link, .btn-fix-bottom:visited, .btn-fix-bottom:hover {
+    color: #fff;
+}
+.btn-fix-bottom:active {
+    background-image: linear-gradient(hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0.1));
+}
+.btn-prev, .btn-next {
+  width: 50%;
+  left: 0;
+}
+.btn-next {
+  left: auto;
+  right: 0;
+}
+.btn-prev span, .btn-next span {
+  font-size: 0.575rem;
+}
+
+.btn-prev::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-right: 1px solid #fff;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .btn-prev::after {
+    -webkit-transform: scaleX(0.5);
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) {
+  .btn-prev::after {
+    transform: scaleX(0.5);
+  }
+}
+
+.escape-rate {
+    text-align: left;
+    padding-left: 2.5rem;
+    color: #999;
+    line-height: 1.5rem;
+}

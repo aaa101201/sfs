@@ -1,0 +1,89 @@
+[ 2018-01-11T09:57:01+08:00 ] 119.179.154.46 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+DEBUG: [ Jiechengkeji ] [ 09:57:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:57:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:57:01 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 *
+                     FROM
+	                cy_hot [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 09:57:01 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/index_35.png","name":"\u738b\u6d77\u714a","createtime":"2017-12-08 14:20:01","updatetime":"2017-12-11 14:18:41"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/index_37.png","name":"\u738b\u6d77\u714a","createtime":"2017-12-08 14:23:03","updatetime":"2017-12-11 10:47:44"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/index_41.png","name":"\u738b\u6d77\u714a","createtime":"2017-12-08 14:28:31","updatetime":"2017-12-11 10:47:44"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/index_42.png","name":"\u738b\u6d77\u714a","createtime":"2017-12-08 14:28:31","updatetime":"2017-12-11 10:47:44"}]
+DEBUG: [ Jiechengkeji ] [ 09:57:01 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/index_35.png","name":"\u738b\u6d77\u714a","createtime":"2017-12-08 14:20:01","updatetime":"2017-12-11 14:18:41"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/index_37.png","name":"\u738b\u6d77\u714a","createtime":"2017-12-08 14:23:03","updatetime":"2017-12-11 10:47:44"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/index_41.png","name":"\u738b\u6d77\u714a","createtime":"2017-12-08 14:28:31","updatetime":"2017-12-11 10:47:44"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/index_42.png","name":"\u738b\u6d77\u714a","createtime":"2017-12-08 14:28:31","updatetime":"2017-12-11 10:47:44"}]}
+
+[ 2018-01-11T09:57:01+08:00 ] 119.179.154.46 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+DEBUG: [ Jiechengkeji ] [ 09:57:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:57:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:57:01 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                 photo
+                     FROM
+	                cy_index [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 09:57:01 ] [ result ][{"photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b25efa63c1.png"},{"photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b25efa63c3.png"},{"photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png"}]
+DEBUG: [ Jiechengkeji ] [ 09:57:01 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b25efa63c1.png","http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b25efa63c3.png","http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png"]}
+
+[ 2018-01-11T09:57:01+08:00 ] 119.179.154.46 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+DEBUG: [ Jiechengkeji ] [ 09:57:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:57:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:57:01 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'a.xing' in 'field list'
+ [ SQL语句 ] : SELECT
+	               (
+		            SELECT
+			         COUNT(*)
+		            FROM
+		        	cy_discuss
+		            WHERE
+			         phone = a.phone
+	               ) discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone,
+                     a.xing
+                   FROM
+	                      cy_company a
+	                LIMIT  
+	                  0,4
+ERR: 1054:Unknown column 'a.xing' in 'field list'
+ [ SQL语句 ] : SELECT
+	               (
+		            SELECT
+			         COUNT(*)
+		            FROM
+		        	cy_discuss
+		            WHERE
+			         phone = a.phone
+	               ) discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone,
+                     a.xing
+                   FROM
+	                      cy_company a
+	                LIMIT  
+	                  0,4
+

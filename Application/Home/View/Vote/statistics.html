@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>冠名萝卜拇指任务，拿走小米高档手环</title>
+	<include file="Common/header" />
+    <link rel="stylesheet" href="/Public/vote/css/vote.min.css?t=1487038798305">
+</head>
+<body>
+	<div class="page-group">
+        <div class="page" id="statistics">
+            <!-- 标题栏 -->
+            <header class="bar bar-nav">
+				<a class="button button-link button-nav pull-left back">
+					<span class="icon icon-left"></span>返回
+				</a>
+                <h1 class="title">大家的想法</h1>
+            </header>
+
+            <!-- 这里是页面内容区 -->
+            <div class="content infinite-scroll" data-distance="100">
+                <div class="content-block">
+					<h3>投票统计</h3>
+					<canvas id="bar"></canvas>
+                </div>
+				<div class="content-block">
+					<h3>投票记录</h3>
+					<div class="list-block">
+						<ul id="votedUsers">
+							<!--to be filled-->
+						</ul>
+					</div>
+                </div>
+                <div class="infinite-scroll-preloader">
+                    <div class="preloader"></div>
+                </div>
+                <!-- 底部版权信息 -->
+                <footer class="text-center padd_20" style="display: none">
+                    <p class="fc_orange f16">aaa</p>
+                    <p class="fc_orange f10">www.luobojianzhi.com</p>
+                    <p class="f10">最靠谱的大学生兼职平台</p>
+                </footer>
+            </div>
+    	</div>
+    </div>
+    <include file="Common/tpl/tpl-vote" />
+    <include file="Common/footer" />
+</body>
+</html>
+<script src="/Public/vote/js/vote.js?t=1487038798305"></script>

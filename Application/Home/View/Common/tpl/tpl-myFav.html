@@ -1,0 +1,54 @@
+<script id="job-fav-list-tpl" type="text/html">
+    {{each jobs as job i}}
+        <li class="jobLi" iIndex="jobLi{{i}}">
+            <a href="__APP__/Home/Job/favDetail/id/{{#job.id}}/superType/{{#job.supertype}}">
+                <span class="iType cateId{{#job.pcateid%12}}">{{#job.category}}</span>
+                <div class="row no-gutter">
+                    <div class="col-80 tx_ellips">
+                        {{#job.title}}
+                    </div>
+                    <div class="col-20 text-center">
+                        <div class="bg_status bgGreen">
+                            <i class="i_triangle"></i>
+                            {{if job.type == 1}}报名中
+                                {{else if job.type == 2}} 红包
+                                {{else if job.type == 3}} 双薪
+                                {{/if}}
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutter pos_rela">
+                    <div class="col-66 fc_lightGray">
+                        <p class="f12 pos_rela">
+                            <span class="iconf iconf-location"></span>
+                            <span class="marg_left_10 tx_ellips pos_ab">{{job.province}}{{job.city}}{{job.region}}</span>
+                        </p>
+                        <p class="f12 pos_rela">
+                            <span class="jobType">
+                                {{each job.attributes as value index}}
+                                    {{if value == 1}}
+                                        <img src="__PUBLIC__/images/danbao.png" alt="担保">
+                                    {{else if value == 2}}
+                                        <img src="__PUBLIC__/images/hongbao.png" alt="红包">
+                                    {{else if value == 3}}
+                                        <img src="__PUBLIC__/images/shuangxin.png" alt="双薪">
+                                    {{/if}}
+                                {{/each}}
+                            </span>
+                            <span class="jobType">
+                                <img src="__PUBLIC__/images/paytype_{{job.payenum}}.png" alt="">
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-33 text-right pos_income">
+                        <strong class="f16">{{#job.income}}</strong>
+                        <small class="fc_lightGray">{{#job.incomeUnit}}</small>
+                    </div>
+                </div>
+            </a>
+        </li>
+        <li class="pos_rela text-right cancelFav">
+            <span class="f12 btnCancelFav" id="{{#job.id}}">取消收藏</span>
+        </li>   
+    {{/each}}
+</script>

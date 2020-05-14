@@ -1,0 +1,173 @@
+[ 2018-01-28T11:48:51+08:00 ] 112.224.67.186 /ajax/index.php/Admin/Gs/sethot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:48:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:48:51 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  *
+                     FROM
+	                cy_hot [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:51 ] [ result ][{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73bd80e55.png","name":"\u6d4b\u8bd51","createtime":"2017-12-08 14:20:01","updatetime":"2018-01-16 11:38:37"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73c7e1840.png","name":"\u6d4b\u8bd52","createtime":"2017-12-08 14:23:03","updatetime":"2018-01-16 11:38:47"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73e8320f6.png","name":"\u6d4b\u8bd53","createtime":"2017-12-08 14:28:31","updatetime":"2018-01-16 11:39:20"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73f5adedb.png","name":"\u6d4b\u8bd54","createtime":"2017-12-08 14:28:31","updatetime":"2018-01-16 11:39:33"},{"id":"5","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73f5adedb.png","name":"\u6d4b\u8bd54","createtime":"2017-12-08 14:28:31","updatetime":"2018-01-16 11:39:33"},{"id":"6","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73f5adedb.png","name":"\u6d4b\u8bd54","createtime":"2017-12-08 14:28:31","updatetime":"2018-01-16 11:39:33"},{"id":"7","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73e8320f6.png","name":"\u6d4b\u8bd53","createtime":"2017-12-08 14:28:31","updatetime":"2018-01-16 11:39:20"}]
+DEBUG: [ Jiechengkeji ] [ 11:48:51 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":[{"id":"1","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73bd80e55.png","name":"\u6d4b\u8bd51","createtime":"2017-12-08 14:20:01","updatetime":"2018-01-16 11:38:37"},{"id":"2","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73c7e1840.png","name":"\u6d4b\u8bd52","createtime":"2017-12-08 14:23:03","updatetime":"2018-01-16 11:38:47"},{"id":"3","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73e8320f6.png","name":"\u6d4b\u8bd53","createtime":"2017-12-08 14:28:31","updatetime":"2018-01-16 11:39:20"},{"id":"4","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73f5adedb.png","name":"\u6d4b\u8bd54","createtime":"2017-12-08 14:28:31","updatetime":"2018-01-16 11:39:33"},{"id":"5","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73f5adedb.png","name":"\u6d4b\u8bd54","createtime":"2017-12-08 14:28:31","updatetime":"2018-01-16 11:39:33"},{"id":"6","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73f5adedb.png","name":"\u6d4b\u8bd54","createtime":"2017-12-08 14:28:31","updatetime":"2018-01-16 11:39:33"},{"id":"7","phone":"\u6574\u4f53\u6d4b\u8bd51","photo":"http:\/\/m.shulailo.cn\/Uploads\/CompanyLicense\/2018-01-16\/5a5d73e8320f6.png","name":"\u6d4b\u8bd53","createtime":"2017-12-08 14:28:31","updatetime":"2018-01-16 11:39:20"}]}
+
+[ 2018-01-28T11:48:52+08:00 ] 112.224.67.186 /ajax/index.php/Admin/Gs/setgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:48:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:48:52 ] [ __construct ]BaseDAO
+SQL: SELECT 
+	                  photo
+                     FROM
+	                  cy_index
+	                 ORDER BY
+                	  id 
+                	 DESC [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:52 ] [ result ][{"photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png"},{"photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png"},{"photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png"},{"photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png"},{"photo":"http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png"}]
+DEBUG: [ Jiechengkeji ] [ 11:48:52 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":["http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png","http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png","http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png","http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png","http:\/\/s.shulailo.cn\/ajax\/Uploads\/CompanyLicense\/2018-01-02\/5a4b2612aa62b.png"]}
+
+[ 2018-01-28T11:48:52+08:00 ] 112.224.67.186 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:48:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:48:52 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,3 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0002s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '20'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0001s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:52 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"11","score":"4","case_num":"4","tenders_num":"8","yuyue_num":"3","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/music.shulailo.cn\/attachs\/photo\/201801\/20180116_4793B521F14EF6595092086775348DF7.jpg","http:\/\/music.shulailo.cn\/attachs\/photo\/201801\/20180116_F86193DAF41090006517AD6389896051.jpg","http:\/\/music.shulailo.cn\/attachs\/photo\/201801\/20180116_850DA1A7B2E78942CF4570A284C15B54.png"]},{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 11:48:52 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"11","score":"4","case_num":"4","tenders_num":"8","yuyue_num":"3","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/music.shulailo.cn\/attachs\/photo\/201801\/20180116_4793B521F14EF6595092086775348DF7.jpg","http:\/\/music.shulailo.cn\/attachs\/photo\/201801\/20180116_F86193DAF41090006517AD6389896051.jpg","http:\/\/music.shulailo.cn\/attachs\/photo\/201801\/20180116_850DA1A7B2E78942CF4570A284C15B54.png"]},{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","photo":[]}],"pageTotal":50,"pageCurrent":1,"recordTotal":17}}
+
+[ 2018-01-28T11:48:58+08:00 ] 112.224.67.186 /ajax/index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:48:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:48:58 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  3,3 [ RunTime:0.0003s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '21'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '22'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0001s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '23'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0002s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0002s ]
+DEBUG: [ Jiechengkeji ] [ 11:48:58 ] [ result ][{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","photo":[]},{"company_id":"23","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 11:48:58 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","photo":[]},{"company_id":"23","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/attachs\/photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","photo":[]}],"pageTotal":50,"pageCurrent":2,"recordTotal":17}}
+

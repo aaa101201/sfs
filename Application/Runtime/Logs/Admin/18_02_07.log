@@ -1,0 +1,431 @@
+[ 2018-02-07T09:15:37+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee_photo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.051003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.054003s ]
+DEBUG: [ Jiechengkeji ] [ 09:15:37 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:15:37 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:15:37 ] [ __construct ]BaseDAO
+SQL: SELECT
+                	    uid,
+	                 company_id
+                     FROM
+	                     cy_case 
+	                     WHERE 
+                       case_id='' [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 39 行.
+SQL: 	  SELECT
+				               a.name,
+				               b.face,
+				               a.uid  designer_id
+			               FROM
+			                	cy_designer a,
+			                	 cy_member b
+			               WHERE 
+			                a.uid=b.uid
+			                AND 
+			                	a.uid=''
+			                AND 
+                                a.closed = 0
+                            AND 
+                                a.audit = 1 [ RunTime:0.0040s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 41 行.
+NOTIC: [8] Undefined index: name D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 46 行.
+SQL: 	  SELECT
+	     a.name,
+		 b.face
+FROM
+	cy_company a, 
+ cy_member b
+ WHERE
+ a.uid=b.uid
+ AND 
+			                	a.company_id=''
+			                AND 
+                                 a.closed = 0
+                            AND 
+                                 a.audit = 1 [ RunTime:0.0040s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 48 行.
+SQL: SELECT
+                		attr_id,
+	                   attr_value_id
+                     FROM
+	                     cy_case_attr
+	                     WHERE 
+                       case_id='' [ RunTime:0.0080s ]
+SQL: 	SELECT
+	                         a.photo
+                        FROM
+	                         cy_case_photo  a
+                        WHERE
+                              a.case_id=''
+                      [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 09:15:37 ] [ result ][{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","carousel":[]}]
+DEBUG: [ Jiechengkeji ] [ 09:15:37 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","carousel":[]}}
+
+[ 2018-02-07T09:15:38+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee_photo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 09:15:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:15:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:15:38 ] [ __construct ]BaseDAO
+SQL: SELECT
+                	    uid,
+	                 company_id
+                     FROM
+	                     cy_case 
+	                     WHERE 
+                       case_id='' [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 39 行.
+SQL: 	  SELECT
+				               a.name,
+				               b.face,
+				               a.uid  designer_id
+			               FROM
+			                	cy_designer a,
+			                	 cy_member b
+			               WHERE 
+			                a.uid=b.uid
+			                AND 
+			                	a.uid=''
+			                AND 
+                                a.closed = 0
+                            AND 
+                                a.audit = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 41 行.
+NOTIC: [8] Undefined index: name D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 46 行.
+SQL: 	  SELECT
+	     a.name,
+		 b.face
+FROM
+	cy_company a, 
+ cy_member b
+ WHERE
+ a.uid=b.uid
+ AND 
+			                	a.company_id=''
+			                AND 
+                                 a.closed = 0
+                            AND 
+                                 a.audit = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 48 行.
+SQL: SELECT
+                		attr_id,
+	                   attr_value_id
+                     FROM
+	                     cy_case_attr
+	                     WHERE 
+                       case_id='' [ RunTime:0.0010s ]
+SQL: 	SELECT
+	                         a.photo
+                        FROM
+	                         cy_case_photo  a
+                        WHERE
+                              a.case_id=''
+                      [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:15:38 ] [ result ][{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","carousel":[]}]
+DEBUG: [ Jiechengkeji ] [ 09:15:38 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","carousel":[]}}
+
+[ 2018-02-07T10:05:41+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=15124
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:05:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:05:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:05:41 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021001s ]
+
+[ 2018-02-07T11:44:31+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee_photo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 11:44:31 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:44:31 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:44:31 ] [ __construct ]BaseDAO
+SQL: SELECT
+                	    uid,
+	                 company_id
+                     FROM
+	                     cy_case 
+	                     WHERE 
+                       case_id='' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 39 行.
+SQL: 	  SELECT
+				               a.name,
+				               b.face,
+				               a.uid  designer_id
+			               FROM
+			                	cy_designer a,
+			                	 cy_member b
+			               WHERE 
+			                a.uid=b.uid
+			                AND 
+			                	a.uid=''
+			                AND 
+                                a.closed = 0
+                            AND 
+                                a.audit = 1 [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 41 行.
+NOTIC: [8] Undefined index: name D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 46 行.
+SQL: 	  SELECT
+	     a.name,
+		 b.face
+FROM
+	cy_company a, 
+ cy_member b
+ WHERE
+ a.uid=b.uid
+ AND 
+			                	a.company_id=''
+			                AND 
+                                 a.closed = 0
+                            AND 
+                                 a.audit = 1 [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 48 行.
+SQL: SELECT
+                		attr_id,
+	                   attr_value_id
+                     FROM
+	                     cy_case_attr
+	                     WHERE 
+                       case_id='' [ RunTime:0.0020s ]
+SQL: 	SELECT
+	                         a.photo
+                        FROM
+	                         cy_case_photo  a
+                        WHERE
+                              a.case_id=''
+                      [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:44:31 ] [ result ][{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","carousel":[]}]
+DEBUG: [ Jiechengkeji ] [ 11:44:31 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","carousel":[]}}
+
+[ 2018-02-07T11:44:32+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee_photo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 11:44:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:44:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:44:32 ] [ __construct ]BaseDAO
+SQL: SELECT
+                	    uid,
+	                 company_id
+                     FROM
+	                     cy_case 
+	                     WHERE 
+                       case_id='' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 39 行.
+SQL: 	  SELECT
+				               a.name,
+				               b.face,
+				               a.uid  designer_id
+			               FROM
+			                	cy_designer a,
+			                	 cy_member b
+			               WHERE 
+			                a.uid=b.uid
+			                AND 
+			                	a.uid=''
+			                AND 
+                                a.closed = 0
+                            AND 
+                                a.audit = 1 [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 41 行.
+NOTIC: [8] Undefined index: name D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 46 行.
+SQL: 	  SELECT
+	     a.name,
+		 b.face
+FROM
+	cy_company a, 
+ cy_member b
+ WHERE
+ a.uid=b.uid
+ AND 
+			                	a.company_id=''
+			                AND 
+                                 a.closed = 0
+                            AND 
+                                 a.audit = 1 [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 48 行.
+SQL: SELECT
+                		attr_id,
+	                   attr_value_id
+                     FROM
+	                     cy_case_attr
+	                     WHERE 
+                       case_id='' [ RunTime:0.0010s ]
+SQL: 	SELECT
+	                         a.photo
+                        FROM
+	                         cy_case_photo  a
+                        WHERE
+                              a.case_id=''
+                      [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 11:44:32 ] [ result ][{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","carousel":[]}]
+DEBUG: [ Jiechengkeji ] [ 11:44:32 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","carousel":[]}}
+
+[ 2018-02-07T14:39:55+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee_photo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 14:39:54 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:39:54 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:39:54 ] [ __construct ]BaseDAO
+SQL: SELECT
+                	    uid,
+	                 company_id
+                     FROM
+	                     cy_case 
+	                     WHERE 
+                       case_id='' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 39 行.
+SQL: 	  SELECT
+				               a.name,
+				               b.face,
+				               a.uid  designer_id
+			               FROM
+			                	cy_designer a,
+			                	 cy_member b
+			               WHERE 
+			                a.uid=b.uid
+			                AND 
+			                	a.uid=''
+			                AND 
+                                a.closed = 0
+                            AND 
+                                a.audit = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 41 行.
+NOTIC: [8] Undefined index: name D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 46 行.
+SQL: 	  SELECT
+	     a.name,
+		 b.face
+FROM
+	cy_company a, 
+ cy_member b
+ WHERE
+ a.uid=b.uid
+ AND 
+			                	a.company_id=''
+			                AND 
+                                 a.closed = 0
+                            AND 
+                                 a.audit = 1 [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 48 行.
+SQL: SELECT
+                		attr_id,
+	                   attr_value_id
+                     FROM
+	                     cy_case_attr
+	                     WHERE 
+                       case_id='' [ RunTime:0.0050s ]
+SQL: 	SELECT
+	                         a.photo
+                        FROM
+	                         cy_case_photo  a
+                        WHERE
+                              a.case_id=''
+                      [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:39:54 ] [ result ][{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","carousel":[]}]
+DEBUG: [ Jiechengkeji ] [ 14:39:54 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","carousel":[]}}
+
+[ 2018-02-07T14:39:55+08:00 ] 127.0.0.1 /index.php/Admin/Casee/Casee_photo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:39:55 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:39:55 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:39:55 ] [ __construct ]BaseDAO
+SQL: SELECT
+                	    uid,
+	                 company_id
+                     FROM
+	                     cy_case 
+	                     WHERE 
+                       case_id='' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 39 行.
+SQL: 	  SELECT
+				               a.name,
+				               b.face,
+				               a.uid  designer_id
+			               FROM
+			                	cy_designer a,
+			                	 cy_member b
+			               WHERE 
+			                a.uid=b.uid
+			                AND 
+			                	a.uid=''
+			                AND 
+                                a.closed = 0
+                            AND 
+                                a.audit = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 41 行.
+NOTIC: [8] Undefined index: name D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 46 行.
+SQL: 	  SELECT
+	     a.name,
+		 b.face
+FROM
+	cy_company a, 
+ cy_member b
+ WHERE
+ a.uid=b.uid
+ AND 
+			                	a.company_id=''
+			                AND 
+                                 a.closed = 0
+                            AND 
+                                 a.audit = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\bewin.WhjzProject.com\Application\Admin\Service\CaseeService.class.php 第 48 行.
+SQL: SELECT
+                		attr_id,
+	                   attr_value_id
+                     FROM
+	                     cy_case_attr
+	                     WHERE 
+                       case_id='' [ RunTime:0.0000s ]
+SQL: 	SELECT
+	                         a.photo
+                        FROM
+	                         cy_case_photo  a
+                        WHERE
+                              a.case_id=''
+                      [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 14:39:55 ] [ result ][{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","carousel":[]}]
+DEBUG: [ Jiechengkeji ] [ 14:39:55 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"face":"http:\/\/www.whjz365.cn\/attachs\/face\/face.jpg","carousel":[]}}
+

@@ -1,0 +1,39 @@
+<script type='text/html' id="tpl-votes">
+	{{each items as item index}}
+		<li>
+		    <div data-itemid="{{item.id}}" data-id="{{id}}" onclick="$.router.load('__APP__/Home/Vote/infi_detail?item_id=' + this.dataset.itemid + '&id=' + this.dataset.id);">
+		        <img src="{{item.thumbimage || item.image}}" alt="">
+		        <p>&nbsp;{{item.id}}号&nbsp;{{item.title}}</p>
+		    </div>
+		    <p><span class="vote_num">{{item.count}}</span>&nbsp;票<button data-id="{{item.id}}"><span class="iconv iconv-heart"></span>&nbsp;投票</button></p>
+		</li>
+	{{/each}}
+</script>
+
+<script type='text/html' id="tpl-results">
+	{{each items as item index}}
+		<tr>
+		    <td>{{item.rank}}</td>
+		    <td><a href="{{'__APP__/Home/Vote/infi_detail?item_id=' + item.id + '&id=' + id}}"><img src="{{item.thumbimage || item.image}}" alt=""></a></td>
+		    <td>{{item.id}}</td>
+		    <td>{{item.title}}</td>
+		    <td>{{item.total}}</td>
+		</tr>
+	{{/each}}
+</script>
+
+<script type='text/html' id="tpl-detail">
+	<div class="wrapImg">
+	    <img src="{{item.image || '/Public/vote/images/index_b2.jpg'}}" alt="">
+	    <p>&nbsp;{{item.id}}号&nbsp;&nbsp;&nbsp;{{item.title}}<span><span class="vote_count">{{item.count}}</span>&nbsp;票&nbsp;&nbsp;</span></p>
+	</div>
+	<div class="sign">
+	    <div>
+	        <img src="{{item.headimgurl || '/Public/vote/images/default_head1.jpg'}}" alt="">
+	        <h3>{{item.nickname || '小萝卜'}}</h3>
+	    </div>
+	    <blockquote>
+	        {{item.intro}}
+	    </blockquote>
+	</div>
+</script>

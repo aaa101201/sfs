@@ -1,0 +1,3178 @@
+[ 2017-12-15T10:07:00+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=19590
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:07:00 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:07:00 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:07:00 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-15T10:08:12+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:08:12 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:08:12 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:08:12 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+
+[ 2017-12-15T10:09:13+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:09:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:09:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:09:13 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+
+[ 2017-12-15T10:12:16+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:11:54 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:11:54 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:11:54 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2017-12-15T10:12:59+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:12:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:12:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:12:38 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2017-12-15T10:13:23+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:12:59 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:12:59 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:12:59 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2017-12-15T10:13:23+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=15024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:13:23 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:13:23 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:13:23 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-15T10:13:52+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:13:31 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:13:31 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:13:31 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2017-12-15T10:14:30+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:14:08 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:14:08 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:14:08 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2017-12-15T10:15:23+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 10:15:23 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:15:23 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:15:23 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'whjz'@'localhost' (using password: YES)
+
+[ 2017-12-15T10:19:17+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 10:18:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:18:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:18:56 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2017-12-15T10:21:36+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:21:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:21:26 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:21:26 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+NOTIC: [2] Packets out of order. Expected 0 received 80. Packet size=5526600 D:\bewin.WhjzProject.com\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+NOTIC: [2] PDO::__construct(): MySQL server has gone away D:\bewin.WhjzProject.com\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+NOTIC: [2] PDO::__construct(): Error while reading greeting packet. PID=5060 D:\bewin.WhjzProject.com\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2006] MySQL server has gone away
+
+[ 2017-12-15T10:22:40+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:22:19 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:22:19 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:22:19 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2017-12-15T10:22:56+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 10:22:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:22:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:22:56 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from,
+                  group_id,
+                  mail,
+                  cred' at line 4
+ [ SQLËØ≠Âè• ] : INSERT INTO cy_member (
+                  uname,
+                  passwd,
+                  from,
+                  group_id,
+                  mail,
+                  credits,
+                  gold,
+                  gender,
+                  city_id,
+                  Y,
+                  M,
+                  D,
+                  verify,
+                  lastlogin,
+                  loginip,
+                  closed,
+                  regip,
+                  dateline,
+                  fromw
+                ) 
+                VALUES
+                  (
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1',
+                    '1012013566@qq.com',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '1513304576',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513304576',
+                     '0' 
+                  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from,
+                  group_id,
+                  mail,
+                  cred' at line 4
+ [ SQLËØ≠Âè• ] : INSERT INTO cy_member (
+                  uname,
+                  passwd,
+                  from,
+                  group_id,
+                  mail,
+                  credits,
+                  gold,
+                  gender,
+                  city_id,
+                  Y,
+                  M,
+                  D,
+                  verify,
+                  lastlogin,
+                  loginip,
+                  closed,
+                  regip,
+                  dateline,
+                  fromw
+                ) 
+                VALUES
+                  (
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1',
+                    '1012013566@qq.com',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '1513304576',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513304576',
+                     '0' 
+                  )
+
+[ 2017-12-15T10:23:49+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:23:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:23:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:23:49 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''from',
+                  group_id,
+                  mail,
+                  cr' at line 4
+ [ SQLËØ≠Âè• ] : INSERT INTO cy_member (
+                  uname,
+                  passwd,
+                  'from',
+                  group_id,
+                  mail,
+                  credits,
+                  gold,
+                  gender,
+                  city_id,
+                  Y,
+                  M,
+                  D,
+                  verify,
+                  lastlogin,
+                  loginip,
+                  closed,
+                  regip,
+                  dateline,
+                  fromw
+                ) 
+                VALUES
+                  (
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1',
+                    '1012013566@qq.com',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '1513304629',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513304629',
+                     '0' 
+                  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''from',
+                  group_id,
+                  mail,
+                  cr' at line 4
+ [ SQLËØ≠Âè• ] : INSERT INTO cy_member (
+                  uname,
+                  passwd,
+                  'from',
+                  group_id,
+                  mail,
+                  credits,
+                  gold,
+                  gender,
+                  city_id,
+                  Y,
+                  M,
+                  D,
+                  verify,
+                  lastlogin,
+                  loginip,
+                  closed,
+                  regip,
+                  dateline,
+                  fromw
+                ) 
+                VALUES
+                  (
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1',
+                    '1012013566@qq.com',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '1513304629',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513304629',
+                     '0' 
+                  )
+
+[ 2017-12-15T10:45:33+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:45:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:45:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:45:32 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+NOTIC: [2] Missing argument 12 for Admin\Dao\UserDao::create(), called in D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php on line 41 and defined D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 31 Ë°å.
+NOTIC: [8] Undefined variable: dateline D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 56 Ë°å.
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                   '18363100069',
+                    '18363100069',
+                    'member',
+                    '1',
+                    '1012013566@qq.com',
+                    'woman',
+                    '0',
+                    '0',
+                    '7',
+                    '1513305932',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '192.168.1.64',
+                     '192.168.1.64',
+                    '0',
+                    '1513305932',
+                    '',
+                     '0' 
+                  )
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                   '18363100069',
+                    '18363100069',
+                    'member',
+                    '1',
+                    '1012013566@qq.com',
+                    'woman',
+                    '0',
+                    '0',
+                    '7',
+                    '1513305932',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '192.168.1.64',
+                     '192.168.1.64',
+                    '0',
+                    '1513305932',
+                    '',
+                     '0' 
+                  )
+
+[ 2017-12-15T10:45:49+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: [ Jiechengkeji ] [ 10:45:48 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:45:48 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:45:48 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+NOTIC: [2] Missing argument 12 for Admin\Dao\UserDao::create(), called in D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php on line 41 and defined D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 31 Ë°å.
+NOTIC: [8] Undefined variable: dateline D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 56 Ë°å.
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1',
+                    '1012013566@qq.com',
+                    'woman',
+                    '0',
+                    '0',
+                    '7',
+                    '1513305948',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '192.168.1.64',
+                     '192.168.1.64',
+                    '0',
+                    '1513305948',
+                    '',
+                     '0' 
+                  )
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1',
+                    '1012013566@qq.com',
+                    'woman',
+                    '0',
+                    '0',
+                    '7',
+                    '1513305948',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '192.168.1.64',
+                     '192.168.1.64',
+                    '0',
+                    '1513305948',
+                    '',
+                     '0' 
+                  )
+
+[ 2017-12-15T10:46:59+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:46:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:46:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:46:58 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0000s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '200',
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1',
+                    '1012013566@qq.com',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '1513306018',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513306018',
+                     '0' 
+                  )
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '200',
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1',
+                    '1012013566@qq.com',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '1513306018',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513306018',
+                     '0' 
+                  )
+
+[ 2017-12-15T10:47:20+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:47:20 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:47:20 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:47:20 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0000s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '201',
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1',
+                    '1012013566@qq.com',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '1513306040',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513306040',
+                     '0' 
+                  )
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '201',
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1',
+                    '1012013566@qq.com',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '1513306040',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513306040',
+                     '0' 
+                  )
+
+[ 2017-12-15T10:50:09+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:50:08 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:50:08 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:50:08 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0010s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '201',
+                    '1',
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1012013566@qq.com',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '1513306208',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513306208',
+                     '0' 
+                  )
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '201',
+                    '1',
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1012013566@qq.com',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '1513306208',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513306208',
+                     '0' 
+                  )
+
+[ 2017-12-15T10:53:59+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 10:53:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:53:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:53:58 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0010s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '201',
+                    '1',
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1012013566@qq.com',
+                     '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+		'',
+		'',
+		'',
+		'0',
+		'0',
+		'0',
+		'0',
+		'0',
+		'',
+		'0',
+                    '1513306438',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513306438',
+                    'NULL',
+                     '0' 
+                  )
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '201',
+                    '1',
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1012013566@qq.com',
+                     '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+		'',
+		'',
+		'',
+		'0',
+		'0',
+		'0',
+		'0',
+		'0',
+		'',
+		'0',
+                    '1513306438',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513306438',
+                    'NULL',
+                     '0' 
+                  )
+
+[ 2017-12-15T10:55:38+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 10:55:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:55:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:55:38 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0010s ]
+ERR: 1366:Incorrect integer value: 'NULL' for column 'bank' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '201',
+                    '1',
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1012013566@qq.com',
+                     '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+		'',
+		'',
+		'',
+		'0',
+		'0',
+		'0',
+		'0',
+		'0',
+		'',
+                    '1513306538',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513306538',
+                    'NULL',
+                     '0' 
+                  )
+ERR: 1366:Incorrect integer value: 'NULL' for column 'bank' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '201',
+                    '1',
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1012013566@qq.com',
+                     '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+		'',
+		'',
+		'',
+		'0',
+		'0',
+		'0',
+		'0',
+		'0',
+		'',
+                    '1513306538',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513306538',
+                    'NULL',
+                     '0' 
+                  )
+
+[ 2017-12-15T10:56:12+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 10:56:12 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 10:56:12 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 10:56:12 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '202',
+                    '1',
+                    '18363100069',
+                    '18363100069',
+                    'member',
+                    '1012013566@qq.com',
+                     '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+		'',
+		'',
+		'',
+		'0',
+		'0',
+		'0',
+		'0',
+		'0',
+		'',
+                    '1513306572',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513306572',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 10:56:12 ] [ result ]{"msg":"\u7528\u6237\u6dfb\u52a0\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-15T11:07:23+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 11:07:23 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 11:07:23 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 11:07:23 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 91 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 92 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0020s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '203',
+                    '8',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566@qq.com',
+                     '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513307243',
+                     '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513307243',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `cy_mechanic` (
+	`uid`,
+	`group_id`,
+	`name`,
+	`city_id`,
+	`area_id`,
+	`tenders_sign`,
+	`tenders_num`,
+	`yuyue_num`,
+	`views`,
+	`orderby`,
+	`flushtime`,
+	`audit`,
+	`closed`
+)
+VALUES
+	(
+		203,
+		8,
+		'0',
+		7,
+		'0',
+		'0',
+		'0',
+		'0',
+		'0',
+		'50',
+		1513307243,
+		'0',
+		'0'
+	) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 11:07:23 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 11:07:23 ] [ result ]{"msg":"\u5de5\u4eba\u6ce8\u518c\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-15T13:43:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 13:43:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 13:43:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 13:43:13 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-15T14:08:35+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:08:35 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:08:35 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:08:35 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 91 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 92 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '204',
+                    '8',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513318115',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513318115',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 5 for Admin\Dao\UserDao::setMechaniclist(), called in D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php on line 59 and defined D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 67 Ë°å.
+NOTIC: [2] Missing argument 6 for Admin\Dao\UserDao::setMechaniclist(), called in D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php on line 59 and defined D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 67 Ë°å.
+NOTIC: [2] Missing argument 7 for Admin\Dao\UserDao::setMechaniclist(), called in D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php on line 59 and defined D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 67 Ë°å.
+NOTIC: [2] Missing argument 8 for Admin\Dao\UserDao::setMechaniclist(), called in D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php on line 59 and defined D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 67 Ë°å.
+NOTIC: [2] Missing argument 9 for Admin\Dao\UserDao::setMechaniclist(), called in D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php on line 59 and defined D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 67 Ë°å.
+NOTIC: [8] Undefined variable: name D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 91 Ë°å.
+NOTIC: [8] Undefined variable: area_id D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 93 Ë°å.
+NOTIC: [8] Undefined variable: mobile D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 94 Ë°å.
+NOTIC: [8] Undefined variable: mobile D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 95 Ë°å.
+NOTIC: [8] Undefined variable: mobile D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 96 Ë°å.
+NOTIC: [8] Undefined variable: qq D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 97 Ë°å.
+NOTIC: [8] Undefined variable: about D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 101 Ë°å.
+ERR: 1366:Incorrect integer value: '' for column 'area_id' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'204',
+		                       '8',
+		                           '',
+		                        '7',
+		                        '',
+	                           	 '',
+		                         '',
+		                         '',
+		                             '',
+		                          '',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513318115,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1366:Incorrect integer value: '' for column 'area_id' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'204',
+		                       '8',
+		                           '',
+		                        '7',
+		                        '',
+	                           	 '',
+		                         '',
+		                         '',
+		                             '',
+		                          '',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513318115,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-15T14:09:52+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:09:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:09:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:09:52 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 91 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 92 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '205',
+                    '8',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513318192',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513318192',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0010s ]
+ERR: 1366:Incorrect integer value: '' for column 'area_id' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'205',
+		                       '8',
+		                           '',
+		                        '7',
+		                        '',
+	                           	 '18363100069',
+		                         '18363100069',
+		                         '18363100069',
+		                             '',
+		                          '',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513318192,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1366:Incorrect integer value: '' for column 'area_id' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'205',
+		                       '8',
+		                           '',
+		                        '7',
+		                        '',
+	                           	 '18363100069',
+		                         '18363100069',
+		                         '18363100069',
+		                             '',
+		                          '',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513318192,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-15T14:10:16+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 14:10:16 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:10:16 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:10:16 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 91 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 92 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '206',
+                    '8',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513318216',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513318216',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0010s ]
+ERR: 1366:Incorrect integer value: '' for column 'tenders_sign' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'206',
+		                       '8',
+		                           '',
+		                        '7',
+		                        '2',
+	                           	 '18363100069',
+		                         '18363100069',
+		                         '18363100069',
+		                             '',
+		                          '',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513318216,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1366:Incorrect integer value: '' for column 'tenders_sign' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'206',
+		                       '8',
+		                           '',
+		                        '7',
+		                        '2',
+	                           	 '18363100069',
+		                         '18363100069',
+		                         '18363100069',
+		                             '',
+		                          '',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513318216,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-15T14:10:59+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:10:59 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:10:59 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:10:59 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 91 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 92 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '207',
+                    '8',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513318259',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513318259',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0010s ]
+ERR: 1366:Incorrect integer value: '' for column 'tenders_sign' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'207',
+		                       '8',
+		                           '',
+		                        '7',
+		                        '2',
+	                           	 '18363100069',
+		                         '18363100069',
+		                         '18363100069',
+		                             '',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513318259,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1366:Incorrect integer value: '' for column 'tenders_sign' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'207',
+		                       '8',
+		                           '',
+		                        '7',
+		                        '2',
+	                           	 '18363100069',
+		                         '18363100069',
+		                         '18363100069',
+		                             '',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                              '50',
+		                         1513318259,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-15T14:13:43+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 14:13:43 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:13:43 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:13:43 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 91 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 92 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '208',
+                    '8',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513318423',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513318423',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0010s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'208',
+		                       '8',
+		                           '',
+		                        '7',
+		                        '2',
+	                           	 '18363100069',
+		                         '18363100069',
+		                         '18363100069',
+		                             '',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513318423,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'208',
+		                       '8',
+		                           '',
+		                        '7',
+		                        '2',
+	                           	 '18363100069',
+		                         '18363100069',
+		                         '18363100069',
+		                             '',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513318423,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-15T14:16:34+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:16:34 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:16:34 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:16:34 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 91 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 92 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '209',
+                    '8',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513318594',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513318594',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0000s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'209',
+		                       '8',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+	                           	 '18363100069',
+		                         '18363100069',
+		                         '18363100069',
+		                             '1012013566@qq.com',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513318594,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'209',
+		                       '8',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+	                           	 '18363100069',
+		                         '18363100069',
+		                         '18363100069',
+		                             '1012013566@qq.com',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513318594,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-15T14:20:13+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:20:13 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:20:13 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:20:13 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 91 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 92 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '210',
+                    '8',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513318813',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513318813',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0000s ]
+ERR: 1406:Data too long for column 'qq' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'210',
+		                       '8',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '18363100069',
+		                             '1012013566@qq.com',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513318813,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1406:Data too long for column 'qq' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'210',
+		                       '8',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '18363100069',
+		                             '1012013566@qq.com',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513318813,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-15T14:21:37+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 14:21:37 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:21:37 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:21:37 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 91 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 92 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '211',
+                    '8',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566@qq.',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513318897',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513318897',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0010s ]
+ERR: 1406:Data too long for column 'qq' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'211',
+		                       '8',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '18363100069',
+		                             '1012013566@qq.com',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513318897,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1406:Data too long for column 'qq' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'211',
+		                       '8',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '18363100069',
+		                             '1012013566@qq.com',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513318897,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-15T14:21:49+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:21:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:21:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:21:49 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 91 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 92 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '212',
+                    '8',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566@qq',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513318909',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513318909',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0000s ]
+ERR: 1406:Data too long for column 'qq' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'212',
+		                       '8',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '18363100069',
+		                             '1012013566@qq.com',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513318909,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1406:Data too long for column 'qq' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'212',
+		                       '8',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '18363100069',
+		                             '1012013566@qq.com',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513318909,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-15T14:21:56+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:21:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:21:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:21:56 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 91 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 92 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '213',
+                    '8',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513318916',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513318916',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0000s ]
+ERR: 1406:Data too long for column 'qq' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'213',
+		                       '8',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '18363100069',
+		                             '1012013566@qq.com',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513318916,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1406:Data too long for column 'qq' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'213',
+		                       '8',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '18363100069',
+		                             '1012013566@qq.com',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513318916,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-15T14:22:31+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 14:22:31 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:22:31 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:22:31 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 91 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 92 Ë°å.
+SQL: SELECT
+	                 uid
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0000s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '214',
+                    '8',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'mechanic',
+                    '1012013566',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513318951',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513318951',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'214',
+		                       '8',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '18363100069',
+		                             '1012013566@qq',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513318951,
+		                               '0',
+		                                '0'
+	                                       ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 14:22:31 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 14:22:31 ] [ result ]{"msg":"\u5de5\u4eba\u6ce8\u518c\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-15T15:16:46+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=11656
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:16:45 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:16:45 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:16:45 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2017-12-15T15:16:56+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:16:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:16:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:16:56 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                     [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: group_id D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php Á¨¨ 54 Ë°å.
+NOTIC: [8] Undefined index: uid D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php Á¨¨ 55 Ë°å.
+ERR: 1366:Incorrect integer value: '' for column 'uid' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'',
+		                       '',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513322216,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1366:Incorrect integer value: '' for column 'uid' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'',
+		                       '',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513322216,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-15T15:18:46+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:17:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:17:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:17:07 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+NOTIC: [2] Missing argument 1 for Admin\Dao\UserDao::createId(), called in D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php on line 41 and defined D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 15 Ë°å.
+NOTIC: [8] Undefined variable: uname D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 22 Ë°å.
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname=''
+                     [ RunTime:0.0010s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '1',
+                    '1',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'member',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513322230',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513322231',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:18:46 ] [ result ]{"msg":"\u7528\u6237\u6dfb\u52a0\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-15T15:18:56+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:18:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:18:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:18:49 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+NOTIC: [2] Missing argument 1 for Admin\Dao\UserDao::createId(), called in D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php on line 41 and defined D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 15 Ë°å.
+NOTIC: [8] Undefined variable: uname D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 22 Ë°å.
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname=''
+                     [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '1',
+                    '1',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'member',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513322331',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513322331',
+                    NULL,
+                     '0' 
+                  )
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '1',
+                    '1',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'member',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513322331',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513322331',
+                    NULL,
+                     '0' 
+                  )
+
+[ 2017-12-15T15:19:12+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:19:05 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:19:05 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:19:05 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+NOTIC: [2] Missing argument 1 for Admin\Dao\UserDao::createId(), called in D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php on line 41 and defined D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 15 Ë°å.
+NOTIC: [8] Undefined variable: uname D:\bewin.WhjzProject.com\Application\Admin\Dao\UserDao.class.php Á¨¨ 22 Ë°å.
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname=''
+                     [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '1',
+                    '1',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'member',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513322349',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513322349',
+                    NULL,
+                     '0' 
+                  )
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQLËØ≠Âè• ] : INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '1',
+                    '1',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'member',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513322349',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513322349',
+                    NULL,
+                     '0' 
+                  )
+
+[ 2017-12-15T15:21:48+08:00 ] 127.0.0.1 /index.php/Admin/User/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 15:21:22 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:21:22 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:21:22 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 62 Ë°å.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\bewin.WhjzProject.com\Application\Admin\Controller\UserController.class.php Á¨¨ 63 Ë°å.
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                   ORDER BY
+	                uid DESC
+                    LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: INSERT INTO 
+                   `cy_member`
+                    VALUES 
+                  (
+                    '215',
+                    '1',
+                    '18363100069',
+                    'fee48f94485d70b299a07a4db6969276',
+                    'member',
+                    '1012013566@qq.com',
+                    '',
+                    '0',
+                    '0',
+                    'woman',
+                    '7',
+                   	'',
+	               	'',
+		            '',
+		            '',
+		            '0',
+	            	'0',
+		            '0',
+		            '0',
+		            '0',
+		             '',
+                    '1513322485',
+                    '192.168.1.64',
+                    '0',
+                    '192.168.1.64',
+                    '1513322485',
+                    NULL,
+                     '0' 
+                  ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:21:48 ] [ result ]{"msg":"\u7528\u6237\u6dfb\u52a0\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-15T15:23:07+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:23:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:23:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:23:07 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                     [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: group_id D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php Á¨¨ 54 Ë°å.
+NOTIC: [8] Undefined index: uid D:\bewin.WhjzProject.com\Application\Admin\Service\UserService.class.php Á¨¨ 55 Ë°å.
+ERR: 1366:Incorrect integer value: '' for column 'uid' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'',
+		                       '',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513322587,
+		                               '0',
+		                                '0'
+	                                       )
+ERR: 1366:Incorrect integer value: '' for column 'uid' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'',
+		                       '',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513322587,
+		                               '0',
+		                                '0'
+	                                       )
+
+[ 2017-12-15T15:23:40+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:23:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:23:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:23:38 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: INSERT INTO `cy_mechanic` (
+                                 	`uid`,
+	                           `group_id`,
+	                               `name`,
+	                            `city_id`,
+	                            `area_id`,
+	                             `mobile`,
+	                                 `qq`,
+	                              `about`,
+	                       `tenders_sign`,
+	                        `tenders_num`,
+	                          `yuyue_num`,
+	                              `views`,
+	                            `orderby`,
+	                          `flushtime`,
+                              	  `audit`,
+	                             `closed`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '1',
+		                           'ÁéãÊµ∑ÁÖä',
+		                        '7',
+		                        '2',
+		                         '',
+		                             '1012013566',
+		                          'ÂÜÖÂÆπ',
+		                               '0',
+		                               '0',
+		                                 '0',
+		                               '0',
+		                              '50',
+		                         1513322618,
+		                               '0',
+		                                '0'
+	                                       ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:23:40 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 15:23:40 ] [ result ]{"msg":"\u5de5\u4eba\u6ce8\u518c\u8d44\u6599\u8bbe\u7f6e\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-12-15T15:23:57+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:23:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:23:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:23:57 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`
+                                           )
+                          VALUES
+' at line 4
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic_attr` (
+                                 	`uid`,
+	                            `attr_id`,
+	                        attr_value_id`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '11',
+		                           '59'
+	                                       )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`
+                                           )
+                          VALUES
+' at line 4
+ [ SQLËØ≠Âè• ] : INSERT INTO `cy_mechanic_attr` (
+                                 	`uid`,
+	                            `attr_id`,
+	                        attr_value_id`
+                                           )
+                          VALUES
+	                                      (
+	                              	'182',
+		                       '11',
+		                           '59'
+	                                       )
+
+[ 2017-12-15T15:25:11+08:00 ] 127.0.0.1 /index.php/Admin/User/Mechanic_s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:25:06 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:25:06 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:25:06 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                 uid,group_id
+                     FROM
+	                  cy_member
+                     WHERE 
+                      uname='18363100069'
+                        LIMIT 0,1
+                     [ RunTime:0.0010s ]
+SQL: INSERT INTO `cy_mechanic_attr` (
+                                 	`uid`,
+	                            `attr_id`,
+	                         `attr_value_id`
+                                           )
+                                 VALUES
+	                                      (
+	                              	'182',
+		                       '11',
+		                           '59'
+	                                       ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:25:11 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 15:25:11 ] [ result ]{"msg":"\u5de5\u4eba\u6ce8\u518c\u5c5e\u6027\u8bbe\u7f6e\u6210\u529f!","code":0,"data":[]}
+

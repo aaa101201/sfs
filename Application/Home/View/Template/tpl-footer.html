@@ -1,0 +1,14 @@
+<script type='text/javascript' src='__PUBLIC__/wechat/scripts/zepto.js' charset='utf-8'></script>
+<script type='text/javascript' src='__PUBLIC__/wechat/scripts/sm.js' charset='utf-8'></script>
+<script type='text/javascript' src='__PUBLIC__/wechat/scripts/template.js' charset='utf-8'></script>
+<script type='text/javascript' src="__PUBLIC__/wechat/scripts/exif.js"></script>
+<script type='text/javascript' src="__PUBLIC__/wechat/scripts/ImageView.js?v=1498029703463"></script>
+<script type="text/javascript">
+    function server_error() {
+        $.toast("服务器繁忙，请稍后再试~");
+    }
+    var jsLink = document.createElement('script');
+    jsLink.type = "text/javascript";
+    jsLink.src = "__PUBLIC__/wechat/scripts/main.js?" + new Date().getTime();
+    document.querySelector('body').appendChild(jsLink);
+</script>

@@ -1,0 +1,22 @@
+<?php if (!defined('THINK_PATH')) exit();?><div class="admin-content-body">
+	<div class="am-cf am-padding">
+		<div class="am-fl am-cf">
+			<strong class="am-text-primary am-text-lg">首页</strong> / <small>仪表盘</small>
+		</div>
+	</div>
+	<ul class="am-avg-sm-1 am-avg-md-4 am-margin am-padding am-text-center admin-content-list ">
+		<li><a href="#" class="am-text-success "><span
+						class="am-icon-btn am-icon-user " ></span><br />+用户/日<br /><div id='newIncreaseUser'></div></a></li>
+		<li><a href="#" class="am-text-warning "><span
+						class="am-icon-btn am-icon-briefcase"></span><br />+商户/日<br /><div id='newIncreaseShop'></div></a></li>
+		<li><a href="#" class="am-text-danger "><span
+						class="am-icon-btn am-icon-recycle "></span><br />+积分/日<br /><div id='newIncreasePoint'></div></a></li>
+		<li>
+			<a href="#" class="am-text-secondary">
+				<span class="am-icon-btn am-icon-user-md"></span><br /> 剩余积分
+				<br />
+				<div id='residuePoint'></div>
+			</a>
+		</li>
+	</ul>
+</div>

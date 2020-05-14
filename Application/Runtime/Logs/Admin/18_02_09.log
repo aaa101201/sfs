@@ -1,0 +1,82 @@
+[ 2018-02-09T09:24:48+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 09:24:48 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:24:48 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:24:48 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0060s ]
+DEBUG: [ Jiechengkeji ] [ 09:24:48 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-02-09T09:24:55+08:00 ] 127.0.0.1 /index.php/Admin/Umember/Umember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 09:24:55 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 09:24:55 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 09:24:55 ] [ __construct ]BaseDAO
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 101 行.
+NOTIC: [8] Undefined index: user D:\bewin.WhjzProject.com\Application\Admin\Service\UmemberService.class.php 第 104 行.
+SQL: SELECT
+    a.uid,
+	a.uname,
+    a.face,
+	(
+		CASE a.FROM
+
+		WHEN 'member' THEN
+			'家装助手会员'
+		WHEN 'designer' THEN
+			'家装助手设计师'
+		WHEN 'company' THEN
+			'家装助手装修公司'
+		WHEN 'shop' THEN
+			'家装助手建材商家'
+		WHEN 'mechanic' THEN
+			'家装助手装修工人'
+		END
+	)  name
+    FROM
+	cy_member a
+	WHERE 
+	   a.uname=''
+	    [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 09:24:55 ] [ result ]null
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014001s ]
+

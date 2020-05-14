@@ -1,0 +1,1139 @@
+[ 2018-01-17T14:49:53+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=14068
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+DEBUG: [ Jiechengkeji ] [ 14:49:53 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:49:53 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:49:53 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.051003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.053003s ]
+
+[ 2018-01-17T14:50:38+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+DEBUG: [ Jiechengkeji ] [ 14:50:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:50:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:50:38 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-17T14:51:44+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=12378
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 14:51:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:51:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:51:44 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-01-17T14:52:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+DEBUG: [ Jiechengkeji ] [ 14:52:20 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:52:20 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:52:20 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-17T14:52:23+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=15107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+DEBUG: [ Jiechengkeji ] [ 14:52:23 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:52:23 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:52:23 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014000s ]
+
+[ 2018-01-17T14:53:03+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 14:52:28 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:52:28 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:52:28 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '装修',
+                    '2018-01-17 14:52:35',
+                    '2018-01-17 14:52:36'
+                  ) [ RunTime:0.0130s ]
+ERR: 1054:Unknown column 'a.id' in 'field list'
+ [ SQL语句 ] : SELECT
+                     a.id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '装修'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10
+ERR: 1054:Unknown column 'a.id' in 'field list'
+ [ SQL语句 ] : SELECT
+                     a.id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '装修'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10
+
+[ 2018-01-17T14:54:36+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+DEBUG: [ Jiechengkeji ] [ 14:54:21 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:54:21 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:54:21 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '装修',
+                    '2018-01-17 14:54:25',
+                    '2018-01-17 14:54:25'
+                  ) [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'a.company' in 'field list'
+ [ SQL语句 ] : SELECT
+                     a.company,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '装修'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10
+ERR: 1054:Unknown column 'a.company' in 'field list'
+ [ SQL语句 ] : SELECT
+                     a.company,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '装修'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10
+
+[ 2018-01-17T15:07:38+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:07:31 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:07:31 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:07:31 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '装修',
+                    '2018-01-17 15:07:34',
+                    '2018-01-17 15:07:34'
+                  ) [ RunTime:0.0030s ]
+SQL: SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%装修%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND 
+	                     a.audit = '1'
+                    AND 
+           ' at line 5
+ [ SQL语句 ] : SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_company a
+                    AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND 
+	                     a.audit = '1'
+                    AND 
+           ' at line 5
+ [ SQL语句 ] : SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_company a
+                    AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'  
+
+[ 2018-01-17T15:09:14+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:09:11 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:09:11 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:09:11 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '装修',
+                    '2018-01-17 15:09:13',
+                    '2018-01-17 15:09:13'
+                  ) [ RunTime:0.0020s ]
+SQL: SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%装修%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0010s ]
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_company a
+                    WHERE 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'   [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:09:14 ] [ result ][]
+DEBUG: [ Jiechengkeji ] [ 15:09:14 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[],"pageTotal":17,"pageCurrent":1,"recordTotal":2}}
+
+[ 2018-01-17T15:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: [ Jiechengkeji ] [ 15:11:12 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:11:12 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:11:12 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '装修',
+                    '2018-01-17 15:11:14',
+                    '2018-01-17 15:11:15'
+                  ) [ RunTime:0.0020s ]
+SQL: SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%装修%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0010s ]
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_company a
+                    WHERE 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'   [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:11:32 ] [ result ][]
+DEBUG: [ Jiechengkeji ] [ 15:11:32 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[],"pageTotal":17,"pageCurrent":1,"recordTotal":2}}
+
+[ 2018-01-17T15:41:41+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:41:41 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:41:41 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:41:41 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '装修',
+                    '2018-01-17 15:41:41',
+                    '2018-01-17 15:41:41'
+                  ) [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.score
+                    FROM
+	                    cy_company a
+	          ' at line 11
+ [ SQL语句 ] : SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone
+                     a.score
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%装修%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.score
+                    FROM
+	                    cy_company a
+	          ' at line 11
+ [ SQL语句 ] : SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone
+                     a.score
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%装修%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10
+
+[ 2018-01-17T15:42:18+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:42:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:42:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:42:18 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '装修',
+                    '2018-01-17 15:42:18',
+                    '2018-01-17 15:42:18'
+                  ) [ RunTime:0.0010s ]
+SQL: SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone,
+                     a.score
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%装修%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: logo D:\bewin.WhjzProject.com\Application\Admin\Service\GsService.class.php 第 101 行.
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_company a
+                    WHERE 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'   [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:42:18 ] [ result ]{"logo":"http:\/\/music.shulailo.cn\/.\/attachs\/"}
+DEBUG: [ Jiechengkeji ] [ 15:42:18 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":{"logo":"http:\/\/music.shulailo.cn\/.\/attachs\/"},"pageTotal":17,"pageCurrent":1,"recordTotal":2}}
+
+[ 2018-01-17T15:43:15+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:43:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:43:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:43:15 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '装修',
+                    '2018-01-17 15:43:15',
+                    '2018-01-17 15:43:15'
+                  ) [ RunTime:0.0020s ]
+SQL: SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone,
+                     a.score
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%装修%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0010s ]
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_company a
+                    WHERE 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'   [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:43:15 ] [ result ][]
+DEBUG: [ Jiechengkeji ] [ 15:43:15 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":1,"data":{"result":[],"pageTotal":17,"pageCurrent":1,"recordTotal":2}}
+
+[ 2018-01-17T15:44:07+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:44:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:44:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:44:07 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '威海',
+                    '2018-01-17 15:44:07',
+                    '2018-01-17 15:44:07'
+                  ) [ RunTime:0.0050s ]
+SQL: SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone,
+                     a.score
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%威海%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: logo D:\bewin.WhjzProject.com\Application\Admin\Service\GsService.class.php 第 102 行.
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_company a
+                    WHERE 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'   [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 15:44:07 ] [ result ]{"0":{"company_id":"7","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","score":"0"},"1":{"company_id":"8","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","score":"0"},"2":{"company_id":"20","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","score":"0"},"3":{"company_id":"21","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","score":"0"},"4":{"company_id":"22","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","score":"0"},"5":{"company_id":"23","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","score":"0"},"6":{"company_id":"24","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_E32566F8FE926EB715AF9B8C17FA1705.jpg","phone":"15106306680","score":"0"},"7":{"company_id":"25","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"photo\/201709\/20170912_4EBDA9D73056B9742D35763564598F9F.jpg","phone":"13465223808","score":"0"},"8":{"company_id":"26","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_56E868F600D57B151333F7A339F084C4.jpg","phone":"15106316670","score":"0"},"9":{"company_id":"27","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"photo\/201709\/20170912_43DDC746421457631CA9C0C738588E87.jpg","phone":"15106316672","score":"0"},"logo":"http:\/\/music.shulailo.cn\/.\/attachs\/"}
+DEBUG: [ Jiechengkeji ] [ 15:44:07 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":{"0":{"company_id":"7","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","score":"0"},"1":{"company_id":"8","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","score":"0"},"2":{"company_id":"20","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","score":"0"},"3":{"company_id":"21","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","score":"0"},"4":{"company_id":"22","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","score":"0"},"5":{"company_id":"23","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","score":"0"},"6":{"company_id":"24","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_E32566F8FE926EB715AF9B8C17FA1705.jpg","phone":"15106306680","score":"0"},"7":{"company_id":"25","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"photo\/201709\/20170912_4EBDA9D73056B9742D35763564598F9F.jpg","phone":"13465223808","score":"0"},"8":{"company_id":"26","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_56E868F600D57B151333F7A339F084C4.jpg","phone":"15106316670","score":"0"},"9":{"company_id":"27","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"photo\/201709\/20170912_43DDC746421457631CA9C0C738588E87.jpg","phone":"15106316672","score":"0"},"logo":"http:\/\/music.shulailo.cn\/.\/attachs\/"},"pageTotal":17,"pageCurrent":1,"recordTotal":2}}
+
+[ 2018-01-17T15:47:04+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 15:47:04 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:47:04 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:47:04 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '威海',
+                    '2018-01-17 15:47:04',
+                    '2018-01-17 15:47:04'
+                  ) [ RunTime:0.0020s ]
+SQL: SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone,
+                     a.score
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%威海%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: logo D:\bewin.WhjzProject.com\Application\Admin\Service\GsService.class.php 第 102 行.
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_company a
+                    WHERE 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'   [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:47:04 ] [ result ]{"0":{"company_id":"7","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","score":"0"},"1":{"company_id":"8","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","score":"0"},"2":{"company_id":"20","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","score":"0"},"3":{"company_id":"21","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","score":"0"},"4":{"company_id":"22","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","score":"0"},"5":{"company_id":"23","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","score":"0"},"6":{"company_id":"24","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_E32566F8FE926EB715AF9B8C17FA1705.jpg","phone":"15106306680","score":"0"},"7":{"company_id":"25","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"photo\/201709\/20170912_4EBDA9D73056B9742D35763564598F9F.jpg","phone":"13465223808","score":"0"},"8":{"company_id":"26","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_56E868F600D57B151333F7A339F084C4.jpg","phone":"15106316670","score":"0"},"9":{"company_id":"27","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"photo\/201709\/20170912_43DDC746421457631CA9C0C738588E87.jpg","phone":"15106316672","score":"0"},"logo":"http:\/\/music.shulailo.cn\/.\/attachs\/"}
+DEBUG: [ Jiechengkeji ] [ 15:47:04 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":{"0":{"company_id":"7","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","score":"0"},"1":{"company_id":"8","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","score":"0"},"2":{"company_id":"20","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","score":"0"},"3":{"company_id":"21","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","score":"0"},"4":{"company_id":"22","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","score":"0"},"5":{"company_id":"23","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","score":"0"},"6":{"company_id":"24","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_E32566F8FE926EB715AF9B8C17FA1705.jpg","phone":"15106306680","score":"0"},"7":{"company_id":"25","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"photo\/201709\/20170912_4EBDA9D73056B9742D35763564598F9F.jpg","phone":"13465223808","score":"0"},"8":{"company_id":"26","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_56E868F600D57B151333F7A339F084C4.jpg","phone":"15106316670","score":"0"},"9":{"company_id":"27","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"photo\/201709\/20170912_43DDC746421457631CA9C0C738588E87.jpg","phone":"15106316672","score":"0"},"logo":"http:\/\/music.shulailo.cn\/.\/attachs\/"},"pageTotal":17,"pageCurrent":1,"recordTotal":2}}
+
+[ 2018-01-17T15:47:31+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:47:30 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:47:30 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:47:30 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '威海',
+                    '2018-01-17 15:47:31',
+                    '2018-01-17 15:47:31'
+                  ) [ RunTime:0.0010s ]
+SQL: SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone,
+                     a.score
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%威海%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: logo D:\bewin.WhjzProject.com\Application\Admin\Service\GsService.class.php 第 102 行.
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_company a
+                    WHERE 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'   [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:47:31 ] [ result ]{"0":{"company_id":"7","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","score":"0"},"1":{"company_id":"8","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","score":"0"},"2":{"company_id":"20","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","score":"0"},"3":{"company_id":"21","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","score":"0"},"4":{"company_id":"22","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","score":"0"},"5":{"company_id":"23","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","score":"0"},"6":{"company_id":"24","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_E32566F8FE926EB715AF9B8C17FA1705.jpg","phone":"15106306680","score":"0"},"7":{"company_id":"25","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"photo\/201709\/20170912_4EBDA9D73056B9742D35763564598F9F.jpg","phone":"13465223808","score":"0"},"8":{"company_id":"26","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_56E868F600D57B151333F7A339F084C4.jpg","phone":"15106316670","score":"0"},"9":{"company_id":"27","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"photo\/201709\/20170912_43DDC746421457631CA9C0C738588E87.jpg","phone":"15106316672","score":"0"},"logo":"http:\/\/music.shulailo.cn\/.\/attachs\/"}
+DEBUG: [ Jiechengkeji ] [ 15:47:31 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":{"0":{"company_id":"7","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","score":"0"},"1":{"company_id":"8","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","score":"0"},"2":{"company_id":"20","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","score":"0"},"3":{"company_id":"21","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","score":"0"},"4":{"company_id":"22","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","score":"0"},"5":{"company_id":"23","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","score":"0"},"6":{"company_id":"24","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_E32566F8FE926EB715AF9B8C17FA1705.jpg","phone":"15106306680","score":"0"},"7":{"company_id":"25","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"photo\/201709\/20170912_4EBDA9D73056B9742D35763564598F9F.jpg","phone":"13465223808","score":"0"},"8":{"company_id":"26","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"photo\/201709\/20170912_56E868F600D57B151333F7A339F084C4.jpg","phone":"15106316670","score":"0"},"9":{"company_id":"27","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"photo\/201709\/20170912_43DDC746421457631CA9C0C738588E87.jpg","phone":"15106316672","score":"0"},"logo":"http:\/\/music.shulailo.cn\/.\/attachs\/"},"pageTotal":17,"pageCurrent":1,"recordTotal":2}}
+
+[ 2018-01-17T15:47:48+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=16040
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+DEBUG: [ Jiechengkeji ] [ 15:47:48 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:47:48 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:47:48 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2018-01-17T15:48:06+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:47:51 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:47:51 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:47:51 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '威海',
+                    '2018-01-17 15:47:53',
+                    '2018-01-17 15:47:54'
+                  ) [ RunTime:0.0050s ]
+SQL: SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone,
+                     a.score
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%威海%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0010s ]
+
+[ 2018-01-17T15:49:26+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+DEBUG: [ Jiechengkeji ] [ 15:49:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:49:26 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:49:26 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '威海',
+                    '2018-01-17 15:49:26',
+                    '2018-01-17 15:49:26'
+                  ) [ RunTime:0.0010s ]
+SQL: SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone,
+                     a.score
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%威海%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0000s ]
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_company a
+                    WHERE 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'   [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:49:26 ] [ result ][{"company_id":"7","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","score":"0"},{"company_id":"8","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","score":"0"},{"company_id":"20","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","score":"0"},{"company_id":"21","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","score":"0"},{"company_id":"22","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","score":"0"},{"company_id":"23","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","score":"0"},{"company_id":"24","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_E32566F8FE926EB715AF9B8C17FA1705.jpg","phone":"15106306680","score":"0"},{"company_id":"25","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_4EBDA9D73056B9742D35763564598F9F.jpg","phone":"13465223808","score":"0"},{"company_id":"26","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_56E868F600D57B151333F7A339F084C4.jpg","phone":"15106316670","score":"0"},{"company_id":"27","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_43DDC746421457631CA9C0C738588E87.jpg","phone":"15106316672","score":"0"}]
+DEBUG: [ Jiechengkeji ] [ 15:49:26 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","score":"0"},{"company_id":"8","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","score":"0"},{"company_id":"20","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","score":"0"},{"company_id":"21","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","score":"0"},{"company_id":"22","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","score":"0"},{"company_id":"23","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","score":"0"},{"company_id":"24","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_E32566F8FE926EB715AF9B8C17FA1705.jpg","phone":"15106306680","score":"0"},{"company_id":"25","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_4EBDA9D73056B9742D35763564598F9F.jpg","phone":"13465223808","score":"0"},{"company_id":"26","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_56E868F600D57B151333F7A339F084C4.jpg","phone":"15106316670","score":"0"},{"company_id":"27","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_43DDC746421457631CA9C0C738588E87.jpg","phone":"15106316672","score":"0"}],"pageTotal":17,"pageCurrent":1,"recordTotal":2}}
+
+[ 2018-01-17T15:52:20+08:00 ] 127.0.0.1 /index.php/Admin/Gs/cy_historyss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:52:20 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:52:20 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:52:20 ] [ __construct ]BaseDAO
+SQL: INSERT INTO cy_history (
+                  tophistory,
+                  createtime,
+                  updatetime
+                ) 
+                VALUES
+                  (
+                    '威海',
+                    '2018-01-17 15:52:20',
+                    '2018-01-17 15:52:20'
+                  ) [ RunTime:0.0000s ]
+SQL: SELECT
+                     a.company_id,
+	                 a.comments discuss,
+	                 a.case_num,
+	                 a.tenders_num,
+	                 a.yuyue_num,
+	                 a. name,
+                     a.addr,
+                     a.logo,
+                     a.phone,
+                     a.score
+                    FROM
+	                    cy_company a
+	                WHERE 
+	                    name like '%威海%'
+	                AND 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'
+                   LIMIT  0,10 [ RunTime:0.0010s ]
+SQL: SELECT
+                     count(*) AS pageTotal
+                   FROM
+	                   cy_company a
+                    WHERE 
+	                     a.audit = '1'
+                    AND 
+                       a.closed = '0'   [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:52:20 ] [ result ][{"company_id":"7","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","score":"0"},{"company_id":"8","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","score":"0"},{"company_id":"20","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","score":"0"},{"company_id":"21","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","score":"0"},{"company_id":"22","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","score":"0"},{"company_id":"23","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","score":"0"},{"company_id":"24","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_E32566F8FE926EB715AF9B8C17FA1705.jpg","phone":"15106306680","score":"0"},{"company_id":"25","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_4EBDA9D73056B9742D35763564598F9F.jpg","phone":"13465223808","score":"0"},{"company_id":"26","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_56E868F600D57B151333F7A339F084C4.jpg","phone":"15106316670","score":"0"},{"company_id":"27","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_43DDC746421457631CA9C0C738588E87.jpg","phone":"15106316672","score":"0"}]
+DEBUG: [ Jiechengkeji ] [ 15:52:20 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","score":"0"},{"company_id":"8","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","score":"0"},{"company_id":"20","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","score":"0"},{"company_id":"21","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","score":"0"},{"company_id":"22","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","score":"0"},{"company_id":"23","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","score":"0"},{"company_id":"24","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_E32566F8FE926EB715AF9B8C17FA1705.jpg","phone":"15106306680","score":"0"},{"company_id":"25","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_4EBDA9D73056B9742D35763564598F9F.jpg","phone":"13465223808","score":"0"},{"company_id":"26","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_56E868F600D57B151333F7A339F084C4.jpg","phone":"15106316670","score":"0"},{"company_id":"27","discuss":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_43DDC746421457631CA9C0C738588E87.jpg","phone":"15106316672","score":"0"}],"pageTotal":17,"pageCurrent":1,"recordTotal":2}}
+
+[ 2018-01-17T16:46:47+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=19397
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+DEBUG: [ Jiechengkeji ] [ 16:46:47 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:46:47 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:46:47 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2018-01-17T16:48:13+08:00 ] 127.0.0.1 /index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 16:47:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:47:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:47:10 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  0,10 [ RunTime:0.0030s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '7'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0020s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '8'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0010s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '20'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0010s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '21'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0010s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '22'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0040s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '23'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0010s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '24'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0230s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '25'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0020s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '26'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0020s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '27'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0030s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:13 ] [ result ][{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170825_900DD5A44B7458CE7A914E7A853CEF5E.jpg","http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170825_1BCE67AA001118EED20A3855ABD4BEA4.jpg","http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg"]},{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","photo":[]},{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","photo":[]},{"company_id":"23","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","photo":[]},{"company_id":"24","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_E32566F8FE926EB715AF9B8C17FA1705.jpg","phone":"15106306680","photo":[]},{"company_id":"25","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_4EBDA9D73056B9742D35763564598F9F.jpg","phone":"13465223808","photo":[]},{"company_id":"26","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_56E868F600D57B151333F7A339F084C4.jpg","phone":"15106316670","photo":[]},{"company_id":"27","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_43DDC746421457631CA9C0C738588E87.jpg","phone":"15106316672","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 16:48:13 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"7","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u519b\u745e\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5c71\u4e1c\u7701-\u5a01\u6d77\u5e02-\u73af\u7fe0\u533a\u534e\u590f\u7d2b\u8587\u82b1\u56ed17#3\u7f51\u70b9","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170816_182DB8BFC7364F1DE72847BE5CE73AAA.jpg","phone":"13589104069","photo":[]},{"company_id":"8","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u76c8\u72ee\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u82b1\u56ed\u4e2d\u8def88\u53f7\u5a01\u6d77\u56fd\u9645\u827a\u672f\u57ce2046\u5ba4","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170816_9C2533069CD4A0F27C9136DF2A120182.jpg","phone":"13806316709","photo":["http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170825_900DD5A44B7458CE7A914E7A853CEF5E.jpg","http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170825_1BCE67AA001118EED20A3855ABD4BEA4.jpg","http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201708\/20170825_C1017CC4EDB6B260D8E5AF40ADAA308E.jpg"]},{"company_id":"20","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8bda\u4fe1\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u9ad8\u533a\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_6F460FA09095C038ED65E371CB704FCB.jpg","phone":"15106316682","photo":[]},{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","photo":[]},{"company_id":"23","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","photo":[]},{"company_id":"24","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5c1a\u6c34\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_E32566F8FE926EB715AF9B8C17FA1705.jpg","phone":"15106306680","photo":[]},{"company_id":"25","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u6d77\u76db\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_4EBDA9D73056B9742D35763564598F9F.jpg","phone":"13465223808","photo":[]},{"company_id":"26","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4f20\u6770\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_56E868F600D57B151333F7A339F084C4.jpg","phone":"15106316670","photo":[]},{"company_id":"27","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u5174\u6ce2\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u671b\u5c9b","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_43DDC746421457631CA9C0C738588E87.jpg","phone":"15106316672","photo":[]}],"pageTotal":50,"pageCurrent":1,"recordTotal":5}}
+
+[ 2018-01-17T16:49:36+08:00 ] 127.0.0.1 /index.php/Admin/Gs/setcompany
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+DEBUG: [ Jiechengkeji ] [ 16:48:16 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:48:16 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:48:16 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    a.company_id,
+	                    a.comments discuss,
+                        a.score,
+	                    a.case_num,
+	                    a.tenders_num,
+	                    a.yuyue_num,
+	                    a. name,
+	                    a.addr,
+                     	a.logo,
+	                    a.phone,
+	                    a.photo,
+	                     a.score
+                    FROM
+	                    cy_company a
+                   WHERE 
+                       a.audit = '1'
+                   AND 
+                       a.closed = '0'
+                   LIMIT  
+	                  3,3 [ RunTime:0.0020s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '21'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 xdebug://debug-eval(1) : eval()'d code 第 1 行.
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '22'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0030s ]
+SQL: SELECT
+	                      case_id,
+	                      photo
+                     FROM
+	                      cy_case a
+                     WHERE
+	                      company_id = '23'
+                     ORDER BY
+	                      case_id DESC
+                     LIMIT 0,4 [ RunTime:0.0010s ]
+SQL: SELECT
+	                   	count(*) AS pageTotal
+                     FROM
+	                      cy_company  a [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 16:49:33 ] [ result ][{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","photo":[]},{"company_id":"23","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","photo":[]}]
+DEBUG: [ Jiechengkeji ] [ 16:49:36 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"company_id":"21","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u4e1c\u5347\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8 ","addr":"\u5a01\u6d77\u5e02\u5927\u5c9a\u5bfa","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_72B342C116F33A1264C0A2898EA9FC24.jpg","phone":"15106306671","photo":[]},{"company_id":"22","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u7eea\u8fdc\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u621a\u5bb6\u593c","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_C1FF8A8AB06AE7E03E27ED226B4FFE3A.jpg","phone":"15106306681","photo":[]},{"company_id":"23","discuss":"0","score":"0","case_num":"0","tenders_num":"0","yuyue_num":"0","name":"\u5a01\u6d77\u8363\u8f89\u88c5\u9970\u5de5\u7a0b\u6709\u9650\u516c\u53f8","addr":"\u5a01\u6d77\u5e02\u7530\u6751","logo":"http:\/\/music.shulailo.cn\/.\/attachs\/photo\/201709\/20170912_D704D963F9741B0A09C08D3BEF600EA2.jpg","phone":"13465225618","photo":[]}],"pageTotal":50,"pageCurrent":2,"recordTotal":17}}
+

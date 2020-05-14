@@ -1,0 +1,75 @@
+<script type="text/html" id="tpl-moreInfo">
+	<div class="content-block f14 wrapRegCont list-block">
+	    <div class="row no-gutter item-content item-link">
+	        <div class="item-inner">
+	            <div class="col-25 text-left item-title pos_rela line_r">
+	                学&emsp;&emsp;历
+	            </div>
+	            <div class="col-75">
+	                <div class="f_left pos_rela item-input">
+	                    <select class="tx_indent" name="degree" id="degree-list">
+	                    	{{if !degree}}
+	                    	<option value="">请选择学历</option>
+	                    	{{/if}}
+	                        <option value="3" {{degree == 3 ? 'selected' : ''}}>研究生</option>
+	                        <option value="2" {{degree == 2 ? 'selected' : ''}}>本科</option>
+	                        <option value="1" {{degree == 1 ? 'selected' : ''}}>大专</option>
+	                        <option value="0" {{degree == 0 ? 'selected' : ''}}>大专以下</option>
+	                    </select>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="row no-gutter item-content item-link">
+	        <div class="item-inner">
+	            <div class="col-25 text-left item-title pos_rela line_r">
+	                期望月薪
+	            </div>
+	            <div class="col-75 ">
+	                <div class="f_left pos_rela item-input">
+	                    <!-- <span class="fc_lightGray">点击选择区域</span> -->
+	                    <select name="expectPay" class="tx_ellips tx_indent" id="wage-list">
+	                    	{{if !expectpay}}
+	                    	<option value="">请选择期望薪资</option>
+	                    	{{/if}}
+	                        <option value="0" {{expectpay == 0 ? 'selected' : ''}}>2000-3500</option>
+	                        <option value="1" {{expectpay == 1 ? 'selected' : ''}}>3500-5000</option>
+	                        <option value="2" {{expectpay == 2 ? 'selected' : ''}}>5000-8000</option>
+	                        <option value="3" {{expectpay == 3 ? 'selected' : ''}}>8000以上</option>
+	                    </select>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="row no-gutter item-content">
+	        <div class="item-inner">
+	            <div class="col-25 text-left item-title pos_rela line_r">
+	                实践|培训
+	            </div>
+	            <div class="col-75 item-input wrapTextarea">
+	                <textarea class="form-control gttv" type="textarea" name="practice" placeholder="从社会实践或培训经历中获得的知识技能" >{{practice}}</textarea>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="row no-gutter item-content">
+	        <div class="item-inner">
+	            <div class="col-25 text-left item-title pos_rela line_r">
+	                自我评价
+	            </div>
+	            <div class="col-75 item-input wrapTextarea">
+	                <textarea class="form-control gttv" type="textarea" name="intro" placeholder="不少于50字说明你的优势或特长" >{{intro}}</textarea>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="row no-gutter item-content">
+	        <div class="item-inner">
+	            <div class="col-25 text-left item-title pos_rela line_r">
+	                职业规划
+	            </div>
+	            <div class="col-75 item-input wrapTextarea">
+	                <textarea class="form-control gttv" type="textarea" name="planning" placeholder="假如被录用,未来两年如何规划(清晰的个人规划让你拥有更多机会)">{{planning}}</textarea>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</script>

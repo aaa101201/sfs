@@ -1,0 +1,2389 @@
+[ 2017-11-24T14:59:35+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=19937
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 14:59:35 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:59:35 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:59:35 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-24T15:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 14:59:49 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 14:59:49 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 14:59:49 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                          remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='22'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 15:00:16 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-24T15:07:33+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:00:24 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:00:24 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:00:24 ] [ __construct ]BaseDAO
+
+[ 2017-11-24T15:07:35+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:07:35 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:07:35 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:07:35 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                          remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='22'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                          remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='22'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1
+
+[ 2017-11-24T15:11:53+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=16997
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+DEBUG: [ Jiechengkeji ] [ 15:11:53 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:11:53 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:11:53 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.011000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-11-24T15:12:04+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:11:58 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:11:58 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:11:58 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                          remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                          remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1
+
+[ 2017-11-24T15:16:18+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:12:53 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:12:53 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:12:53 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                          remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                          remark
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1
+
+[ 2017-11-24T15:16:30+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:16:20 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:16:20 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:16:20 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                          money
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: remark D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 25 行.
+DEBUG: [ Jiechengkeji ] [ 15:16:29 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-24T15:17:04+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:16:32 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:16:32 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:16:32 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                          money
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: remark D:\jiazhuangdai.com\Application\Admin\Service\JiazService.class.php 第 25 行.
+DEBUG: [ Jiechengkeji ] [ 15:17:04 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-24T15:17:50+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:17:06 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:17:06 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:17:06 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                          money
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0100s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='100'
+                     WHERE 
+                         cy_apply_id= 24 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '提现',
+		                     '100',
+		                     '1',
+		                     '提现类型',
+		                     '2017-11-24 15:17:08',
+		                     '2017-11-24 15:17:08'
+	                    ) [ RunTime:0.0020s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '100',
+		                     '2017-11-24 15:17:08',
+		                     '2017-11-24 15:17:08'
+	                    ) [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                         )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '15666319051',
+	                         '100',
+		                     '1',
+		                     '1281505',
+		                     '2017-11-24 15:17:08',
+		                     '2017-11-24 15:17:08'
+	                    )
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] :  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         remark,
+	                         createtime,
+	                         updatetime
+                         )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '15666319051',
+	                         '100',
+		                     '1',
+		                     '1281505',
+		                     '2017-11-24 15:17:08',
+		                     '2017-11-24 15:17:08'
+	                    )
+
+[ 2017-11-24T15:20:05+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:18:53 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:18:53 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:18:53 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                          money
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='100'
+                     WHERE 
+                         cy_apply_id= 24 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '提现',
+		                     '100',
+		                     '1',
+		                     '提现类型',
+		                     '2017-11-24 15:18:55',
+		                     '2017-11-24 15:18:55'
+	                    ) [ RunTime:0.0040s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '100',
+		                     '2017-11-24 15:18:55',
+		                     '2017-11-24 15:18:55'
+	                    ) [ RunTime:0.0030s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         money,
+	                         createtime,
+	                         updatetime
+                         )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '15666319051',
+	                         '100',
+		                     '1',
+		                     '1281505',
+		                     '2017-11-24 15:18:55',
+		                     '2017-11-24 15:18:55'
+	                    ) [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 15:20:01 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 15:20:04 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-24T15:26:32+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:26:15 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:26:15 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:26:15 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                          money
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0030s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='1281405'
+                     WHERE 
+                         cy_apply_id= 24 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:26:32 ] [ result ]{"msg":"\u7528\u6237\u7533\u8bf7\u5931\u8d25TxianMoney!","code":1}
+
+[ 2017-11-24T15:27:37+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:26:34 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:26:34 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:26:34 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                          money
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='1281405'
+                     WHERE 
+                         cy_apply_id= 24 [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 15:27:37 ] [ result ]{"msg":"\u7528\u6237\u7533\u8bf7\u5931\u8d25TxianMoney!","code":1}
+
+[ 2017-11-24T15:27:57+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:27:39 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:27:39 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:27:39 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                          money
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='1281405'
+                     WHERE 
+                         id= 24 [ RunTime:0.0030s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '提现',
+		                     '100',
+		                     '1',
+		                     '提现类型',
+		                     '2017-11-24 15:27:41',
+		                     '2017-11-24 15:27:41'
+	                    ) [ RunTime:0.0020s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '100',
+		                     '2017-11-24 15:27:41',
+		                     '2017-11-24 15:27:41'
+	                    ) [ RunTime:0.0030s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         money,
+	                         createtime,
+	                         updatetime
+                         )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '15666319051',
+	                         '100',
+		                     '1',
+		                     '1281405',
+		                     '2017-11-24 15:27:41',
+		                     '2017-11-24 15:27:41'
+	                    ) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:27:56 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 15:27:57 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-24T15:29:59+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:29:59 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:29:59 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:29:59 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          SUM(withdra_money) withdra_money
+                     FROM
+	                      kitingMoney
+                     WHERE
+	                      homeMoney_id = '24'
+                     AND 
+                          cy_apply_id = '56' [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 15:29:59 ] [ result ]{"withdra_money":"1281805"}
+DEBUG: [ Jiechengkeji ] [ 15:29:59 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"withdra_money":"1281805"}}
+
+[ 2017-11-24T15:34:36+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:30:34 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:30:34 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:30:34 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          SUM(withdra_money) withdra_money
+                     FROM
+	                      kitingMoney
+                     WHERE
+	                      homeMoney_id = '24'
+                     AND 
+                          cy_apply_id = '56' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:34:35 ] [ result ]{"withdra_money":"1281805"}
+DEBUG: [ Jiechengkeji ] [ 15:34:35 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"withdra_money":"1281805"}}
+
+[ 2017-11-24T15:34:39+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/withdra_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:34:38 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:34:38 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:34:38 ] [ __construct ]BaseDAO
+SQL: SELECT
+	withdra_money
+FROM
+	kitingMoney
+WHERE
+	homeMoney_id = '24'
+AND cy_apply_id = '56'
+ORDER BY
+	id
+LIMIT 0,
+ 1 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:34:39 ] [ result ]{"withdra_money":"1281605"}
+DEBUG: [ Jiechengkeji ] [ 15:34:39 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"withdra_money":"1281605"}}
+
+[ 2017-11-24T15:35:18+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:35:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:35:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:35:07 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          survey_name,survey_payment,survey_money,updatetime
+                     FROM
+	                      survey 
+	                 WHERE
+	                      homeMoney_id = '24'
+                     AND 
+                          cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        survey [ RunTime:0.0040s ]
+DEBUG: [ Jiechengkeji ] [ 15:35:17 ] [ result ][{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:17:08"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:18:55"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:27:41"}]
+DEBUG: [ Jiechengkeji ] [ 15:35:18 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:17:08"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:18:55"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:27:41"}],"pageTotal":7,"pageCurrent":1,"recordTotal":70}}
+
+[ 2017-11-24T15:37:02+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:35:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:35:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:35:44 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          survey_name,survey_payment,survey_money,updatetime
+                     FROM
+	                      survey 
+	                 WHERE
+	                      homeMoney_id = '24'
+                     AND 
+                          cy_apply_id = '56' [ RunTime:0.0000s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        survey [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 15:37:01 ] [ result ][{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:17:08"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:18:55"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:27:41"}]
+DEBUG: [ Jiechengkeji ] [ 15:37:02 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:17:08"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:18:55"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:27:41"}],"pageTotal":7,"pageCurrent":1,"recordTotal":70}}
+
+[ 2017-11-24T15:37:09+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/survey_money_z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:37:05 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:37:05 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:37:05 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          survey_name,survey_payment,survey_money,updatetime
+                     FROM
+	                      survey 
+	                 WHERE
+	                      homeMoney_id = '24'
+                     AND 
+                          cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        survey WHERE
+	homeMoney_id = '24'
+AND cy_apply_id = '56' [ RunTime:0.0260s ]
+DEBUG: [ Jiechengkeji ] [ 15:37:08 ] [ result ][{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:17:08"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:18:55"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:27:41"}]
+DEBUG: [ Jiechengkeji ] [ 15:37:09 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:17:08"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:18:55"},{"survey_name":"\u7b7e\u7f72\u5408\u540c\u6b3e","survey_payment":"\u63d0\u73b0","survey_money":"100","updatetime":"2017-11-24 15:27:41"}],"pageTotal":1,"pageCurrent":1,"recordTotal":3}}
+
+[ 2017-11-24T15:37:34+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/ConsumptionMoney_m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:37:34 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:37:34 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:37:34 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          SUM(Consumption_Money)   Consumption_Money
+                     FROM
+	                      ConsumptionMoney   [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:37:34 ] [ result ]{"consumption_money":"5400"}
+DEBUG: [ Jiechengkeji ] [ 15:37:34 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"consumption_money":"5400"}}
+
+[ 2017-11-24T15:38:04+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/ConsumptionMoney_m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:37:57 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:37:57 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:37:57 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          SUM(Consumption_Money)   Consumption_Money
+                     FROM
+	                      ConsumptionMoney   [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:38:03 ] [ result ]{"consumption_money":"5400"}
+DEBUG: [ Jiechengkeji ] [ 15:38:04 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"consumption_money":"5400"}}
+
+[ 2017-11-24T15:38:26+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/ConsumptionMoney_m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:38:18 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:38:18 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:38:18 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          SUM(Consumption_Money)   Consumption_Money
+                     FROM
+	                      ConsumptionMoney   [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:38:25 ] [ result ]{"consumption_money":"5400"}
+DEBUG: [ Jiechengkeji ] [ 15:38:26 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"consumption_money":"5400"}}
+
+[ 2017-11-24T15:39:20+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/ConsumptionMoney_m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:39:17 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:39:17 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:39:17 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          SUM(Consumption_Money)   Consumption_Money
+                     FROM
+	                      ConsumptionMoney  
+	                           WHERE
+	homeMoney_id = '24'
+AND cy_apply_id = '56' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:39:19 ] [ result ]{"consumption_money":"300"}
+DEBUG: [ Jiechengkeji ] [ 15:39:20 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"consumption_money":"300"}}
+
+[ 2017-11-24T15:40:45+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_card
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:40:45 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:40:45 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:40:45 ] [ __construct ]BaseDAO
+SQL: SELECT
+                          homeMoney_card
+                     FROM
+	                      homeMoney      
+	                 WHERE
+                          cy_apply_id = '56' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:40:45 ] [ result ]{"homemoney_card":"230505199102180536"}
+DEBUG: [ Jiechengkeji ] [ 15:40:45 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"homemoney_card":"230505199102180536"}}
+
+[ 2017-11-24T15:41:04+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:40:59 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:40:59 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:40:59 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0020s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:40:59 ] [ result ][{"withdra_name":"18363100066","withdra_money":"1281605","withdra_state":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:18:55","updatetime":"2017-11-24 15:18:55"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:27:41","updatetime":"2017-11-24 15:27:41"}]
+DEBUG: [ Jiechengkeji ] [ 15:41:03 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"18363100066","withdra_money":"1281605","withdra_state":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:18:55","updatetime":"2017-11-24 15:18:55"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:27:41","updatetime":"2017-11-24 15:27:41"}],"pageTotal":4,"pageCurrent":1,"recordTotal":34}}
+
+[ 2017-11-24T15:41:54+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+DEBUG: [ Jiechengkeji ] [ 15:41:37 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:41:37 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:41:38 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 15:41:54 ] [ result ][{"withdra_name":"18363100066","withdra_money":"1281605","withdra_state":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:18:55","updatetime":"2017-11-24 15:18:55"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:27:41","updatetime":"2017-11-24 15:27:41"}]
+DEBUG: [ Jiechengkeji ] [ 15:41:54 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"18363100066","withdra_money":"1281605","withdra_state":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:18:55","updatetime":"2017-11-24 15:18:55"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:27:41","updatetime":"2017-11-24 15:27:41"}],"pageTotal":4,"pageCurrent":1,"recordTotal":34}}
+
+[ 2017-11-24T15:45:12+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:42:39 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:42:39 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:42:39 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0030s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:45:11 ] [ result ][{"withdra_name":"18363100066","withdra_money":"1281605","withdra_state":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:18:55","updatetime":"2017-11-24 15:18:55"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:27:41","updatetime":"2017-11-24 15:27:41"}]
+DEBUG: [ Jiechengkeji ] [ 15:45:12 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"18363100066","withdra_money":"1281605","withdra_state":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:18:55","updatetime":"2017-11-24 15:18:55"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:27:41","updatetime":"2017-11-24 15:27:41"}],"pageTotal":4,"pageCurrent":1,"recordTotal":34}}
+
+[ 2017-11-24T15:45:29+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:45:26 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:45:26 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:45:26 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                          money
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='1281305'
+                     WHERE 
+                         id= 24 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '提现',
+		                     '100',
+		                     '1',
+		                     '提现类型',
+		                     '2017-11-24 15:45:28',
+		                     '2017-11-24 15:45:28'
+	                    ) [ RunTime:0.0080s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '100',
+		                     '2017-11-24 15:45:28',
+		                     '2017-11-24 15:45:28'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         money,
+	                         createtime,
+	                         updatetime
+                         )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '15666319051',
+	                         '100',
+		                     '1',
+		                     '1281305',
+		                     '2017-11-24 15:45:28',
+		                     '2017-11-24 15:45:28'
+	                    ) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:45:29 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 15:45:29 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-24T15:56:44+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:46:47 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:46:47 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:46:47 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:56:44 ] [ result ][{"withdra_name":"18363100066","withdra_money":"1281605","withdra_state":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:18:55","updatetime":"2017-11-24 15:18:55"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:27:41","updatetime":"2017-11-24 15:27:41"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:45:28","updatetime":"2017-11-24 15:45:28"}]
+DEBUG: [ Jiechengkeji ] [ 15:56:44 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"18363100066","withdra_money":"1281605","withdra_state":"\u672a\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:09:40","updatetime":"2017-11-24 15:09:40"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:18:55","updatetime":"2017-11-24 15:18:55"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:27:41","updatetime":"2017-11-24 15:27:41"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 15:45:28","updatetime":"2017-11-24 15:45:28"}],"pageTotal":4,"pageCurrent":1,"recordTotal":31}}
+
+[ 2017-11-24T15:56:55+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 15:56:46 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:56:46 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:56:46 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0020s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 15:56:54 ] [ result ]0
+DEBUG: [ Jiechengkeji ] [ 15:56:55 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[],"pageTotal":4,"pageCurrent":1,"recordTotal":31}}
+
+[ 2017-11-24T15:57:31+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 15:57:10 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:57:10 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:57:10 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                          money
+                          FROM
+	                          kitingMoney
+                          WHERE
+	                          homeMoney_id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0110s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money=''
+                     WHERE 
+                         id= 24 [ RunTime:0.0000s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '提现',
+		                     '100',
+		                     '1',
+		                     '提现类型',
+		                     '2017-11-24 15:57:12',
+		                     '2017-11-24 15:57:12'
+	                    ) [ RunTime:0.0030s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '100',
+		                     '2017-11-24 15:57:12',
+		                     '2017-11-24 15:57:12'
+	                    ) [ RunTime:0.0020s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         money,
+	                         createtime,
+	                         updatetime
+                         )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '15666319051',
+	                         '100',
+		                     '1',
+		                     '',
+		                     '2017-11-24 15:57:12',
+		                     '2017-11-24 15:57:12'
+	                    ) [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 15:57:31 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 15:57:31 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-24T16:00:03+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 15:59:59 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 15:59:59 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 15:59:59 ] [ __construct ]BaseDAO
+SQL: SELECT homemoney_money  FROM homeMoney 
+                          WHERE
+	                          id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:00:03 ] [ result ]{"msg":"\u63d0\u73b0\u91d1\u989d\u8d85\u8fc7\u53ef\u4ee5\u63d0\u73b0\u91d1\u989d","code":1}
+
+[ 2017-11-24T16:01:42+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+DEBUG: [ Jiechengkeji ] [ 16:00:08 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:00:08 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:00:08 ] [ __construct ]BaseDAO
+SQL: SELECT homemoney_money  FROM homeMoney 
+                          WHERE
+	                          id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0030s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='1281505'
+                     WHERE 
+                         id= 24 [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '提现',
+		                     '100',
+		                     '1',
+		                     '提现类型',
+		                     '2017-11-24 16:00:10',
+		                     '2017-11-24 16:00:10'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '100',
+		                     '2017-11-24 16:00:10',
+		                     '2017-11-24 16:00:10'
+	                    ) [ RunTime:0.0020s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         money,
+	                         createtime,
+	                         updatetime
+                         )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '15666319051',
+	                         '100',
+		                     '1',
+		                     '1281505',
+		                     '2017-11-24 16:00:10',
+		                     '2017-11-24 16:00:10'
+	                    ) [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 16:01:42 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 16:01:42 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-24T16:01:56+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/TxianAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:01:48 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:01:48 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:01:48 ] [ __construct ]BaseDAO
+SQL: SELECT homemoney_money  FROM homeMoney 
+                          WHERE
+	                          id ='24'
+                          ORDER BY
+	                          id  
+	                      DESC  
+	                           LIMIT 0,1 [ RunTime:0.0020s ]
+SQL: UPDATE 
+                         homemoney 
+                     SET 
+                         homeMoney_money='1281405'
+                     WHERE 
+                         id= 24 [ RunTime:0.0030s ]
+SQL:  INSERT INTO 
+                         survey (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         survey_name ,
+	                         survey_payment ,
+	                         survey_money ,
+	                         remark,
+	                         remark1,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                     (
+		                     '56',
+		                     '24',
+		                     '签署合同款',
+	                         '提现',
+		                     '100',
+		                     '1',
+		                     '提现类型',
+		                     '2017-11-24 16:01:50',
+		                     '2017-11-24 16:01:50'
+	                    ) [ RunTime:0.0020s ]
+SQL:  INSERT INTO 
+                         ConsumptionMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         Consumption_Money,
+	                         createtime,
+	                         updatetime
+                          )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '100',
+		                     '2017-11-24 16:01:50',
+		                     '2017-11-24 16:01:50'
+	                    ) [ RunTime:0.0010s ]
+SQL:  INSERT INTO 
+                         kitingMoney (
+                             cy_apply_id,
+	                         homeMoney_id,
+	                         withdra_name,
+	                         withdra_money,
+	                         withdra_state,
+	                         money,
+	                         createtime,
+	                         updatetime
+                         )
+                  VALUES
+	                    (
+		                     '56',
+		                     '24',
+		                     '15666319051',
+	                         '100',
+		                     '1',
+		                     '1281405',
+		                     '2017-11-24 16:01:50',
+		                     '2017-11-24 16:01:50'
+	                    ) [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 16:01:56 ] [ result ]true
+DEBUG: [ Jiechengkeji ] [ 16:01:56 ] [ result ]{"msg":"\u63d0\u73b0\u6d41\u6c34\u8868\u7533\u8bf7\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-24T16:08:23+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 16:06:52 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:06:52 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:06:52 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0030s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:08:23 ] [ result ][{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}]
+DEBUG: [ Jiechengkeji ] [ 16:08:23 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}],"pageTotal":4,"pageCurrent":1,"recordTotal":33}}
+
+[ 2017-11-24T16:09:39+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:08:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:08:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:08:44 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney [ RunTime:0.0030s ]
+DEBUG: [ Jiechengkeji ] [ 16:09:38 ] [ result ][{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}]
+DEBUG: [ Jiechengkeji ] [ 16:09:38 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}],"pageTotal":4,"pageCurrent":1,"recordTotal":33}}
+
+[ 2017-11-24T16:09:48+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/kitingMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+DEBUG: [ Jiechengkeji ] [ 16:09:44 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:09:44 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:09:44 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                    withdra_name,
+	                    withdra_money,
+	                 CASE
+	                    withdra_state
+                     WHEN 
+                        '1' 
+                     THEN
+	                    '已提交'
+                     WHEN 
+                        '2' 
+                     THEN
+	                    '未提交'
+                     ELSE
+	                    '问题数据'
+                     END withdra_state ,
+                        (
+	                 SELECT
+		                kitingMoney_text
+	                 FROM
+		                moneyText
+                        ) kitingMoney_text,
+                        createtime,
+                        updatetime
+                     FROM
+	                     kitingMoney
+	                 WHERE 
+                         homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0010s ]
+SQL: SELECT
+                        count(*) as pageTotal
+                      FROM 
+                        kitingMoney
+                        WHERE 
+                           homeMoney_id = '24'
+                     AND 
+                        cy_apply_id = '56' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 16:09:47 ] [ result ][{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}]
+DEBUG: [ Jiechengkeji ] [ 16:09:48 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"result":[{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:00:10","updatetime":"2017-11-24 16:00:10"},{"withdra_name":"15666319051","withdra_money":"100","withdra_state":"\u5df2\u63d0\u4ea4","kitingmoney_text":"\u63d0\u73b0\u8bf4\u660e","createtime":"2017-11-24 16:01:50","updatetime":"2017-11-24 16:01:50"}],"pageTotal":1,"pageCurrent":1,"recordTotal":2}}
+
+[ 2017-11-24T16:10:56+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 16:10:56 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:10:56 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:10:56 ] [ __construct ]BaseDAO
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                       *, 
+	                  CASE
+	                       remark
+                      WHEN 
+                           '1' 
+                      THEN
+	                       '已签署合同'
+                      WHEN 
+                            '2' 
+                      THEN
+	                       '待签署合同'
+                      ELSE
+	                       '问题数据'
+                      END 
+                            remark 
+                      FROM
+	                      adorm_state   
+	                  WHERE
+                          cy_apply_id = '56'
+ERR: 1054:Unknown column 'remark' in 'field list'
+ [ SQL语句 ] : SELECT
+	                       *, 
+	                  CASE
+	                       remark
+                      WHEN 
+                           '1' 
+                      THEN
+	                       '已签署合同'
+                      WHEN 
+                            '2' 
+                      THEN
+	                       '待签署合同'
+                      ELSE
+	                       '问题数据'
+                      END 
+                            remark 
+                      FROM
+	                      adorm_state   
+	                  WHERE
+                          cy_apply_id = '56'
+
+[ 2017-11-24T16:39:07+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:39:07 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:39:07 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:39:07 ] [ __construct ]BaseDAO
+ERR: 非法操作:index
+
+[ 2017-11-24T16:39:14+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 16:39:14 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:39:14 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:39:14 ] [ __construct ]BaseDAO
+ERR: 非法操作:index
+
+[ 2017-11-24T16:39:25+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:39:32+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:40:01+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:40:28+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:41:01+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:41:02+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:41:02+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:41:03+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:41:24+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:41:28+08:00 ] 127.0.0.1 /index.php/Admin/Apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:41:52+08:00 ] 127.0.0.1 /index.php/Admin/Apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:42:01+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:07+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:07+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:08+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:08+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:08+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:08+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:08+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:08+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:09+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:09+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:09+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:09+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:09+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:10+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:10+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:12+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:49+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:50+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:43:51+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:44:18+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:44:19+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:44:46+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:44:47+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:44:56+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:44:57+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:44:57+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:23+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:23+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:24+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:24+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:24+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:24+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:24+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:25+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:25+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:25+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:25+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:25+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:25+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:26+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:26+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:26+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:26+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:26+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:27+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:27+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:27+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:27+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:45:59+08:00 ] 127.0.0.1 /?XDEBUG_SESSION_START=13181
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 16:45:59 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:45:59 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:45:59 ] [ __construct ]BaseDAO
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-11-24T16:46:07+08:00 ] 127.0.0.1 /index.php/Admin/User/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+DEBUG: [ Jiechengkeji ] [ 16:46:01 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 16:46:01 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 16:46:01 ] [ __construct ]BaseDAO
+SQL: SELECT 
+                      * 
+                    FROM
+                      cy_member 
+                    WHERE uname = '15666219025' 
+                      AND passwd = '4297f44b13955235245b2497399d7a93'  [ RunTime:0.0020s ]
+DEBUG: [ Jiechengkeji ] [ 16:46:06 ] [ result ]{"uid":"103","group_id":"2","uname":"15666219025","passwd":"4297f44b13955235245b2497399d7a93","from":"designer","mail":"1498638752@jzz.com","mobile":"","credits":"0","gold":"0","gender":"woman","city_id":"7","realname":"","face":"","face_80":"","face_32":"","y":"0","m":"0","d":"0","verify":"0","uc_uid":"0","cart":"","lastlogin":"1498702563","loginip":"222.135.115.53","closed":"0","regip":"222.135.115.53","dateline":"1498638752","bank":null,"fromw":"0"}
+DEBUG: [ Jiechengkeji ] [ 16:46:07 ] [ result ]{"msg":"\u8bf7\u6c42\u6210\u529f!","code":0,"data":[]}
+
+[ 2017-11-24T16:46:31+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:49:17+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:49:17+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:52:30+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:52:32+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:52:32+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:52:33+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:52:33+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:52:33+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:52:33+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T16:52:34+08:00 ] 127.0.0.1 /index.php/Admin/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Apply
+
+[ 2017-11-24T17:00:12+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+DEBUG: [ Jiechengkeji ] [ 17:00:12 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 17:00:12 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 17:00:12 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                       *, 
+	                  CASE
+	                       adorm_state_lx
+                      WHEN 
+                           '1' 
+                      THEN
+	                       '已签署合同'
+                      WHEN 
+                            '2' 
+                      THEN
+	                       '待签署合同'
+                      ELSE
+	                       '问题数据'
+                      END 
+                            adorm_state_lx 
+                      FROM
+	                      adorm_state   
+	                  WHERE
+                          cy_apply_id = '56' [ RunTime:0.0000s ]
+DEBUG: [ Jiechengkeji ] [ 17:00:12 ] [ result ]{"id":"3","cy_apply_id":"56","adorm_id":null,"adorm_name":"","adorm_state_money":"","adorm_li":"\u5bb6\u88c5\u8d37","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","remark1":"","createtime":"2017-11-24 16:56:24","updatetime":"2017-11-24 16:56:24"}
+DEBUG: [ Jiechengkeji ] [ 17:00:12 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"id":"3","cy_apply_id":"56","adorm_id":null,"adorm_name":"","adorm_state_money":"","adorm_li":"\u5bb6\u88c5\u8d37","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","remark1":"","createtime":"2017-11-24 16:56:24","updatetime":"2017-11-24 16:56:24"}}
+
+[ 2017-11-24T17:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Jiaz/homeMoney_state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+DEBUG: [ Jiechengkeji ] [ 17:00:16 ] [ _initialize ]BaseController
+DEBUG: [ Jiechengkeji ] [ 17:00:16 ] [ _initialized ]AuthController
+DEBUG: [ Jiechengkeji ] [ 17:00:16 ] [ __construct ]BaseDAO
+SQL: SELECT
+	                       *, 
+	                  CASE
+	                       adorm_state_lx
+                      WHEN 
+                           '1' 
+                      THEN
+	                       '已签署合同'
+                      WHEN 
+                            '2' 
+                      THEN
+	                       '待签署合同'
+                      ELSE
+	                       '问题数据'
+                      END 
+                            adorm_state_lx 
+                      FROM
+	                      adorm_state   
+	                  WHERE
+                          cy_apply_id = '56' [ RunTime:0.0010s ]
+DEBUG: [ Jiechengkeji ] [ 17:00:16 ] [ result ]{"id":"3","cy_apply_id":"56","adorm_id":null,"adorm_name":"","adorm_state_money":"","adorm_li":"\u5bb6\u88c5\u8d37","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","remark1":"","createtime":"2017-11-24 16:56:24","updatetime":"2017-11-24 16:56:24"}
+DEBUG: [ Jiechengkeji ] [ 17:00:16 ] [ result ]{"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","code":0,"data":{"id":"3","cy_apply_id":"56","adorm_id":null,"adorm_name":"","adorm_state_money":"","adorm_li":"\u5bb6\u88c5\u8d37","adorm_state_lx":"\u5df2\u7b7e\u7f72\u5408\u540c","remark1":"","createtime":"2017-11-24 16:56:24","updatetime":"2017-11-24 16:56:24"}}
+
